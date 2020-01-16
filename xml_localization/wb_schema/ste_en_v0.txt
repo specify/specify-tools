@@ -1,0 +1,1081 @@
+Status
+Accession Text2
+Authority Agent First Name4
+Permit2
+Permit4
+Authority Agent First Name2
+Authority Role1
+Authority Agent Last Name4
+Authority Agent First Name1
+Number
+Authority Agent Last Name2
+Authority Agent Title3
+Authority Agent Last Name3
+Authority Role3
+Date Received
+Authority Agent Middle2
+Authority Agent Middle3
+Authority Agent First Name3
+Verbatim Date
+Authority Agent Middle1
+Authority Role2
+Accession Number2
+Accession Yes No1
+Accession Remarks
+Accession Text1
+Date Accessioned
+Accession Text3
+Authority Agent Title4
+Permit3
+Authority Agent Middle4
+Accession Yes No2
+Authority Role4
+Authority Agent Title2
+Permit1
+Accession Number1
+Authority Agent Title1
+Authority Agent Last Name1
+Accession
+Collector First Name7
+Collector Middle6
+Verbatim Date
+Collector First Name1
+Collector Last Name8
+Start Time
+Collector Last Name1
+End Date
+Collector Title4
+Collector Last Name4
+Method
+Verbatim Locality
+Collector First Name3
+Start Date Precision
+End Date Verbatim
+Collector First Name6
+Station Field Number
+Collector First Name2
+Collector Title7
+Collector Middle7
+Collector Middle2
+Collector Middle8
+Collector Last Name3
+Collector Title8
+Collector Last Name6
+Collector Title5
+End Date Precision
+Collector Title3
+Collector Last Name2
+Collector Middle5
+Collecting Event Remarks
+Collector Last Name7
+Collector Title2
+Collector Title1
+Collector Last Name5
+Collector Middle3
+Collector Middle1
+Start Date
+End Time
+Collector First Name8
+Collector First Name4
+Start Date Verbatim
+Collector Title6
+Collector First Name5
+Collector Middle4
+Collecting Event
+Start Date Verbatim
+End Date Verbatim
+Start Time
+Collecting Trip Remarks
+Start Date
+End Time
+Sponsor
+Collecting Trip Name
+End Date
+Collecting Trip
+Object Condition
+Collection Object Yes No2
+Collection Object Yes No6
+Catalog Number
+Collection Object Citation2
+Collection Object Yes No1
+Is Co Figured2
+Is Co Figured1
+Collection Object Yes No4
+Collection Object Number2
+Count Amt
+Cataloger First Name
+Alt Catalog Number
+O C R
+Collection Object Yes No3
+Guid
+Cataloger Last Name
+Collection Object Remarks
+Modifier
+Cataloger Title
+Citation C O Remarks2
+Cataloged Date Verbatim
+Name
+Description
+Cataloger Middle
+Collection Object Text2
+Cataloged Date
+Field Number
+Citation C O Remarks1
+Collection Object Text1
+Collection Object Number1
+Collection Object Yes No5
+Collection Object Citation1
+Collection Object
+Forma1
+Suborder Author1
+Superfamily2
+Subsp Qualifier2
+Subforma Author2
+Infraclass3
+Remarks3
+Subspecies3
+Determined Date3
+Subsp Qualifier3
+Order Author3
+Superfamily3
+Superclass Author3
+Forma Author1
+Infraorder2
+Suborder1
+Tribe Author1
+Determiner First Name1
+Subgenus Author2
+Infraorder1
+Forma Author3
+Subfamily2
+Subtribe3
+Suborder3
+Qualifier2
+Subphylum Author2
+Infraclass1
+Determiner First Name3
+Forma Author2
+Order Author2
+Subvariety Author3
+Subspecies Author2
+Subspecies Author1
+Is Current2
+Subforma2
+Family3
+Order3
+Subforma1
+Species1
+Qualifier3
+Forma3
+Subtribe Author2
+Phylum Author3
+Subforma Author1
+Superfamily Author3
+Subgenus Author1
+Type Status Name1
+Genus3
+Variety Author1
+Suborder2
+Variety Author3
+Is Current1
+Phylum Author1
+Family Author3
+Suborder Author2
+Subclass3
+Suborder Author3
+Variety Author2
+Infraclass Author3
+Var Qualifier3
+Infraorder Author1
+Tribe2
+Family Author2
+Remarks1
+Tribe Author3
+Determiner Last Name3
+Subforma3
+Subvariety Author1
+Infraorder Author2
+Tribe1
+Subgenus1
+Subspecies2
+Superorder Author3
+Family Author1
+Superclass Author1
+Superfamily Author1
+Subtribe2
+Superclass3
+Family1
+Phylum1
+Subclass Author1
+Infraclass Author1
+Variety1
+Var Qualifier1
+Genus2
+Subspecies Author3
+Subgenus2
+Subgenus3
+Superclass Author2
+Determiner Last Name2
+Species Author2
+Subphylum Author1
+Phylum Author2
+Family2
+Subtribe Author3
+Genus Author3
+Class Author3
+Determiner Middle1
+Subphylum1
+Subfamily Author2
+Qualifier1
+Determiner Middle3
+Infraorder3
+Remarks2
+Subphylum3
+Feature Or Basis2
+Superorder2
+Class Author1
+Determiner First Name2
+Order2
+Superclass2
+Type Status Name2
+Superorder Author1
+Variety2
+Subclass Author2
+Subclass2
+Subtribe1
+Infraclass Author2
+Subfamily Author3
+Subclass1
+Determiner Title1
+Class3
+Variety3
+Subfamily1
+Subfamily Author1
+Genus1
+Class1
+Species2
+Subfamily3
+Phylum3
+Subsp Qualifier1
+Determiner Middle2
+Type Status Name3
+Determiner Title3
+Subgenus Author3
+Phylum2
+Order1
+Species Author1
+Determiner Last Name1
+Infraorder Author3
+Class Author2
+Species Author3
+Superorder3
+Is Current3
+Forma2
+Subphylum Author3
+Feature Or Basis3
+Species3
+Tribe3
+Class2
+Tribe Author2
+Superfamily1
+Subclass Author3
+Subphylum2
+Subvariety Author2
+Genus Author2
+Subforma Author3
+Subtribe Author1
+Genus Author1
+Superorder Author2
+Var Qualifier2
+Superorder1
+Determiner Title2
+Determined Date1
+Subspecies1
+Feature Or Basis1
+Superfamily Author2
+Determined Date2
+Order Author1
+Subvariety2
+Subvariety3
+Subvariety1
+Superclass1
+Infraclass2
+Determination
+County
+Continent
+State
+Country
+Geography
+Utm Orig Longitude
+Latitude2
+Utm Orig Latitude
+Locality Number2
+Utm Easting
+Lat Long Method
+Range Direction
+Lat Long Accuracy
+Locality Detail Text1
+Short Name
+Utm False Easting
+Datum
+Elevation Method
+Locality Text1
+Locality Text2
+Locality Citation2
+Locality Yes No2
+Longitude2
+Section
+Utm Scale
+Utm False Northing
+Locality Citation4
+Island
+Township
+Base Meridian
+Latitude1
+Locality Citation3
+Locality Detail Text2
+Island Group
+Named Place
+Longitude1
+Locality Name
+Utm Northing
+Locality Number1
+Max Elevation
+Elevation Accuracy
+Lat Long Type
+Drainage
+Original Elevation Unit
+Township Direction
+Utm Datum
+Locality Remarks
+Min Elevation
+Locality Yes No1
+National Park Name
+Water Body
+Relation To Named Place
+Locality Citation1
+Verbatim Elevation
+Range
+Section Part
+Utm Zone
+Locality
+Prep Yes No1
+Prep Description7
+Building5
+Storage Location4
+Aisle6
+Prep5 Text1
+Collection7
+Shelf7
+Prepared Middle By4
+Prepared Date8
+Prepared Last Name By7
+Storage Location5
+Prep3 Text2
+Cabinet8
+Prep Remarks7
+Aisle3
+Prepared First Name By8
+Building1
+Rack2
+Cabinet7
+Vial1
+Vial5
+Prepared First Name By5
+Storage Location6
+Shelf1
+Prepared Middle By8
+Aisle7
+Box1
+Rack7
+Prep Type8
+Room8
+Prep Description1
+Cabinet4
+Rack5
+Prep Description8
+Storage Location1
+Prep Yes No4
+Shelf4
+Prepared Date3
+Vial8
+Prep Type2
+Prep Remarks6
+Prep Yes No8
+Collection5
+Cabinet3
+Prep Description6
+Prep2 Text1
+Prepared Middle By1
+Count1
+Prep Yes No7
+Prepared Middle By5
+Prep Type3
+Collection1
+Prepared Title By8
+Cabinet1
+Shelf6
+Collection6
+Vial6
+Prep8 Text2
+Prep Description2
+Building6
+Prep1 Text2
+Prepared Date1
+Prep Remarks5
+Prep1 Text1
+Collection4
+Prepared First Name By4
+Aisle2
+Shelf8
+Prepared First Name By1
+Building8
+Prepared Date7
+Prepared Title By3
+Aisle1
+Building2
+Collection2
+Rack6
+Prepared First Name By2
+Prepared Last Name By6
+Prep5 Text2
+Prep2 Text2
+Prepared Middle By2
+Prepared Last Name By1
+Prepared Title By1
+Cabinet6
+Collection3
+Room3
+Prep Yes No5
+Rack3
+Cabinet5
+Shelf2
+Prepared Last Name By3
+Count2
+Prepared First Name By6
+Storage Location2
+Building4
+Prepared First Name By3
+Shelf3
+Count8
+Room4
+Prep Remarks3
+Vial2
+Prep Description5
+Prep Yes No2
+Prepared Last Name By8
+Box6
+Aisle4
+Prep8 Text1
+Prepared Title By2
+Aisle5
+Prep Type1
+Collection8
+Prep Yes No6
+Prep3 Text1
+Box4
+Aisle8
+Prep Remarks2
+Prepared Date4
+Prep Description3
+Shelf5
+Prep6 Text2
+Count7
+Prep Description4
+Room6
+Box5
+Prepared Middle By3
+Prepared Middle By7
+Count3
+Prepared Title By7
+Building3
+Storage Location7
+Prep Type7
+Prep7 Text2
+Prepared Title By4
+Count6
+Box8
+Prepared Middle By6
+Storage Location3
+Prep Remarks1
+Prep6 Text1
+Vial3
+Rack8
+Room5
+Prep4 Text2
+Room1
+Prepared Title By6
+Prepared Title By5
+Count4
+Prepared Date2
+Prep Remarks8
+Prepared Last Name By2
+Prep Yes No3
+Room2
+Rack4
+Box2
+Rack1
+Box3
+Prepared Last Name By5
+Prepared First Name By7
+Room7
+Prepared Date5
+Vial4
+Prep Type4
+Cabinet2
+Prep Remarks4
+Prep4 Text1
+Storage Location8
+Box7
+Prepared Date6
+Count5
+Prep Type5
+Vial7
+Prep Type6
+Prep7 Text1
+Building7
+Prepared Last Name By4
+Preparation
+Author Title3
+Is Published
+Author Last Name8
+Reference Work Text1
+Author Middle2
+Reference Work Text2
+Pages
+Author Last Name6
+Author First Name1
+Title
+Author First Name5
+Author Title5
+Reference Work Type
+Author Middle7
+Author First Name2
+URL
+Library Number
+Author First Name6
+Reference Work Yes No1
+Author Middle8
+Author First Name3
+Publisher
+Author Title7
+Reference Work Yes No2
+Author Middle6
+Author First Name7
+Volume
+Author Last Name4
+Author Title8
+Author Title2
+Author Middle3
+Author Last Name7
+Author Last Name3
+Author Middle4
+Author Last Name2
+Author Title6
+Author Last Name1
+Author Middle5
+Work Date
+Author Title4
+Reference Work Number2
+Author First Name4
+Reference Work Number1
+Reference Work Remarks
+Place Of Publication
+Author Middle1
+Author First Name8
+Author Last Name5
+Author Title1
+Reference Work
+Subtribe Common Name
+Subphylum
+Parvorder Source
+Kingdom Author
+Subfamily
+Superorder G U I D
+Parvorder Author
+Subkingdom Author
+Superorder Source
+Subkingdom Source
+Subfamily Source
+Subkingdom Common Name
+Superfamily Author
+Subdivision Common Name
+Suborder Common Name
+Subdivision
+Infraorder Source
+Phylum G U I D
+Superclass Author
+Phylum Source
+Superfamily G U I D
+Subphylum Source
+Division
+Suborder Source
+Suborder Author
+Kingdom G U I D
+Subclass Common Name
+Superclass
+Infraorder Author
+Infraorder G U I D
+Infraclass
+Subtribe
+Parvorder G U I D
+Superfamily Source
+Subphylum Author
+Tribe Source
+Subclass Author
+Division Author
+Subfamily G U I D
+Superorder Author
+Order Source
+Subtribe Source
+Superfamily
+Subtribe G U I D
+Tribe Common Name
+Class
+Tribe Author
+Subclass
+Infraclass Source
+Tribe G U I D
+Subdivision Author
+Tribe
+Division G U I D
+Superfamily Common Name
+Superclass Source
+Superorder Common Name
+Subphylum Common Name
+Order G U I D
+Phylum Common Name
+Infraorder Common Name
+Family Author
+Subfamily Common Name
+Parvorder
+Subfamily Author
+Subclass Source
+Kingdom Common Name
+Suborder
+Infraclass G U I D
+Phylum Author
+Family Source
+Class G U I D
+Kingdom
+Infraclass Author
+Division Common Name
+Infraorder
+Superclass Common Name
+Order Common Name
+Subtribe Author
+Subkingdom G U I D
+Kingdom Source
+Division Source
+Subphylum G U I D
+Suborder G U I D
+Subdivision G U I D
+Order Author
+Superorder
+Subclass G U I D
+Family
+Subdivision Source
+Class Common Name
+Class Source
+Family G U I D
+Parvorder Common Name
+Order
+Family Common Name
+Phylum
+Infraclass Common Name
+Subkingdom
+Class Author
+Superclass G U I D
+Taxon
+Collecting Event Attribute Number1
+Collecting Event Attribute Number12
+Collecting Event Attribute Yes No1
+Collecting Event Attribute Yes No2
+Collecting Event Attribute Number11
+Collecting Event Attribute Number6
+Collecting Event Attribute Text6
+Collecting Event Attribute Text3
+Collecting Event Attribute Number2
+Collecting Event Attribute Text12
+Collecting Event Attribute Number5
+Collecting Event Attribute Text9
+Collecting Event Attribute Number9
+Collecting Event Attribute Text15
+Collecting Event Attribute Text7
+Collecting Event Attribute Text4
+Collecting Event Attribute Text1
+Collecting Event Attribute Text16
+Collecting Event Attribute Yes No4
+Collecting Event Attribute Text14
+Collecting Event Attribute Text17
+Collecting Event Attribute Number13
+Collecting Event Attribute Text10
+Collecting Event Attribute Text13
+Collecting Event Attribute Text5
+Collecting Event Attribute Yes No5
+Collecting Event Attribute Text2
+Collecting Event Attribute Remarks
+Collecting Event Attribute Number7
+Collecting Event Attribute Text8
+Collecting Event Attribute Text11
+Collecting Event Attribute Number3
+Collecting Event Attribute Number10
+Collecting Event Attribute Number4
+Collecting Event Attribute Yes No3
+Collecting Event Attribute Number8
+Collecting Event Attribute
+Col Obj Attribute Number15
+Col Obj Attribute Number41
+Col Obj Attribute Text5
+Col Obj Attribute Number22
+Col Obj Attribute Number36
+Col Obj Attribute Number4
+Col Obj Attribute Number33
+Col Obj Attribute Number16
+Col Obj Attribute Yes No6
+Col Obj Attribute Number21
+Col Obj Attribute Text4
+Col Obj Attribute Number37
+Col Obj Attribute Number2
+Col Obj Attribute Number11
+Col Obj Attribute Number12
+Col Obj Attribute Number20
+Col Obj Attribute Text7
+Col Obj Attribute Number32
+Col Obj Attribute Number39
+Col Obj Attribute Number26
+Col Obj Attribute Text8
+Col Obj Attribute Number9
+Col Obj Attribute Number3
+Col Obj Attribute Text10
+Col Obj Attribute Number25
+Col Obj Attribute Yes No3
+Col Obj Attribute Yes No2
+Col Obj Attribute Remarks
+Col Obj Attribute Text12
+Col Obj Attribute Yes No5
+Col Obj Attribute Number10
+Col Obj Attribute Number14
+Col Obj Attribute Number28
+Col Obj Attribute Number42
+Col Obj Attribute Number38
+Col Obj Attribute Text13
+Col Obj Attribute Number5
+Col Obj Attribute Number35
+Col Obj Attribute Number19
+Col Obj Attribute Text1
+Col Obj Attribute Number6
+Col Obj Attribute Number40
+Col Obj Attribute Text3
+Col Obj Attribute Number8
+Col Obj Attribute Number18
+Col Obj Attribute Number29
+Col Obj Attribute Number27
+Col Obj Attribute Number17
+Col Obj Attribute Text9
+Col Obj Attribute Text2
+Col Obj Attribute Text6
+Col Obj Attribute Number13
+Col Obj Attribute Number31
+Col Obj Attribute Number7
+Col Obj Attribute Yes No4
+Col Obj Attribute Number34
+Col Obj Attribute Yes No7
+Col Obj Attribute Text15
+Col Obj Attribute Number1
+Col Obj Attribute Number23
+Col Obj Attribute Yes No1
+Col Obj Attribute Text11
+Col Obj Attribute Text14
+Col Obj Attribute Number24
+Col Obj Attribute Number30
+Collection Object Attribute
+Subspecies G U I D
+Suborder Common Name
+Infraclass
+Class
+Subsection Common Name
+Superclass Source
+Subdivision Source
+Superphylum
+Subsection Author
+Division
+Forma Common Name
+Infradivision
+Phylum
+Section Source
+Infraclass Common Name
+Infraorder Source
+Subtribe Source
+Superorder Source
+Suborder Author
+Superfamily G U I D
+Subtribe Author
+Subgenus G U I D
+Subkingdom Source
+Subclass G U I D
+Phylum Common Name
+Superfamily Author
+Subclass Common Name
+Phylum Author
+Kingdom G U I D
+Subfamily Author
+Order Author
+Infraorder
+Section Common Name
+Genus
+Superclass
+Subphylum Author
+Superfamily
+Subphylum
+Subdivision Common Name
+Subsection Source
+Subkingdom Author
+Division G U I D
+Genus G U I D
+Subvariety Author
+Subvariety Common Name
+Forma Source
+Kingdom
+Species G U I D
+Suborder
+Subclass Source
+Species Common Name
+Family G U I D
+Infraclass G U I D
+Forma G U I D
+Subspecies
+Subvariety Source
+Tribe
+Superorder Author
+Superclass G U I D
+Subdivision
+Subforma Source
+Superclass Common Name
+Genus Source
+Subfamily
+Subgenus Author
+Order Common Name
+Infrakingdom
+Family Common Name
+Subforma Common Name
+Subvariety G U I D
+Section
+Subforma
+Kingdom Source
+Subdivision Author
+Variety G U I D
+Subgenus Source
+Tribe Source
+Variety Author
+Forma
+Subfamily Source
+Subkingdom G U I D
+Variety
+Forma Author
+Domain
+Superfamily Common Name
+Species Source
+Infraorder Common Name
+Section G U I D
+Subforma Author
+Tribe Common Name
+Subdivision G U I D
+Superorder
+Superclass Author
+Subspecies Author
+Subforma G U I D
+Division Source
+Subsection G U I D
+Superorder G U I D
+Order
+Kingdom Common Name
+Kingdom Author
+Genus Author
+Tribe G U I D
+Section Author
+Division Common Name
+Subphylum G U I D
+Class Common Name
+Variety Common Name
+Infraclass Source
+Tribe Author
+Subtribe G U I D
+Class Author
+Infraorder Author
+Suborder G U I D
+Subgenus
+Order G U I D
+Infraclass Author
+Subsection
+Species Author
+Superfamily Source
+Subclass Author
+Family
+Subclass
+Class Source
+Class G U I D
+Phylum G U I D
+Superorder Common Name
+Infraorder G U I D
+Subfamily G U I D
+Genus Common Name
+Species
+Family Source
+Suborder Source
+Subspecies Source
+Subspecies Common Name
+Phylum Source
+Cohort
+Subtribe
+Subtribe Common Name
+Subphylum Source
+Subphylum Common Name
+Family Author
+Variety Source
+Subgenus Common Name
+Subkingdom Common Name
+Division Author
+Subfamily Common Name
+Subvariety
+Subkingdom
+Order Source
+Taxon
+Remarks
+First Name
+City1
+Initials
+Address21
+Postal Code1
+Middle Initial
+Abbreviation
+Address1
+Job Title
+Country1
+Date Of Death
+Title
+Date Of Birth
+Interests
+Last Name
+Email
+Phone11
+Agent Type
+State1
+Agent
+Start Date
+Location
+Name
+Owner Title
+End Date
+Owner Middle
+Description
+Owner Last Name
+Owner First Name
+Field Notebook
+Page Number
+Scan Date
+Description
+Field Notebook Page
+Method
+End Date
+Order Number
+Description
+Start Date
+Field Notebook Page Set
+Geo Ref Det Ref
+Geo Ref By Last
+Geo Ref By Middle
+Geo Ref Remarks
+Geo Ref Verification Status
+Geo Ref Accuracy Units
+Max Uncertainty Est
+Original Coord System
+Max Uncertainty Est Unit
+Source
+Geo Ref Det Date
+Geo Ref By Title
+No Geo Ref Because
+Protocol
+Geo Ref By First
+Named Place Extent
+Geo Coord Detail
+Erathem/era
+System/period
+Series/epoch
+Stage/age
+Geologic Time Period
+Journal Name
+Journal
+Member
+Super Group
+Litho Group
+Formation
+Bed
+Litho Strat
+Other Identifier Institution2
+Other Identifier Institution1
+Other Identifier Institution3
+Other Identifier2
+Other Identifier3
+Other Identifier4
+Other Identifier1
+Other Identifier Institution4
+Other Identifier
+Bottom Distance
+Position State
+Text2
+Direction
+Text1
+Top Distance
+Distance Units
+Remarks
+Paleo Context
+Yes No31
+Number11
+Bold Barcode Id2
+Yes No11
+Yes No12
+Number12
+Comp A2
+Yes No21
+Bold Barcode Id1
+Text11
+Text12
+Target Marker1
+Number22
+Yes No32
+Gene Sequence1
+Text21
+Text31
+Comp G2
+Text32
+Comp T1
+Bold Last Update Date2
+Comp C2
+Genbank Accession Number2
+Bold Sample Id1
+Remarks2
+Text22
+Number32
+Molecule Type1
+Ambiguous Residues2
+Total Residues2
+Bold Last Update Date1
+Genbank Accession Number1
+Bold Translation Matrix1
+Number31
+Bold Sample Id2
+Comp T2
+Yes No22
+Comp A1
+Remarks1
+Molecule Type2
+Ambiguous Residues1
+Gene Sequence2
+Comp G1
+Bold Translation Matrix2
+Total Residues1
+Comp C1
+Number21
+Target Marker2
+DNA Sequence

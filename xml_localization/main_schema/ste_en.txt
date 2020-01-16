@@ -1,0 +1,1494 @@
+Schema Name
+Sp Export Schema Mappings
+Timestamp Created
+Modified By Agent
+Timestamp Modified
+Sp Export Schema Items
+Version
+Schema Version
+Description
+Created By Agent
+Discipline
+Sp Export Schema
+System Table:
+Type Of Addr
+Room/Building
+The room or building of the agent.
+Insitutions
+Address
+Second line of address (optional).
+Remarks
+Additional comments.
+Is Current
+Indicates if this is the current address.
+The timestamp the record was created.
+Ordinal
+Allows multiple addresses to be ordered.
+The timestamp the record was last modified.
+Fax
+The fax number.
+Country
+The country.
+Phone
+The primary phone number.
+The secondary phone number.
+Start Date
+The first date the the agent was at this address.
+City
+The city.
+Agent
+Divisions
+State
+The state within the country.
+End Date
+The last date the agent was at the address.
+Is Shipping
+Indicates if this is the shipping address.
+Postal Code
+Postal code (Zip Code).
+Position Held
+The position held by the agent while at this address.
+Is Primary
+Indicates whether this is the primary address.
+Address as it should appear on mailing labels.
+The address of an Agent. This also captures a start and end date for the address and the position held while at the address.
+Attachment
+Taxon
+Taxon Attachment
+Refers to an attachment and provides order.
+Identifier
+Institution
+Additional Comments
+Collection Object
+Collection Member Id
+Other Identifier
+Describes an identifier (Catalog Number) of a Collection Object from a different Institution.
+Geo Ref Verification Status
+Named Place Ext
+Text
+Source
+Geo Ref Det Ref
+Geo Ref Accuracy
+Geo Ref Compiled Date
+Uncertainty Polygon
+Locality
+Protocol
+Geo Ref Compiled By
+Max Uncertainty Est
+No Geo Ref Because
+Error Polygon
+Max Uncertainty Est Unit
+Original Coord System
+Geo Ref Remarks
+Geo Ref Det Date
+Geo Ref Accuracy Units
+Validation
+Geo Ref Det By
+Geo Coord Detail
+Describes extra detail for a Locality for Manis data.
+Name
+The name of the Collection Relationship.
+Right Side Collection
+Left Side Collection
+Collection Relationship Type
+Describes the type of relationship between two collection objects.
+The country code.
+Language
+The language code.
+Variant
+The variant code of the language.
+Citations
+Author
+Common Name
+Describes a common name and the localization of the name. This table is used to describe additional Common Names in other languages.
+Collection
+Page Sets
+Location
+Field Notebook Attachments
+Owner
+Field Notebook
+Describes a physical Field NoteBook.
+Reference Works
+ISSN
+Journal Name
+Full name of hte journal.
+GUID
+Journal Abbreviation
+User definable.
+Journal
+Refers to a published journal.
+Full Name Separator
+Is Enforced
+Text Before
+User definable
+Tree Entries
+Rank Id
+Children
+Title
+Tree Def
+Text After
+Is In Full Name
+Format Token
+Parent
+Taxon Tree Definition Item
+Describes a level in the definition of the tree.
+Loan
+Role
+Role the agent played in the loan.
+Loan Agent
+An agent associated with a loan. Each agent includes the role played in the loan process.
+Number
+Project Number
+Date project ended
+Description of project
+Yes No
+Project Name
+Name of the project
+Date project began
+URL
+URL for project
+Grant Agency
+Collection Objects
+Grant Number
+Project
+Describes a grouping of Collection Objects.
+Seq Cocktail Primer
+Dna Sequence
+PCR Primer Name
+Seq Primer Code
+Sequence Primer Code
+Prepared By Agent
+Run Date
+PCR Rev Primer Code
+PCR Forward Primer Code
+SRA Experiment ID
+Seq Primer Seq5_
+Sequence Primer Sequence5_
+PCR Cocktail Primer
+Dryad DOI
+PCR Primer Seq5_
+PCR Primer Sequence5_
+Read Direction
+Run By
+DNA Sequencing Run Attachments
+Trace File Name
+SRA Submission ID
+Seq Primer Name
+Sequence Primer Name
+Score File Name
+Gene Sequence
+Dna Primer
+SRA Run ID
+DNA Sequencing Run
+Plate Number
+Additional Comments.
+Figure Number
+Reference Work
+Page Number
+Is Figured
+Collection Object Citation
+Refers to a citation for a Collection Object.
+Source Geography
+Sent To
+Division
+Source Taxonomy
+Quantity Exch
+Number of items sent.
+Exchange Date
+Date exchange was sent.
+Exchange Out Preps
+Address Of Record
+Shipments
+Exchange Out #
+Cataloged By
+Agent ID of person who recorded the exchange.
+Contents
+Exchange Out
+Describes an outgoing Exchanged Specimen to a different institution.
+Lithostratigraphy Tree Definition Item
+Sequencing Run
+D N A Sequencing Run Citation
+The source of the alias.
+The alias for the locality name.
+Locality Name Alias
+Describes additional names for a given Locaity.
+Y Coordinate
+Imported Column Name
+Original Import Column Index
+Is Editable
+Is Included In Title
+Field Type
+Workbench Template
+Is Exportable To Content
+Workbench Data Items
+Table Name
+Field Name
+Carry Forward
+Is Required
+Source Table Id
+Meta Data
+Data Field Length
+X Coordinate
+View Order
+Caption
+WorkBench Template Mapping Item
+One column of the mapped description.
+Collecting Events
+Chronostrat.
+Context Name
+Localities
+Lithostrat.
+Chrono Strat End
+Biostrat.
+Paleo Context
+Describes the paleontologic information for a Collection Object. This also references Chronostratigraphy and Biostratigray.
+Info Req Number
+Number of Information Request.
+Reply Date
+Items
+Request Date
+First Name
+Email
+Email of agent requesting the information.
+Last Name
+Information Request
+Describes a request for information of a collection and refers to a Bundle of Collection Objects.
+Collection Rel Type
+Right Side
+Left Side
+Collection Relationship
+Enables two collection objects to refer to each other, for example, voucher and tissue.
+App Resource
+View Set Obj
+Data
+App Resource Data
+System Table: The data associated with an application resource.
+The order or position
+Conserv Event
+Conservator Event Attachment
+Child Nodes
+Tree Definition
+Geological Time Period Tree Definition Item
+Order Number
+The position in the list of collectors.
+Collecting Event
+Collector
+In Specify, the person or persons who collected a specimen. Collector records are stored in the Agent table.
+This allows the attachments to be ordered.
+Agent Attachment
+This table can be used for a picture of the agent or anything else used to further describe the agent.
+Date1 Precision
+Material Samples
+Date
+Preparation Attrs
+Prepared Date Precision
+Loan Preparations
+Preparation Attribute
+Preparation Properties
+Reserved Integer
+Prepared Date
+Date4 Precision
+Integer
+Deaccession Preparations
+Prepared By
+Prep Type
+Conserv Descriptions
+Guid
+Sample Number
+Count
+Number of items
+Storage Location
+Storage
+Date3 Precision
+Preparation Attachments
+Gift Preparations
+Alternate Storage
+Status
+Exchange In Preps
+Date2 Precision
+Preparation
+Preparation information describes the physical status of a specimen and its storage media.\nSpecify provides an extensive array of utilities for curatorial management of specimen preparations.
+Locality Citation
+A join table to link a Locality to a Citation.
+Originator
+Date Received
+RA Number
+Repository Agreement Authorizations
+Repository Agreement Agents
+Repository Agreement Attachments
+Accessions
+Repository Agreement
+An agreement for allowing an Accession to occur, but does not include ownership.
+Deaccession
+Quantity
+The number of items deaccessioned
+Loan Return Preparations
+Deaccession Preparation
+The preparation that was deaccessioned.
+Collection Object Kids
+The name of the container
+A description of the container
+Type
+The type of container
+Container
+A container can optionally be cataloged as a collection object and it contains other collection objects. Describes a logical or physical container.
+Sp Locale Container Item
+Data Type
+Formatter
+Sp Export Schema Item
+Specialty Name
+The name of the field of specialization.
+The priority of specialization, for agents with primary and secondary areas of specialization.
+Agent Specialty
+The Taxonomic specialty that a particular agent was known for.
+Value
+Pick List
+Pick List Item
+Is Personal
+User Group
+Discipline Type
+Sp Persisted App Resources
+Sp Persisted View Sets
+Specify User
+App Resource Default
+System Table: the default for application resources.
+Deaccessions
+Treatment Events
+Date material was received.
+Accession Number
+Usually an integer or alphanumeric value that is assigned to material when it enters the collection. The format of accession numbers varies among collections, but all refer to the acquisition of specimens, observations, or other collection objects.
+Accession Authorizations
+Accession Condition
+Physical description of the condition of the accession.
+Date Accessioned
+Date of Accession.
+Appraisals
+Accession Attachments
+Status of Accession, e.g. `In process`, `Complete` ...
+Accession Agents
+The date and time the record was created.
+Total Value
+The total monetary value of the accession.
+Date Acknowledged
+A user-visible identifier of the Accession. Typically an integer, but may include alphanumeric characters as prefix, suffix, and separators.
+Verbatim Date
+Accommodates historical accessions.
+Source of Accession, e.g. `Collecting`, `Gift`, `Bequest` ...
+Accession
+Also called an acquisition. A consignment of specimens acquired either by field collecting of staff members, gifts, purchases, or exchange with another institution.
+Repeat Field
+Query
+Repeat Count
+Sp Report
+System Table: This represents a saved Report.
+Water Body
+Paleo Longitude
+Range
+End Depth Verbatim
+Gml
+Township Direction
+National Park Name
+Range Direction
+End Depth
+UTM Northing
+UTM Zone
+Start Depth
+UTM Datum
+Section
+Paleo Latitude
+UTM Orig Longitude
+End Depth Unit
+UTM False Easting
+Township
+Start Depth Verbatim
+Island Group
+UTM False Northing
+HUC Code
+Start Depth Unit
+Base Meridian
+Island
+UTM Orig Latitude
+Section Part
+UTM Easting
+UTM Scale
+Mgrs Zone
+Drainage
+Locality Detail
+Describes additional Locality detail. For example, water body and island information. Includes UTM fields.
+Is System
+Where system form rely on this picklist, not user defined
+Read Only
+Pick List Items
+The items in the picklist.
+Filter Value
+Size Limit
+Filter Field Name
+Sort Type
+System Table: A list of items that can be chosen to produce a controlled vocabulary.
+Full Name Direction
+Tree Def Items
+Disciplines
+Geological Time Period Tree Definition
+Defines the levels of the GTP tree.
+Page Set
+Field Notebook Page Attachments
+Scan Date
+Field Notebook Page
+Describes a page from a Field Note Book.
+Definition
+Double Value
+String Value
+Collection Object Attribute
+Extensible attributes introduced for Specify 6.
+Common Name Tx
+Common Name Tx Citation
+Collecting Event Attribute
+Exsiccata Items
+The monograph or journal in which the exsiccata is listed
+The title of the exsiccata
+Schedae
+Exsiccata
+Storage Tree Definition Item
+Collecting Trip
+Visibility
+Verbatim Locality
+Original statement (literal quotation) of the location of the Collecting Event as given by the Collector.
+The date collecting event ended.
+Start Date Precision
+Date which collector recorded in field book, exactly as reported by the collector. Should indicate whether reported as range, season, month, etc.
+Sgr Status
+Locality where collection took place.
+Station Field Number Modifier
+Start Time
+Start time in military format.
+Collecting Event Attachments
+The date collecting event began.
+Collector Number
+Reserved Text
+End Date Verbatim
+Collecting Event Authorizations
+End Date Precision
+Start Date Verbatim
+Method
+A method, such as net or trap, which is used to obtain the specimen.
+Locality and Habitat Notes
+Field to record information on locality and habitat where specimen was collected.
+Collectors
+End Time
+End time in military format.
+Collecting Event Attrs
+Visibility Set By
+A collecting event is the place and time that a collection is made. In some disciplines a field number is used as the primary designation for place and time information, while in others, locality name and date are used to link specimens.
+Members position in group; i.e. 1st, 2nd, 3rd.
+Group
+Agent ID of group.
+Member
+Agent ID of member (member must be of type Person).
+Group Person
+This is a join table for Agents that are Institutions and Organizations that contain other Agents. It also provides order.
+Borrow Material
+Borrowed preparation returned.
+Quantity of preparations returned.
+Returned Date
+The date the material was returned.
+Borrow Return Material
+Describes the material that was returned.
+Subtype
+Metadata Text
+Copyright Holder
+Conserv Description Attachments
+Date Imaged
+Conserv Event Attachments
+Metadata
+DNA Sequence Attachments
+Collecting Trip Attachments
+Mime Type
+Describes the attachment file type.
+Borrow Attachments
+Scope ID
+Gift Attachments
+Taxon Attachments
+Field Notebook Page Set Attachments
+Permit Attachments
+Attachment Location
+Location of attachment repository.
+DNA Sequencing Run Attachments
+Is Public
+Subject Orientation
+Storage Attachments
+License Logo Url
+Collection Object Attachments
+Locality Attachments
+Copyright Date
+Date of copyright of attachment.
+Table ID
+Capture Device
+Tags
+User defined key words for attachments.
+Credit
+Attachment credit.
+Creator
+Reference Work Attachments
+Attachment Image Attribute
+License
+Attachment license information.
+Agent Attachments
+Loan Attachments
+Original Filename
+Original name of file.
+File Created Date
+Treatment Event Attachments
+Title of attachment.
+Attachment Storage Config
+Scope Type
+The information in this record identifies everything the application will need to load and display the attachment. The attachment location is an absolute path to the file. The file itself is not stored in the database.
+Login Out Time
+Sp Queries
+Workbench Templates
+Sp Principals
+Accumulated Minutes Logged In
+Agents
+Is Logged In
+Is Logged In Report
+App Resources
+Password
+Login Collection Name
+Sp App Resource Dirs
+Workbenches
+Task Semaphores
+Login Discipline Name
+System Table: This represents Specify User within the application.
+Exported Field Name
+Export Schema Mapping
+Query Field
+Export Schema Item
+Sp Export Schema Item Mapping
+Role agent played in deaccession
+Deaccession Agent
+Refers to an agent and contains their role in the deaccession.
+Are Accessions Global
+Code
+Disclaimer
+Disclaimer statement, e.g. concerning responsibility for data quality or legal implications.
+Is Sharing Localities
+Reg Number
+LSID Authority
+Terms Of Use
+Defines conditions under which the data may be analyzed, distributed or changed. &quot;Terms of use&quot; includes concepts like &quot;Usage conditions&quot; and &quot;Specific Restrictions&quot;.
+User Groups
+Alt Name
+Has Been Asked
+Is Security On
+Content Contacts
+Is Anonymous
+Current Managed Schema Version
+Copyright
+Is Release Managed Globally
+Icon URL
+Storage Tree Def
+Is Single Geography Tree
+Is Server Based
+IPR
+A sequence of statements related to Intellectual Property Rights, credit and acknowledgement.
+Current Managed Rel Version
+Minimum Pwd Length
+Technical Contacts
+The parent institution. An institution is made up of one or more divisions.
+International character code for language as it pertains to the agent variant.
+Var Type
+Indicates whether the record is a variant (0) or a vernacular name (1).
+THe full name used as a variant or vernacular name.
+Country of variant or vernacular name.
+Agent Variant
+This is primarily used by Botanists for capturing Variant and Vernacular names. This table is searchable but does not have any specific business rules associated with it.
+Permit
+Permit Attachment
+Target Marker
+Extraction Date Precision
+Comp A
+Dna Sequencing Runs
+BOLD Sample Id
+Sequence Date Precision
+Comp C
+DNA Sequence Attachments
+The actual sequence
+Genbank Acc #
+Sequence Date
+Extractor
+Comp T
+Ambiguous
+Total Residues
+Bold Translation Matrix
+Sequencer
+BOLD Barcode Id
+Molecule Type
+BOLD Last Update
+Material Sample
+Comp G
+Extraction Date
+DNA Sequence
+Tracks DNA Sequencing information for a Collection Object.
+Is BioStratigraphy
+Synonyms
+Node Number
+Standard
+The system of Stratigraphy the record is included in.
+Full Name
+Preferred Chronostratigraphy
+Start Uncertainty
+Highest Child Node Number
+Rank
+Start Period
+Numeric representation of Items rank in stratigraphic hierarchy.
+Chronos Strats Paleo Context
+Bio Strats Paleo Context
+Is Preferred
+End Uncertainty
+End Period
+Chronostratigraphy
+Describes Chronostratigraphy.
+Repository Agreement Attachment
+Sp Export Schemas
+Mapping Name
+Timestamp Exported
+Mappings
+Symbiota Instances
+Sp Export Schema Mapping
+Attr Date
+Preparations
+Preparation attributes that were also available in Specify 5.
+Workbench Schema Version
+Db Closed By
+App Name
+App Version
+Is D B Closed
+Sp Version
+Abbreviation
+Containers
+Level
+Preferred Storage
+Alternate Storage Preparations
+Timestamp Version
+A tree data structure for describing where Collection Objects are physically stored.
+Pages
+Source Agent
+Field Notebook Page Set
+Describes a set of Field Note Book pages. This can be used to group pages together that were scanned in together.
+DNA Sequence Attachment
+App Resource Datas
+Sp App Resource Dir
+File Name
+View Set Object
+System Table: This represents a View Set used in the form system.
+Geography Tree Definition
+Defines the levels of the Geography tree.
+Special Conditions
+Original Due Date
+Date the loan was originally due.
+Loan Date
+Date the Loan was created.
+Purpose Of Loan
+Date Closed
+Date loan was closed.
+Is Closed
+'No' until all preparations in the loan have been returned/resolved.
+Loan Agents
+Overdue Noti Sent Date
+Link to Shipments table.
+Loan Number
+A field that contains a record of the loan number and which is automatically incremented when a loan is made.
+Received Comments
+Extension Granted
+Preparations included in the loan.
+Current Due Date
+Date the loan is due for return (Same as original Due date unless loan period has been extended).
+Is Financial Responsibility
+A group of specimens that another institution borrows from your collection. Specify lets you manage all aspects of loans electronically, so that you always have an up-to-date record of which specimen have been loaned and which have been returned.
+Geography Tree Def
+Chronostratigraphy Tree Def
+Is Paleo Context Embedded
+Collections
+Paleo Context Child Table
+Numbering Schemes
+Attribute Defs
+Sp Locale Containers
+Lithostrat. Tree Def
+Taxon Tree Def
+May include one or more collections that share the Taxon, Geography, LithoStratigraphy, and Chronostratigraphy Trees, Localities, Agents and Determination Status.
+Preparation Attachment
+Number of items received.
+Description of material.
+Exchange In #
+Received From
+Date exchange was received.
+Exchange In
+Describes an incoming Exchanged Specimen from a different institution.
+Locality Citations
+Relation To Named Place
+Relation of the locality to the named place
+Original Latitude Longitude Unit
+i.e. Decimal, Deg/Min/Sec, ...
+Elevation Accuracy
+Plus or minus -- in meters.
+Long1text
+User entry for Longitude
+Geo Coord Details
+Geography
+Link to Country, State, County, WaterBody, Island, IslandGroup ... info.
+Min Elevation
+The minimum elevation in Meters
+Verbatim Longitude
+Datum
+GPS Datum.
+Max Elevation
+The maximum elevation in Meters
+Latitude
+Latitude of second point
+Named Place
+The named place the locality is closest to
+Longitude
+Longitude of second point
+Src Lat Long Unit
+Lat1text
+User entry for Latitude
+Locality Details
+Long2text
+Lat Lonpolygons
+Latitude/Longitude Type
+The type of area described by the Latitude Longitude data (Point, Line, Rectangle)
+GML
+Lat/Long Method
+the method used to determine the Latitude, Longitude
+Locality Name
+The full name of the locality.
+Elevation Method
+The method used to determine the elevation.
+Verbatim Latitude
+Verbatim Elevation
+The verbatim elevation including units as given in the field notes
+Latitude/Longitude Accuracy
+radius -- in decimal degrees
+Short Name
+Lat2text
+Latitude of first point
+Longitude of first point
+Original Elevation Unit
+i.e. Meters, Feet, ...
+The name of the location where a specimen was collected or observed. Some taxonomic disciplines or collectors may use a locality name instead of a field number to associate a collecting event with a specimen.
+Loan containing the Preparation.
+Quantity Returned
+Number of specimens returned. (necessary for Lots)
+Quantity Resolved
+Number of specimens returned, deaccessioned or otherwise accounted for. (necessary for Lots).
+Is Resolved
+The total number of specimens loaned (necessary for lots).
+In Comments
+Comments on item when returned.
+Out Comments
+Comments on item when loaned.
+Description of loaned material (intended to be used for non-cataloged items, i.e. when PreparationID is null)
+Loan Preparation
+A join table between the Loan and the Preparation. It contains comments and quantity fields.
+Taxon Tree Definition
+Defines the levels of the tree.
+Role the agent played in the accession process.
+Accession Agent
+The person(s) requesting the Accession. This references an Agent.
+The name of the meta data field.
+The value of the meta data field.
+Attachment MetadataMetadados
+This holds meta data about the attachment. It is a set of named value pairs.
+Locality Attachment
+Default U I
+Schema Type
+The type of schema it belongs to: the core schema or the workbench schema
+Descs
+Is Hidden
+Names
+Aggregator
+Pick List Name
+Format
+Is U I Formatter
+Locale Container
+System Table: This is used for localizing the database schema it has a localized name and description but can also contain localizable items.
+Is Display
+Column Alias
+End Value
+Table List
+Is Prompt
+Start Value
+Context Table Ident
+Is Rel Fld
+Format Name
+Oper End
+Allow Nulls
+Position
+String Id
+Always Filter
+Oper Start
+Is Not
+Sp Query Field
+System Table: This represents a single field in a saved Query.
+Top Distance
+Bottom Distance
+Direction
+Position State
+Distance Units
+Collection Object attributes that were also available in Specify 5.
+Members
+The abbreviation for the division.
+The name of the division
+The list of Disciplines that belong to this Division
+The discipline of the division
+The URL to their icon
+The institution the division belongs to.
+A URI (web site) address for the department
+The division (or department) containing agents.
+Agent Geographies
+Middle Initial
+Middle initial of Person.
+Agent Type
+Discriminator between Organization(0), Person(1), Other(2), and Group(3).
+Global Unique Identifier.
+Title of Person.
+Date Of Death Precision
+Url
+An URL for the web site of a Person or Group.
+Date Type
+Inst Tech Contact
+Job Title
+Agent`s (person) job title at specified address and organization.
+Email address for agent.
+Initials
+Initials of agent.
+Coll Tech Contact
+First name of agent.
+Inst Content Contact
+Agent Specialties
+Org Members
+Suffix
+Abbreviation of organization.
+Addresses
+The division the agent belongs to (optional).
+Coll Content Contact
+Date Of Death
+Date Of Birth Precision
+Last name of Person.
+Organization
+Interests
+Interests of Person or Organization.
+Variants
+Date Of Birth
+Date agent was born.
+Contains information about people, groups, and organizations. Some roles for an agent include collector, determiner, preparer, cataloger, donor, issuer of permits, and so forth.
+the order of AgentID relative to other authors of reference.
+An Author is a reference to an Agent and provides the order for a list of authors of a Reference Work.
+Accession Authorization
+This represents the person authorizing the Accession. It references an existing Agent.
+Loan Attachment
+Appraisal Value
+Monetary value of the appraisal.
+Appraisal Number
+Unique number for the appraisal.
+Monetary Unit Type
+Type of monetary unit.
+Appraisal Date
+Date of the appraisal.
+Notes
+Appraisal
+The monetary appraisal of an Acession or Collection Object
+Miscellaneous files can be attached.
+Provides a sequencial order for the attachments.
+Accession Attachment
+An attachment for the Accession. This may be one or more PDF files of paperwork or a photo of the Accession.
+Issued By
+Is Available
+Date permit expires
+Collecting Trip Authorizations
+Permit Number
+Identifier for the permit
+Issued To
+Permit category - `CITES`, `Migratory Bird Treaty Act`, ...
+Renewal Date
+Date of renewal
+Date permit becomes effective
+Status Qualifier
+Permit Text
+Issued Date
+Date permit was issued
+The permit transaction window is designed to hold information linked to legal paperwork for permission from a government agency to collect a specimen or specimens. Preparation: A subdivision of a collection object that refers to the preparation method.
+Date Boxed
+Authorized By
+Date Cleaned
+Date To Isolation
+Treat Number
+Field Number
+Date Completed
+Performed By
+Treatment Event
+An action that occurrs to a Conservation Description.
+Lat Lon Polygon
+Elevation
+Lat Lon Polygon Pnt
+Old Value
+New Value
+Sp Audit Log
+Sp Audit Log Field
+Web Link Name
+Locale Container Item
+System Table: This is used for localizing the database schema it has a localized name and description.
+Taxon Citation
+Linkage from the Taxonomic record to a published document.
+Field Notebook Page Attachment
+Field Notebook Page Set Attachment
+Is Locked
+Context
+Task Name
+Usage Count
+Locked Time
+Machine Name
+Scope
+Sp Task Semaphore
+Borrow Materials
+Borrow Agents
+Invoice Number
+Lender`s loan number.
+Received Date
+Indicates whether the borrow was closed (returned).
+Borrow Date
+Original due date for loan.
+Borrow Date Precision
+Date loan is currently due. (Same as Original Due Date unless loan period has been extended)
+Number Of Items Borrowed
+Borrow
+Contains information about loans from another institution. When one institution borrows a group of objects from another institution, all objects in the borrowed group share a common set of attributes that are defined for the loan.
+Host Taxon
+Collecting Event Attributes that were also available in Specify 5.
+Group Type
+Permissions
+Group Sub Class
+Priority
+Specify Users
+Sp Principal
+Actions
+Permission Class
+Target Id
+Principals
+Sp Permission
+Preservation Method Type
+ABCD schema field.
+Db Content Version
+Pick Lists
+Is Embedded Collecting Event
+Yes if collecting event is one-to-one relationship.
+Web Site URI
+Left Side Rel Types
+ISA Number
+ISA number.
+Prep Types
+Right Side Rel Types
+Development Status
+Kingdom Coverage
+Primary Focus
+Admin Contact
+Catalog Num Format Name
+Name of catalog number format the collection uses.
+Collection Name
+The name of the collection.
+Collection Type
+Textual description of collection. ABCD schema field.
+Unique code for collection.
+Institution Network
+Estimated Size
+Primary Purpose
+Institution Type
+Textual description of collection.
+Web Portal URI
+A collection holds Collection Objects that are of the same discipline type.
+City of record.
+Primary address of record.
+Exchange Ins
+Exchange Outs
+State of record.
+Loans
+Secondary address of record.
+Repository Agreements
+Postal code of record (zip code).
+Country of record.
+This is the address when the legal action took place.
+Other Recommendations
+Width
+The width of the object.
+Background Info
+Any background information on the object.
+Object Length
+The length of the object.
+The Collection Object that the description describes.
+Display Recommendations
+Determined Date
+Events
+Units
+The units for the measurements (`feet` or `meters`).
+Composition
+Height
+The height of the object.
+Light Recommendations
+Short Description
+A short description of the object.
+Conservator Description
+Describes an object that has participated in a Conservator action. There is only one of these for each Collection Object.
+The ending date of the collecting trip.
+The start date of the collecting trip.
+Trip Name
+Name of the collecting trip.
+Cruise
+Collecting Trip Attribute
+The start time of the collecting trip.
+Sponsor
+Name of sponsor of collecting trip.
+Expedition
+The ending time of the collecting trip.
+Funding Agents
+Vessel
+Used to group Collecting Events together.
+Tag
+Name of tag.
+Attachment Tag
+An attribute tag of an attachment. This consists of a single text field for storing a tag. In later versions users will be allowed to search attachments by their tag.
+Material Number
+e.g. `FMNH 223456`
+Quantity resolved (Returned, Accessioned, Lost, Discarded, Destroyed ...).
+Notes concerning the receipt of the material.
+Notes concerning the return of the material.
+Description of the material. `e.g. Bufo bufo skull`.
+Quantity returned.
+Borrow Return Materials
+Number of specimens (for lots).
+ID of the borrow containing the prep.
+Describes the material being borrowed.
+Fields
+Parent Record Id
+Action
+Table Num
+Record Id
+Record Version
+Parent Table Num
+Owner Permission Level
+Sp Reports
+All Permission Level
+Group Permission Level
+System Table: This represents a resource, typically XML, that the application uses during run time.
+Institutions
+Storage Tree Definition
+Geography Tree Definition Item
+Source File Path
+Exported From Table Name
+Form Id
+Export Institution Name
+Locked By User Name
+Workbench Rows
+Database Table Id
+WorkBench
+A WorkBench DataSet.
+ID of associated (if present) Deaccession Physical Object record.
+Date of return.
+Number of specimens returned. (necessary for Lots).
+Preparation being loaned.
+Received By
+Person processing the loan return.
+Loan Return Preparation
+This is used for tracking a returned Preparation for a loan.
+The preferred name of a synonym.
+`Yes` if the Name and/or Geographic/Political entity is currently valid.
+Geography Code
+Centroid Latitude
+Centroid Longitude
+Parent of Geo
+Preferred Geo
+Geographic Rank
+Represents a politcal boundary (Country, State, County, Township, etc.).
+Gift
+Number of preparations included in the gift.
+Gift Preparation
+Points a gift to a preparation.
+ID of the publication citing the determination.
+Determination
+Determination being cited.
+Determination Citation
+Refers to a citation for the determination.
+Schema Name
+Name of the scheme (sequence).
+Schema Class Name
+Table Number
+Is Numeric Only
+Yes if number scheme is only numeric.
+Auto Numbering Scheme
+This is an internal table used to group together parts of a collection with the same numbering scheme.
+Field Notebook Attachment
+A data type represents a core type of collection data.
+Conserv Description
+Conservator Description Attachment
+Label Format
+Hybrid Parent
+Group Number
+Taxonomic group number
+Unit Ind
+Determinations
+CITES Status
+Taxon Citations
+Unit Name
+LSID
+If the record has been imported then this field holds information about the authority file it was obtained from, else it is user-editable.
+Rank ID
+Environmental Protection Status
+Is Hybrid
+Cultivar Name
+Taxonomic Rank
+Hybrid Children
+ISIS Number
+Preferred Taxon
+USFWS Code
+Collecting Event Attributes
+Common Names
+NCBI Taxon Number
+Col Status
+Taxonomic Serial Number
+If the record has been imported from an Authority File then this field stores a unique ID assigned by the provider, else it is null
+Child Taxa
+Parent of Taxon
+ESA Status
+Describes the taxonomy of a Determination.
+The geographical region of specialization
+Role of the agent as "author" or "collector" within the geography.
+Modified by Agent
+Agent Geography
+The geographical region that a particular collector was known for collecting in.
+Inventory Date
+Modifier
+Right Side Rels
+Left Side Rels
+Other Identifiers
+Cataloged Date Verbatim
+The verbatim date the specimen was collected.
+Projects
+Notifications
+Ocr
+Count Amount
+The number of objects (specimens, slides, pieces) prepared.
+Deaccessioned
+True if the object has been deaccessioned.
+Modified Date
+Container Owner
+Inventory Date Precision
+Cataloged Date
+Date the object was cataloged.
+DNA Sequences
+Restrictions
+Collection Object Properties
+Inventorized By
+Phenology
+Collection Object Citations
+Collection Object Attrs
+Object Condition
+Col Obj Attribute
+Global Unique Identifier
+Alt Cat Number
+Alternate Catalog Number.
+Catalog Number
+The number that identifies an individual specimen, a lot of specimens, or an observation as a part of a museum collection.
+Cataloger
+In Specify, the person who recorded the specimen data in the catalog. Cataloger records are stored in the Agent table.
+Availability
+Cataloged Date Precision
+Specimen Description
+Image, Sound, Preparation, Container(Container Label?).
+Voucher Relationships
+A unique number a collector assigns to each specimen at the time of collection. For example, botanists often keep a running count of the individual specimens they have collected (LKK1023, LKK1024, etc.).
+A general term for anything that can be a part of your collection: a specimen, a specimen lot, a sound recording, a slide, a tissue, an extract, or a spectrogram.
+Table Type
+The type of table it is attached to, this is internal to Specify.
+The field name of the attribute.
+The data type of the attribute.
+Attribute Definition
+The definition of an attribute.
+The order or position of the attachment.
+Additonal comments.
+Collecting Event Attachment
+Refers to an attachment and provides an order.
+Is Loanable
+Preparation Type
+Describe a Preparation Type. For example, Cleared and Stained, Mounted, etc.
+Record Set Items
+Info Request
+Record Set
+Describes a set of records of any type that can be acted upon within the applicaiton.
+Determiner
+Individual who assigned or made the decision regarding the taxonomic name of specimen. In some instances, determiner may be an organization or institute. In Specify, determiner information is stored in the Agent table.
+Confidence
+Confidence of determination.
+Alternate Name
+A free text field for insertion of a name (scientific or common) not recognized in the taxon tree authority. This field operates as an `either/or` condition with Preferred Taxon; both cannot be entered in a single Determination.
+Current
+Yes if the determination is considered the 'best' (maybe even one of the better).
+The date it was determined.
+Link to lookup table for Method.
+Qualifier
+A term to qualify the identification of the taxon name when doubts have arisen as to its identity or as a comparison to a given name (e.g. "cf." or "aff.").
+Sub Sp Qualifier
+Var Qualifier
+Name Usage
+User customizable pick list used to describe the context of the name entered into the taxon or Alternate name fields.
+Taxonomic tools and information on which a determination is based. These include professional expertise, published taxonomic keys, molecular DNA, or comparisons with previously cataloged specimens.
+Determined Date Precision
+The determined name of the specimen.
+Feature Or Basis
+Body part, or characteristic used as the basis of a determination.
+Type Status
+A pick list of all available type designations; Holotype, Paratype, Neotype. Specify ships with predetermined values which are editable for users.
+Addendum
+A Pick List suffix element added to the taxon name to indicate a concept or citation for that name. For example; sensu lato.
+Determination Citations
+The determination of the collection object.
+The exsiccata to which the collection object belongs
+Fascicle
+The fascicle number
+The list number of the collection object within the exsiccata
+Exsiccata Item
+Workbench Template Mapping Items
+WorkBench Template
+The mapping description of the WorkBench.
+Lithostratigraphy Tree Definition
+Polygons
+Sp Visual Query
+Place Of Publication
+Exsiccatae
+Title of reference
+Contained Reference Works
+Uri
+Is Published
+Volume
+Volume/Issue for Journal articles
+ISBN
+Number of pages or Page range for Journal articles
+Type of Reference (Book(0), Electronic Media(1), Paper(2), Technical Report(3), Thesis(4), Section in book(5))
+Contained R F Parent
+Authors
+Doi
+Work Date
+Library Number
+Publisher
+A literary reference work.
+Format Audit Rec Ids
+Squashed
+Count Only
+Sql Str
+Context Table Id
+Select Distinct
+Is Favorite
+Search Synonymy
+Reports
+Sp Query
+System Table: This represents a saved Query.
+Shipped To
+Shipment Number
+Shipper`s tracking number
+Shipment Date
+Date of shipment
+Num Of Packages
+Number of packages shipped
+Weight
+The weight of the shipment
+Shipper
+Insured For Amount
+Shipped By
+Description of shipment. E.g. `Hand-carried`, `Overnight`, `Air`, `Land`, `Sea`, ...
+Shipment
+Describes the shipment of a Loan or Exchange.
+Sex
+Imaging Technique
+View Name
+Morph Bank External View Id
+Form
+Development State
+View Angle
+Imaging Preparation Technique
+Specimen Part
+Attachment Image Attributes
+Morph Bank View
+Lat2 Text
+Workbench
+The workbench this row is associated with
+Long1 Text
+Error Estimate
+Workbench Row Images
+The list of images associated with this row.
+Card Image Data
+A single image attached to the row
+The data items associated wirth this row
+Lat1 Text
+Long2 Text
+Workbench Row Exported Relationships
+Upload Status
+Row Number
+The row number
+Card Image Full Path
+The full path of the image
+Bio Geomancer Results
+The XML returned from Bio Geomancer
+Workbench Row
+A row of data.
+Exam Date
+The date the object was examined
+Treatment Report
+A description of the treatment that is needed.
+Treatment Comp Date Precision
+Condition Report
+A report on the condition
+Completed Date Precision
+Completed Comments
+Advanced Testing Exam
+The advanced testing that was used to examine the object
+Treatment Completion Date
+Curator Approval Date Precision
+Advanced Testing Exam Results
+The results of the advanced testing
+Completed Date
+Curator
+Photo Documentation
+Any documentation on the photos that were taken
+Approval Date
+Treated By Agent
+Examined By Agent
+Exam Date Precision
+Conservator Event
+An action that takes place as part of a Conservation Description. Over a period of time there may be multiple incidents that require a Conservator to take action.
+Role played by agent in the borrow.
+ID of borrow in which Agent played role.
+Borrow Agent
+Refers to an Agent and describes their role in the borrowing process.
+Attach To Table Name
+The thumbnail data
+Image Order
+The position in the list of images
+The row the image is attached to
+The full path to the image
+Workbench Row Image
+An image associated with a row.
+Gift Agent
+Describes the role the Agent played in the giving of a Gift.
+Gift Number
+se
+User defined.
+Gift Date
+Purpose Of Gift
+Gift Agents
+Describes a Gift.
+Container Desc
+Item Name
+Container Name
+Item Desc
+Locale Item String
+System Table: This is used for localizing the database schema it represents a string and also a Language, Country and Variant for that string.
+Points
+Is Polyline
+Visual Query
+The order in the attachment list.
+Collection Object Attachment
+An attachment for a collection object and provides order.
+Preferred Litho Strat
+Paleo Contexts
+Lithostratigraphy
+The Litho stratigraphy tree.
+Id Value
+Str Value
+Sp Field Value Default
+System Table: This represents a default field value for a form.
+Validation Status
+Cell Data
+Workbench Template Mapping Item
+WorkBench Data Item
+A cell of data.
+Creative Commons
+Timestamp Last Update Check
+Attachments
+Timestamp Last Send
+Resolution
+Mb Image Id
+Image Type
+View Description
+Magnification
+Deaccession Number
+Name institution assigns to the deaccession
+Description of the Type of deaccession; i.e. Gift, disposal, lost
+Deaccession Agents
+Deaccession Date
+Removal of a biological object (specimen, observation, or preparation type) from the collection. Deaccessions may include loans to other collections that are subsequently given to the borrower, lost specimens, and specimens that are destroyed.
+Description Of Material
+Comments
+Exchange In Prep
+Exchange Out Prep
+Sequence
+Relationship Name
+Workbench Row Exported Relationship
+Icon URI
+Ipr
+Contacts
+Borrow Attachment
+Gift Attachment
+Reference Work Attachment
+Funding Agent
+Dna Sequencing Run
+D N A Sequencing Run Attachment
+Order
+Record Set Item
+Storage Attachment
+Instance Name
+Last Pull
+Last Push
+Schema Mapping
+Symbiota Key
+Last Cache Build
+Sp Symbiota Instance
+Treatment Event Attachment
+Primer Seq Forward
+Primer Designator
+Primer Ref Link Rev
+Primer Ref Cit Forward
+Primer Ref Cit Rev
+Primer Name Forward
+Primer Seq Rev
+Reserved Number
+Purification Method
+Primer Name Rev
+Primer Ref Link Forward
+DNA Primer
+Volume Unit
+Absorb Ratio 260_
+Sample Designation
+Quality Check Date
+SRA Project ID
+SRA Bio Project ID
+Weight Unit
+Weight Method
+Absorb Ratio Method
+Concentration
+SRA Bio Sample ID
+Quality
+SRA Sample ID
+Medium
+Sample Size
+Concentration Unit
+Sample Type
+Quality Remarks
+Dna Sequences
+Collecting Event Authorization
+Collection Object Property
+Collecting Trip Attachment
+Collecting Trips
+Collecting Trip Authorization
+Voucher Number
+Institution Code
+Collection Code
+Url Link
+Voucher Relationship
+Preparation Property

@@ -1,0 +1,9 @@
+Stage
+Weight
+# Shark Attacks
+Head Length
+ReproCondition
+Sex
+Body Length
+Total Length
+

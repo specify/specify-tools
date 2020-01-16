@@ -1,0 +1,15 @@
+Text
+Bottom Distance
+Text
+Top Distance
+Text
+Direction
+Text
+Text
+Text
+Position State
+Distance Units
+Text
+Text
+Col Obj Attribute
+

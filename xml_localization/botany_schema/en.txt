@@ -1,0 +1,9 @@
+Collector Number
+Locality and\n Habitat Notes
+Field to record information on locality and habitat where specimen was collected.
+Col Obj Attribute
+Specimen\nDescription
+Image, Sound, Preparation, Container(Container Label?).
+Exsiccata Items
+Phenology
+User definable.
