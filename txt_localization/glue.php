@@ -1,18 +1,20 @@
 <?php
 
-if(true){
+$to_file = true;
+
+if($to_file){
 	header('HTTP/1.1 200 OK');
 	header('Content-Type: text/plain; charset=utf-8');
-	header('Content-Disposition: attachment; filename="localization_uk_final.utf8"');
+	header('Content-Disposition: attachment; filename="stats_ru.properties"');
 }
 else
 	echo '<pre>';
 
 
-$data_original = explode("\n", file_get_contents('./source/localization_en.utf8'));
-//$result       = explode("\n", file_get_contents('./source/text_en.txt'));
-//$result       = explode("\n", file_get_contents('./source/text_ru.txt'));
-$result       = explode("\n", file_get_contents('./source/text_uk.txt'));
+$data_original = explode("\n", file_get_contents(__DIR__.'/properties/stats_en.properties'));
+//$result       = explode("\n", file_get_contents(__DIR__.'/properties/text_en.txt'));
+$result       = explode("\n", file_get_contents(__DIR__.'/properties/text_ru.txt'));
+//$result       = explode("\n", file_get_contents(__DIR__.'/properties/text_uk.txt'));
 
 $global_index = 0;
 

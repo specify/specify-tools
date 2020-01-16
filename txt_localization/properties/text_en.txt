@@ -1,0 +1,75 @@
+Top 5 Species
+Cataloged Last 10 Years
+Specimens by Country
+Number of Specimens.
+Shows a pie chart of the top five species cataloged.
+Shows a bar chart of the top 5 species cataloged.
+Items Cataloged Last 10 Years.
+Cataloged in the previous 10 years.
+Shows the percent of growth over the last 5 years.
+Shows the number of specimens by country.
+Shows the top 10 number of species by Continent
+Show the Items on Loan
+Show a list of overdue loans.
+Shows the items cataloged in the last 7 days.
+Shows the items cataloged in the last month.
+Shows the items cataloged in the last year.
+Shows a list of the loans that are overdue.
+Shows the top 5 accessions by division.
+Shows a list of permits that are expiring
+Shows a list of CITES permits that are expiring this Year
+Shows a list of Non-CITES permits that are expiring this Year
+WorkBench Data Sets
+Items Cataloged Last 10 Years
+Years
+Temporial Periods
+Percentage Grow Last 5 Years
+Percentage
+Top 7 Number of Specimens by Country
+Top 10 Number of Specimens by Continent
+Items on Loan
+Overdue Loans
+Loan Overdue
+Open Loans
+Cataloged Last 7 Days
+Cataloged Last 30 Days
+Cataloged Last Year
+Top 5 Accessions By Division
+Permits Expiring This Year
+CITES Permits Expiring This Year
+Non-CITES Permits Expiring This Year
+Holdings
+Data Entry
+Loans
+Locality/Geography
+Taxonomic Tree
+Taxon
+Count
+Localities
+Specimens
+Type Specimens
+Families Represented
+Genera Represented
+Species Represented
+Geography Entries
+Countries
+Percentage Georeferenced
+Georeferenced Localities
+Classes
+Orders
+Families
+Genera
+Type Specimen Counts
+Species
+No Type Specimens
+Preparations Per Prep Type
+No Preparations Types
+Prep Type
+Preparations by Prep Type-Species
+No Preparations by Prep Type-Species
+Preparations by Type
+Preparations by Type: Lots/Total
+Preparations
+Lots/Total
+Attachments by Data Type
+Data Type

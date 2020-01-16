@@ -1,0 +1,142 @@
+Taxon Name
+Geography
+Determiner
+Collectors
+Old Name
+Preferred Name
+Determination Name
+Name on Determination
+Other Name
+Category
+Storage
+Name
+The taxon Name
+The geography name
+The person who determined it
+The list of collectors
+The old taxon name
+The preferred taxon name
+The determination name
+The taxon name on the determination
+Another taxon name having the same preferred taxon name
+Category of the geography
+The location of the object
+The name of the object
+Storage name
+Taxon CollectionObject
+Collecting Event Locality
+Collection Object Taxon
+Taxon Geography
+Collection Object Collectors
+Taxon Preferred Taxon
+Collection Object Preferred Taxon
+Collection Object Taxon (all synonyms)
+Collection Object Taxon (determined)
+Agent Agent Variant
+Agent
+Agent Variant
+Locality Locality Alias
+Collection Object Collecting Event
+Collection Object Locality
+Accession Attachments
+Agent Attachments
+Collection Attachments
+Collecting Event Attachments
+Conservator Description Attachments
+Conservator Event Attachments
+DNA Sequence Attachments
+Field Notebook Attachments
+Field Notebook Page Attachments
+Field Notebook Page Set Attachments
+Locality Attachments
+Permit Attachments
+Preparation Attachments
+Repository Agreement Attachments
+Taxon Attachments
+Collection Object Accession
+Agent Accession
+Agent Borrow
+Agent Appraisal 
+Collection Object Chronostratigraphy
+ Collector CollectingEvent
+ Collecting Event Collecting Trip
+Exchange In Agent 
+Exchange Out Agent 
+Collecting Event Geography 
+Collection Object Geography
+Collection Object Gift
+Agent Gift
+Collection Object Loan
+Agent Loan
+Collection Object Lithostratigraphy
+Collection Object Permit
+ Agent Issued to Permit
+Agent Issued by Permit
+Collection Object Project
+Agent Project
+Agent Repository Agreement 
+Collection Object Storage
+Collection Object Taxon
+Collection Object Container
+Container Collection Object Children
+Container Container Children
+Collection Object Exchange In
+ Collection Object Exchange Out
+Collection Objects with Determiner and Taxon for current Determinations
+Collecting Events with Localities
+Collection Objects with determined Taxa
+Geography records where taxa were collected
+Collection Object with Collectors
+Old Taxa with their preferred names.
+Collection objects with determined Taxon names and preferred Taxon names
+Collection objects with determined Taxon and its synonyms 
+Collection objects with Taxon for current Determinations
+Agents and Variants
+Agent
+Localities with Aliases
+Collection Objects related to Collecting Event
+Collection Objects related to Locality
+Accession Attachments
+Agent Attachments
+Collection Attachments
+Collecting Event Attachments
+Conservator Description Attachments
+Conservator Event Attachments
+DNA Sequence Attachments
+Field Notebook Attachments
+Field Notebook Page Attachments
+Field Notebook Page Set Attachments
+Locality Attachments
+Permit Attachments
+Preparation Attachments
+Repository Agreement Attachments
+Taxon Attachments
+Collection Objects associated with Accessions
+Agents associated with Accessions
+Agents associated with Borrows
+Agents associated with Appraisals
+Collection Objects associated with Chronostratigraphy
+Collectors for CollectingEvents
+Collecting Events for Collecting Trips
+Agents for incoming Exchanges 
+Agents for outgoing Exchanges 
+Collecting Events within Geography
+Collection Objects collected within Geography
+Collection Objects contained in Gifts
+Agents associated with Gifts
+Collection Objects contained in Loan
+Agents associated with Loans
+Collection Objects associated with Lithostratigraphy
+Collection Objects with associated Permits
+Agents to whom Permits were issued
+Agents who issued Permits
+Collection Objects associated with Projects
+Agents associated with Projects
+Agents associated with Repository Agreements
+Collection Objects with Storage locations
+Collection Objects determined to Taxa
+Collection Objects that have Containers
+The Container's Collection Object children 
+The Container's container children 
+Collection Objects contained in Exchange In
+ Collection Objects contained in Exchange Out

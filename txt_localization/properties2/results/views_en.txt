@@ -1,0 +1,20 @@
+Collecting Event
+Collection Object
+Appraisal
+Collecting Trip
+Conserv Description
+Deaccession
+Field Notebook
+Project
+Agent
+Permit
+Locality
+Journal
+Reference Work
+Taxon
+Geography
+Storage
+Chronos
+Litho Stratigraphy
+Is On Loan
+Show Interactions

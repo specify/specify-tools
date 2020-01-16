@@ -1,0 +1,178 @@
+Email
+Email Account Settings
+Account Type
+Account Name
+Server Name
+SMTP
+Local Mailbox
+User Information
+Username
+Password
+Send Test Email
+Port
+Security
+Formatting
+Screen Date Format
+Error Color
+Required Field Color
+View Field Color
+Form Font
+Size
+Control Size
+Collection Object Icon
+Discipline Icon
+Choose
+Application Icon
+Application Icon
+Set Icon
+Clear Icon
+Reset To Default Font
+Simple Search Results Bar
+Icon Size
+%d x %d pixels
+Form Layout
+Audit Log
+Enable Auditing
+Audit Field Value Changes
+Months to Save Audits
+Export WebLinks as URLs
+Error incrementing the number, the year '%s' or position '%d' was wrong.
+There was a problem incrementing the formatted number.\nThere may be data in the database that doesn't match the format.
+Task Bar
+Task Bar Items
+Add Interactions
+Add Plugins
+Add Welcome
+Add Attachments
+Add Cleanup Tools
+Add Symbiota
+Add SGR
+Cleanup Tools
+System
+Locale
+Georeferencing
+Cache
+Clear Specify Cache
+Recovers disk space used on a temporary basis.
+Version Checking
+Check For Updates At Startup
+Check For Updates
+Usage and Usability Statistics
+Send Anonymous UUS
+Background Image
+Send ISA/IA UUS
+Report Images Location
+You are required to send statistics when you have an ISA number.
+Closing Tabs
+Ask me before closing tabs (otherwise close the oldest tab)
+Attachments
+URL used to connect to the Web Server
+The path to the repository location
+Use Attachment Path
+Use Attachment Web Service
+File path
+URL
+Key
+Make attachments public by default
+OpenGL / World Wind
+Use World Wind for Map Display
+System can use OpenGL
+Check for OpenGL
+Network
+Network Proxy Settings
+HTTP Host
+HTTP Port
+HTTPS Host
+HTTPS Port
+Google Earth
+Icon Image Path
+Placemark Balloon Configuration
+Use Original Excel Headers
+Balloon BG Color
+Balloon Text Color
+Primary URL
+Primary URL Title
+Secondary URL
+Secondary URL Title
+Use KMZ
+Morphbank
+Darwin Core Map
+User ID#
+Group ID#
+Base URL
+Image Upload URL
+Trees
+All Trees
+Restore Expansion State
+Prompt to Replace Taxon with Preferred Taxon
+Display Taxon Author in tree view
+Taxon Tree
+Show Counts Below
+Column Color #1
+Column Color #2
+Synonymy Color
+Geography Tree
+Show Counts Below
+Column Color #1
+Column Color #2
+Synonymy Color
+Litho Tree
+Show Counts Below
+Column Color #1
+Column Color #2
+Synonymy Color
+Geologic Time Period Tree
+Show Counts Below
+Column Color #1
+Column Color #2
+Synonymy Color
+Storage Location Tree
+Show Counts Below
+Column Color #1
+Column Color #2
+Synonymy Color
+Email
+Formatting
+Misc.
+System
+Google Earth
+Tree Options
+Auditing
+Web Portal
+MySQL
+MySQL Application Executable Locations
+mysqldump
+mysql
+Backup Location
+Backup
+Restore
+Login Dialog
+Username List
+Database Name List
+Server Name List
+Clear
+Loans
+Loan and Shipment Defaults
+Due in Months
+Shipment Method
+Shipped By
+GUIDs
+Automatic GUID Generation
+Additional Options
+Create GUIDs
+Initial Collection Selection
+Always ask for Collection at startup
+GEOLocate
+Include highway crossings
+Include water bodies
+Restrict to lowest administrative unit
+Return uncertainty radius in meters
+Return error polygon
+Displace error polygon
+Language key
+Use GEOLocate's Map Server
+WorldWind
+Symbiota
+Base URL
+Show Symbiota Task
+You may have to restart Specify for your changes to take effect.

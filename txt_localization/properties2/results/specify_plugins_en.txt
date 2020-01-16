@@ -1,0 +1,120 @@
+New Agent
+Authors
+Sample Output
+Label Format
+Reference Work
+None
+Search
+Latitude / Longitude
+Decimal Degrees
+Degrees Decimal Minutes
+Degrees Minutes Decimal Seconds
+Point
+Line
+Rectangle
+Single Lat/Lon Point
+Two Lat/Lon points representing a line
+Two Lat/Lon points representing a rectangle (upper left and lower right)
+Latitude
+Longitude
+Latitude 1
+Longitude 1
+Latitude 2
+Longitude 2
+The point is in error.
+The point is in incomplete.
+The first point is in error.
+The first point is in incomplete.
+The second point is incomplete.
+The second point is in error.
+(Source)
+Default Settings
+Default to Latitude North
+Default to Longitude West
+Default Type
+Default Format
+Add Author Name
+Remove Author Name
+Move the author name up in the list
+Move the author name down in the list
+Very Weak
+Weak
+Mediocre
+Strong
+Very Strong
+Meets minimum length
+Number character
+Mixed case
+Special character
+Partial Date
+Click For Error
+For the relationship `%s` the left side (or primary) collection must match the current collection `%s`
+There was an exception while trying to configure the plugin
+There is no Collection for the the relname `%s` 
+There is no Discipline for the the relname `%s` 
+The parameter `relname` is empty and can't be.
+There are no results for the selected rows.
+There are no results for `%s`, `%s`, `%s`.
+Scatter, Gather, Reconcile: Results Chooser - %d of %d
+Getting Aggregated Collections Data...
+Edit Properties
+Stop Processing
+Resume Processing
+Show Histogram
+Matchers
+Create Matcher
+Edit Matcher Properties
+Edit
+Records
+Match Results
+Name
+Matcher
+Remarks
+Matches
+Quality of Matches
+SGR Score
+Number of Records
+Failed to fetch SGR results from SGR server.
+Failed to retrieve list of available indices from SGR server.
+Can't delete matcher because one or more match result sets still refer to it.
+Can't delete matcher because at least one SGR pane is using it.
+No matcher selected.
+No matches found.
+Show SGR results.
+Refresh SGR results. (F5)
+Process Data Set
+Select Matcher
+The matcher name must not be blank.
+The match results name can not be blank.
+Name
+Index
+Exclude
+Institution Code
+Collection Code
+Match Criteria
+The Collection Object with Catalog Number '%s' is already being used by a container.
+This Collection Object belongs to Container:
+This Collection Object is the Container:
+The container '%s' is already used by Collection Object '%s'
+i
+mb
+Send
+Get
+Not an image
+Not Morphbanked
+Updates required
+Up to date
+Morphbank ID:
+Error displaying url: %s
+Morphbank Details
+Sending data to Morphbank
+Morphbank returned more than one image id.
+Morphbank did not return an image id.
+The image was added to Morphbank.
+The image could not be added to Morphbank.
+The contents of the image file could not be uploaded to Morphbank.\r\nYou may need to upload it manually from your Morphbank account.
+Show details
+View image at Morphbank
+Send to Morphbank
+Get updates from Morphbank
+Please configure the Morphbank settings on the preferences form.
