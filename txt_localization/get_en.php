@@ -9,7 +9,7 @@ else
 	echo '<pre>';
 
 
-$data = explode("\n",file_get_contents('./source/localization_en.utf8'));
+$data = explode("\n",file_get_contents(__DIR__.'/properties/stats_en.properties'));
 
 foreach($data as $string){
 
