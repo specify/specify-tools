@@ -1,0 +1,418 @@
+Status
+Accession Text
+Authority Agent First Name
+Permit
+Authority Role
+Authority Agent Last Name
+Number
+Authority Agent Title
+Date Received
+Authority Agent Middle
+Verbatim Date
+Accession Number
+Accession Yes No
+Accession Remarks
+Date Accessioned
+Accession
+Collector First Name
+Collector Middle
+Collector Last Name
+Start Time
+End Date
+Collector Title
+Method
+Verbatim Locality
+Start Date Precision
+End Date Verbatim
+Station Field Number
+End Date Precision
+Collecting Event Remarks
+Start Date
+End Time
+Start Date Verbatim
+Collecting Event
+Collecting Trip Remarks
+Sponsor
+Collecting Trip Name
+Collecting Trip
+Object Condition
+Collection Object Yes No
+Catalog Number
+Collection Object Citation
+Is Co Figured
+Collection Object Number
+Count Amt
+Cataloger First Name
+Alt Catalog Number
+OCR
+GUID
+Cataloger Last Name
+Collection Object Remarks
+Modifier
+Cataloger Title
+Citation CO Remarks
+Cataloged Date Verbatim
+Name
+Description
+Cataloger Middle
+Collection Object Text
+Cataloged Date
+Field Number
+Collection Object
+Forma
+Suborder Author
+Superfamily
+Subsp Qualifier
+Subforma Author
+Infraclass
+Remarks
+Subspecies
+Determined Date
+Order Author
+Superclass Author
+Forma Author
+Infraorder
+Suborder
+Tribe Author
+Determiner First Name
+Subgenus Author
+Subfamily
+Subtribe
+Qualifier
+Subphylum Author
+Subvariety Author
+Subspecies Author
+Is Current
+Subforma
+Family
+Order
+Species
+Subtribe Author
+Phylum Author
+Superfamily Author
+Type Status Name
+Genus
+Variety Author
+Family Author
+Subclass
+Infraclass Author
+Var Qualifier
+Infraorder Author
+Tribe
+Determiner Last Name
+Subgenus
+Superorder Author
+Superclass
+Phylum
+Subclass Author
+Variety
+Species Author
+Genus Author
+Class Author
+Determiner Middle
+Subphylum
+Subfamily Author
+Feature Or Basis
+Superorder
+Determiner Title
+Class
+Subvariety
+Determination
+County
+Continent
+State
+Country
+Geography
+Utm Orig Longitude
+Latitude
+Utm Orig Latitude
+Locality Number
+Utm Easting
+Lat Long Method
+Range Direction
+Lat Long Accuracy
+Locality Detail Text
+Short Name
+Utm False Easting
+Datum
+Elevation Method
+Locality Text
+Locality Citation
+Locality Yes No
+Longitude
+Section
+Utm Scale
+Utm False Northing
+Island
+Township
+Base Meridian
+Island Group
+Named Place
+Locality Name
+Utm Northing
+Max Elevation
+Elevation Accuracy
+Lat Long Type
+Drainage
+Original Elevation Unit
+Township Direction
+Utm Datum
+Locality Remarks
+Min Elevation
+National Park Name
+Water Body
+Relation To Named Place
+Verbatim Elevation
+Range
+Section Part
+Utm Zone
+Locality
+Prep Yes No
+Prep Description
+Building
+Storage Location
+Aisle
+Prep5 Text
+Collection
+Shelf
+Prepared Middle By
+Prepared Date
+Prepared Last Name By
+Prep3 Text
+Cabinet
+Prep Remarks
+Prepared First Name By
+Rack
+Vial
+Box
+Prep Type
+Room
+Prep2 Text
+Count
+Prepared Title By
+Prep8 Text
+Prep1 Text
+Prep6 Text
+Prep7 Text
+Prep4 Text
+Preparation
+Author Title
+Is Published
+Author Last Name
+Reference Work Text
+Author Middle
+Pages
+Author First Name
+Title
+Reference Work Type
+URL
+Library Number
+Reference Work Yes No
+Publisher
+Volume
+Work Date
+Reference Work Number
+Reference Work Remarks
+Place Of Publication
+Reference Work
+Subtribe Common Name
+Parvorder Source
+Kingdom Author
+Superorder GUID
+Parvorder Author
+Subkingdom Author
+Superorder Source
+Subkingdom Source
+Subfamily Source
+Subkingdom Common Name
+Subdivision Common Name
+Suborder Common Name
+Subdivision
+Infraorder Source
+Phylum GUID
+Phylum Source
+Superfamily GUID
+Subphylum Source
+Division
+Suborder Source
+Kingdom GUID
+Subclass Common Name
+Infraorder GUID
+Parvorder GUID
+Superfamily Source
+Tribe Source
+Division Author
+Subfamily GUID
+Order Source
+Subtribe Source
+Subtribe GUID
+Tribe Common Name
+Infraclass Source
+Tribe GUID
+Subdivision Author
+Division GUID
+Superfamily Common Name
+Superclass Source
+Superorder Common Name
+Subphylum Common Name
+Order GUID
+Phylum Common Name
+Infraorder Common Name
+Subfamily Common Name
+Parvorder
+Subclass Source
+Kingdom Common Name
+Infraclass GUID
+Family Source
+Class GUID
+Kingdom
+Division Common Name
+Superclass Common Name
+Order Common Name
+Subkingdom GUID
+Kingdom Source
+Division Source
+Subphylum GUID
+Suborder GUID
+Subdivision GUID
+Subclass GUID
+Subdivision Source
+Class Common Name
+Class Source
+Family GUID
+Parvorder Common Name
+Family Common Name
+Infraclass Common Name
+Subkingdom
+Superclass GUID
+Taxon
+Collecting Event Attribute Number
+Collecting Event Attribute Yes No
+Collecting Event Attribute Text
+Collecting Event Attribute Remarks
+Collecting Event Attribute
+Col Obj Attribute Number
+Col Obj Attribute Text
+Col Obj Attribute Yes No
+Col Obj Attribute Remarks
+Collection Object Attribute
+Subspecies GUID
+Subsection Common Name
+Superphylum
+Subsection Author
+Forma Common Name
+Infradivision
+Section Source
+Subgenus GUID
+Section Common Name
+Subsection Source
+Genus GUID
+Subvariety Common Name
+Forma Source
+Species GUID
+Species Common Name
+Forma GUID
+Subvariety Source
+Subforma Source
+Genus Source
+Infrakingdom
+Subforma Common Name
+Subvariety GUID
+Variety GUID
+Subgenus Source
+Domain
+Species Source
+Section GUID
+Subforma GUID
+Subsection GUID
+Section Author
+Variety Common Name
+Subsection
+Genus Common Name
+Subspecies Source
+Subspecies Common Name
+Cohort
+Variety Source
+Subgenus Common Name
+First Name
+City
+Initials
+Address
+Postal Code
+Middle Initial
+Abbreviation
+Job Title
+Date Of Death
+Date Of Birth
+Interests
+Last Name
+Email
+Phone
+Agent Type
+Agent
+Location
+Owner Title
+Owner Middle
+Owner Last Name
+Owner First Name
+Field Notebook
+Page Number
+Scan Date
+Field Notebook Page
+Order Number
+Field Notebook Page Set
+Geo Ref Det Ref
+Geo Ref By Last
+Geo Ref By Middle
+Geo Ref Remarks
+Geo Ref Verification Status
+Geo Ref Accuracy Units
+Max Uncertainty Est
+Original Coord System
+Max Uncertainty Est Unit
+Source
+Geo Ref Det Date
+Geo Ref By Title
+No Geo Ref Because
+Protocol
+Geo Ref By First
+Named Place Extent
+Geo Coord Detail
+Erathem/era
+System/period
+Series/epoch
+Stage/age
+Geologic Time Period
+Journal Name
+Journal
+Member
+Super Group
+Litho Group
+Formation
+Bed
+Lithostrat
+Other Identifier Institution
+Other Identifier
+Bottom Distance
+Position State
+Text
+Direction
+Top Distance
+Distance Units
+Paleo Context
+Yes No
+Bold Barcode Id
+Comp A
+Target Marker
+Gene Sequence
+Comp G
+Comp T
+Bold Last Update Date
+Comp C
+Genbank Accession Number
+Bold Sample Id
+Molecule Type
+Ambiguous Residues
+Total Residues
+Bold Translation Matrix
+DNA Sequence

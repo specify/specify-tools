@@ -1,0 +1,8 @@
+Weight
+Tail Length
+Sex
+Color in Life
+SVL
+Total Length
+ReproCondition
+Stage

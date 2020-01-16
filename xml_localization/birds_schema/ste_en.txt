@@ -1,0 +1,14 @@
+Field Number
+Station number or field number of the site where collecting event took place, A number or code recorded in field notes and/or written on field tags that identifies ALL material collected in a Collecting Event.
+Method
+A method, such as net or trap, which is used to obtain the specimen.
+Sex
+Stomach
+Molt
+Body
+Age
+Weight
+Gonads
+ReproCondition
+Type Status
+A pick list of all available type designations; Holotype, Paratype, Neotype. Specify ships with predetermined values that are editable for users.

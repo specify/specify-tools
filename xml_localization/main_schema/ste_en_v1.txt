@@ -1,0 +1,4562 @@
+Schema Name
+Sp Export Schema Mappings
+Timestamp Created
+Modified By Agent
+Timestamp Modified
+Sp Export Schema Items
+Version
+Schema Version
+Description
+Created By Agent
+Discipline
+Sp Export Schema
+System Table:
+Type Of Addr
+Room/Building
+The room or building of the agent.
+Insitutions
+Address
+Address
+Second line of address (optional).
+Remarks
+Additional comments.
+Is Current
+Indicates if this is the current address.
+Version
+Timestamp Created
+The timestamp the record was created.
+Ordinal
+Allows multiple addresses to be ordered.
+Address
+Timestamp Modified
+The timestamp the record was last modified.
+Address
+Fax
+The fax number.
+Country
+The country.
+Modified By Agent
+Phone
+The primary phone number.
+Phone
+The secondary phone number.
+Start Date
+The first date the the agent was at this address.
+Created By Agent
+City
+The city.
+Agent
+Divisions
+State
+The state within the country.
+End Date
+The last date the agent was at the address.
+Is Shipping
+Indicates if this is the shipping address.
+Postal Code
+Postal code (Zip Code).
+Position Held
+The position held by the agent while at this address.
+Is Primary
+Indicates whether this is the primary address.
+Address
+Address as it should appear on mailing labels.
+Address
+The address of an Agent. This also captures a start and end date for the address and the position held while at the address.
+Attachment
+Remarks
+Taxon
+Modified By Agent
+Created By Agent
+Timestamp Modified
+Ordinal
+Version
+Timestamp Created
+Taxon Attachment
+Refers to an attachment and provides order.
+Identifier
+Created By Agent
+Timestamp Modified
+The timestamp the record was last modified.
+Institution
+Remarks
+Additional Comments
+Modified By Agent
+Collection Object
+Collection Member Id
+Version
+Timestamp Created
+The timestamp the record was created.
+Other Identifier
+Describes an identifier (Catalog Number) of a Collection Object from a different Institution.
+Geo Ref Verification Status
+Named Place Ext
+Version
+Text
+Source
+Geo Ref Det Ref
+Timestamp Created
+Geo Ref Accuracy
+Geo Ref Compiled Date
+Uncertainty Polygon
+Locality
+Protocol
+Geo Ref Compiled By
+Max Uncertainty Est
+No Geo Ref Because
+Error Polygon
+Max Uncertainty Est Unit
+Timestamp Modified
+Original Coord System
+Geo Ref Remarks
+Geo Ref Det Date
+Text
+Created By Agent
+Text
+Geo Ref Accuracy Units
+Validation
+Modified By Agent
+Geo Ref Det By
+Geo Coord Detail
+Describes extra detail for a Locality for Manis data.
+Name
+The name of the Collection Relationship.
+Remarks
+Additional comments.
+Right Side Collection
+Created By Agent
+Left Side Collection
+Modified By Agent
+Timestamp Created
+The timestamp the record was created.
+Version
+Timestamp Modified
+The timestamp the record was last modified.
+Collection Relationship Type
+Describes the type of relationship between two collection objects.
+Country
+The country code.
+Language
+The language code.
+Created By Agent
+Name
+Variant
+The variant code of the language.
+Modified By Agent
+Version
+Timestamp Modified
+The timestamp the record was last modified.
+Citations
+Taxon
+Timestamp Created
+The timestamp the record was created.
+Author
+Common Name
+Describes a common name and the localization of the name. This table is used to describe additional Common Names in other languages.
+Created By Agent
+Timestamp Modified
+Name
+Collection
+Page Sets
+End Date
+Location
+Field Notebook Attachments
+Version
+Discipline
+Modified By Agent
+Timestamp Created
+Owner
+Description
+Start Date
+Field Notebook
+Describes a physical Field NoteBook.
+Remarks
+Reference Works
+ISSN
+Journal Name
+Full name of hte journal.
+Timestamp Modified
+GUID
+Modified By Agent
+Journal Abbreviation
+Version
+Institution
+Created By Agent
+Text
+User definable.
+Timestamp Created
+Journal
+Refers to a published journal.
+Modified By Agent
+Full Name Separator
+Is Enforced
+Text Before
+User definable
+Tree Entries
+Rank Id
+Children
+Version
+Timestamp Modified
+The timestamp the record was last modified.
+Title
+Created By Agent
+Tree Def
+Text After
+User definable
+Name
+Is In Full Name
+Format Token
+Remarks
+Additional Comments
+Timestamp Created
+The timestamp the record was created.
+Parent
+Taxon Tree Definition Item
+Describes a level in the definition of the tree.
+Loan
+Agent
+Role
+Role the agent played in the loan.
+Created By Agent
+Discipline
+Remarks
+Additional Comments
+Timestamp Modified
+The timestamp the record was last modified.
+Modified By Agent
+Timestamp Created
+The timestamp the record was created.
+Version
+Loan Agent
+An agent associated with a loan. Each agent includes the role played in the loan process.
+Number
+User definable
+Project Number
+Text
+User definable
+End Date
+Date project ended
+Remarks
+Additional Comments
+Description
+Description of project
+Text
+User definable
+Modified By Agent
+Timestamp Created
+The timestamp the record was created.
+Yes No
+User definable
+Project Name
+Name of the project
+Collection Member Id
+Created By Agent
+Version
+Start Date
+Date project began
+Number
+User definable
+URL
+URL for project
+Timestamp Modified
+The timestamp the record was last modified.
+Grant Agency
+Collection Objects
+Yes No
+User definable
+Grant Number
+Agent
+Project
+Describes a grouping of Collection Objects.
+Timestamp Created
+Seq Cocktail Primer
+Number
+Dna Sequence
+Remarks
+PCR Primer Name
+Seq Primer Code
+Sequence Primer Code
+Prepared By Agent
+Run Date
+PCR Rev Primer Code
+PCR Forward Primer Code
+Text
+SRA Experiment ID
+Seq Primer Seq5_
+Sequence Primer Sequence5_
+Number
+PCR Cocktail Primer
+Dryad DOI
+Text
+PCR Primer Seq5_
+PCR Primer Sequence5_
+Ordinal
+Yes No
+Yes No
+Number
+Version
+Read Direction
+Run By
+Yes No
+DNA Sequencing Run Attachments
+Trace File Name
+SRA Submission ID
+Timestamp Modified
+Created By Agent
+Seq Primer Name
+Sequence Primer Name
+Text
+Score File Name
+Gene Sequence
+Citations
+Dna Primer
+Collection Member Id
+SRA Run ID
+Modified By Agent
+DNA Sequencing Run
+Plate Number
+Remarks
+Additional Comments.
+Created By Agent
+Figure Number
+Reference Work
+Timestamp Modified
+The timestamp the record was last modified.
+Collection Member Id
+Timestamp Created
+The timestamp the record was created.
+Version
+Page Number
+Modified By Agent
+Collection Object
+Is Figured
+Collection Object Citation
+Refers to a citation for a Collection Object.
+Source Geography
+Yes No
+User definable.
+Sent To
+Division
+Description
+Modified By Agent
+Timestamp Modified
+The timestamp the record was last modified.
+Source Taxonomy
+Quantity Exch
+Number of items sent.
+Version
+Exchange Date
+Date exchange was sent.
+Text
+User definable.
+Timestamp Created
+The timestamp the record was created.
+Yes No
+User definable.
+Number
+User definable.
+Exchange Out Preps
+Address Of Record
+Text
+User definable.
+Shipments
+Exchange Out #
+Cataloged By
+Agent ID of person who recorded the exchange.
+Remarks
+Additional Comments.
+Number
+User definable.
+Contents
+Created By Agent
+Exchange Out
+Describes an outgoing Exchanged Specimen to a different institution.
+Timestamp Created
+The timestamp the record was created.
+Children
+Is Enforced
+Full Name Separator
+Text After
+User definable
+Tree Def
+Name
+Tree Entries
+Modified By Agent
+Remarks
+Additional Comments
+Created By Agent
+Version
+Timestamp Modified
+The timestamp the record was last modified.
+Text Before
+User definable
+Parent
+Is In Full Name
+Rank Id
+Title
+Lithostratigraphy Tree Definition Item
+Describes a level in the definition of the tree.
+Timestamp Created
+Number
+Text
+Sequencing Run
+Yes No
+Version
+Remarks
+Number
+Yes No
+Modified By Agent
+Timestamp Modified
+Created By Agent
+Reference Work
+Text
+D N A Sequencing Run Citation
+Locality
+Modified By Agent
+Timestamp Created
+Discipline
+Timestamp Modified
+Created By Agent
+Source
+The source of the alias.
+Version
+Name
+The alias for the locality name.
+Locality Name Alias
+Describes additional names for a given Locaity.
+Y Coordinate
+Imported Column Name
+Original Import Column Index
+Is Editable
+Is Included In Title
+Field Type
+Created By Agent
+Timestamp Modified
+The timestamp the record was last modified.
+Workbench Template
+Modified By Agent
+Is Exportable To Content
+Workbench Data Items
+Timestamp Created
+The timestamp the record was created.
+Table Name
+Field Name
+Carry Forward
+Is Required
+Source Table Id
+Meta Data
+Data Field Length
+X Coordinate
+Version
+View Order
+Caption
+WorkBench Template Mapping Item
+One column of the mapped description.
+Remarks
+Modified By Agent
+Number
+Yes No
+Collecting Events
+Yes No
+Timestamp Modified
+The timestamp the record was last modified.
+Created By Agent
+Number
+Discipline
+Number
+Chrono Strat
+Number
+Context Name
+Yes No
+Yes No
+Collection Objects
+Text
+Text
+Text
+Text
+Localities
+Number
+Yes No
+Litho Strat
+Chrono Strat End
+Bio Strat
+Timestamp Created
+The timestamp the record was created.
+Version
+Bio Strat
+Paleo Context
+Describes the paleontologic information for a Collection Object. This also references Chronostratigraphy and Bio Stratigray.
+Institution
+Info Req Number
+Number of Information Request.
+Reply Date
+Agent
+Items
+Timestamp Modified
+The timestamp the record was last modified.
+Timestamp Created
+The timestamp the record was created.
+Version
+Created By Agent
+Modified By Agent
+Remarks
+Additional Comments.
+Request Date
+First Name
+Email
+Email of agent requesting the information.
+Last Name
+Collection Member Id
+Information Request
+Describes a request for information of a collection and refers to a Bundle of Collection Objects.
+Version
+Modified By Agent
+Timestamp Modified
+The timestamp the record was last modified.
+Text
+User definable.
+Timestamp Created
+The timestamp the record was created.
+Collection Rel Type
+Right Side
+Created By Agent
+Text
+User definable.
+Left Side
+Collection Relationship
+Enables two collection objects to refer to each other, for example, voucher and tissue.
+Timestamp Modified
+The timestamp the record was last modified.
+Modified By Agent
+App Resource
+View Set Obj
+Data
+Timestamp Created
+The timestamp the record was created.
+Version
+Created By Agent
+App Resource Data
+System Table: The data associated with an application resource.
+Ordinal
+The order or position
+Remarks
+Conserv Event
+Timestamp Created
+Timestamp Modified
+Version
+Modified By Agent
+Attachment
+Created By Agent
+Conservator Event Attachment
+Refers to an attachment and provides order.
+Child Nodes
+Full Name Separator
+Timestamp Modified
+The timestamp the record was last modified.
+Is In Full Name
+Modified By Agent
+Created By Agent
+Title
+Timestamp Created
+The timestamp the record was created.
+Rank Id
+Parent
+Remarks
+Additional Comments.
+Is Enforced
+Tree Definition
+Text Before
+User definable.
+Tree Entries
+Text After
+User definable.
+Version
+Name
+Geological Time Period Tree Definition Item
+Describes a level in the definition of the tree.
+Yes No
+Timestamp Created
+The timestamp the record was created.
+Yes No
+Order Number
+The position in the list of collectors.
+Agent
+Collecting Event
+Version
+Text
+Timestamp Modified
+The timestamp the record was last modified.
+Modified By Agent
+Division
+Created By Agent
+Text
+Is Primary
+Remarks
+Additional comments.
+Collector
+In Specify, the person or persons who collected a specimen. Collector records are stored in the Agent table.
+Created By Agent
+Remarks
+Additional comments.
+Agent
+Modified By Agent
+Ordinal
+This allows the attachments to be ordered.
+Attachment
+Timestamp Created
+Timestamp Modified
+Version
+Agent Attachment
+This table can be used for a picture of the agent or anything else used to further describe the agent.
+Version
+Date1 Precision
+Material Samples
+Number
+Text
+User definable
+Date
+Text
+User definable
+Modified By Agent
+Date
+Preparation Attrs
+Prepared Date Precision
+Loan Preparations
+Preparation Attribute
+Yes No
+Preparation Properties
+Text
+Reserved Integer
+Prepared Date
+Created By Agent
+Text
+Reserved Integer
+Date4 Precision
+Integer
+Deaccession Preparations
+Prepared By
+Date
+Text
+Prep Type
+Conserv Descriptions
+Text
+Guid
+Integer
+Yes No
+Collection Member Id
+Sample Number
+Remarks
+Additional Comments
+Count
+Number of items
+Yes No
+Description
+Storage Location
+Storage
+Timestamp Created
+The timestamp the record was created.
+Date
+Date3 Precision
+Text
+Timestamp Modified
+The timestamp the record was last modified.
+Preparation Attachments
+Exchange Out Preps
+Text
+Number
+Gift Preparations
+Alternate Storage
+Status
+Text
+Exchange In Preps
+Collection Object
+Date2 Precision
+Preparation
+Preparation information describes the physical status of a specimen and its storage media. Specify provides an extensive array of utilities for curatorial management of specimen preparations.
+Version
+Timestamp Modified
+The timestamp the record was last modified.
+Timestamp Created
+The timestamp the record was created.
+Locality
+Modified By Agent
+Reference Work
+Remarks
+Additional Comments
+Created By Agent
+Discipline
+Locality Citation
+A join table to link a Locality to a Citation.
+Originator
+Timestamp Modified
+The timestamp the record was last modified.
+Date Received
+RA Number
+Repository Agreement Authorizations
+Modified By Agent
+Yes No
+User definable
+End Date
+Division
+Created By Agent
+Yes No
+User definable
+Repository Agreement Agents
+Repository Agreement Attachments
+Text
+User definable
+Status
+Remarks
+Additional Comments
+Version
+Number
+User definable
+Accessions
+Text
+User definable
+Text
+User definable
+Number
+User definable
+Address Of Record
+Start Date
+Timestamp Created
+The timestamp the record was created.
+Repository Agreement
+An agreement for allowing an Accession to occur, but does not include ownership.
+Deaccession
+Remarks
+Additional Comments
+Quantity
+The number of items deaccessioned
+Created By Agent
+Version
+Timestamp Modified
+The timestamp the record was last modified.
+Timestamp Created
+The timestamp the record was created.
+Preparation
+Modified By Agent
+Loan Return Preparations
+Deaccession Preparation
+The preparation that was deaccessioned.
+Collection Object Kids
+Number
+User definable
+Collection Member Id
+Storage
+Version
+Modified By Agent
+Children
+Created By Agent
+Name
+The name of the container
+Timestamp Created
+The timestamp the record was created.
+Collection Objects
+Timestamp Modified
+The timestamp the record was last modified.
+Description
+A description of the container
+Type
+The type of container
+Parent
+Container
+A container can optionally be cataloged as a collection object and it contains other collection objects. Describes a logical or physical container.
+Field Name
+Sp Locale Container Item
+Modified By Agent
+Created By Agent
+Version
+Data Type
+Timestamp Modified
+Timestamp Created
+Formatter
+Description
+Sp Export Schema
+Sp Export Schema Item
+System Table:
+Specialty Name
+The name of the field of specialization.
+Order Number
+The priority of specialization, for agents with primary and secondary areas of specialization.
+Timestamp Modified
+Version
+Modified By Agent
+Agent
+Timestamp Created
+Created By Agent
+Agent Specialty
+The Taxonomic specialty that a particular agent was known for.
+Timestamp Modified
+Value
+Created By Agent
+Timestamp Created
+Pick List
+Title
+Modified By Agent
+Version
+Ordinal
+Pick List Item
+Modified By Agent
+Is Personal
+User Group
+Discipline Type
+Sp Persisted App Resources
+Version
+Collection
+Sp Persisted View Sets
+Created By Agent
+Timestamp Modified
+The timestamp the record was last modified.
+Timestamp Created
+The timestamp the record was created.
+Specify User
+Discipline
+App Resource Default
+System Table: the default for application resources.
+Address Of Record
+Text
+User definable.
+Deaccessions
+Treatment Events
+Repository Agreement
+Modified By Agent
+Date Received
+Date material was received.
+Division
+Timestamp Modified
+The timestamp the record was last modified.
+Accession Number
+Usually an integer or alphanumeric value that is assigned to material when it enters the collection. The format of accession numbers varies among collections, but all refer to the acquisition of specimens, observations, or other collection objects.
+Created By Agent
+Version
+Accession Authorizations
+Accession Condition
+Physical description of the condition of the accession.
+Date Accessioned
+Date of Accession.
+Text
+User definable.
+Appraisals
+Accession Attachments
+Yes No
+User definable.
+Status
+Status of Accession, e.g. `In process`, `Complete` ...
+Accession Agents
+Number
+User definable.
+Remarks
+Additional Comments.
+Timestamp Created
+The date and time the record was created.
+Total Value
+The total monetary value of the accession.
+Integer
+Integer
+Date Acknowledged
+Yes No
+User definable.
+Text
+User definable.
+Number
+A user-visible identifier of the Accession. Typically an integer, but may include alphanumeric characters as prefix, suffix, and separators.
+Verbatim Date
+Accommodates historical accessions.
+Text
+Text
+Integer
+Type
+Source of Accession, e.g. `Collecting`, `Gift`, `Bequest` ...
+Collection Objects
+Accession
+Also called an acquisition. A consignment of specimens acquired either by field collecting of staff members, gifts, purchases, or exchange with another institution.
+Repeat Field
+Query
+Remarks
+Created By Agent
+Workbench Template
+Specify User
+Name
+Timestamp Created
+Timestamp Modified
+Repeat Count
+Version
+Modified By Agent
+App Resource
+Sp Report
+System Table: This represents a saved Report.
+Yes No
+Water Body
+Created By Agent
+Paleo Longitude
+Text
+Text
+Range
+Text
+End Depth Verbatim
+Yes No
+Number
+Text
+Gml
+Township Direction
+National Park Name
+Range Direction
+End Depth
+UTM Northing
+UTM Zone
+Start Depth
+Locality
+Yes No
+Yes No
+Timestamp Modified
+UTM Datum
+Section
+Text
+Paleo Latitude
+UTM Orig Longitude
+End Depth Unit
+UTM False Easting
+Township
+Number
+Start Depth Verbatim
+Yes No
+Island Group
+Number
+UTM False Northing
+Number
+Timestamp Created
+HUC Code
+Modified By Agent
+Start Depth Unit
+Base Meridian
+Island
+UTM Orig Latitude
+Section Part
+UTM Easting
+Number
+UTM Scale
+Mgrs Zone
+Version
+Drainage
+Locality Detail
+Describes additional Locality detail. For example, water body and island information. Includes UTM fields.
+Is System
+Where system form rely on this picklist, not user defined
+Read Only
+Pick List Items
+The items in the picklist.
+Field Name
+Timestamp Modified
+Table Name
+Filter Value
+Size Limit
+Name
+Created By Agent
+Timestamp Created
+Filter Field Name
+Version
+Collection
+Type
+Sort Type
+Formatter
+Modified By Agent
+Pick List
+System Table: A list of items that can be choosen to produce a controlled vocabulary.
+Version
+Name
+Timestamp Created
+Full Name Direction
+Timestamp Modified
+Modified By Agent
+Remarks
+Additional Comments.
+Created By Agent
+Tree Entries
+Tree Def Items
+Disciplines
+Geological Time Period Tree Definition
+Defines the levels of the GTP tree.
+Page Set
+Page Number
+Timestamp Created
+Created By Agent
+Collection Objects
+Discipline
+Description
+Modified By Agent
+Version
+Field Notebook Page Attachments
+Timestamp Modified
+Scan Date
+Field Notebook Page
+Describes a page from a Field Note Book.
+Definition
+Collection Member Id
+Modified By Agent
+Double Value
+Timestamp Created
+The timestamp the record was created.
+Timestamp Modified
+The timestamp the record was last modified.
+Created By Agent
+String Value
+Collection Object
+Version
+Collection Object Attribute
+Extensible attributes introduced for Specify 6.
+Number
+Modified By Agent
+Text
+User definable.
+Yes No
+Version
+Created By Agent
+Timestamp Created
+Reference Work
+Common Name Tx
+Remarks
+Yes No
+Timestamp Modified
+Number
+Text
+User definable.
+Common Name Tx Citation
+Modified By Agent
+Timestamp Modified
+The timestamp the record was last modified.
+String Value
+Double Value
+Version
+Created By Agent
+Timestamp Created
+The timestamp the record was created.
+Definition
+Collection Member Id
+Collecting Event
+Collecting Event Attribute
+Extensible attributes introduced for Specify 6.
+Exsiccata Items
+Timestamp Created
+Reference Work
+The monograph or journal in which the exsiccata is listed
+Timestamp Modified
+Remarks
+Title
+The title of the exsiccata
+Created By Agent
+Schedae
+Modified By Agent
+Version
+Exsiccata
+Remarks
+Additional Comments
+Is Enforced
+Full Name Separator
+Text After
+User definable
+Name
+Created By Agent
+Text Before
+User definable
+Is In Full Name
+Timestamp Created
+The timestamp the record was created.
+Children
+Tree Entries
+Parent
+Title
+Rank Id
+Timestamp Modified
+The timestamp the record was last modified.
+Tree Def
+Version
+Modified By Agent
+Storage Tree Definition Item
+Describes a level in the definition of the tree.
+Collecting Trip
+Visibility
+Verbatim Locality
+Original statement (literal quotation) of the location of the Collecting Event as given by the Collector.
+Paleo Context
+End Date
+The date collecting event ended.
+Start Date Precision
+Timestamp Created
+The timestamp the record was created.
+Verbatim Date
+Date which collector recorded in field book, exactly as reported by the collector. Should indicate whether reported as range, season, month, etc.
+Sgr Status
+Collecting Event Attribute
+Reserved Integer
+Locality
+Locality where collection took place.
+Station Field Number Modifier
+Start Time
+Start time in military format.
+Collecting Event Attachments
+Start Date
+The date collecting event began.
+Reserved Integer
+Discipline
+Collector Number
+Collector Number
+Station Field Number Modifier
+Text
+Text
+Reserved Text
+End Date Verbatim
+Integer
+Station Field Number Modifier
+Modified By Agent
+Collecting Event Authorizations
+Text
+End Date Precision
+Reserved Text
+Collection Objects
+Integer
+Version
+Start Date Verbatim
+Method
+A method, such as net or trap, which is used to obtain the specimen.
+GUID
+Locality and Habitat Notes
+Field to record information on locality and habitat where specimen was collected.
+Text
+Collectors
+End Time
+End time in military format.
+Collecting Event Attrs
+Visibility Set By
+Timestamp Modified
+The timestamp the record was last modified.
+Created By Agent
+Text
+Collecting Event
+A collecting event is the place and time that a collection is made. In some disciplines a field number is used as the primary designation for place and time information, while in others, locality name and date are used to link specimens.
+Order Number
+Members position in group; i.e. 1st, 2nd, 3rd.
+Modified By Agent
+Group
+Agent ID of group.
+Member
+Agent ID of member (member must be of type Person).
+Created By Agent
+Timestamp Created
+The timestamp the record was created.
+Version
+Timestamp Modified
+The timestamp the record was last modified.
+Remarks
+Additional Comments.
+Division
+Group Person
+This is a join table for Agents that are Institutions and Organizations that contain other Agents. It also provides order.
+Borrow Material
+Borrowed preparation returned.
+Version
+Remarks
+Additional comments.
+Modified By Agent
+Collection Member Id
+Timestamp Modified
+The timestamp the record was last modified.
+Quantity
+Quantity of preparations returned.
+Created By Agent
+Returned Date
+The date the material was returned.
+Agent
+Timestamp Created
+The timestamp the record was created.
+Borrow Return Material
+Describes the material that was returned.
+Subtype
+Preparation Attachments
+Metadata Text
+Visibility Set By
+Created By Agent
+Copyright Holder
+Type
+Conserv Description Attachments
+Field Notebook Attachments
+Collecting Event Attachments
+Date Imaged
+Conserv Event Attachments
+Metadata
+Visibility
+Version
+Repository Agreement Attachments
+DNA Sequence Attachments
+Collecting Trip Attachments
+Mime Type
+Describes the attachment file type.
+Timestamp Created
+Borrow Attachments
+Scope ID
+Timestamp Modified
+Remarks
+Additional comments.
+Gift Attachments
+Accession Attachments
+Taxon Attachments
+Field Notebook Page Set Attachments
+Permit Attachments
+Attachment Location
+Location of attachment repository.
+DNA Sequencing Run Attachments
+Is Public
+Subject Orientation
+Storage Attachments
+License Logo Url
+Collection Object Attachments
+Locality Attachments
+Copyright Date
+Date of copyright of attachment.
+Table ID
+Capture Device
+Field Notebook Page Attachments
+Tags
+User defined key words for attachments.
+Credit
+Attachment credit.
+Creator
+Reference Work Attachments
+Modified By Agent
+GUID
+Attachment Image Attribute
+License
+Attachment license information.
+Agent Attachments
+Loan Attachments
+Original Filename
+Original name of file.
+File Created Date
+Treatment Event Attachments
+Title
+Title of attachment.
+Attachment Storage Config
+Scope Type
+Attachment
+The information in this record identifies everything the application will need to load and display the attachment. The attachment location is an absolute path to the file. The file itself is not stored in the database.
+User Group
+Login Out Time
+Sp Queries
+Workbench Templates
+Sp Principals
+Accumulated Minutes Logged In
+Agents
+Is Logged In
+Email
+Timestamp Modified
+The timestamp the record was last modified.
+Version
+Is Logged In Report
+App Resources
+Password
+Timestamp Created
+The timestamp the record was created.
+Login Collection Name
+Modified By Agent
+Sp App Resource Dirs
+Created By Agent
+Name
+Workbenches
+Task Semaphores
+Login Discipline Name
+Specify User
+System Table: This represents Specify User within the application.
+Version
+Timestamp Created
+Timestamp Modified
+Created By Agent
+Exported Field Name
+Modified By Agent
+Remarks
+Export Schema Mapping
+Query Field
+Export Schema Item
+Sp Export Schema Item Mapping
+Timestamp Created
+The timestamp the record was created.
+Modified By Agent
+Version
+Remarks
+Additional Comments
+Timestamp Modified
+The timestamp the record was last modified.
+Role
+Role agent played in deaccession
+Deaccession
+Agent
+Created By Agent
+Deaccession Agent
+Refers to an agent and contains their role in the deaccession.
+GUID
+License
+Are Accessions Global
+Description
+Code
+Disclaimer
+Disclaimer statement, e.g. concerning responsibility for data quality or legal implications.
+Is Sharing Localities
+Reg Number
+LSID Authority
+Terms Of Use
+Defines conditions under which the data may be analyzed, distributed or changed. &quot;Terms of use&quot; includes concepts like &quot;Usage conditions&quot; and &quot;Specific Restrictions&quot;.
+URL
+User Groups
+Created By Agent
+Alt Name
+Has Been Asked
+Address
+Remarks
+Additional Comments
+Is Security On
+Content Contacts
+Is Anonymous
+Current Managed Schema Version
+Modified By Agent
+Copyright
+Is Release Managed Globally
+Icon URL
+Storage Tree Def
+Is Single Geography Tree
+Version
+Is Server Based
+IPR
+A sequence of statements related to Intellectual Property Rights, credit and acknowledgement.
+Name
+Current Managed Rel Version
+Timestamp Created
+The timestamp the record was created.
+Minimum Pwd Length
+Timestamp Modified
+The timestamp the record was last modified.
+Divisions
+Technical Contacts
+Institution
+The parent institution. An institution is made up of one or more divisions.
+Version
+Created By Agent
+Language
+International character code for language as it pertains to the agent variant.
+Variant
+Var Type
+Indicates whether the record is a variant (0) or a vernacular name (1).
+Agent
+Modified By Agent
+Timestamp Created
+The timestamp the record was created.
+Timestamp Modified
+The timestamp the record was last modified.
+Name
+THe full name used as a variant or vernacular name.
+Country
+Country of variant or vernacular name.
+Agent Variant
+This is primarily used by Botanists for capturing Variant and Vernacular names. This table is searchable but does not have any specific business rules associated with it.
+Version
+Remarks
+Modified By Agent
+Permit
+Created By Agent
+Ordinal
+Timestamp Created
+Timestamp Modified
+Attachment
+Permit Attachment
+Refers to an attachment and provides order.
+Target Marker
+Remarks
+Version
+Yes No
+Extraction Date Precision
+Comp A
+Text
+Dna Sequencing Runs
+BOLD Sample Id
+Timestamp Created
+Sequence Date Precision
+Created By Agent
+Comp C
+Text
+Collection Object
+DNA Sequence Attachments
+Yes No
+Timestamp Modified
+Gene Sequence
+The actual sequence
+Genbank Acc #
+Text
+Number
+Sequence Date
+Extractor
+Comp T
+Ambiguous
+Yes No
+Total Residues
+Bold Translation Matrix
+Sequencer
+BOLD Barcode Id
+Molecule Type
+Collection Member Id
+BOLD Last Update
+Material Sample
+Modified By Agent
+Comp G
+Extraction Date
+Number
+Number
+DNA Sequence
+Tracks DNA Sequencing information for a Collection Object.
+Is BioStratigraphy
+Synonyms
+Version
+Node Number
+Standard
+The system of Stratigraphy the record is included in.
+Full Name
+Child Nodes
+Preferred Chronostratigraphy
+Remarks
+Additional Comments.
+Text
+Start Uncertainty
+Highest Child Node Number
+Timestamp Created
+The timestamp the record was created.
+Rank
+Created By Agent
+Timestamp Modified
+The timestamp the record was last modified.
+Start Period
+Rank Id
+Numeric representation of Items rank in stratigraphic hierarchy.
+Text
+Modified By Agent
+Name
+Definition
+Chronos Strats Paleo Context
+Bio Strats Paleo Context
+GUID
+Is Preferred
+End Uncertainty
+End Period
+Parent
+Chronostratigraphy
+Describes Chronostratigraphy.
+Timestamp Modified
+Ordinal
+Modified By Agent
+Version
+Attachment
+Remarks
+Timestamp Created
+Repository Agreement
+Created By Agent
+Repository Agreement Attachment
+Refers to an attachment and provides order.
+Timestamp Created
+Collection Member Id
+Sp Export Schemas
+Mapping Name
+Description
+Version
+Timestamp Exported
+Mappings
+Symbiota Instances
+Created By Agent
+Modified By Agent
+Timestamp Modified
+Sp Export Schema Mapping
+Text
+Text
+Number
+Yes No
+Text
+Text
+Number
+Attr Date
+Text
+Created By Agent
+Text
+Number
+Text
+Version
+Text
+Number
+Text
+Modified By Agent
+Number
+Text
+Yes No
+Text
+Text
+Number
+Number
+Text
+Text
+Text
+Number
+Yes No
+Text
+Text
+Remarks
+Preparations
+Text
+Text
+Text
+Text
+Collection Member Id
+Text
+Yes No
+Timestamp Created
+Text
+Timestamp Modified
+Text
+Text
+Number
+Text
+Preparation Attribute
+Preparation attributes that were also available in Specify 5.
+Timestamp Modified
+Created By Agent
+Workbench Schema Version
+Db Closed By
+Version
+App Name
+Modified By Agent
+Schema Version
+Timestamp Created
+App Version
+Is D B Closed
+Sp Version
+Node Number
+Parent
+Version
+Timestamp Created
+The timestamp the record was created.
+Children
+Abbreviation
+Storage Attachments
+Definition
+Containers
+Timestamp Modified
+The timestamp the record was last modified.
+Full Name
+Number
+User definable
+Remarks
+Additional Comments
+Text
+User definable
+Text
+User definable
+Modified By Agent
+Level
+Preferred Storage
+Rank Id
+Highest Child Node Number
+Is Preferred
+Number
+User definable
+Name
+Alternate Storage Preparations
+Timestamp Version
+Created By Agent
+Children
+Preparations
+Storage
+A tree data structure for describing where Collection Objects are physically stored.
+Pages
+Source Agent
+Field Notebook Page Set Attachments
+Timestamp Modified
+Start Date
+Modified By Agent
+Order Number
+Discipline
+Created By Agent
+Version
+Description
+Method
+Field Notebook
+Timestamp Created
+End Date
+Field Notebook Page Set
+Describes a set of Field Note Book pages. This can be used to group pages together that were scanned in together.
+Ordinal
+Attachment
+Version
+Timestamp Modified
+Dna Sequence
+Created By Agent
+Modified By Agent
+Remarks
+Timestamp Created
+DNA Sequence Attachment
+Refers to an attachment and provides order.
+Timestamp Created
+The timestamp the record was created.
+App Resource Datas
+Created By Agent
+Version
+Sp App Resource Dir
+Description
+File Name
+Modified By Agent
+Name
+Meta Data
+Timestamp Modified
+The timestamp the record was last modified.
+Level
+View Set Object
+System Table: This represents a View Set used in the form system.
+Remarks
+Additional Comments.
+Tree Entries
+Disciplines
+Timestamp Created
+Tree Def Items
+Version
+Modified By Agent
+Full Name Direction
+Name
+Created By Agent
+Timestamp Modified
+Geography Tree Definition
+Defines the levels of the Geography tree.
+Integer
+Special Conditions
+Created By Agent
+Number
+User definable.
+Division
+Original Due Date
+Date the loan was originally due.
+Integer
+Text
+User definable.
+Address Of Record
+Number
+User definable.
+Loan Attachments
+Loan Date
+Date the Loan was created.
+Purpose Of Loan
+Timestamp Modified
+The timestamp the record was last modified.
+Contents
+Date Closed
+Date loan was closed.
+Remarks
+Additional Comments
+Discipline
+Is Closed
+'No' until all preparations in the loan have been returned/resolved.
+Loan Agents
+Overdue Noti Sent Date
+Source Taxonomy
+Shipments
+Link to Shipments table.
+Date Received
+Loan Number
+A field that contains a record of the loan number and which is automatically incremented when a loan is made.
+Source Geography
+Modified By Agent
+Text
+User definable.
+Received Comments
+Extension Granted
+User definable.
+Loan Preparations
+Preparations included in the loan.
+Current Due Date
+Date the loan is due for return (Same as original Due date unless loan period has been extended).
+Is Financial Responsibility
+Integer
+Yes No
+User definable.
+Version
+Timestamp Created
+The timestamp the record was created.
+Loan
+A group of specimens that another institution borrows from your collection. Specify lets you manage all aspects of loans electronically, so that you always have an up-to-date record of which specimen have been loaned and which have been returned.
+Name
+User Groups
+Modified By Agent
+Geography Tree Def
+Type
+Chronostratigraphy Tree Def
+Division
+Is Paleo Context Embedded
+Timestamp Created
+Sp Export Schemas
+Collections
+Paleo Context Child Table
+Reg Number
+Data Type
+Created By Agent
+Version
+Numbering Schemes
+Attribute Defs
+Sp Locale Containers
+Litho Strat Tree Def
+Taxon Tree Def
+Timestamp Modified
+Discipline
+May include one or more collections that share the Taxon, Geography, LithoStratigraphy, and Chronostratigraphy Trees, Localities, Agents and Determination Status.
+Timestamp Created
+The timestamp the record was created.
+Double Value
+Definition
+Modified By Agent
+Created By Agent
+Timestamp Modified
+The timestamp the record was last modified.
+String Value
+Version
+Collection Member Id
+Preparation
+Preparation Attribute
+Extensible attributes introduced for Specify 6.
+Created By Agent
+Modified By Agent
+Timestamp Created
+Remarks
+Preparation
+Ordinal
+Collection Member Id
+Version
+Attachment
+Timestamp Modified
+Preparation Attachment
+Refers to an attachment and provides order.
+Quantity Exch
+Number of items received.
+Remarks
+Additional Comments.
+Number
+User definable.
+Description
+Description of material.
+Text
+User definable.
+Version
+Exchange In Preps
+Exchange In #
+Address Of Record
+Text
+User definable.
+Number
+User definable.
+Source Taxonomy
+Timestamp Created
+The timestamp the record was created.
+Yes No
+User definable.
+Received From
+Division
+Created By Agent
+Timestamp Modified
+The timestamp the record was last modified.
+Cataloged By
+Source Geography
+Contents
+Yes No
+User definable.
+Exchange Date
+Date exchange was received.
+Modified By Agent
+Exchange In
+Describes an incoming Exchanged Specimen from a different institution.
+Visibility
+Locality Citations
+Relation To Named Place
+Relation of the locality to the named place
+Text
+Text
+Original Latitude Longitude Unit
+i.e. Decimal, Deg/Min/Sec, ...
+Elevation Accuracy
+Plus or minus -- in meters.
+Long1text
+User entry for Longitude
+Geo Coord Details
+Yes No
+Geography
+Link to Country, State, County, WaterBody, Island, IslandGroup ... info.
+Min Elevation
+The minimum elevation in Meters
+Timestamp Modified
+The timestamp the record was last modified.
+Verbatim Longitude
+Visibility Set By
+Timestamp Created
+The timestamp the record was created.
+Modified By Agent
+Yes No
+Datum
+GPS Datum.
+Max Elevation
+The maximum elevation in Meters
+Latitude
+Latitude of second point
+Named Place
+The named place the locality is closest to
+Locality Attachments
+Yes No
+Longitude
+Longitude of second point
+Src Lat Long Unit
+Lat1text
+User entry for Latitude
+Paleo Context
+Locality Details
+Long2text
+User entry for Longitude
+GUID
+Version
+Lat Lonpolygons
+Latitude/Longitude Type
+The type of area described by the Latitude Longitude data (Point, Line, Rectangle)
+GML
+Yes No
+Lat/Long Method
+the method used to determine the Latitude, Longitude
+Locality Name
+The full name of the locality.
+Elevation Method
+The method used to determine the elevation.
+Verbatim Latitude
+Locality Name Alias
+Verbatim Elevation
+The verbatim elevation including units as given in the field notes
+Remarks
+Additional Comments
+Latitude/Longitude Accuracy
+radius -- in decimal degrees
+Short Name
+Lat2text
+User entry for Latitude
+Latitude
+Latitude of first point
+Text
+Text
+Yes No
+Created By Agent
+Discipline
+Text
+Sgr Status
+Longitude
+Longitude of first point
+Original Elevation Unit
+i.e. Meters, Feet, ...
+Locality
+The name of the location where a specimen was collected or observed. Some taxonomic disciplines or collectors may use a locality name instead of a field number to associate a collecting event with a specimen.
+Modified By Agent
+Loan
+Loan containing the Preparation.
+Quantity Returned
+Number of specimens returned. (necessary for Lots)
+Received Comments
+Quantity Resolved
+Number of specimens returned, deaccessioned or otherwise accounted for. (necessary for Lots).
+Is Resolved
+Timestamp Modified
+The timestamp the record was last modified.
+Loan Return Preparations
+Timestamp Created
+The timestamp the record was created.
+Created By Agent
+Quantity
+The total number of specimens loaned (necessary for lots).
+In Comments
+Comments on item when returned.
+Preparation
+Out Comments
+Comments on item when loaned.
+Discipline
+Version
+Description
+Description of loaned material (intended to be used for non-cataloged items, i.e. when PreparationID is null)
+Loan Preparation
+A join table between the Loan and the Preparation. It contains comments and quantity fields.
+Created By Agent
+Discipline
+Name
+Timestamp Modified
+Tree Def Items
+Tree Entries
+Modified By Agent
+Version
+Full Name Direction
+Timestamp Created
+Remarks
+Additional Comments
+Taxon Tree Definition
+Defines the levels of the tree.
+Created By Agent
+Agent
+Modified By Agent
+Role
+Role the agent played in the accession process.
+Timestamp Modified
+The timestamp the record was last modified.
+Remarks
+Additional Comments.
+Repository Agreement
+Timestamp Created
+The timestamp the record was created.
+Version
+Accession
+Accession Agent
+The person(s) requesting the Accession. This references an Agent.
+Version
+Attachment
+Created By Agent
+Timestamp Modified
+The timestamp the record was last modified.
+Name
+The name of the meta data field.
+Modified By Agent
+Timestamp Created
+The timestamp the record was created.
+Value
+The value of the meta data field.
+Attachment MetadataMetadados
+This holds meta data about the attachment. It is a set of named value pairs.
+Timestamp Created
+Modified By Agent
+Timestamp Modified
+Attachment
+Remarks
+Created By Agent
+Locality
+Version
+Ordinal
+Locality Attachment
+Refers to an attachment and provides order.
+Timestamp Created
+Type
+Default U I
+Schema Type
+The type of schema it belongs to: the core schema or the workbench schema
+Discipline
+Created By Agent
+Descs
+Is Hidden
+Names
+Aggregator
+Pick List Name
+Timestamp Modified
+Is System
+Format
+Version
+Is U I Formatter
+Modified By Agent
+Items
+Name
+Locale Container
+System Table: This is used for localizing the database schema it has a localized name and description but can also contain localizable items.
+Timestamp Created
+Sort Type
+Is Display
+Column Alias
+Mappings
+Field Name
+End Value
+Table List
+Query
+Is Prompt
+Start Value
+Context Table Ident
+Is Rel Fld
+Timestamp Modified
+Modified By Agent
+Format Name
+Oper End
+Allow Nulls
+Created By Agent
+Position
+String Id
+Always Filter
+Version
+Oper Start
+Is Not
+Sp Query Field
+System Table: This represents a single field in a saved Query.
+Text
+Number
+Yes No
+Text
+Number
+Number
+Number
+Remarks
+Timestamp Modified
+Modified By Agent
+Text
+Number
+Yes No
+Number
+Number
+Integer
+Number
+Text
+Text
+Yes No
+Agent
+Yes No
+Timestamp Created
+Yes No
+Number
+Top Distance
+Integer
+Text
+Yes No
+Collection Objects
+Number
+Date1 Precision
+Text
+Text
+Number
+Integer
+Yes No
+Yes No
+Yes No
+Text
+Integer
+Number
+Number
+Number
+Text
+Text
+Yes No
+Text
+Text
+Number
+Bottom Distance
+Number
+Number
+Integer
+Number
+Yes No
+Number
+Text
+Text
+Text
+Number
+Text
+Number
+Yes No
+Number
+Version
+Number
+Number
+Integer
+Number
+Text
+Text
+Yes No
+Number
+Integer
+Text
+Direction
+Yes No
+Integer
+Number
+Text
+Date
+Text
+Yes No
+Collection Member Id
+Yes No
+Number
+Yes No
+Number
+Number
+Number
+Integer
+Number
+Integer
+Number
+Number
+Text
+Number
+Number
+Text
+Number
+Text
+Text
+Text
+Position State
+Text
+Text
+Number
+Distance Units
+Yes No
+Number
+Yes No
+Number
+Number
+Yes No
+Text
+Created By Agent
+Number
+Collection Object Attribute
+Collection Object attributes that were also available in Specify 5.
+Version
+Members
+Abbreviation
+The abbreviation for the division.
+Name
+The name of the division
+Timestamp Modified
+The timestamp the record was last modified.
+Disciplines
+The list of Disciplines that belong to this Division
+Discipline
+The discipline of the division
+Modified By Agent
+Created By Agent
+Alt Name
+Icon URL
+The URL to their icon
+Institution
+The institution the division belongs to.
+Address
+Description
+Reg Number
+URL
+A URI (web site) address for the department
+Timestamp Created
+The timestamp the record was created.
+Numbering Schemes
+User Groups
+Remarks
+Additional Comments
+Division
+The division (or department) containing agents.
+Agent Geographies
+Middle Initial
+Middle initial of Person.
+Version
+Agent Type
+Discriminator between Organization(0), Person(1), Other(2), and Group(3).
+GUID
+Global Unique Identifier.
+Members
+Title
+Title of Person.
+Date Of Death Precision
+Url
+An URL for the web site of a Person or Group.
+Date Type
+Inst Tech Contact
+Created By Agent
+Job Title
+Agent`s (person) job title at specified address and organization.
+Collectors
+Email
+Email address for agent.
+Initials
+Initials of agent.
+Coll Tech Contact
+Timestamp Modified
+The timestamp the record was last modified.
+First Name
+First name of agent.
+Inst Content Contact
+Agent Specialties
+Org Members
+Suffix
+Remarks
+Additional comments.
+Abbreviation
+Abbreviation of organization.
+Addresses
+Division
+The division the agent belongs to (optional).
+Coll Content Contact
+Date Of Death
+Date Of Birth Precision
+Last Name
+Last name of Person.
+Organization
+Interests
+Interests of Person or Organization.
+Agent Attachments
+Modified By Agent
+Variants
+Date Of Birth
+Date agent was born.
+Timestamp Created
+The timestamp the record was created.
+Members
+Specify User
+Agent
+Contains information about people, groups, and organizations. Some roles for an agent include collector, determiner, preparer, cataloger, donor, issuer of permits, and so forth.
+Modified By Agent
+Agent
+Version
+Timestamp Created
+The timestamp the record was created.
+Timestamp Modified
+The timestamp the record was last modified.
+Order Number
+the order of AgentID relative to other authors of reference.
+Remarks
+Additional comments.
+Created By Agent
+Reference Work
+Author
+An Author is a reference to an Agent and provides the order for a list of authors of a Reference Work.
+Timestamp Created
+The timestamp the record was created.
+Repository Agreement
+Remarks
+Additional comments.
+Created By Agent
+Version
+Permit
+Modified By Agent
+Accession
+Timestamp Modified
+The timestamp the record was last modified.
+Accession Authorization
+This represents the person authorizing the Accession. It references an existing Agent.
+Remarks
+Additional comments.
+Created By Agent
+Version
+Timestamp Modified
+Modified By Agent
+Ordinal
+Timestamp Created
+Attachment
+Loan
+Loan Attachment
+Refers to an attachment and provides order.
+Appraisal Value
+Monetary value of the appraisal.
+Appraisal Number
+Unique number for the appraisal.
+Accession
+Monetary Unit Type
+Type of monetary unit.
+Appraisal Date
+Date of the appraisal.
+Collection Objects
+Created By Agent
+Notes
+Additional comments.
+Timestamp Modified
+Agent
+Modified By Agent
+Version
+Timestamp Created
+Appraisal
+The monetary appraisal of an Acession or Collection Object
+Accession
+Miscellaneous files can be attached.
+Timestamp Created
+Attachment
+Remarks
+Additional comments.
+Created By Agent
+Version
+Timestamp Modified
+Modified By Agent
+Ordinal
+Provides a sequencial order for the attachments.
+Accession Attachment
+An attachment for the Accession. This may be one or more PDF files of paperwork or a photo of the Accession.
+Status
+Reserved Integer
+Number
+User definable
+Yes No
+User definable
+Collecting Event Authorizations
+Version
+Issued By
+Is Available
+Permit Attachments
+Modified By Agent
+End Date
+Date permit expires
+Yes No
+User definable
+Remarks
+Additional Comments
+Copyright
+Reserved Integer
+Collecting Trip Authorizations
+Permit Number
+Identifier for the permit
+Issued To
+Text
+User definable
+Timestamp Created
+The timestamp the record was created.
+Reserved Text
+Is Required
+Type
+Permit category - `CITES`, `Migratory Bird Treaty Act`, ...
+Institution
+Renewal Date
+Date of renewal
+Number
+User definable
+Timestamp Modified
+The timestamp the record was last modified.
+Start Date
+Date permit becomes effective
+Reserved Text
+Text
+User definable
+Created By Agent
+Status Qualifier
+Permit Text
+Issued Date
+Date permit was issued
+Accession Authorizations
+Permit
+The permit transaction window is designed to hold information linked to legal paperwork for permission from a government agency to collect a specimen or specimens. Preparation: A subdivision of a collection object that refers to the preparation method.
+Date Boxed
+Type
+Modified By Agent
+Text
+Text
+Text
+Yes No
+Authorized By
+Version
+Text
+Text
+Accession
+Date Cleaned
+Remarks
+Number
+Start Date
+Number
+Date To Isolation
+Yes No
+Treat Number
+Number
+Field Number
+Date Received
+Collection Object
+Date Completed
+Treatment Event Attachments
+Timestamp Created
+Yes No
+Number
+Location
+Created By Agent
+Timestamp Modified
+Number
+End Date
+Performed By
+Division
+Treatment Event
+An action that occurrs to a Conservation Description.
+Longitude
+Lat Lon Polygon
+Elevation
+Ordinal
+Latitude
+Lat Lon Polygon Pnt
+Modified By Agent
+Version
+Old Value
+Timestamp Modified
+Created By Agent
+New Value
+Sp Audit Log
+Timestamp Created
+Field Name
+Sp Audit Log Field
+Is Hidden
+Type
+Is System
+Sp Export Schema Items
+Created By Agent
+Name
+Is Required
+Pick List Name
+Timestamp Created
+Is U I Formatter
+Format
+Version
+Descs
+Modified By Agent
+Web Link Name
+Container
+Timestamp Modified
+Names
+Locale Container Item
+System Table: This is used for localizing the database schema it has a localized name and description.
+Modified By Agent
+Number
+User definable
+Yes No
+User definable
+Timestamp Created
+The timestamp the record was created.
+Text
+User definable
+Number
+User definable
+Taxon
+Created By Agent
+Reference Work
+Version
+Timestamp Modified
+The timestamp the record was last modified.
+Text
+User definable
+Remarks
+Additional Comments
+Yes No
+User definable
+Taxon Citation
+Linkage from the Taxonomic record to a published document.
+Created By Agent
+Timestamp Modified
+Timestamp Created
+Ordinal
+Attachment
+Version
+Modified By Agent
+Field Notebook Page
+Remarks
+Field Notebook Page Attachment
+Refers to an attachment and provides order.
+Created By Agent
+Modified By Agent
+Field Notebook Page Set
+Version
+Remarks
+Timestamp Created
+Attachment
+Timestamp Modified
+Ordinal
+Field Notebook Page Set Attachment
+Refers to an attachment and provides order.
+Timestamp Modified
+Is Locked
+Created By Agent
+Owner
+Context
+Task Name
+Usage Count
+Locked Time
+Discipline
+Collection
+Timestamp Created
+Machine Name
+Scope
+Modified By Agent
+Version
+Sp Task Semaphore
+System Table:
+Number
+User definable.
+Date Closed
+Date loan was closed.
+Modified By Agent
+Collection Member Id
+Borrow Materials
+Number
+User definable.
+Borrow Attachments
+Borrow Agents
+Yes No
+User definable.
+Timestamp Modified
+The timestamp the record was last modified.
+Extension Granted
+User definable.
+Text
+User definable.
+Remarks
+Additional comments.
+Invoice Number
+Lender`s loan number.
+Address Of Record
+Timestamp Created
+The timestamp the record was created.
+Received Date
+Date material was received.
+Created By Agent
+Is Closed
+Indicates whether the borrow was closed (returned).
+Borrow Date
+Version
+Is Financial Responsibility
+Original Due Date
+Original due date for loan.
+Borrow Date Precision
+Shipments
+Text
+User definable.
+Current Due Date
+Date loan is currently due. (Same as Original Due Date unless loan period has been extended)
+Number Of Items Borrowed
+Borrow
+Contains information about loans from another institution. When one institution borrows a group of objects from another institution, all objects in the borrowed group share a common set of attributes that are defined for the loan.
+Text
+Text
+Integer
+Integer
+Integer
+Modified By Agent
+Integer
+Number
+Text
+Discipline
+Text
+Text
+Text
+Text
+Text
+Yes No
+Text
+Integer
+Text
+Number
+Number
+Text
+Text
+Text
+Timestamp Modified
+Text
+Integer
+Host Taxon
+Text
+Yes No
+Integer
+Timestamp Created
+Number
+Number
+Collecting Events
+Integer
+Number
+Remarks
+Text
+Version
+Integer
+Number
+Number
+Created By Agent
+Integer
+Number
+Text
+Yes No
+Number
+Yes No
+Number
+Yes No
+Number
+Number
+Collecting Event Attribute
+Collecting Event Attributes that were also available in Specify 5.
+Modified By Agent
+Group Type
+Permissions
+Group Sub Class
+Scope
+Remarks
+Name
+Version
+Priority
+Specify Users
+Timestamp Created
+Timestamp Modified
+Created By Agent
+Sp Principal
+System Table:
+Actions
+Name
+Permission Class
+Target Id
+Principals
+Sp Permission
+System Table:
+Preservation Method Type
+ABCD schema field.
+Db Content Version
+ABCD schema field.
+Timestamp Created
+The timestamp the record was created.
+User Groups
+Pick Lists
+Technical Contacts
+Content Contacts
+Is Embedded Collecting Event
+Yes if collecting event is one-to-one relationship.
+Web Site URI
+Timestamp Modified
+The timestamp the record was last modified.
+Scope
+ABCD schema field.
+Left Side Rel Types
+ISA Number
+ISA number.
+Remarks
+Additional comments.
+Prep Types
+Right Side Rel Types
+Development Status
+ABCD schema field.
+Version
+Modified By Agent
+Kingdom Coverage
+ABCD schema field.
+Primary Focus
+ABCD schema field.
+Admin Contact
+Numbering Schemes
+Created By Agent
+Catalog Num Format Name
+Name of catalog number format the collection uses.
+Reg Number
+Collection Name
+The name of the collection.
+Discipline
+Collection Type
+Textual description of collection. ABCD schema field.
+Code
+Unique code for collection.
+Institution Network
+Estimated Size
+ABCD schema field.
+Primary Purpose
+ABCD schema field.
+Institution Type
+ABCD schema field.
+GUID
+Description
+Textual description of collection.
+Web Portal URI
+Collection
+A collection holds Collection Objects that are of the same discipline type.
+City
+City of record.
+Address
+Primary address of record.
+Exchange Ins
+Exchange Outs
+State
+State of record.
+Accessions
+Agent
+Loans
+Address
+Secondary address of record.
+Repository Agreements
+Timestamp Modified
+Postal Code
+Postal code of record (zip code).
+Remarks
+Additional comments.
+Timestamp Created
+Country
+Country of record.
+Created By Agent
+Version
+Modified By Agent
+Address Of Record
+This is the address when the legal action took place.
+Other Recommendations
+Width
+The width of the object.
+Source
+Background Info
+Any background information on the object.
+Division
+Object Length
+The length of the object.
+Modified By Agent
+Collection Object
+The Collection Object that the description describes.
+Remarks
+Additional Comments
+Display Recommendations
+Timestamp Modified
+The timestamp the record was last modified.
+Description
+Conserv Description Attachments
+Created By Agent
+Timestamp Created
+The timestamp the record was created.
+Determined Date
+Events
+Units
+The units for the measurements (`feet` or `meters`).
+Composition
+Version
+Height
+The height of the object.
+Light Recommendations
+Preparation
+Short Description
+A short description of the object.
+Conservator Description
+Describes an object that has participated in a Conservator action. There is only one of these for each Collection Object.
+Date1 Precision
+Created By Agent
+Text
+Number
+End Date
+The ending date of the collecting trip.
+Collecting Event
+Date2 Precision
+Text
+Start Date Precision
+Start Date
+The start date of the collecting trip.
+Text
+Modified By Agent
+Trip Name
+Name of the collecting trip.
+Text
+Yes No
+Date
+Yes No
+Cruise
+Collecting Trip Attachments
+Collecting Trip Attribute
+Timestamp Modified
+The timestamp the record was last modified.
+Number
+Text
+Text
+Start Time
+The start time of the collecting trip.
+Collecting Trip Authorizations
+End Date Precision
+Text
+Remarks
+Additional comments.
+End Date Verbatim
+Text
+Discipline
+Start Date Verbatim
+Sponsor
+Name of sponsor of collecting trip.
+Expedition
+Timestamp Created
+The timestamp the record was created.
+Date
+Version
+Text
+End Time
+The ending time of the collecting trip.
+Agent
+Funding Agents
+Agent
+Vessel
+Collecting Trip
+Used to group Collecting Events together.
+Timestamp Created
+Timestamp Modified
+Modified By Agent
+Tag
+Name of tag.
+Version
+Created By Agent
+Attachment
+Attachment Tag
+An attribute tag of an attachment. This consists of a single text field for storing a tag. In later versions users will be allowed to search attachments by their tag.
+Text
+Material Number
+e.g. `FMNH 223456`
+Quantity Resolved
+Quantity resolved (Returned, Accessioned, Lost, Discarded, Destroyed ...).
+Timestamp Modified
+The timestamp the record was last modified.
+In Comments
+Notes concerning the receipt of the material.
+Out Comments
+Notes concerning the return of the material.
+Description
+Description of the material. `e.g. Bufo bufo skull`.
+Quantity Returned
+Quantity returned.
+Timestamp Created
+The timestamp the record was created.
+Borrow Return Materials
+Created By Agent
+Quantity
+Number of specimens (for lots).
+Modified By Agent
+Collection Member Id
+Text
+Version
+Borrow
+ID of the borrow containing the prep.
+Borrow Material
+Describes the material being borrowed.
+Fields
+Modified By Agent
+Parent Record Id
+Version
+Action
+Timestamp Modified
+Timestamp Created
+Table Num
+Record Id
+Record Version
+Created By Agent
+Parent Table Num
+Sp Audit Log
+Owner Permission Level
+Timestamp Created
+The timestamp the record was created.
+Modified By Agent
+Description
+Level
+App Resource Datas
+Sp Reports
+Name
+Created By Agent
+Sp App Resource Dir
+Mime Type
+Version
+All Permission Level
+Meta Data
+Group Permission Level
+Specify User
+Group
+App Resource
+System Table: This represents a resource, typically XML, that the application uses during run time.
+Tree Def Items
+Version
+Tree Entries
+Timestamp Created
+Timestamp Modified
+Full Name Direction
+Remarks
+Additional Comments
+Modified By Agent
+Institutions
+Name
+Created By Agent
+Storage Tree Definition
+Defines the levels of the tree.
+Tree Entries
+Tree Definition
+Rank Id
+Timestamp Modified
+The timestamp the record was last modified.
+Text Before
+User definable.
+Remarks
+Additional Comments.
+Parent
+Child Nodes
+Version
+Is In Full Name
+Name
+Full Name Separator
+Text After
+User definable.
+Title
+Is Enforced
+Created By Agent
+Timestamp Created
+The timestamp the record was created.
+Modified By Agent
+Geography Tree Definition Item
+Describes a level in the definition of the tree.
+Source File Path
+Exported From Table Name
+Form Id
+Timestamp Created
+The timestamp the record was created.
+All Permission Level
+Timestamp Modified
+The timestamp the record was last modified.
+Export Institution Name
+Specify User
+Locked By User Name
+Group Permission Level
+Version
+Group
+Owner Permission Level
+Created By Agent
+Workbench Rows
+Remarks
+Additional Comments
+Workbench Template
+Modified By Agent
+Database Table Id
+Name
+WorkBench
+A WorkBench DataSet.
+Deaccession Preparation
+ID of associated (if present) Deaccession Physical Object record.
+Timestamp Modified
+The timestamp the record was last modified.
+Timestamp Created
+The timestamp the record was created.
+Version
+Returned Date
+Date of return.
+Quantity Returned
+Number of specimens returned. (necessary for Lots).
+Discipline
+Modified By Agent
+Quantity Resolved
+Number of specimens returned, deaccessioned or otherwise accounted for. (necessary for Lots).
+Loan Preparation
+Preparation being loaned.
+Received By
+Person processing the loan return.
+Remarks
+Additional Comments.
+Created By Agent
+Loan Return Preparation
+This is used for tracking a returned Preparation for a loan.
+Remarks
+Additional Comments
+Is Preferred
+The preferred name of a synonym.
+Synonyms
+Common Name
+Name
+Created By Agent
+Localities
+GML
+Timestamp Version
+Rank Id
+Highest Child Node Number
+Child Nodes
+Text
+User definable.
+Modified By Agent
+Is Current
+`Yes` if the Name and/or Geographic/Political entity is currently valid.
+Version
+Number
+User definable
+Number
+User definable
+Abbreviation
+Geography Code
+Timestamp Created
+The timestamp the record was created.
+Timestamp Modified
+The timestamp the record was last modified.
+Full Name
+Centroid Latitude
+Centroid Longitude
+Parent of Geo
+Preferred Geo
+Text
+User definable.
+Definition
+Geographic Rank
+Node Number
+GUID
+Geography
+Represents a politcal boundary (Country, State, County, Township, etc.).
+Received Comments
+Gift
+Created By Agent
+Preparation
+In Comments
+Discipline
+Version
+Description
+Quantity
+Number of preparations included in the gift.
+Out Comments
+Timestamp Created
+Modified By Agent
+Timestamp Modified
+Gift Preparation
+Points a gift to a preparation.
+Collection Member Id
+Reference Work
+ID of the publication citing the determination.
+Timestamp Modified
+The timestamp the record was last modified.
+Created By Agent
+Modified By Agent
+Determination
+Determination being cited.
+Timestamp Created
+The timestamp the record was created.
+Version
+Remarks
+Additional Comments.
+Determination Citation
+Refers to a citation for the determination.
+Format Name
+Timestamp Modified
+Schema Name
+Name of the scheme (sequence).
+Divisions
+Collections
+Schema Class Name
+Disciplines
+Timestamp Created
+Version
+Table Number
+Is Numeric Only
+Yes if number scheme is only numeric.
+Modified By Agent
+Created By Agent
+Auto Numbering Scheme
+This is an internal table used to group together parts of a collection with the same numbering scheme.
+Remarks
+Created By Agent
+Timestamp Modified
+Attachment
+Field Notebook
+Version
+Ordinal
+Modified By Agent
+Timestamp Created
+Field Notebook Attachment
+Refers to an attachment and provides order.
+Created By Agent
+Name
+Timestamp Created
+The timestamp the record was created.
+Modified By Agent
+Timestamp Modified
+The timestamp the record was last modified.
+Version
+Data Type
+A data type represents a core type of collection data.
+Ordinal
+The order or position
+Modified By Agent
+Timestamp Modified
+Remarks
+Timestamp Created
+Created By Agent
+Attachment
+Conserv Description
+Version
+Conservator Description Attachment
+Refers to an attachment and provides order.
+Label Format
+Yes No
+Hybrid Parent
+Is Preferred
+Text
+Yes No
+Yes No
+Yes No
+Group Number
+Taxonomic group number
+Text
+Timestamp Modified
+The timestamp the record was last modified.
+Full Name
+Synonyms
+Yes No
+Created By Agent
+Yes No
+Unit Ind
+Text
+Text
+Text
+Visibility Set By
+Text
+Hybrid Parent
+Yes No
+Text
+Determinations
+Text
+CITES Status
+Yes No
+Integer
+Taxon Citations
+Author
+Unit Name
+Integer
+LSID
+Unit Ind
+Source
+If the record has been imported then this field holds information about the authority file it was obtained from, else it is user-editable.
+Number
+Rank ID
+Unit Ind
+Text
+Environmental Protection Status
+Is Hybrid
+Number
+Yes No
+Text
+Cultivar Name
+Integer
+Taxonomic Rank
+Integer
+Text
+Timestamp Created
+The timestamp the record was created.
+Highest Child Node Number
+GUID
+Text
+Hybrid Children
+Yes No
+Text
+Text
+Hybrid Children
+Remarks
+Additional Comments
+ISIS Number
+Common Name
+Text
+Integer
+Taxon Attachments
+Number
+Preferred Taxon
+Visibility
+Text
+Definition
+Number
+Yes No
+Yes No
+USFWS Code
+Name
+Unit Ind
+Unit Name
+Yes No
+Collecting Event Attributes
+Common Names
+Text
+NCBI Taxon Number
+Col Status
+Text
+Unit Name
+Yes No
+Text
+Taxonomic Serial Number
+If the record has been imported from an Authority File then this field stores a unique ID assigned by the provider, else it is null
+Yes No
+Yes No
+Modified By Agent
+Unit Name
+Child Taxa
+Yes No
+Node Number
+Text
+Yes No
+Yes No
+Parent of Taxon
+Number
+Version
+ESA Status
+Taxon
+Describes the taxonomy of a Determination.
+Geography
+The geographical region of specialization
+Version
+Agent
+Timestamp Created
+Remarks
+Additional comments.
+Role
+Role of the agent as "author" or "collector" within the geography.
+Created By Agent
+Modified by Agent
+Timestamp Modified
+Agent Geography
+The geographical region that a particular collector was known for collecting in.
+Reserved Integer
+Inventory Date
+Reserved Text
+Modifier
+Right Side Rels
+Left Side Rels
+Conserv Descriptions
+Other Identifiers
+Cataloged Date Verbatim
+The verbatim date the specimen was collected.
+Text
+User definable.
+Reserved Text
+Preparations
+Projects
+Notifications
+Container
+Ocr
+Count Amount
+The number of objects (specimens, slides, pieces) prepared.
+Visibility
+Deaccessioned
+True if the object has been deaccessioned.
+Yes No
+User definable.
+Modified Date
+The timestamp the record was last modified.
+Number
+User definable.
+Container Owner
+Accession
+Appraisal
+Exsiccata Items
+Inventory Date Precision
+Cataloged Date
+Date the object was cataloged.
+Date1 Precision
+DNA Sequences
+Restrictions
+Project Number
+Reserved Integer
+Collection Object Attachments
+Reserved Text
+Timestamp Created
+The timestamp the record was created.
+Yes No
+User definable.
+Collection Object Properties
+Visibility Set By
+Text
+Created By Agent
+Paleo Context
+Inventorized By
+Modified By Agent
+Phenology
+User definable.
+Integer
+Collection Object Citations
+Sgr Status
+Collection Object Attrs
+Object Condition
+Col Obj Attribute
+Version
+Yes No
+User definable.
+Yes No
+User definable.
+GUID
+Global Unique Identifier
+Collecting Event
+Alt Cat Number
+Alternate Catalog Number.
+Catalog Number
+The number that identifies an individual specimen, a lot of specimens, or an observation as a part of a museum collection.
+Yes No
+User definable.
+Cataloger
+In Specify, the person who recorded the specimen data in the catalog. Cataloger records are stored in the Agent table.
+Name
+Agent
+Integer
+Number
+User definable.
+Availability
+Cataloged Date Precision
+Remarks
+Additional Comments.
+Specimen Description
+Image, Sound, Preparation, Container(Container Label?).
+Date
+Field Notebook Page
+Collection
+Yes No
+User definable.
+Voucher Relationships
+Collection Member Id
+Total Value
+Determinations
+Treatment Events
+Field Number
+A unique number a collector assigns to each specimen at the time of collection. For example, botanists often keep a running count of the individual specimens they have collected (LKK1023, LKK1024, etc.).
+Collection Object
+A general term for anything that can be a part of your collection: a specimen, a specimen lot, a sound recording, a slide, a tissue, an extract, or a spectrogram.
+Preparation Attrs
+Created By Agent
+Table Type
+The type of table it is attached to, this is internal to Specify.
+Collection Object Attrs
+Timestamp Created
+The timestamp the record was created.
+Prep Type
+Field Name
+The field name of the attribute.
+Version
+Timestamp Modified
+The timestamp the record was last modified.
+Modified By Agent
+Collecting Event Attrs
+Discipline
+Data Type
+The data type of the attribute.
+Attribute Definition
+The definition of an attribute.
+Ordinal
+The order or position of the attachment.
+Created By Agent
+Modified By Agent
+Version
+Collection Member Id
+Collecting Event
+Remarks
+Additonal comments.
+Timestamp Modified
+Attachment
+Timestamp Created
+Collecting Event Attachment
+Refers to an attachment and provides an order.
+Timestamp Modified
+The timestamp the record was last modified.
+Name
+Is Loanable
+Timestamp Created
+The timestamp the record was created.
+Modified By Agent
+Collection
+Created By Agent
+Attribute Defs
+Version
+Preparation Type
+Describe a Preparation Type. For example, Cleared and Stained, Mounted, etc.
+Type
+Timestamp Modified
+The timestamp the record was last modified.
+Group
+Timestamp Created
+The timestamp the record was created.
+Remarks
+Additional Comments
+Version
+Database Table Id
+Owner Permission Level
+Record Set Items
+Name
+Created By Agent
+Group Permission Level
+Collection Member Id
+Modified By Agent
+Specify User
+Info Request
+All Permission Level
+Record Set
+Describes a set of records of any type that can be acted upon within the applicaiton.
+Text
+User definable.
+Text
+User definable.
+Yes No
+User definable.
+Number
+User definable.
+Determiner
+Individual who assigned or made the decision regarding the taxonomic name of specimen. In some instances, determiner may be an organization or institute. In Specify, determiner information is stored in the Agent table.
+Confidence
+Confidence of determination.
+Alternate Name
+A free text field for insertion of a name (scientific or common) not recognized in the taxon tree authority. This field operates as an �either/or� condition with Preferred Taxon; both cannot be entered in a single Determination.
+Collection Object
+Number
+User definable.
+Version
+Current
+Yes if the determination is considered the 'best' (maybe even one of the better).
+Collection Member Id
+Determined Date
+The date it was determined.
+Modified By Agent
+Link to lookup table for Method.
+Yes No
+User definable.
+Qualifier
+A term to qualify the identification of the taxon name when doubts have arisen as to its identity or as a comparison to a given name (e.g. "cf." or "aff.").
+Timestamp Created
+The timestamp the record was created.
+Timestamp Modified
+The timestamp the record was last modified.
+Created By Agent
+Sub Sp Qualifier
+Var Qualifier
+Name Usage
+User customizable pick list used to describe the context of the name entered into the taxon or Alternate name fields.
+Method
+Taxonomic tools and information on which a determination is based. These include professional expertise, published taxonomic keys, molecular DNA, or comparisons with previously cataloged specimens.
+Determined Date Precision
+Taxon
+The determined name of the specimen.
+GUID
+Feature Or Basis
+Body part, or characteristic used as the basis of a determination.
+Type Status
+A pick list of all available type designations; Holotype, Paratype, Neotype. Specify ships with predetermined values which are editable for users.
+Addendum
+A Pick List suffix element added to the taxon name to indicate a concept or citation for that name. For example; sensu lato.
+Determination Citations
+Remarks
+Additional Comments.
+Preferred Taxon
+Determination
+The determination of the collection object.
+Created By Agent
+Timestamp Created
+Collection Object
+Timestamp Modified
+Exsiccata
+The exsiccata to which the collection object belongs
+Fascicle
+The fascicle number
+Version
+Modified By Agent
+Number
+The list number of the collection object within the exsiccata
+Exsiccata Item
+Version
+Modified By Agent
+Specify User
+Source File Path
+Workbench Template Mapping Items
+Name
+Created By Agent
+Remarks
+Additional Comments
+Timestamp Modified
+The timestamp the record was last modified.
+Workbenches
+Timestamp Created
+The timestamp the record was created.
+WorkBench Template
+The mapping description of the WorkBench.
+Timestamp Created
+Modified By Agent
+Remarks
+Additional Comments.
+Tree Def Items
+Timestamp Modified
+Full Name Direction
+Disciplines
+Created By Agent
+Name
+Tree Entries
+Version
+Lithostratigraphy Tree Definition
+Defines the levels of the tree.
+Description
+Specify User
+Timestamp Modified
+Polygons
+Modified By Agent
+Created By Agent
+Name
+Version
+Timestamp Created
+Sp Visual Query
+Yes No
+User definable
+Text
+User definable
+Modified By Agent
+Determination Citations
+Place Of Publication
+Exsiccatae
+Title
+Title of reference
+Contained Reference Works
+Uri
+Timestamp Created
+The timestamp the record was created.
+Collection Object Citations
+Is Published
+Version
+Reference Work Attachments
+Volume
+Volume/Issue for Journal articles
+Created By Agent
+ISBN
+Text
+User definable
+Url
+Pages
+Number of pages or Page range for Journal articles
+Timestamp Modified
+The timestamp the record was last modified.
+Journal
+Type
+Type of Reference (Book(0), Electronic Media(1), Paper(2), Technical Report(3), Thesis(4), Section in book(5))
+Locality Citations
+Contained R F Parent
+Number
+User definable
+GUID
+Institution
+Authors
+Yes No
+User definable
+Doi
+Work Date
+Taxon Citations
+Remarks
+Additional Comments
+Number
+User definable
+Library Number
+Publisher
+Reference Work
+A literary reference work.
+Timestamp Modified
+Remarks
+Format Audit Rec Ids
+Smushed
+Count Only
+Sql Str
+Modified By Agent
+Context Name
+Created By Agent
+Fields
+Version
+Context Table Id
+Select Distinct
+Name
+Is Favorite
+Search Synonymy
+Specify User
+Timestamp Created
+Ordinal
+Reports
+Sp Query
+System Table: This represents a saved Query.
+Number
+User definable
+Yes No
+User definable
+Modified By Agent
+Shipped To
+Version
+Yes No
+User definable
+Shipment Number
+Shipper`s tracking number
+Shipment Date
+Date of shipment
+Borrow
+Text
+User definable
+Num Of Packages
+Number of packages shipped
+Timestamp Modified
+The timestamp the record was last modified.
+Weight
+The weight of the shipment
+Shipper
+Number
+User definable
+Text
+User definable
+Loan
+Exchange Out
+Timestamp Created
+The timestamp the record was created.
+Insured For Amount
+Created By Agent
+Gift
+Shipped By
+Remarks
+Additional Comments
+Discipline
+Method
+Description of shipment. E.g. `Hand-carried`, `Overnight`, `Air`, `Land`, `Sea`, ...
+Shipment
+Describes the shipment of a Loan or Exchange.
+Version
+Sex
+Imaging Technique
+Modified By Agent
+View Name
+Timestamp Modified
+Created By Agent
+Morph Bank External View Id
+Form
+Development State
+View Angle
+Timestamp Created
+Imaging Preparation Technique
+Specimen Part
+Attachment Image Attributes
+Morph Bank View
+Lat2 Text
+Error Polygon
+Record Id
+Workbench
+The workbench this row is associated with
+Long1 Text
+Error Estimate
+Workbench Row Images
+The list of images associated with this row.
+Card Image Data
+A single image attached to the row
+Workbench Data Items
+The data items associated wirth this row
+Sgr Status
+Lat1 Text
+Long2 Text
+Workbench Row Exported Relationships
+Upload Status
+Row Number
+The row number
+Card Image Full Path
+The full path of the image
+Bio Geomancer Results
+The XML returned from Bio Geomancer
+Workbench Row
+A row of data.
+Text
+Number
+Exam Date
+The date the object was examined
+Created By Agent
+Treatment Report
+A description of the treatment that is needed.
+Modified By Agent
+Treatment Comp Date Precision
+Condition Report
+A report on the condition
+Completed Date Precision
+Conserv Event Attachments
+Completed Comments
+Version
+Advanced Testing Exam
+The advanced testing that was used to examine the object
+Treatment Completion Date
+Curator Approval Date Precision
+Yes No
+Advanced Testing Exam Results
+The results of the advanced testing
+Yes No
+Number
+Completed Date
+Remarks
+Curator
+Conserv Description
+Photo Documentation
+Any documentation on the photos that were taken
+Approval Date
+Timestamp Modified
+The timestamp the record was last modified.
+Timestamp Created
+The timestamp the record was created.
+Treated By Agent
+Examined By Agent
+Exam Date Precision
+Text
+Conservator Event
+An action that takes place as part of a Conservation Description. Over a period of time there may be multiple incidents that require a Conservator to take action.
+Remarks
+Additional comments.
+Role
+Role played by agent in the borrow.
+Created By Agent
+Agent
+Borrow
+ID of borrow in which Agent played role.
+Modified By Agent
+Version
+Collection Member Id
+Timestamp Modified
+The timestamp the record was last modified.
+Timestamp Created
+The timestamp the record was created.
+Borrow Agent
+Refers to an Agent and describes their role in the borrowing process.
+Attach To Table Name
+Card Image Data
+The thumbnail data
+Image Order
+The position in the list of images
+Workbench Row
+The row the image is attached to
+Card Image Full Path
+The full path to the image
+Workbench Row Image
+An image associated with a row.
+Remarks
+Created By Agent
+Version
+Gift
+Timestamp Created
+Timestamp Modified
+Modified By Agent
+Role
+Agent
+Discipline
+Gift Agent
+Describes the role the Agent played in the giving of a Gift.
+Version
+Text
+User definable.
+Timestamp Created
+Gift Number
+Discipline
+Created By Agent
+Shipments
+Address Of Record
+Number
+se
+Is Financial Responsibility
+Number
+User defined.
+Source Geography
+Integer
+Modified By Agent
+Gift Date
+Division
+Yes No
+Date Received
+Yes No
+Special Conditions
+Purpose Of Gift
+Remarks
+Source Taxonomy
+Gift Agents
+Contents
+Integer
+Gift Preparations
+Text
+User definable.
+Gift Attachments
+Received Comments
+Integer
+Timestamp Modified
+Gift
+Describes a Gift.
+Language
+Version
+Variant
+Created By Agent
+Container Desc
+Item Name
+Modified By Agent
+Timestamp Modified
+Country
+Timestamp Created
+Text
+Container Name
+Item Desc
+Locale Item String
+System Table: This is used for localizing the database schema it represents a string and also a Language, Country and Variant for that string.
+Points
+Is Polyline
+Version
+Modified By Agent
+Description
+Locality
+Timestamp Created
+Timestamp Modified
+Name
+Visual Query
+Created By Agent
+Lat Lon Polygon
+Remarks
+Ordinal
+The order in the attachment list.
+Modified By Agent
+Attachment
+Created By Agent
+Collection Member Id
+Version
+Timestamp Modified
+Collection Object
+Timestamp Created
+Collection Object Attachment
+An attachment for a collection object and provides order.
+Text
+Rank
+Yes No
+Is Preferred
+Highest Child Node Number
+Remarks
+Additional Comments.
+Definition
+Full Name
+Number
+Yes No
+Created By Agent
+Version
+Synonyms
+Timestamp Modified
+The timestamp the record was last modified.
+Rank Id
+Name
+GUID
+Child Nodes
+Number
+Parent
+Preferred Litho Strat
+Timestamp Created
+The timestamp the record was created.
+Text
+Node Number
+Modified By Agent
+Paleo Contexts
+Lithostratigraphy
+The Litho stratigraphy tree.
+Created By Agent
+Id Value
+Field Name
+Table Name
+Timestamp Modified
+Str Value
+Timestamp Created
+Modified By Agent
+Version
+Collection Member Id
+Sp Field Value Default
+System Table: This represents a default field value for a form.
+Validation Status
+Row Number
+Workbench Row
+Cell Data
+Workbench Template Mapping Item
+WorkBench Data Item
+A cell of data.
+Timestamp Created
+Creative Commons
+Timestamp Last Update Check
+Attachments
+Text
+Timestamp Last Send
+Created By Agent
+Resolution
+Number
+Mb Image Id
+Yes No
+Width
+Image Type
+View Description
+Version
+Morph Bank View
+Remarks
+Timestamp Modified
+Text
+Magnification
+Height
+Number
+Yes No
+Modified By Agent
+Attachment Image Attribute
+Text
+User definable
+Modified By Agent
+Created By Agent
+Remarks
+Additional Comments
+Number
+User definable
+Timestamp Created
+The timestamp the record was created.
+Deaccession Number
+Name institution assigns to the deaccession
+Type
+Description of the Type of deaccession; i.e. Gift, disposal, lost
+Deaccession Preparations
+Text
+User definable
+Yes No
+User definable
+Timestamp Modified
+The timestamp the record was last modified.
+Version
+Yes No
+User definable
+Accession
+Deaccession Agents
+Number
+User definable
+Deaccession Date
+Deaccession
+Removal of a biological object (specimen, observation, or preparation type) from the collection. Deaccessions may include loans to other collections that are subsequently given to the borrower, lost specimens, and specimens that are destroyed.
+Description Of Material
+Timestamp Modified
+Exchange In
+Text
+Created By Agent
+Preparation
+Version
+Modified By Agent
+Comments
+Discipline
+Number
+Text
+Timestamp Created
+Quantity
+Exchange In Prep
+Description Of Material
+Text
+Preparation
+Exchange Out
+Timestamp Created
+Quantity
+Modified By Agent
+Created By Agent
+Text
+Number
+Discipline
+Timestamp Modified
+Comments
+Version
+Exchange Out Prep
+Sequence
+Record Id
+Workbench Row
+Created By Agent
+Timestamp Modified
+Modified By Agent
+Table Name
+Relationship Name
+Version
+Timestamp Created
+Workbench Row Exported Relationship
+Disclaimer
+Created By Agent
+Collections
+Timestamp Modified
+Code
+Copyright
+Uri
+Icon URI
+Name
+Ipr
+Modified By Agent
+Terms Of Use
+Version
+Remarks
+Timestamp Created
+Address
+Description
+Alt Name
+Contacts
+License
+Institution Network
+Borrow
+Ordinal
+Timestamp Modified
+Remarks
+Version
+Timestamp Created
+Modified By Agent
+Created By Agent
+Attachment
+Borrow Attachment
+Modified By Agent
+Remarks
+Attachment
+Ordinal
+Version
+Created By Agent
+Timestamp Modified
+Timestamp Created
+Gift
+Gift Attachment
+Reference Work
+Attachment
+Timestamp Modified
+Remarks
+Timestamp Created
+Version
+Ordinal
+Created By Agent
+Modified By Agent
+Reference Work Attachment
+Order Number
+Version
+Is Primary
+Type
+Timestamp Modified
+Remarks
+Collecting Trip
+Created By Agent
+Division
+Modified By Agent
+Timestamp Created
+Agent
+Funding Agent
+Version
+Timestamp Modified
+Timestamp Created
+Created By Agent
+Remarks
+Ordinal
+Attachment
+Dna Sequencing Run
+Modified By Agent
+D N A Sequencing Run Attachment
+Order
+Record Id
+Record Set
+Record Set Item
+Ordinal
+Timestamp Modified
+Modified By Agent
+Attachment
+Storage
+Remarks
+Timestamp Created
+Version
+Created By Agent
+Storage Attachment
+Timestamp Created
+Modified By Agent
+Instance Name
+Last Pull
+Remarks
+Version
+Created By Agent
+Last Push
+Schema Mapping
+Timestamp Modified
+Symbiota Key
+Description
+Collection Member Id
+Last Cache Build
+Sp Symbiota Instance
+Created By Agent
+Remarks
+Modified By Agent
+Timestamp Modified
+Treatment Event
+Version
+Attachment
+Ordinal
+Timestamp Created
+Treatment Event Attachment
+Reserved Text
+Integer
+Primer Seq Forward
+Primer Designator
+Primer Ref Link Rev
+Created By Agent
+Yes No
+Reserved Integer
+Text
+Version
+Primer Ref Cit Forward
+Primer Ref Cit Rev
+Primer Name Forward
+Primer Seq Rev
+Reserved Number
+Reserved Number
+Timestamp Modified
+Modified By Agent
+Reserved Integer
+Purification Method
+Timestamp Created
+Dna Sequencing Runs
+Number
+Yes No
+Primer Name Rev
+Integer
+Remarks
+Text
+Number
+Primer Ref Link Forward
+Reserved Text
+DNA Primer
+Preparation
+Weight
+Number
+Volume Unit
+Extractor
+Yes No
+Absorb Ratio 260_
+Purification Method
+Reserved Integer
+Text
+Timestamp Modified
+Sample Designation
+Modified By Agent
+Reserved Number
+Quality Check Date
+SRA Project ID
+Number
+Version
+Remarks
+SRA Bio Project ID
+Weight Unit
+Weight Method
+Guid
+Collection Member Id
+Absorb Ratio 260_
+Absorb Ratio Method
+Integer
+Extraction Date
+Concentration
+Reserved Integer
+SRA Bio Sample ID
+Quality
+SRA Sample ID
+Reserved Text
+Medium
+Created By Agent
+Sample Size
+Timestamp Created
+Concentration Unit
+Yes No
+Sample Type
+Integer
+Reserved Number
+Volume
+Quality Remarks
+Dna Sequences
+Text
+Reserved Text
+Material Sample
+Timestamp Modified
+Permit
+Created By Agent
+Collecting Event
+Version
+Remarks
+Modified By Agent
+Timestamp Created
+Collecting Event Authorization
+Integer
+Yes No
+Yes No
+Date
+Agent
+Yes No
+Date
+Text
+Text
+Number
+Agent
+Yes No
+Integer
+Date
+Agent
+Number
+Date
+Number
+Number
+Text
+Number
+Text
+Date
+Version
+Integer
+Integer
+Yes No
+Agent
+Collection Member Id
+Text
+Yes No
+Agent
+Number
+Date
+Date
+Integer
+Date
+Agent
+Number
+Number
+Number
+Integer
+Number
+Text
+Number
+Text
+Agent
+Text
+Agent
+Yes No
+Integer
+Integer
+Number
+Number
+Integer
+Yes No
+Text
+Number
+Number
+Text
+Integer
+Timestamp Created
+Date
+Agent
+Agent
+Integer
+Date
+Date
+Text
+Timestamp Modified
+Modified By Agent
+Yes No
+Text
+Integer
+Guid
+Text
+Date
+Agent
+Text
+Yes No
+Text
+Date
+Yes No
+Agent
+Text
+Text
+Text
+Text
+Text
+Created By Agent
+Collection Object
+Text
+Integer
+Agent
+Number
+Yes No
+Integer
+Number
+Date
+Integer
+Number
+Agent
+Text
+Yes No
+Text
+Number
+Remarks
+Agent
+Integer
+Agent
+Agent
+Integer
+Text
+Text
+Integer
+Yes No
+Text
+Number
+Number
+Date
+Date
+Date
+Agent
+Text
+Number
+Number
+Yes No
+Number
+Yes No
+Integer
+Text
+Number
+Integer
+Date
+Yes No
+Agent
+Number
+Text
+Date
+Yes No
+Integer
+Text
+Number
+Integer
+Text
+Number
+Number
+Integer
+Yes No
+Yes No
+Text
+Text
+Integer
+Text
+Integer
+Integer
+Text
+Text
+Integer
+Agent
+Number
+Integer
+Text
+Integer
+Date
+Text
+Text
+Text
+Integer
+Collection Object Property
+Timestamp Modified
+Collecting Trip
+Version
+Timestamp Created
+Attachment
+Collection Member Id
+Created By Agent
+Modified By Agent
+Remarks
+Ordinal
+Collecting Trip Attachment
+Collecting Trips
+Yes No
+Number
+Text
+Text
+Integer
+Created By Agent
+Text
+Yes No
+Text
+Text
+Integer
+Integer
+Integer
+Number
+Timestamp Modified
+Number
+Text
+Modified By Agent
+Remarks
+Integer
+Timestamp Created
+Integer
+Integer
+Discipline
+Integer
+Text
+Yes No
+Text
+Text
+Yes No
+Text
+Number
+Text
+Number
+Number
+Yes No
+Text
+Text
+Number
+Version
+Number
+Text
+Text
+Number
+Integer
+Number
+Number
+Text
+Text
+Number
+Number
+Integer
+Collecting Trip Attribute
+Permit
+Created By Agent
+Collecting Trip
+Timestamp Created
+Timestamp Modified
+Modified By Agent
+Remarks
+Version
+Collecting Trip Authorization
+Integer
+Voucher Number
+Number
+Institution Code
+Text
+Number
+Text
+Collection Object
+Yes No
+Remarks
+Number
+Integer
+Version
+Collection Code
+Timestamp Modified
+Yes No
+Created By Agent
+Url Link
+Modified By Agent
+Text
+Collection Member Id
+Integer
+Timestamp Created
+Yes No
+Voucher Relationship
+Text
+Text
+Integer
+Text
+Yes No
+Number
+Number
+Text
+Integer
+Text
+Integer
+Agent
+Integer
+Integer
+Number
+Integer
+Text
+Agent
+Date
+Agent
+Integer
+Text
+Agent
+Number
+Integer
+Number
+Text
+Number
+Text
+Date
+Integer
+Yes No
+Date
+Date
+Date
+Text
+Text
+Text
+Text
+Integer
+Yes No
+Yes No
+Agent
+Date
+Date
+Yes No
+Number
+Text
+Text
+Modified By Agent
+Text
+Text
+Agent
+Remarks
+Number
+Number
+Integer
+Integer
+Agent
+Text
+Agent
+Integer
+Number
+Text
+Text
+Preparation
+Number
+Integer
+Integer
+Number
+Agent
+Number
+Yes No
+Date
+Agent
+Agent
+Yes No
+Text
+Timestamp Created
+Yes No
+Number
+Text
+Text
+Text
+Yes No
+Text
+Number
+Date
+Date
+Text
+Integer
+Text
+Integer
+Agent
+Integer
+Integer
+Agent
+Date
+Number
+Text
+Yes No
+Timestamp Modified
+Integer
+Number
+Text
+Yes No
+Yes No
+Yes No
+Integer
+Number
+Integer
+Date
+Agent
+Text
+Integer
+Number
+Agent
+Collection Member Id
+Number
+Agent
+Yes No
+Agent
+Integer
+Date
+Agent
+Integer
+Number
+Number
+Yes No
+Yes No
+Yes No
+Date
+Text
+Yes No
+Text
+Date
+Text
+Number
+Text
+Integer
+Text
+Agent
+Integer
+Agent
+Text
+Number
+Integer
+Text
+Text
+Created By Agent
+Integer
+Text
+Number
+Number
+Integer
+Date
+Guid
+Date
+Text
+Date
+Date
+Number
+Version
+Yes No
+Number
+Date
+Yes No
+Number
+Number
+Preparation Property

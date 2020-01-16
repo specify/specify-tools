@@ -1,0 +1,8 @@
+Length
+Sex
+Text8
+Text7
+Text6
+Text5
+Stage
+Weight

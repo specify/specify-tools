@@ -1,0 +1,10 @@
+Method
+A method, such as net or trap, which is used to obtain the specimen.
+ReproCondition
+Sex
+Range of Size
+Head Width
+Weight
+Total Length
+Stage
+Body Width
