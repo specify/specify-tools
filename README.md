@@ -104,3 +104,6 @@ This will generate several files:
  
  ### glue.php
  This file should be used to connect key names and localization values from the new language. It will output or save the result into a file with specified name
+ 
+ ### looper.php
+ This file is similar to `glue.php`, but automaticly scans for all the files in the selected directory and creates new trimmed language files based on each of those
