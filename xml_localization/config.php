@@ -1,12 +1,5 @@
 <?php
 
-/*
- * TODO
- *
- * 
- *
- * */
-
 $xml_file_name = 'schema_localization';
 $file_path = __DIR__.'/main_schema/';
 $new_line = "\n"; // <br>
