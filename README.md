@@ -1,5 +1,5 @@
 # specify_tools
-This repository has a collection of tools for testing and translating Specify 6 and 7
+This repository has a collection of tools for testing and translating Specify 6, 7 and Web Portal
 
 ## Makefile
 This is a tool that helps quickly build and run any version of Specify
@@ -17,12 +17,17 @@ make build BRNACH=develop UPDATE=y INSTALL=y # runs make pull and then builds it
 #  B  - SpBackupRestore
 ```
 
+## release_log
+This app will provide a list of issues from a repository and will give you an ability to filter the results.
+The only configuration you need to on the server-side is providing the GitHub username and GitHub token at the
+ beginning of the `release_log/index.php` file. You can generate a GitHub token [here](https://github.com/settings/tokens). That token does not need to have any permissions.
+
 ## file_gen.php
 This script generates `.csv` files full of data according to different parameters
 
-The script accepts the following GET parrameters:
+The script accepts the following GET parameters:
    - count //how many lines to generate (excluding the header)
-   - to_file - // if set to 1, the script will promt the browser to download the resulting file. if set to 0, result will be shown as plain text
+   - to_file - // if set to 1, the script will prompt the browser to download the resulting file. if set to 0, the result will be shown as plain text
 
 Also, there are following options inside the file:
 ```php
@@ -83,43 +88,61 @@ $languages = [ // settings for languages to generate. this should not include en
 ### deconstruct_strings.php
 Just run this script
 
-No user input required, considering that `config.php` is properly setted up
+No user input required, considering that `config.php` is properly set up
 
 This will show the `Done!` message when it is done. May show warnings and errors if there are problems with the original `.xml` file
 
 This will generate several files:
-  - en_v0.txt  - file containing all lines of english. This file must not be modified
-  - en_v1.txt  - will be generated only if $optimize_files is true. Will be same as `en_v0.txt`, but strings will have numbers removed from them ([0-9]). This file must not be modified
+  - en_v0.txt  - file containing all lines of English. This file must not be modified
+  - en_v1.txt  - will be generated only if $optimize_files is true. Will be the same as `en_v0.txt`, but strings will
+   have numbers removed from them ([0-9]). This file must not be modified
   - en_v2.txt  - will be generated only if $optimize_files is true. Same as `en_v1.txt`, but all the strings are unique. This file must not be modified
-  - en.txt     - same as en_v0.txt if $optimize_files is false, or en_v2.txt, if $optimize_files is true. This is the file that should be modified by user if there is a need to change the typos in the english localization
-  - <lang>.txt - will be generated for each language (e.x. `uk.txt`). This file will be empty and should be modified by the user. The number and the order of lines in these file and `en.txt` should be the same
+  - en.txt     - same as en_v0.txt if $optimize_files is false, or en_v2.txt, if $optimize_files is true. This is the
+   file that should be modified by the user if there is a need to change the typos in the english localization
+  - <lang>.txt - will be generated for each language (e.x. `uk.txt`). This file will be empty and should be modified
+   by the user. The number and the order of lines in these files and `en.txt` should be the same
  
- ### reconstuct_strings.php
- After localization is done and translated strings are saved in <lang>.txt, this script should be run to merge all files into new `schema_localization.xml`
+### reconstuct_strings.php
+After localization is done and translated strings are saved in <lang>.txt, this script should be run to merge all files into new `schema_localization.xml`
+
+No user input required, considering that `config.php` is properly set up
+
+This will show errors and warnings if there are any problems with any files or the config
+
+This file will generate <lang>`$capitalized_files_prefix`.txt files for each language in $languages that has `capitaze_all` of true and if $overwrite_non_capitalized is false
+
+This file will generate <lang>`$optimized_files_prefix`.txt files for all languages in $languages and 'en' if $optimize_files is true
+
+After the script is done, the resulting `.xml` file will be outputed. Currently, the script will create the
+ `schema_localization_final.txt` but will not able to save the new schema file because of the problems with encodings
+  for Cyrilics. So the user should save the output into that file manually
+
+The script can work if there are other languages available in the file, regardless of the fact they are going to be updated or not
  
- No user input required, considering that `config.php` is properly setted up
- 
- This will show errors and warnings if there are any problems with any files or the config
- 
- This file will generate <lang>`$capitalized_files_prefix`.txt files for each language in $languages that has `capitaze_all` of true and if $overwrite_non_capitalized is false
- 
- This file will generate <lang>`$optimized_files_prefix`.txt files for all languages in $languages and 'en' if $optimize_files is true
- 
- After the script is done, the resulting `.xml` file will be outputed. Currently, the script will create the `schema_localization_final.txt` but will not able to save new schema file because of the problems with encodings for Cyrilics. So the user should save the output into that file manually
- 
- The script can work if there are other lanugages available in the file, regardless of the fact they are going to be updated or not
- 
- ## txt_localization
- The scripts in this folder should be used to localize `.properties` and `.utf8` files
- 
- ### get_en.txt
- This script will strip the key names from the file and output or save new file with specified name
- 
- ### to_upper.txt
- This script will ucfirst all the strings in the specified file and output or save the changes into the file with specified name
- 
- ### glue.php
- This file should be used to connect key names and localization values from the new language. It will output or save the result into a file with specified name
- 
- ### looper.php
- This file is similar to `glue.php`, but automaticly scans for all the files in the selected directory and creates new trimmed language files based on each of those
+### show_not_localized.php
+This script finds the strings in the XML that are not localized yet. This tool is useful for debugging as well as
+making slight changes to the schema after an update.
+
+Here are the possible configurations:
+```php
+$source = file_get_contents(__DIR__.'/main_schema/schema_localization.xml'); // link to xml file
+$language = "uk"; // language to search for (e.x. "ru")
+$country = "UA"; // country to search for (e.x. "RU")
+$show_distinct = true; // whether to remove duplicates from the search results
+$delimiter = '<br>'; // what delimiter to use when outputting the search results
+```
+
+## txt_localization
+The scripts in this folder should be used to localize `.properties` and `.utf8` files
+
+### get_en.txt
+This script will strip the key names from the file and output or save the new file with the specified name
+
+### to_upper.txt
+This script will ucfirst all the strings in the specified file and output or save the changes into the file with the specified name
+
+### glue.php
+This file should be used to connect key names and localization values from the new language. It will output or save the result into a file with the specified name
+
+### looper.php
+This file is similar to `glue.php`, but automatically scans for all the files in the selected directory and creates new trimmed language files based on each of those

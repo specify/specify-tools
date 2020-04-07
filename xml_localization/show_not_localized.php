@@ -1,13 +1,11 @@
 <?php
 
 //CONFIG
-$source = file_get_contents(__DIR__.'/main_schema/schema_localization.xml');
-$language = "uk";
-$country = "UA";
-$show_distinct = true;
-$delimiter = '<br>';
-//$language = "ru";
-//$country = "RU";
+$source = file_get_contents(__DIR__.'/main_schema/schema_localization.xml'); // link to xml file
+$language = "uk"; // language to search for (e.x. "ru")
+$country = "UA"; // country to search for (e.x. "RU")
+$show_distinct = true; // whether to remove duplicates from the search results
+$delimiter = '<br>'; // what delimiter to use when outputting the search results
 
 
 $source = str_replace("  ","",$source);
