@@ -119,15 +119,29 @@ After the script is done, the resulting `.xml` file will be outputed. Currently,
 
 The script can work if there are other languages available in the file, regardless of the fact they are going to be updated or not
  
-### show_not_localized.php
-This script finds the strings in the XML that are not localized yet. This tool is useful for debugging as well as
-making slight changes to the schema after an update.
+### show_partially_not_localized.php
+This script finds the strings in the XML that consists only of English characters, despite having a language
+ attribute set to something other than English. This tool is useful for debugging as well as making slight changes to
+  the schema after an update.
 
 Here are the possible configurations:
 ```php
 $source = file_get_contents(__DIR__.'/main_schema/schema_localization.xml'); // link to xml file
 $language = "uk"; // language to search for (e.x. "ru")
 $country = "UA"; // country to search for (e.x. "RU")
+$show_distinct = true; // whether to remove duplicates from the search results
+$delimiter = '<br>'; // what delimiter to use when outputting the search results
+```
+ 
+### show_fully_not_localized.php
+This is somewhat similar to `show_partially_not_localized.php`
+
+This script finds the strings in the XML that exists only for the English language. This tool is useful for debugging as well as
+making slight changes to the schema after an update.
+
+Here are the possible configurations:
+```php
+$source = file_get_contents(__DIR__.'/main_schema/schema_localization.xml'); // link to xml file
 $show_distinct = true; // whether to remove duplicates from the search results
 $delimiter = '<br>'; // what delimiter to use when outputting the search results
 ```
