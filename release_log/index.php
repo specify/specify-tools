@@ -1,3 +1,12 @@
+<?php
+
+//SET YOUR OWN TOKEN AND USERNAME HERE
+require_once($_SERVER['DOCUMENT_ROOT'].'/functions/Tokens.php');
+$token = Tokens::get('github_token');
+$github_username = Tokens::get('github_username');
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,16 +23,14 @@
 
 	<body class="container-fluid"><br> <?php
 
-		$token = 'aeb1caa9d7f8d8eef921f24776358dc9a0f0a1fc';
-
 		//REPOS
 		$current_repo = $_GET['repository'];
 
 		$cURLConnection = curl_init('https://api.github.com/orgs/specify/repos?sort=updated');
 		curl_setopt($cURLConnection, CURLOPT_HTTPHEADER, [
-			'User-Agent: maxxxxxdlp',
+			'User-Agent: '.$github_username,
 		]);
-		curl_setopt($cURLConnection, CURLOPT_USERPWD, 'maxxxxxdlp:'.$token);
+		curl_setopt($cURLConnection, CURLOPT_USERPWD, $github_username.':'.$token);
 		curl_setopt($cURLConnection, CURLOPT_RETURNTRANSFER, true);
 
 		$apiResponse = curl_exec($cURLConnection);
@@ -34,6 +41,7 @@
 		$repos_array = [];
 		foreach($jsonArrayResponse as $repo)
 			$repos_array[] = $repo->name;
+
 
 		echo '<form>
 		
