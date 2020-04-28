@@ -5,19 +5,19 @@
  *
  * a - show strings that do not have any characters from their language
  * b - show strings that exist only for english language
- * c - show strings that are in a different case from the one used in English language
+ * c - show strings that are in a different case from the one used in the English string
  *
  * */
 
 //CONFIG
 $source = file_get_contents(__DIR__ . '/main_schema/schema_localization.xml'); // link to xml file
-$languages = ['uk' => ['country' => 'UA', 'charset' => 'а-яіїґ', 'programs' => ['a' => TRUE, 'b' => TRUE, 'c' => TRUE,
+const LANGUAGES = ['uk' => ['country' => 'UA', 'charset' => 'а-яіїґ', 'programs' => ['a' => TRUE, 'b' => TRUE, 'c' => TRUE,
 ],
-], 'ru'            => ['language' => 'ru', 'country' => 'RU', 'charset' => 'а-я', 'programs' => ['a' => TRUE, 'b' => TRUE, 'c' => TRUE,
+], 'ru'                 => ['language' => 'ru', 'country' => 'RU', 'charset' => 'а-я', 'programs' => ['a' => TRUE, 'b' => TRUE, 'c' => TRUE,
 ],
-], 'pt'            => ['language' => 'pt', 'country' => '', 'charset' => 'a-z0-9µùàçéèç', 'programs' => ['a' => TRUE, 'b' => FALSE, 'c' => TRUE,
+], 'pt'                 => ['language' => 'pt', 'country' => '', 'charset' => 'a-z0-9µùàçéèç', 'programs' => ['a' => TRUE, 'b' => FALSE, 'c' => TRUE,
 ],
-], 'pt_BR'         => ['language' => 'pt', 'country' => 'BR', 'charset' => 'a-z0-9µùàçéèç', 'programs' => ['a' => TRUE, 'b' => FALSE, 'c' => TRUE,
+], 'pt_BR'              => ['language' => 'pt', 'country' => 'BR', 'charset' => 'a-z0-9µùàçéèç', 'programs' => ['a' => TRUE, 'b' => FALSE, 'c' => TRUE,
 ],
 ],
 ];                     //all languages (excluding english)
@@ -37,32 +37,30 @@ $found_not_english = FALSE;
 $found_name = FALSE;
 $found_english = TRUE;
 $english_string = '';
+$is_english_lower_case = FALSE;
+$temp_language_data = [];
 
 foreach($programs as $program => $parameters){
 	$var_name = 'results_' . $program;
 	$$var_name = [];
 }
 
-foreach($languages as $language => &$language_data)
-	$language_data['found'] = FALSE;
+foreach(LANGUAGES as $language => $language_data)
+	$temp_language_data[$language]['found'] = FALSE;
 
 foreach($source as $line){
 
-	foreach($languages as $language => &$language_data){ //a
+	foreach(LANGUAGES as $language => $language_data){ //a
 
 		if(!$language_data['programs']['a'])
 			continue;
 
-		if(strpos($line, '<str language="' . $language . '" country="' . $language_data['country'] . '">') !== FALSE){
-			$languages[$language]['found'] = TRUE;
-			var_dump(htmlspecialchars($line));
-		} elseif($language_data['found'] && strpos($line, '<text>') !== FALSE) {
+		if(strpos($line, '<str language="' . $language . '" country="' . $language_data['country'] . '">') !== FALSE)
+			$found_not_english = $language;
 
-			if($language == 'pt'){
-				var_dump(htmlspecialchars($line));
-				exit();
-			}
-			$language_data['found'] = FALSE;
+		elseif($found_not_english == $language && strpos($line, '<text>') !== FALSE) {
+
+			$found_not_english = FALSE;
 
 			$result = preg_replace('/<text>.*?([' . $language_data['charset'] . ']+).*?<\/text>/i', '', $line);
 
@@ -80,40 +78,84 @@ foreach($source as $line){
 	if(strpos($line, '<names>') !== FALSE)
 		$found_name = TRUE;
 
-	elseif($found_name && strpos($line, '<str language="en">') !== FALSE)
-		$found_english = TRUE;
+	elseif(strpos($line, '</names>') !== FALSE) {
 
-	else {
+		foreach(LANGUAGES as $language => &$language_data){
 
-		foreach($languages as $language => &$language_data){
+			if($temp_language_data[$language]['found'] === FALSE && $language_data['programs']['b'])
+				$results_b[] = 'No value for language: ' . $language . ' for string: ' . $english_string;
 
-			if($found_name && strpos($line, '<str language="') !== FALSE)
-				$language_data['found'] = TRUE;
+			if($language_data['programs']['c'] && $is_english_lower_case != $temp_language_data[$language]['is_lower_case']){
 
-			elseif($found_name && $found_english && strpos($line, '<text>') !== FALSE) {
+				$temp_string = 'EN string (' . $english_string . ') starts with ';
 
-				$found_english = FALSE;
-				$english_string = preg_replace('/<text>(.*?)<\/text>/', '$1', $line);
+				if($is_english_lower_case)
+					$temp_string .= 'lower case'; else
+					$temp_string .= 'upper case';
+
+				$temp_string .= ' but ' . $language . ' (' . $temp_language_data[$language]['string'] . ') starts with ';
+
+				if($temp_language_data[$language]['is_lower_case'])
+					$temp_string .= 'lower case'; else
+					$temp_string .= 'upper case';
+
+				$results_c[] = $temp_string;
 
 			}
 
-		}
-
-	}
-
-	if(strpos($line, '</names>') !== FALSE){
-
-		foreach($languages as $language => &$language_data){
-
-			if($language_data['found'] === FALSE)
-				$results_b[] = 'No value for language: ' . $language . ' for string: ' . $english_string;
-
-			$language_data['found'] = FALSE;
+			$temp_language_data[$language]['found'] = FALSE;
 
 		}
 
 		$found_name = FALSE;
 		$found_english = FALSE;
+
+	} elseif($found_name) {
+		if(strpos($line, '<str language="en">') !== FALSE)
+			$found_english = TRUE; else
+
+			foreach(LANGUAGES as $language => $language_data){
+
+				if(!$language_data['programs']['b'] && !$language_data['programs']['c'])
+					continue;
+
+				if(strpos($line, '<str language="' . $language . '" country="' . $language_data['country'] . '">') !== FALSE)
+					$temp_language_data[$language]['found'] = TRUE;
+
+				elseif(strpos($line, '<text>') !== FALSE) {
+
+					if($found_english){
+
+						$found_english = FALSE;
+						$english_string = preg_replace('/<text>(.*?)<\/text>/', '$1', $line);
+						$first_letter = mb_substr($english_string, 0, 1, "UTF-8");
+						$is_english_lower_case = preg_replace('/^[' . $language_data['charset'] . ']$/', '', $first_letter) == '';
+
+					} else {
+
+						$temp_language_data[$language]['string'] = preg_replace('/<text>(.*?)<\/text>/', '$1', $line);
+						$first_letter = mb_substr($temp_language_data[$language]['string'], 0, 1, "UTF-8");
+						$temp_language_data[$language]['is_lower_case'] = preg_replace('/^[' . $language_data['charset'] . ']$/', '', $first_letter) == '';
+
+//						if($temp_language_data[$language]['string']=='Записи дерева'){
+//							var_dump($first_letter,
+//							         preg_replace('/^[' . $language_data['charset'] . ']$/', '', $first_letter));
+//						}
+						//var_dump();
+						//var_dump($first_letter,'/[' . $language_data['charset'] . ']/',$temp_language_data[$language]['is_lower_case']);
+					}
+
+				} elseif($found_english && strpos($line, '<text>') !== FALSE) {
+
+					$found_english = FALSE;
+					$english_string = preg_replace('/<text>(.*?)<\/text>/', '$1', $line);
+					$first_letter = mb_substr($english_string, 0, 1, "UTF-8");
+					$is_english_lower_case = preg_replace('/[' . $language_data['charset'] . ']/', '', $first_letter) == '';
+					//var_dump($first_letter,$is_english_lower_case);
+
+				}
+
+			}
 
 	}
 
