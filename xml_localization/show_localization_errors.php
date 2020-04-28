@@ -11,31 +11,15 @@
 
 //CONFIG
 $source = file_get_contents(__DIR__ . '/main_schema/schema_localization.xml'); // link to xml file
-$languages = [
-	['language' => 'uk', 'country' => 'UA', 'charset' => 'а-яіїґ', 'programs' => [
-		'a' => TRUE,
-		'b' => TRUE,
-		'c' => TRUE,
-	],
-	],
-	['language' => 'ru', 'country' => 'RU', 'charset' => 'а-я', 'programs' => [
-		'a' => TRUE,
-		'b' => TRUE,
-		'c' => TRUE,
-	],
-	],
-	['language' => 'pt', 'country' => '', 'charset' => 'a-z0-9µùàçéèç', 'programs' => [
-		'a' => TRUE,
-		'b' => FALSE,
-		'c' => TRUE,
-	],
-	],
-	['language' => 'pt', 'country' => 'BR', 'charset' => 'a-z0-9µùàçéèç', 'programs' => [
-		'a' => TRUE,
-		'b' => FALSE,
-		'c' => TRUE,
-	],
-	],
+$languages = ['uk' => ['country' => 'UA', 'charset' => 'а-яіїґ', 'programs' => ['a' => TRUE, 'b' => TRUE, 'c' => TRUE,
+],
+], 'ru'            => ['language' => 'ru', 'country' => 'RU', 'charset' => 'а-я', 'programs' => ['a' => TRUE, 'b' => TRUE, 'c' => TRUE,
+],
+], 'pt'            => ['language' => 'pt', 'country' => '', 'charset' => 'a-z0-9µùàçéèç', 'programs' => ['a' => TRUE, 'b' => FALSE, 'c' => TRUE,
+],
+], 'pt_BR'         => ['language' => 'pt', 'country' => 'BR', 'charset' => 'a-z0-9µùàçéèç', 'programs' => ['a' => TRUE, 'b' => FALSE, 'c' => TRUE,
+],
+],
 ];                     //all languages (excluding english)
 $programs = [
 	'a' => ['show_distinct' => TRUE], // whether to remove duplicates from the search results
@@ -50,6 +34,7 @@ $source = str_replace("  ", "", $source);
 $source = explode("\n", $source);
 
 $found_not_english = FALSE;
+$found_name = FALSE;
 $found_english = TRUE;
 $english_string = '';
 
@@ -63,32 +48,35 @@ foreach($languages as $language => &$language_data)
 
 foreach($source as $line){
 
-	foreach($languages as $language => &$language_data){
+	foreach($languages as $language => &$language_data){ //a
 
 		if(!$language_data['programs']['a'])
 			continue;
 
-		if(strpos($line,
-		          '<str language="' . $language . '" country="' . $language_data['country'] . '">'
-		   ) !== FALSE)
-			$language_data['found'] = TRUE;
+		if(strpos($line, '<str language="' . $language . '" country="' . $language_data['country'] . '">') !== FALSE){
+			$languages[$language]['found'] = TRUE;
+			var_dump(htmlspecialchars($line));
+		} elseif($language_data['found'] && strpos($line, '<text>') !== FALSE) {
 
-		elseif($language_data['found'] && strpos($line, '<text>') !== FALSE) {
-
+			if($language == 'pt'){
+				var_dump(htmlspecialchars($line));
+				exit();
+			}
 			$language_data['found'] = FALSE;
 
-			$result = preg_replace('/<text>.*?([А-Яа-яіїґҐЇ]+).*?<\/text>/i', '', $line);
+			$result = preg_replace('/<text>.*?([' . $language_data['charset'] . ']+).*?<\/text>/i', '', $line);
 
 			if($result == '')
 				continue;
 
 			$result = preg_replace('/<text>(.*?)<\/text>/', '$1', $line);
-			$results_a[] = 'Not ' . $$language . ' characters: ' . $result;
+			$results_a[] = 'Not ' . $language . ' characters: ' . $result;
+			break;
 		}
 
 	}
 
-
+	//b
 	if(strpos($line, '<names>') !== FALSE)
 		$found_name = TRUE;
 
