@@ -19,8 +19,7 @@ make build BRNACH=develop UPDATE=y INSTALL=y # runs make pull and then builds it
 
 ## release_log
 This app will provide a list of issues from a repository and will give you an ability to filter the results.
-The only configuration you need to on the server-side is providing the GitHub username and GitHub token at the
- beginning of the `release_log/index.php` file. You can generate a GitHub token [here](https://github.com/settings/tokens). That token does not need to have any permissions.
+The only configuration you need to on the server-side is providing the GitHub username and GitHub token at the beginning of the `release_log/index.php` file. You can generate a GitHub token [here](https://github.com/settings/tokens). That token does not need to have any permissions.
 
 ## file_gen.php
 This script generates `.csv` files full of data according to different parameters
@@ -66,22 +65,22 @@ $optimized_files_prefix = $optimize_files ? '_optimized' : ''; // prefix for opt
 $overwrite_non_capitalized = false; // overwrite original files with version where lines are capitalized
 $capitalized_files_prefix = $overwrite_non_capitalized ? '' : '_capitalized'; // capitalized files prefix
 $languages = [ // settings for languages to generate. this should not include en language. other languages, that are not specified in this list, but are present in the xml file are not going to be deleted or modified
-	'uk' => [ // ukrainain
-		'xml_attributes' => [ // specify xml attributes for each node of this language
-			'language' => 'uk',
-			'country' => 'UA',
-			'variant' => '',
-		],
-		'capitalize_all' => 'true', // wheather to do ucfirst() for every line in the translated files
-	],
-	'ru' => [
-		'xml_attributes' => [
-			'language' => 'ru',
-			'country' => 'RU',
-			'variant' => '',
-		],
-		'capitalize_all' => 'true',
-	],
+    'uk' => [ // ukrainain
+        'xml_attributes' => [ // specify xml attributes for each node of this language
+            'language' => 'uk',
+            'country' => 'UA',
+            'variant' => '',
+        ],
+        'capitalize_all' => 'true', // wheather to do ucfirst() for every line in the translated files
+    ],
+    'ru' => [
+        'xml_attributes' => [
+            'language' => 'ru',
+            'country' => 'RU',
+            'variant' => '',
+        ],
+        'capitalize_all' => 'true',
+    ],
 ];
 ```
 
@@ -94,13 +93,10 @@ This will show the `Done!` message when it is done. May show warnings and errors
 
 This will generate several files:
   - en_v0.txt  - file containing all lines of English. This file must not be modified
-  - en_v1.txt  - will be generated only if $optimize_files is true. Will be the same as `en_v0.txt`, but strings will
-   have numbers removed from them ([0-9]). This file must not be modified
+  - en_v1.txt  - will be generated only if $optimize_files is true. It Will be the same as `en_v0.txt`, but strings will have numbers removed from them ([0-9]). This file must not be modified
   - en_v2.txt  - will be generated only if $optimize_files is true. Same as `en_v1.txt`, but all the strings are unique. This file must not be modified
-  - en.txt     - same as en_v0.txt if $optimize_files is false, or en_v2.txt, if $optimize_files is true. This is the
-   file that should be modified by the user if there is a need to change the typos in the english localization
-  - <lang>.txt - will be generated for each language (e.x. `uk.txt`). This file will be empty and should be modified
-   by the user. The number and the order of lines in these files and `en.txt` should be the same
+  - en.txt     - same as en_v0.txt if $optimize_files is false, or en_v2.txt, if $optimize_files is true. This is the file that should be modified by the user if there is a need to change the typos in the English localization
+  - <lang>.txt - will be generated for each language (e.x. `uk.txt`). This file will be empty and should be modified by the user. The number and the order of lines in these files and `en.txt` should be the same
  
 ### reconstuct_strings.php
 After localization is done and translated strings are saved in <lang>.txt, this script should be run to merge all files into new `schema_localization.xml`
@@ -113,37 +109,72 @@ This file will generate <lang>`$capitalized_files_prefix`.txt files for each lan
 
 This file will generate <lang>`$optimized_files_prefix`.txt files for all languages in $languages and 'en' if $optimize_files is true
 
-After the script is done, the resulting `.xml` file will be outputed. Currently, the script will create the
- `schema_localization_final.txt` but will not able to save the new schema file because of the problems with encodings
-  for Cyrilics. So the user should save the output into that file manually
+After the script is done, the resulting `.xml` the file will be output. Currently, the script will create the
+ `schema_localization_final.txt` but will not able to save the new schema file because of the problems with encodings for Cyrillic. So the user should save the output into that file manually
 
 The script can work if there are other languages available in the file, regardless of the fact they are going to be updated or not
- 
-### show_partially_not_localized.php
-This script finds the strings in the XML that consists only of English characters, despite having a language
- attribute set to something other than English. This tool is useful for debugging as well as making slight changes to
-  the schema after an update.
 
-Here are the possible configurations:
+### show_localization_errors.php
+This is an ultimate script that will find all kinds of errors in the localization strings in the selected XML file. The result will be outputed in a neat table
+
+Here are some sample outputs:
+![Example 1](example_1.png)
+![Example 2](example_2.png)
+
+This is the list of programs available:
 ```php
-$source = file_get_contents(__DIR__.'/main_schema/schema_localization.xml'); // link to xml file
-$language = "uk"; // language to search for (e.x. "ru")
-$country = "UA"; // country to search for (e.x. "RU")
-$show_distinct = true; // whether to remove duplicates from the search results
-$delimiter = '<br>'; // what delimiter to use when outputting the search results
+/*
+ * PROGRAMS
+ *
+ * a - show strings that do not have any characters from their language (useful when English string was copied and shown as Ukrainian)
+ * b - show strings that exist only for English language (useful to find strings that are not localized yet, for example, if some strings were added recently)
+ * c - show strings that are in a different case from the one used in the English string (useful for winding typos and cases when Google Translate mixes the character case)
+ * d - detect the same language used more than once for the same language (finds if any key has several strings for the same language)
+ * e - detect non localized strings that were localized elsewhere (show keys that do not have a localized string, yet the localized string was present for other keys)
+ *
+ * */
 ```
- 
-### show_fully_not_localized.php
-This is somewhat similar to `show_partially_not_localized.php`
 
-This script finds the strings in the XML that exists only for the English language. This tool is useful for debugging as well as
-making slight changes to the schema after an update.
-
-Here are the possible configurations:
+Specify PHP file location:
 ```php
-$source = file_get_contents(__DIR__.'/main_schema/schema_localization.xml'); // link to xml file
-$show_distinct = true; // whether to remove duplicates from the search results
-$delimiter = '<br>'; // what delimiter to use when outputting the search results
+$source = file_get_contents(__DIR__ . '/main_schema/schema_localization.xml'); // link to xml file
+```
+
+Config languages (all except for english)
+```php
+const LANGUAGES = [
+    'uk' => ['country'  => 'UA', /* language value and country values (same way as it is in the XML file) */
+                'charset'  => 'а-яіїґ', /* a subset of characters used in this language (lowercase only) */
+                'programs' => ['a' => TRUE, /* whether to run any of these programs on this language*/
+                               'b' => TRUE,
+                               'c' => TRUE,
+                               'd' => TRUE,
+                               'e' => TRUE,
+                ],
+    ],
+```
+
+Specify output mode for each program
+```php
+
+$programs = [
+
+    /*
+     *
+     *  output_mode:
+     *  0 - raw output
+     *  1 - show distinct (strips line numbers)
+     *  2 - groups results (concat line numbers
+     *
+     * */
+
+    'a' => ['output_mode' => 2],
+    'b' => ['output_mode' => 2],
+    'c' => ['output_mode' => 2],
+    'd' => ['output_mode' => 2],
+    'e' => ['output_mode' => 2],
+];
+
 ```
 
 ## txt_localization
@@ -153,7 +184,7 @@ The scripts in this folder should be used to localize `.properties` and `.utf8` 
 This script will strip the key names from the file and output or save the new file with the specified name
 
 ### to_upper.txt
-This script will ucfirst all the strings in the specified file and output or save the changes into the file with the specified name
+This script will capitalize all the strings in the specified file and output or save the changes into the file with the specified name
 
 ### glue.php
 This file should be used to connect key names and localization values from the new language. It will output or save the result into a file with the specified name
