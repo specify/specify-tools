@@ -79,13 +79,6 @@ echo '<style>
 	td { border: 4px solid #aaa; padding: 10px; }
 </style>';
 
-function format_result(
-	$line,
-	$message
-){
-
-}
-
 function format_language($language){
 
 	return '<span style="color:blue">' . strtoupper($language) . '</span>';
