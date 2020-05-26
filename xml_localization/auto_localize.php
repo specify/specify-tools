@@ -10,6 +10,7 @@ $output_from_show_localization_errors_e = '{"languages":{"uk":{"language":"uk","
 $data = file_get_contents(__DIR__ . '/main_schema/schema_localization.xml'); // link to the source xml file
 
 
+//PROGRAM
 $data = str_replace("  ", "", $data);
 $lines = explode("\n", $data);
 
