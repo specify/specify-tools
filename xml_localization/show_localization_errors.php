@@ -8,21 +8,27 @@
  * c - show strings that are in a different case from the one used in the English string
  * d - detect the same language used more than once for the same language
  * e - detect non localized strings that were localized elsewhere
+ * f - strings start with different numbers/special characters
+ * g - strings end   with different numbers/special characters
  *
  * */
 
+
 //CONFIG
 $source = file_get_contents(__DIR__ . '/main_schema/schema_localization.xml'); // link to xml file
-const LANGUAGES = [
+
+const LANGUAGES = [ //all languages (excluding english)
 	'uk'    => [
 		'language' => 'uk',
 		'country'  => 'UA',
-		'charset'  => 'а-яіїґ',
+		'charset'  => 'а-яіїґє', //only specify lowercase variant of the characters that may exist in both lower and upper cases (no numbers or symbols)
 		'programs' => ['a' => TRUE,
 		               'b' => TRUE,
 		               'c' => TRUE,
 		               'd' => TRUE,
 		               'e' => TRUE,
+		               'f' => TRUE,
+		               'g' => TRUE,
 		],
 	],
 	'ru'    => [
@@ -34,31 +40,38 @@ const LANGUAGES = [
 		               'c' => TRUE,
 		               'd' => TRUE,
 		               'e' => TRUE,
+		               'f' => TRUE,
+		               'g' => TRUE,
 		],
 	],
 	'pt'    => [
 		'language' => 'pt',
 		'country'  => '',
-		'charset'  => 'a-zµùàçéèç',
+		'charset'  => 'a-zµùàçéèçúâó',
 		'programs' => ['a' => TRUE,
 		               'b' => FALSE,
 		               'c' => TRUE,
 		               'd' => TRUE,
 		               'e' => TRUE,
+		               'f' => TRUE,
+		               'g' => TRUE,
 		],
 	],
 	'pt_BR' => [
 		'language' => 'pt',
 		'country'  => 'BR',
-		'charset'  => 'a-zµùàçéèç',
+		'charset'  => 'a-zµùàçéèçúâó',
 		'programs' => ['a' => TRUE,
 		               'b' => FALSE,
 		               'c' => TRUE,
 		               'd' => TRUE,
 		               'e' => TRUE,
+		               'f' => TRUE,
+		               'g' => TRUE,
 		],
 	],
-];                                  //all languages (excluding english)
+];
+
 $programs = [
 
 	/*
@@ -66,7 +79,7 @@ $programs = [
 	 *  output_mode:
 	 *  0 - raw output
 	 *  1 - show distinct (strips line numbers)
-	 *  2 - groups results (concat line numbers
+	 *  2 - groups results (concat line numbers)
 	 *
 	 * */
 
@@ -75,7 +88,10 @@ $programs = [
 	'c' => ['output_mode' => 2],
 	'd' => ['output_mode' => 2],
 	'e' => ['output_mode' => 2],
+	'f' => ['output_mode' => 2],
+	'g' => ['output_mode' => 2],
 ];
+
 
 //FORMATTING
 $multiple_lines_delimiter = '<br>'; //if output_mode is 2
@@ -112,6 +128,7 @@ function format_string($line_number){
 }
 
 
+//LOGIC
 $source = str_replace("  ", "", $source);
 $source = explode("\n", $source);
 
@@ -122,13 +139,15 @@ $english_string = '';
 $is_english_lower_case = FALSE;
 $temp_language_data = [];
 $line_number = 0;
+$english_first_letter = '';
+$english_last_letter = '';
 
-foreach($programs as $program => $parameters){
+foreach($programs as $program => $parameters){ //init results array
 	$var_name = 'results_' . $program;
 	$$var_name = [];
 }
 
-foreach(LANGUAGES as $language => $language_data){
+foreach(LANGUAGES as $language => $language_data){ //init default values
 	$temp_language_data[$language]['found'] = FALSE;
 	$temp_language_data[$language]['temp_definitions'] = [];
 }
@@ -137,17 +156,20 @@ foreach($source as $line){
 
 	$line_number++;
 
-	if(strpos($line, '<names>') !== FALSE || strpos($line, '<descs>') !== FALSE){
+	if(strpos($line, '<names>') !== FALSE || strpos($line, '<descs>') !== FALSE){ // <names>
 		$found_name = TRUE;
 
-		foreach($languages as $language => $language_data)
+		foreach(LANGUAGES as $language => $language_data)
 			$temp_language_data[$language]['found'] = FALSE;
 
 	}
 
-	elseif(strpos($line, '</names>') !== FALSE || strpos($line, '</descs>') !== FALSE) {
+	elseif(strpos($line, '</names>') !== FALSE || strpos($line, '</descs>') !== FALSE) { // </names>
 
 		foreach(LANGUAGES as $language => &$language_data){
+
+			if(!$found_english)
+				continue;
 
 			if($temp_language_data[$language]['found'] === FALSE){
 
@@ -177,6 +199,9 @@ foreach($source as $line){
 						$temp_string .= 'upper case';
 
 					$results_c[] = [$line_number, $temp_string];
+
+					$temp_language_data[$language]['is_lower_case'] = FALSE;
+
 				}
 
 				if($language_data['programs']['e']){
@@ -189,6 +214,14 @@ foreach($source as $line){
 
 				}
 
+				//var_dump($language,$english_first_letter,$temp_language_data[$language]['first_letter'],'<br>');
+
+				if($language_data['programs']['f'] && preg_replace('/[a-z]/ui','',$english_first_letter) !== preg_replace('/^[a-z' . $language_data['charset'] . ']/ui', '', $temp_language_data[$language]['first_letter']))
+					$results_f[] = [$line_number, format_language('en').' begins with '.format_string($english_first_letter).', yet '.format_language($language).' begins with '.format_string($temp_language_data[$language]['first_letter'])];
+
+				if($language_data['programs']['g'] && preg_replace('/[a-z]/ui','',$english_last_letter) !== preg_replace('/^[a-z' . $language_data['charset'] . ']/ui', '', $temp_language_data[$language]['last_letter']))
+					$results_g[] = [$line_number, format_language('en').' ends with '.format_string($english_last_letter).', yet '.format_language($language).' ends with '.format_string($temp_language_data[$language]['last_letter'])];
+
 			}
 
 		}
@@ -198,23 +231,31 @@ foreach($source as $line){
 
 	}
 
-	elseif($found_name) {
+	elseif($found_name) { // anything else
 
-		if(strpos($line, '<str language="en"') !== FALSE){
+		if(strpos($line, '<str language="en"') !== FALSE){ // eng <str>
 
 			if($found_english)
 				$results_d[] = [$line_number, format_language('en') . ' is defined twice for string: ' . format_string($english_string)];
 
 			$found_english = $found_english2 = TRUE;
 		}
-		else
+		else // anything else
 
 			foreach(LANGUAGES as $language => $language_data){
 
 				if(!$language_data['programs']['b'] && !$language_data['programs']['c'] && !$language_data['programs']['d'])
 					continue;
 
-				if(strpos($line, '<str language="' . $language_data['language'] . '" country="' . $language_data['country'] . '"') !== FALSE){
+				if( // str
+					strpos($line, '<str language="' . $language_data['language'] . '" country="' . $language_data['country'] . '"') !== FALSE
+					||
+				    (
+					    $language_data['country']==''
+					    &&
+				        strpos($line, '<str language="' . $language_data['language'] . '">') !== FALSE
+				    )
+				){
 
 					if($temp_language_data[$language]['found'] && $language_data['programs']['d'])
 						$results_d[] = [$line_number, format_language($language) . ' is defined twice for string: ' . format_string($temp_language_data[$language]['string']) . ' (' . format_string($english_string) . ')'];
@@ -223,25 +264,26 @@ foreach($source as $line){
 
 				}
 
-				elseif(strpos($line, '<text>') !== FALSE) {
+				elseif(strpos($line, '<text>') !== FALSE) { // <text>
 
 					if($found_english2){
 
 						$found_english2 = FALSE;
 						$english_string = preg_replace('/<text>(.*?)<\/text>/', '$1', $line);
-						$first_letter = mb_substr($english_string, 0, 1, "UTF-8");
-						$is_english_lower_case = preg_replace('/^[a-z]$/', '', $first_letter) == '';
+						$english_first_letter = mb_substr($english_string, 0, 1, "UTF-8");
+						$english_last_letter = mb_substr($english_string, -1, 1, "UTF-8");
+						$is_english_lower_case = preg_replace('/^[a-z]$/', '', $english_first_letter) == '';
 
 					}
 
 					elseif($temp_language_data[$language]['found2'] == TRUE) {
 
-						var_dump(htmlspecialchars($line),$language);
 						$temp_language_data[$language]['found2'] = FALSE;
 
 						$temp_language_data[$language]['string'] = preg_replace('/<text>(.*?)<\/text>/', '$1', $line);
-						$first_letter = mb_substr($temp_language_data[$language]['string'], 0, 1, "UTF-8");
-						$temp_language_data[$language]['is_lower_case'] = preg_replace('/^[a-z' . $language_data['charset'] . ']/u', '', $first_letter) == '';
+						$temp_language_data[$language]['first_letter'] = mb_substr($temp_language_data[$language]['string'], 0, 1, "UTF-8");
+						$temp_language_data[$language]['last_letter'] = mb_substr($temp_language_data[$language]['string'], -1, 1, "UTF-8");
+						$temp_language_data[$language]['is_lower_case'] = preg_replace('/^[a-z' . $language_data['charset'] . ']/u', '', $temp_language_data[$language]['first_letter']) == '';
 
 
 						if($language_data['programs']['a']){

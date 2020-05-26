@@ -126,11 +126,13 @@ This is the list of programs available:
 /*
  * PROGRAMS
  *
- * a - show strings that do not have any characters from their language (useful when English string was copied and shown as Ukrainian)
- * b - show strings that exist only for English language (useful to find strings that are not localized yet, for example, if some strings were added recently)
- * c - show strings that are in a different case from the one used in the English string (useful for winding typos and cases when Google Translate mixes the character case)
- * d - detect the same language used more than once for the same language (finds if any key has several strings for the same language)
- * e - detect non localized strings that were localized elsewhere (show keys that do not have a localized string, yet the localized string was present for other keys)
+ * a - show strings that do not have any characters from their language
+ * b - show strings that exist only for english language
+ * c - show strings that are in a different case from the one used in the English string
+ * d - detect the same language used more than once for the same language
+ * e - detect non localized strings that were localized elsewhere
+ * f - strings start with different numbers/special characters
+ * g - strings end   with different numbers/special characters
  *
  * */
 ```
@@ -150,6 +152,8 @@ const LANGUAGES = [
                                'c' => TRUE,
                                'd' => TRUE,
                                'e' => TRUE,
+                               'f' => TRUE,
+                               'g' => TRUE,
                 ],
     ],
 ```
@@ -173,6 +177,8 @@ $programs = [
     'c' => ['output_mode' => 2],
     'd' => ['output_mode' => 2],
     'e' => ['output_mode' => 2],
+    'f' => ['output_mode' => 2],
+    'g' => ['output_mode' => 2],
 ];
 
 ```
