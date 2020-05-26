@@ -4,7 +4,7 @@
  * PROGRAMS
  *
  * a - show strings that do not have any characters from their language
- * b - show strings that exist only for english language
+ * b - show strings that exist only for the English language
  * c - show strings that are in a different case from the one used in the English string
  * d - detect the same language used more than once for the same language
  * e - detect non localized strings that were localized elsewhere
@@ -15,7 +15,7 @@
 
 
 //CONFIG
-$source = file_get_contents(__DIR__ . '/main_schema/schema_localization.xml'); // link to xml file
+$source = file_get_contents(__DIR__ . '/birds_schema/schema_localization.xml'); // link to xml file
 
 const LANGUAGES = [ //all languages (excluding english)
 	'uk'    => [
@@ -92,9 +92,11 @@ $programs = [
 	'g' => ['output_mode' => 2],
 ];
 
+const SHOW_E_OUTPUT_AS_JSON = TRUE;
+
 
 //FORMATTING
-$multiple_lines_delimiter = '<br>'; //if output_mode is 2
+const MULTIPLE_LINES_DELIMITER = '<br>'; //if output_mode is 2
 echo '<style>
 	table {
 		width: 100%;
@@ -106,6 +108,10 @@ echo '<style>
 		border: 4px solid #aaa; padding: 10px;
 	}
 </style>';
+const E_OUTPUT_TEXTAREA_STYLES = '
+	width: 90vw;
+	height: 20vw;
+';
 
 function format_language($language){
 
@@ -310,7 +316,11 @@ foreach($source as $line){
 }
 
 
+$e_results_array = [];
+$is_e_array_empty = TRUE;
 foreach($temp_language_data as $language => $language_data){
+
+	$e_results_array[$language] = [];
 
 	foreach($language_data['definitions'] as $english_string => $localization_strings){
 
@@ -330,14 +340,22 @@ foreach($temp_language_data as $language => $language_data){
 		if($exists_with_localization !== FALSE && $exists_without_localization)
 			foreach($localization_strings as $line_number => $string){
 
-				if($string === FALSE)
+				if($string === FALSE){
 					$results_e[] = [format_invalid($line_number) . ' ' . format_valid($exists_with_localization[0]), format_language($language) . ' string does not exist here, yet it does in a different place (' . format_string($exists_with_localization[1]) . ')'];
+
+					if(SHOW_E_OUTPUT_AS_JSON){
+						$e_results_array[$language][$line_number] = $exists_with_localization[0];
+						$is_e_array_empty = FALSE;
+					}
+
+				}
 
 			}
 
 	}
 
 }
+
 
 $final_results = '';
 
@@ -377,7 +395,7 @@ foreach($programs as $program => $parameters){
 		$final_results_array = [];
 
 		foreach($new_results as $result => $lines)
-			$final_results_array[] = [implode($multiple_lines_delimiter, $lines), $result];
+			$final_results_array[] = [implode(MULTIPLE_LINES_DELIMITER, $lines), $result];
 
 		$$results = $final_results_array;
 
@@ -409,6 +427,18 @@ foreach($programs as $program => $parameters){
 		</table>';
 	}
 
+}
+
+if(SHOW_E_OUTPUT_AS_JSON && !$is_e_array_empty){
+
+	$json_data = [
+		'languages' => LANGUAGES,
+		'e_output' => $e_results_array
+	];
+
+	$json_result = json_encode($json_data);
+
+	echo '<textarea style="' . E_OUTPUT_TEXTAREA_STYLES . '">' . $json_result . '</textarea>';
 }
 
 echo '<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>';

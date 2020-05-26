@@ -183,6 +183,28 @@ $programs = [
 
 ```
 
+You can also change the output styles by navigating to the `FORMATTING` section of the program
+
+Also `const SHOW_E_OUTPUT_AS_JSON = TRUE;` is responsible for displaying the output of `e` program as JSON at the end of the page (only if there is something to display). This output is supposed to be used in `auto_localize.php` 
+
+### auto_localize.php
+
+This file will automatically add localization for strings based on the values they have elsewhere in the same file. It takes the JSON output from the `e` program of `show_localization_errors.php` and works based on that
+
+```php
+
+//Run show_localization_errors.php with E program turned on and JSON output turned on
+//That will generate a textarea with json inside
+//Copy that into here
+$output_from_show_localization_errors_e = '{}';
+
+```
+
+Specify PHP file location:
+```php
+$data = file_get_contents(__DIR__ . '/main_schema/schema_localization.xml'); // link to the source xml file
+```
+
 ## txt_localization
 The scripts in this folder should be used to localize `.properties` and `.utf8` files
 
