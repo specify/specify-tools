@@ -5,7 +5,7 @@ send_notification('Watching...','Watching...','Pop')
 
 
 def run_command():
-	p = subprocess.Popen("docker exec -it specify7-docker_specify7_1 bash -c 'cd /usr/local/specify7/ && make webpack_watch'",
+	p = subprocess.Popen("docker exec -it specify7-docker_specify7_1 bash -c 'cd /usr/local/specify7/specifyweb/frontend/js_src && node_modules/.bin/webpack --w --devtool eval --progress'",
 		stdout=subprocess.PIPE,
 		stderr=subprocess.STDOUT,
 		universal_newlines=False,
