@@ -1,7 +1,7 @@
 from common import *
 
 
-send_notification('Watching...','Watching...','Pop')
+send_notification('Watching...','Watching...')
 
 
 def run_command():
@@ -20,7 +20,7 @@ def run_command():
 
 for l, rc in run_command():
 	if 'WARNING' in l:
-		send_notification('SUCCESS!!!','Specify 7 Updated!','Glass')
+		send_notification('SUCCESS!!!','Specify 7 Updated!','Hero')
 	if 'ERROR' in l:
-		send_notification('ERROR!!!','Error occurred while updating Specify 7!','Sosumi')
+		send_notification('ERROR!!!','Error occurred while updating Specify 7!','Glass')
 	print(l, end="", flush=True)
