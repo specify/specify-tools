@@ -5,6 +5,9 @@ import time
 import glob
 
 
+container_name = 'specify7-docker_specify7_1'
+base_dir = '/usr/local/'
+#base_dir = '/opt/'
 dirname = os.path.dirname(__file__)
 
 
@@ -14,6 +17,7 @@ def send_notification(message, title, sound='Pop'):
 
 
 def run_process(command):
+        print(command)
         os.system(command)
 
 
