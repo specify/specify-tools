@@ -2,6 +2,8 @@ import glob
 import os
 from config import *
 
+global_base_dir = os.getcwd()
+
 
 def strip_key(line_data, key, i, language, languages):
     local_key = line_data[language].split('=')[0]
