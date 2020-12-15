@@ -5,7 +5,7 @@ remote_base_dir = '/usr/local/specify7/'
 
 for file in get_files_in_directory(local_base_dir + 'specifyweb/frontend/js_src/*'):
     remote_path = '/'.join(file.split('/')[1:-1]).replace(local_base_dir[1:],remote_base_dir)
-    run_process("docker cp %s specify7-docker_specify7_1:%s" % (file,remote_path))
+    run_process("docker cp %s %s:%s" % (file,container_name,remote_path))
 
 send_notification('Updating...','Updating...')
 

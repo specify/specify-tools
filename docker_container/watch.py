@@ -5,17 +5,19 @@ send_notification('Watching...','Watching...')
 
 
 def run_command():
-	p = subprocess.Popen("docker exec -it --workdir /opt/specify7/specifyweb/frontend/js_src all-in-one_specify7_1 bash -c 'node_modules/.bin/webpack --w --devtool eval --progress'",
+        command = "docker exec -it --workdir "+base_dir+"specify7/specifyweb/frontend/js_src "+container_name+" bash -c 'node_modules/.bin/webpack --w --devtool eval --progress'"
+        print(command)
+        p = subprocess.Popen(command,
 		stdout=subprocess.PIPE,
 		stderr=subprocess.STDOUT,
 		universal_newlines=False,
 		shell=True)
 
-	nice_stdout = open(os.dup(p.stdout.fileno()), newline='')
-	for line in nice_stdout:
-		yield line, p.poll()
+        nice_stdout = open(os.dup(p.stdout.fileno()), newline='')
+        for line in nice_stdout:
+	        yield line, p.poll()
 
-	yield "", p.wait()
+        yield "", p.wait()
 
 
 for l, rc in run_command():
