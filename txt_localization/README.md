@@ -13,5 +13,5 @@ This file should be used to connect key names and localization values from the n
 ## looper.php
 This file is similar to `glue.php`, but automatically scans for all the files in the selected directory and creates new trimmed language files based on each of those
 
-## properties_to_csv.py
-Converts all `.properties` files to `.csv` files with each language in a separate column
+## relocalization/
+Scripts that were used for the second wave of localization for the `UI` componentes
