@@ -1,0 +1,160 @@
+Field Name	en	ru
+####################
+# Fields
+####################
+TaxonName	Taxon Name	Название таксона
+Geography	Geography	География
+Determiner	Determiner	Определил
+Collectors	Collectors	Коллекторы
+OldTaxonName	Old Name	Раннее название
+AcceptedTaxonName	Preferred Name	Принятое название
+DeterminationName	Determination Name	Название в момент идентификации
+OldTaxonOnDeter	Name on Determination	Раннее название в момент идентификации
+OtherOldTaxonName	Other Name	Другие названия
+GeoCategory	Category	Категория географии
+StorageName	Storage	Место хранения
+Name	Name	Название
+
+####################
+# Fields  Descriptionw
+####################
+TaxonName_desc	The taxon Name	Название таксона
+Geography_desc	The geography name	Название географии
+Determiner_desc	The person who determined it	Определил
+Collectors_desc	The list of collectors	Список коллекторов
+OldTaxonName_desc	The old taxon name	Раннее название таксона
+AcceptedTaxonName_desc	The preferred taxon name	Принятое название таксона
+DeterminationName_desc	The determination name	Название на момент идентификации
+OldTaxonOnDeter_desc	The taxon name on the determination	Раннее название на момент идентификации
+OtherOldTaxonName_desc	Another taxon name having the same preferred taxon name	Другое раннее название, имеющее такое же принятное название
+GeoCategory_desc	Category of the geography	Категория географии
+LocationName_desc	The location of the object	Размещение объекта
+Name_desc	The name of the object	Название объекта
+StorageName_desc	Storage name	Название места хранения
+
+####################
+# Express Search Titles
+####################
+CollObjToDeterminer	Taxon CollectionObject	Таксон Объект Коллекции
+CollObToLocality	Collecting Event Locality	Местонахождение Событие Сбора
+CollObject	Collection Object Taxon	Объект Коллекции Таксон
+GeoToTaxon	Taxon Geography	Таксон География
+ColObjCollectors	Collection Object Collectors	Объект Коллекции Коллекторы
+AcceptedTaxon	Taxon Preferred Taxon	Таксон Притяный Таксон
+SynonymCollObjs	Collection Object Preferred Taxon	Объект Коллекции Принятый Таксон
+#AcceptedNameCollObjs=Accepted Name for Collection Object
+OtherSynsCollObjs	Collection Object Taxon (all synonyms)	Объект Коллекции Таксон (все синонимы)
+CurrCollObject	Collection Object Taxon (determined)	Объект Коллекции Таксон (идентифицирован)
+AgentFromAgentVariant	Agent Agent Variant	Агент Вариант Агента
+Agent	Agent	Агент
+AgentVariant	Agent Variant	Вариант агента
+LocalityAlias	Locality Locality Alias	Местонахождение Другое название местонахождения
+CEToCO	Collection Object Collecting Event	Объект Коллекции Событие Сбора
+LocToCO	Collection Object Locality	Объект Коллекции Локалитет
+Acc2ATT	Accession Attachments	Приложения Поступления
+Agt2ATT	Agent Attachments	Приложения Агента
+Co2ATT	Collection Attachments	Приложения Коллекции
+CoEv2ATT	Collecting Event Attachments	Приложения События Сбора
+ConD2ATT	Conservator Description Attachments	Приложения Описаня Консервации
+ConE2ATT	Conservator Event Attachments	Приложения События Консервации
+DNA2ATT	DNA Sequence Attachments	Приложения к ДНК сиквенсу
+Fbk2ATT	Field Notebook Attachments	Приложения к Полевым записям
+FbkPG2ATT	Field Notebook Page Attachments	Приложения к Странице Полевых записей
+FbkPGS2ATT	Field Notebook Page Set Attachments	Приложения к Серии Полевых записей
+Loc2ATT	Locality Attachments	Приложения к Местонахождению
+Per2ATT	Permit Attachments	Приложения к Разрешению
+Prep2ATT	Preparation Attachments	Приложения к Препаратам
+Rep2ATT	Repository Agreement Attachments	Приложения к Соглашению
+Tax2ATT	Taxon Attachments	Приложения к Таксону
+AccessionToCO	Collection Object Accession	Объект Коллекции Поступление
+AccessionToAgent	Agent Accession	Агент Поступление
+BorrowToAgent	Agent Borrow	Агент Поступление
+AppraisalToAgent	Agent Appraisal	Аген Оценка
+GeoTimePeriodToCO	Collection Object Chronostratigraphy	Объект Коллекции Хроностратиграфия
+CollEventToCollectors	 Collector CollectingEvent	Коллекторы Событие Сбора
+CollTripCollEvent	 Collecting Event Collecting Trip	Событие Сбора Экспедиция
+AgentExchangeIn	Exchange In Agent	Внешний обмен Агент
+AgentExchangeOut	Exchange Out Agent	Внутренний обмен Агент
+GeographyCE	Collecting Event Geography	Событие Сбора География
+GeographyCO	Collection Object Geography	Объект Коллекции География
+GiftCO	Collection Object Gift	Объект Коллекции Дар
+GiftAgent	Agent Gift	Агент Дар
+LoanCO	Collection Object Loan	Объект Коллекции Заем
+LoanAgent	Agent Loan	Аген Заем
+LithoStratToCO	Collection Object Lithostratigraphy	Объект Коллекции Литостратиграфия
+PermitToCO	Collection Object Permit	Объект Коллекции Разрешение
+PermitIssuedToAgent	 Agent Issued to Permit	Агент выдавший Разрешение
+PermitIssuedByAgent	Agent Issued by Permit	Агент получивший Разрешение
+ProjectCO	Collection Object Project	Проект Объекта Коллекции
+ProjectAgent	Agent Project	Проект Агента
+RepoAgreeAgent	Agent Repository Agreement	Агент Соглашение о Хранении
+StorageCO	Collection Object Storage	Объект Коллекции Хранение
+TaxCollObject	Collection Object Taxon	Объект Коллекции Таксон
+ColObjToContainer	Collection Object Container	Объект Коллекции Контейнер
+ContainerToKids	Container Collection Object Children	Контейнер Объект Коллекции Дочерние элементы
+ContainerToContainerKids	Container Container Children	Контейнер Дочерние элементы
+ExchangeInCO	Collection Object Exchange In	Объект Коллекции Внутренний Обмен
+ExchangeOutCO	 Collection Object Exchange Out	Объект Коллекции Внешний Обмен
+
+####################
+# Express Search Description
+####################
+CollObjToDeterminer_desc	Collection Objects with Determiner and Taxon for current Determinations	Объект Коллекции с Определившим и Таксон для текущей идентификации
+CollObToLocality_desc	Collecting Events with Localities	Событие сбора с местонахождениями
+CollObject_desc	Collection Objects with determined Taxa	Объект Коллекции с идентифицированными Таксонами
+GeoToTaxon_desc	Geography records where taxa were collected	Географические записи где таксоны были собраны
+ColObjCollectors_desc	Collection Object with Collectors	Объект Коллекции с Коллекторами
+AcceptedTaxon_desc	Old Taxa with their preferred names.	Ранние таксоны с их принятыми названиями.
+SynonymCollObjs_desc	Collection objects with determined Taxon names and preferred Taxon names	Объект Коллекции с идентифицированными Таксонами и принятыми названиями
+#AcceptedNameCollObjs_desc=Collection objects that are determined to be the accepted taxon name of the taxon names matching the search string
+OtherSynsCollObjs_desc	Collection objects with determined Taxon and its synonyms	Объект Коллекции с идентифицированными таксонами и их синонимами
+CurrCollObject_desc	Collection objects with Taxon for current Determinations	Объект Коллекции с Таксоном для текущих идентификаций
+AgentFromAgentVariant_desc	Agents and Variants	Агенты и Варианты
+Agent_desc	Agent	Агенты и Варианты
+LocalityAlias_desc	Localities with Aliases	Местонахождения с Другими названиями
+CEToCO_desc	Collection Objects related to Collecting Event	Объекты Коллекции связанный с Событием Сбора
+LocToCO_desc	Collection Objects related to Locality	Объекты Коллекции связанные с Местонахождением
+Acc2ATT_desc	Accession Attachments	Приложения к Поступлению
+Agt2ATT_desc	Agent Attachments	Приложения к Агенту
+Co2ATT_desc	Collection Attachments	Приложения к Коллекции
+CoEv2ATT_desc	Collecting Event Attachments	Приложения к Событию Сбора
+ConD2ATT_desc	Conservator Description Attachments	Приложения к Описанию Консерватора
+ConE2ATT_desc	Conservator Event Attachments	Приложения к Событию Консервации
+DNA2ATT_desc	DNA Sequence Attachments	Приложения к ДНК сиквенсу
+Fbk2ATT_desc	Field Notebook Attachments	Приложения к Полевым записям
+FbkPG2ATT_desc	Field Notebook Page Attachments	Приложения к Странице полевой записи
+FbkPGS2ATT_desc	Field Notebook Page Set Attachments	Приложения к Серии полевых записей
+Loc2ATT_desc	Locality Attachments	Приложения к Местонахождению
+Per2ATT_desc	Permit Attachments	Приложения к Разрешению
+Prep2ATT_desc	Preparation Attachments	Приложения к Препаратам
+Rep2ATT_desc	Repository Agreement Attachments	Приложения к Соглашению
+Tax2ATT_desc	Taxon Attachments	Приложения к Таксону
+AccessionToCO_desc	Collection Objects associated with Accessions	Объекты Коллекции, связанные с Поступлениями
+AccessionToAgent_desc	Agents associated with Accessions	Агенты, связанные с Поступлениями
+BorrowToAgent_desc	Agents associated with Borrows	Агенты, связанные с Заемом
+AppraisalToAgent_desc	Agents associated with Appraisals	Агенты, связанные с Оценкой
+GeoTimePeriodToCO_desc	Collection Objects associated with Chronostratigraphy	Объекты Коллекции, связанные с Хроностратиграфией
+CollEventToCollectors_desc	Collectors for CollectingEvents	Коллекторы События Сбора
+CollTripCollEvent_desc	Collecting Events for Collecting Trips	События сбора для Экспедиций
+AgentExchangeIn_desc	Agents for incoming Exchanges	Агенты для Внутренних Обменов
+AgentExchangeOut_desc	Agents for outgoing Exchanges	Агенты для Внешних Обменов
+GeographyCE_desc	Collecting Events within Geography	События Сбора внутри Географии
+GeographyCO_desc	Collection Objects collected within Geography	Объекты Коллекции собранные внутри Географии
+GiftCO_desc	Collection Objects contained in Gifts	Объекты Коллекции содержащиеся в Дарах
+GiftAgent_desc	Agents associated with Gifts	Агенты связанные с Дарами
+LoanCO_desc	Collection Objects contained in Loan	Объекты Коллекции содержащиеся в Заемах
+LoanAgent_desc	Agents associated with Loans	Агенты связанные с Заемами
+LithoStratToCO_desc	Collection Objects associated with Lithostratigraphy	Объекты Коллекции связанные с Литостратиграфией
+PermitToCO_desc	Collection Objects with associated Permits	Объекты Коллекции с соответствующими Разрешениями
+PermitIssuedToAgent_desc	Agents to whom Permits were issued	Агенты которым были выданы Разрешения
+PermitIssuedByAgent_desc	Agents who issued Permits	Агенты которые выдали Разрешения
+ProjectCO_desc	Collection Objects associated with Projects	Объекты Коллекции связанные с Проектами
+ProjectAgent_desc	Agents associated with Projects	Агенты связанные с Проектами
+RepoAgreeAgent_desc	Agents associated with Repository Agreements	Агента связанные с Соглашением о Хранении
+StorageCO_desc	Collection Objects with Storage locations	Объекты коллекции с местами Хранения
+TaxCollObject_desc	Collection Objects determined to Taxa	Объекты Коллекции идентифицированные до Таксонов
+ColObjToContainer_desc	Collection Objects that have Containers	Объекты Коллекции имеющие Контейнеры
+ContainerToKids_desc	The Container's Collection Object children	Дочерние элементы Контейнера Объектов Коллекции
+ContainerToContainerKids_desc	The Container's container children	Дочерние элементы Контейнера Контейнера
+ExchangeInCO_desc	Collection Objects contained in Exchange In	Объекты Коллекции входящие во Внутренний Обмен
+ExchangeOutCO_desc	 Collection Objects contained in Exchange Out	Объекты Коллекции входящие во Внешний Обмен

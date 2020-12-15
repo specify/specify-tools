@@ -1,0 +1,270 @@
+Field Name	en	ru	ru_FilippovaN
+			
+false	No	Нет	Нет
+true	Yes	Да	Да
+SAVE	Save	Сохранить	Сохранить
+EXIT	Exit	Выход	Выход
+Name	Name	Имя	Имя
+Value	Value	Значение	Значение
+			
+MAIN_TITLE	Configuring a Database	Конфигурирование базы данных	Конфигурирование базы данных
+			
+DEL_CUR_DB	If you continue it will delete the current database named '%s'.	Если вы продолжите, он удалит текущую базу данных с именем '%s'.	Это действие удалит текущую базу данных с именем  '%s'.
+DEL_CUR_DB_TITLE	Database Exists	База данных существует	База данных существует
+PROCEED	Proceed	Продолжить	Продолжить
+CANCEL	Cancel	Отмена	Отмена
+BLD_DONE	The Specify database build process %s	Процесс построения базы данных %s	Построение базы данных Specify %s
+BLD_OK	completed with no errors.	завершено без ошибок.	Завершено без ошибок.
+BLD_NOTOK	did not complete correctly.	не завершено правильно.	Завершено с ошибками.
+ERROR_LOGIN_GEODB	There was an error logging into the DBMS with privileges to create the 'geonames' database.	Произошла ошибка при входе в СУБД с правами доступа для создания базы данных 'geonames'.	Произошла ошибка при входе в СУБД с правами доступа для создания базы данных 'geonames'.
+ERROR_CRE_GEODB	There was an error creating the 'geonames' database.	Произошла ошибка при создании базы данных 'geonames'.	Произошла ошибка при создании базы данных 'geonames'.
+			
+COMPLETE	Complete	Законченно	Завершено
+YES	Yes	Да	Да
+HELP	Help	Помогите	Справка
+NEXT	Next	Далее	Далее
+BACK	Back	Назад	Назад
+NONE	None	Никакой	Ничего
+DONE	Done	Готово	Готово
+FINISHED	Build Database	Построить базу данных	Построить базу данных
+FINISHED_DIV	Build Division	Отдел строительства	Построить Подразделение
+FINISHED_DISP	Build Discipline	Построить дисциплину	Построить Дисциплину
+FINISHED_COL	Build Collection	Сборник	Построить Коллекцию
+			
+SELECTALL	Select All	Выбрать все	Выбрать все
+DeselectAll	Deselect All	Убрать выделение со всего	Убрать все выделения
+CREATE	Create	Создайте	Создать
+			
+SURE_QUIT	Are you sure you want to quit the Wizard?	Вы уверены, что хотите выйти из мастера?	Вы уверены, что хотите выйти из Wizard?
+QUIT	Quit	Выход	Выход
+			
+ERR_BAD_DBNAME	The database name cannot start with a number.	Имя базы данных не может начинаться с цифры.	Имя базы данных не может начинаться с цифры.
+ERR_BAD_USRNAME	The username cannot start with a number.	Имя пользователя не может начинаться с цифры.	Имя пользователя не может начинаться с цифры.
+ERR_NO_ROOT_EMBEDDED	root' cannot be used as the IT username for EZDB.	'root' не может использоваться в качестве имени пользователя ИТ для EZDB	'root' не может использоваться в качестве IT-имени пользователя для EZDB
+			
+# Panels			
+ENTER_INST_INFO	Enter Institution Information	Введите информацию об учреждении	Введите информацию об учреждении
+NAME	Name	Имя	Название
+TITLE	Title	Заглавие	Заглавие
+ABBREV	Code	Код	Код
+			
+IT_USERNAME	IT Username	IT Имя пользователя	IT Имя пользователя
+IT_PASSWORD	IT Password	IT пароль	IT Пароль
+			
+SECURITY_INFO	<html>If you are installing Specify 6 on a networked computer<br> or will have more than a single user you should turn security on.<br><br>You may turn security on later if you wish.	<html>Если вы устанавливаете Specify 6 на сетевом компьютере<br>или у вас будет более одного пользователя, вам следует включить защиту.<br><br>Вы можете включить защиту позже, если хотите.	<html>Если вы устанавливаете Specify 6 на сетевом компьютере<br>или у вас будет более одного пользователя, вам следует включить Безопасность.<br><br>Вы можете также включить защиту позже.
+SECURITY_ON	Turn Security On	Включить безопасность	Включить Безопасность
+			
+DISP_NAME	Name	Имя	Имя
+			
+ENTER_ACC_INFO	<html>Accessions can be managed within a Division or globally for the entire Institution.<br>Will the Accessions be managed globally?	<html>Присоединениями можно управлять в рамках Отдела или глобально для всего Учреждения.<br>Будут ли Управления присоединяться глобально?	<html>Менеджмент Поступлений может быть реализован в рамках Подразделения или глобально для всего Учреждения.<br>Управлять поступлениями глобально?
+ACCGLOBALLY	Manage Globally	Управлять глобально	Управлять глобально
+			
+ENTER_DB_INFO	Fill in the following information for the database	Заполните следующую информацию для базы данных	Заполните следующую информацию для базы данных
+ENTER_DIV_INFO	Enter Division Information	Введите информацию о подразделении	Введите информацию о Подразделении
+ENTER_COLMGR_INFO	Enter Collection Manager Information	Введите информацию о менеджере коллекции	Введите информацию о Менеджере Коллекции
+DISP_INFO	Enter the Discipline Type and Name	Введите тип и название дисциплины	Введите Тип и Название дисциплины
+			
+ENTER_COL_INFO	Enter Collection Information	Введите информацию о коллекции	Введите Информацию о Коллекции
+PREFIX	Code	Код	Код
+			
+# Advanced controls for DB Panel			
+ADV_TITLE	Advanced	Расширенные настройки	Расширенные настройки
+ADV_DB_OK	Login test was successful.	Проверка входа прошла успешно.	Проверка входа прошла успешно.
+ADV_DB_ERR	Login test was NOT successful.	Тест входа не был успешным.	Проверка входа не была успешной.
+ADV_DB_DESC	Use this if you manually created the database.	Используйте это, если вы вручную создали базу данных.	Воспользуйтесь, если база данных создана вручную.
+ADV_MU_DESC	Use this if you manually created the Master user.	Используйте это, если вы вручную создали Мастер пользователя.	Воспользуйтесь, если Мастер-пользователь создан вручную.
+ADV_DB_TEST	Test IT Login	Проверка ИТ имя пользователя	Проверка IT-логина
+ADV_MU_TEST	Test Master Login	Проверка Мастер логина	Проверка Мастер-логина
+			
+MySQLDBMSUserMgr.NoPermissions	No Permissions	Нет разрешений	Нет прав
+MySQLDBMSUserMgr.AllPermissions	All Permissions	Все разрешения	Все права
+MySQLDBMSUserMgr.AllBasicPermissions	All Basic Permissions	Все основные разрешения	Все основные права
+MySQLDBMSUserMgr.UnknownPermission	Unknown Permission	Неизвестное разрешение	Незвестное право
+			
+DIRECTION	Full Name Order	Порядок полного имя	Порядок полного имени
+REVERSE	Reverse	Противоположный	Обратный
+FORWARD	Forward	Вперед	Прямой
+CONFIG_TREEDEF	Configure the %s Tree	Настройте дерево %s	Настройте дерево %s
+INCLUDED	Include	Включить	Включить
+LEVEL	Level	Уровень	Уровень
+ISREQ	Is Required	Требуется	Обязательный
+ISENFORCED	Is Enforced	Принудительно	Необходимый
+ISFULLNAME	Is in Full Name	В полном названии	В полном названии
+SEPARATOR	Separator	Разделитель	Разделитель
+EXAMPLE	Full Name Example	Пример полного имени	Пример полного имени
+NO_CHANGE_REQ	You cannot change the `Is Enforced` value for a required field.	Вы не можете изменить значение `Is Требуется` для обязательного поля.	Вы не можете изменить значение `Необходимый` для обязательного поля.
+NO_CHANGE_INCL	You cannot change the `Include` value for a required field.	Вы не можете изменить значение `Включить` для обязательного поля.	Вы не можете изменить значение `Включить` для обязательного поля.
+NO_CHANGE_INFN	The field must be included to set the `Is In Full Name` field.	Поле должно быть включено для установки поля `В полном названии`.	Для добавления 'В полном названии' поле должно быть включено
+			
+FIRSTNAME	First Name	Имя	Имя
+LASTNAME	Last Name	Фамилия	Фамилия
+MIDNAME	Middle Initial	Отчество	Отчество
+USERLOGININFO	User Login Info	Информация для входа в систему	Информация для входа в систему
+USERNAME	Username	Имя пользователя	Имя пользователя
+PASSWORD	Password	Пароль	Пароль
+EMAIL	Email	Email	Email
+PWDSTRENGTH	Strength	Надежность Пароля	Надежность Пароля
+ENCRYPT_KEY	Encrypted Key	Зашифрованный ключ	Зашифрованный ключ
+			
+INST_ADDR	Institution Address	Адрес учреждения	Адрес учреждения
+ADDR1	Address	Адрес	Адрес
+ADDR2	Address	Адрес	Адрес
+CITY	City	Город	Город
+STATE	State	Штат/регион	Регион
+COUNTRY	Country	Округ	Страна
+ZIP	Zip Code	Почтовый Индекс	Почтовый Индекс
+PHONE	Phone	Телефон	Телефон
+			
+IS_NUM_CHK	Is Numeric Only?	Только числовые?	Только числовые?
+CHOOSE_FMT_CAT	<html>Choose or create a Catalog Numbering Format for your Collection.	<html>Выберите или создайте формат нумерации каталогов для своей коллекции.	<html>Выберите или создайте формат номера каталога для коллекции.
+CHOOSE_FMT_ACC	<html>Choose a Numbering Format for all of your Accessions.<br>If you do not have a consistent and standard format then choose 'None'.	<html>Выберите формат нумерации для всех ваших образцов.<br>Если у вас нет согласованного и стандартного формата, выберите 'Нет'.	<html>Выберите формат нумерации для всех ваших Поступлений.<br>Если у вас нет согласованного и стандартного формата, выберите 'Нет'.
+CATALOG	Catalog	Каталог	Каталог
+ACCESSION	Accession	Получение	Поступление
+IS_NUM	Is Numeric	Числовой	Числовой
+FORMAT	Format	Формат	Формат
+NUM_LEN	Length	Длина	Длина
+			
+DB_NAME	Database Name	Имя базы данных	Имя базы данных
+HOST_NAME	Host Name	Имя хоста	Имя хоста
+DSP_TYPE	Discipline Type	Тип дисциплины	Тип дисциплины
+DSP_NAME	Discipline Name	Название дисциплины	Название дисциплины
+DRIVER	DBMS	СУБД	СУБД
+CONVUPLD_CHKBX	Database structure creation only.	Создать только структуру базы данных	Создать только структуру базы данных
+CONVUPLD_CHKBX_TT	Intended for users uploading a converted database	Предназначен для пользователей, загружающих преобразованную базу данных	Предназначен для пользователей, загружающих конвертированную базу данных
+CONVUPLD_DONE	You must now restore a Specify database backup before it is ready to use.	Теперь вы должны восстановить резервную копию Specify базы данных, прежде чем она будет готова к использованию.	Теперь вы должны восстановить резервную копию Specify базы данных, прежде чем она будет готова к использованию.
+			
+ENTER_SA_INFO	Enter Master Username and Password	Введите имя пользователя и пароль мастера	Введите Имя пользователя/Пароль уровня Мастера
+SA_USERNAME	Username	Имя пользователя	Имя пользователя
+SA_PASSWORD	Password	Пароль	Пароль
+			
+PRELOADTXN_INFO	<html>Choose whether to pre-load Taxonomic records for your discipline.	<html>Выберите, следует ли предварительно загрузуть таксономические записи для вашей дисциплины.	<html>Выберите, следует ли предварительно загрузуть таксономическое дерево длядисциплины.
+TFD_LOAD_TAXON	Pre-load Taxon	Предварительная загрузка таксона	Предварительная загрузка таксономического дерева
+TFD_FILE_LBL	Choose	Выберите	Выберите
+TFD_SRC_LBL	Source	Источник	Источник
+TFD_CVRG_LBL	Coverage	Покрытие	Покрытие
+TFD_DESC_LBL	Description	Описание	Описание
+TFD_OTHER_LBL	Choose	Выберите	Выберите
+TFD_SEP_STD	Sample Taxonomic Records	Образец таксономических записей	Образец таксономических записей
+TFD_SEP_OTH	A Downloaded File	Загруженный файл	Загруженный файл
+			
+Taxon	Taxon	Таксон	Таксон
+Formatter	Formatter	Форматировщик	Форматировщик
+PATTERN	Pattern	Шаблон	Шаблон
+IS_AUTO_INC	Is Auto Incremented	Авто увеличивается	Авто-инкрементирование
+			
+CREATE_DB	Create Specify Database	Создать Specify базу данных	Создать базу данных Specify 
+CONN_DB	Connecting to the DBMS...	Подключение к СУБД...	Подключение к СУБД...
+DB_CREATED	The Specify Database was created.	База данных Specify была создана.	База данных Specify была создана.
+ERR_CRE_DB	There was an error creating the database.	При создании базы данных произошла ошибка.	При создании базы данных произошла ошибка.
+NO_CONN_ROOT	The wizard was unable to connect to the DBMS.	Мастеру не удалось подключиться к СУБД.	Мастеру не удалось подключиться к СУБД.
+DB_UNRECOVERABLE	There was an unrecoverable error.	Произошла неисправимая ошибка.	Произошла неисправимая ошибка.
+NO_LOGIN_ROOT	The wizard was unable to log in to the DBMS. (Check your username and password)	Мастеру не удалось войти в СУБД. (Проверьте свое имя пользователя и пароль)	Мастеру не удалось войти в СУБД. (Проверьте имя пользователя и пароль)
+ERR_SET_PERM	The wizard was unable to set permissions on the Master user.	Мастеру не удалось установить разрешения для главного пользователя.	Мастеру не удалось установить разрешения для Мастер-пользователя.
+			
+CREATE_MASTER_BTN	Create Master User	Создать главного пользователя	Создать Мастер-пользователя
+CREATE_MASTER	Creating the 'master' user for Specify...	Создание 'главного' пользователя для Specify...	Создание Мастер-пользователя для Specify…
+MASTER_CREATED	The 'master' user was created.	'Главний' пользователь создан.	Мастер-пользователь создан
+ERR_CRE_MASTER	<html>The wizard was unable to create the 'master' account for Specify.<br>Are you logged in as root?	<html>Мастеру не удалось создать «главную» учетную запись для Specify.<br>Вы вошли в систему как пользователь root?	<html>Wizard не удалось создать Мастер-пользователя для Specify.<br>Убедитесь, что вход выполнен с корневого уровня (root).
+			
+CREATEINST	This step will create the Institution record and the 'admin' user.	Этот шаг создаст запись Учреждения и пользователя 'Администратор'.	Этот шаг создаст запись Учреждения и пользователя 'Администратор'.
+CREATEINST_BTN	Create Institution	Создать учреждения	Создать Учреждение
+BAD_INST	Error creating institution	Ошибка создания учреждения	Ошибка создания Учреждения
+BAD_LOGIN	Unable to log in using the Username and Password for the User.	Невозможно войти, используя имя пользователя и пароль для пользователя.	Невозможно войти, используя пользовательские Имя пользователя/пароль.
+BLD_SCHEMA	Building Specify's Schema...	Построение Схем Specify...	Построение Схем Specify...
+DB_FRST_LOGIN	Logging In...	Вход в систему...	Вход в систему...
+BLD_CACHE	Building Cache...	Сборка кеша...	Построение кеша...
+INST_CREATED	The Institution and the 'admin' user were created.	Учреждение и пользователь 'Администратор' были созданы.	Учреждение и пользователь 'Администратор' были созданы.
+CREATING_INST	Creating the Institution and the 'admin' user.	Создание Учреждения и пользователя 'Администратор'.	Создание Учреждения и пользователя 'Администратор'.
+LOGIN_USER	Logging in with the 'admin' username and password...	Вход в систему с именем пользователя и паролем 'Администратор'...	Вход в систему с именем пользователя и паролем 'Администратор'...
+INST_UNRECOVERABLE	There was an error creating the Institution.\nYou should quit and try again.	Произошла ошибка при создании Учреждения. \nВы должны выйти и повторить попытку.	Произошла ошибка при создании Учреждения. \nПовторите попытку или выйдете.
+			
+CREATE_DIV	Creating Division...	Создание отдела...	Создание отдела...
+			
+MASTER_NO_ROOT	You cannot use 'root' as your Master username.	Вы не можете использовать 'root' в качестве своего основного имени пользователя.	Вы не можете использовать 'root' в качестве основного имени пользователя.
+DB_SA_USRNAME_MATCH	The Master username cannot be the same as the IT username.	Основное имя пользователя не может совпадать с именем пользователя ИТ.	Основное имя пользователя не может совпадать с IT-именем пользователя.
+			
+UR_SA_USRNAME_MATCH	The Specify User's username cannot match the Master's username	Имя пользователя Specify не может совпадать с именем пользователя Master	Имя пользователя Specify не может совпадать с Мастер-пользователем.
+UR_DB_USRNAME_MATCH	The Specify User's username cannot match the IT's username	Имя пользователя Specify не может совпадать с именем пользователя ИТ	Имя пользователя Specify не может совпадать с IT-пользователем.
+			
+# Panel Names			
+DATABASE.TITLE	Database Information	Информация о базе данных	Информация о Базе данных
+SA.TITLE	Master Account Information	Информация об основной учетной записи	Информацию о Мастер-аккаунте
+SECURITY.TITLE	Activate Security	Активировать безопасность	Активировать Безопасность
+AGENT.TITLE	Agent Information	Информация об агенте	Информация об Агенте
+INST.TITLE	Institution Information	Информация об учреждении	Информация об Учреждении
+ADDR.TITLE	Institution Address	Адрес учреждения	Адрес Учреждения
+DIV.TITLE	Division Information	Информация о отделе	Информация о Подразделении
+PRELOADTXN.TITLE	Preload Taxon Records	Предварительная загрузка таксономического дерева	Предварительная загрузка Таксономического дерева
+Taxon.TITLE	Taxonomic Tree Ranks	Ранги таксономических деревьев	Ранги Таксономического дерева
+Geography.TITLE	Geography Tree Ranks	Ранги географических деревьев	Ранги Географического дерева
+COLLECTION.TITLE	Collection Information	Сбор информации	Сбор Информации
+CATNOFMT.TITLE	Catalog Number Formatter	Формат номера по каталогу	Форматтер Номера Каталога
+ACCNOFMT.TITLE	Accession Number Formatter	Форматирование номера доступа	Форматтер Номера Поступления
+DISCIPLINE.TITLE	Discipline Information	Информация о дисциплине	Информация о Дисциплине
+SUMMARY.TITLE	Summary	Сводка	Сводка
+Storage.TITLE	Storage Tree Ranks	Ранги дерева хранения	Ранги Дерева хранения
+ACCESSIONGLOBALLY.TITLE	How to manage Accessions	Как управлять приобретения	Как управлять Поступлениями
+CREATEINST.TITLE	Create Institution	Создать учреждении	Создать Учреждение
+			
+################################################			
+# Security Wizard			
+################################################			
+			
+SEC_ADV_MU_DESC	You must be able to log in as the Database Administrator (root)	Вы должны иметь возможность войти в систему как администратор базы данных (root)	Вы должны иметь возможность войти в систему как Администратор Базы данных (root)
+SEC_ADV_MSTR_DESC	You must be able to log in as the Master	Вы должны быть в состоянии войти как Мастер	Вы должны иметь возможность войти как Мастер-пользователь базы данных
+SEC_RESET_BTN	Reset Master Username and Password	Сбросить главное имя пользователя и пароль	Сбросить Мастер-имя пользователя/пароль
+SEC_RESET_DB_OK	The Master Username and Password were set successfully.	Основное имя пользователя и пароль были успешно установлены.	Мастер-имя пользователя/пароль были успешно установлены.
+SEC_RESET_DB_ERR	There was an error setting the Username and Password.	При установке имени пользователя и пароля произошла ошибка.	При установке имени пользователя и пароля произошла ошибка.
+SEC_SELECT_DBS	Select Databases	Выберите базы данных	Выберите базы данных
+SEC_SELECT_DBS_DESC	<html>Select only the databases you want<br> associated with the master you are resetting.	<html>Выберите только те базы данных,<br> которые вы хотите связать с мастером, который вы сбрасываете.	<html>Выберите только те базы данных,<br> которые вы хотите связать с Мастером-пользователем, которого вы настраиваете.
+SEC_UNEX_ERR_LGN	There was an unexpected error logging in.	При входе произошла непредвиденная ошибка.	При входе произошла непредвиденная ошибка.
+SEC_ERR_DROP_USER	There was an error dropping the user.	При удалении пользователя произошла ошибка.	При перемещении пользователя произошла ошибка.
+SEC_RESET_PERMS_OK	Privileges were reset.	Привилегии были сброшены.	Привилегии были переустановлены.
+SEC_RESET_PERMS_ERR	There was an error resetting the privileges.	Произошла ошибка сброса привилегий.	Произошла ошибка при переустановке привилегий.
+SEC_RESET_PERMS_BTN	Reset Privileges	Сбросить привилегии	Сбросить привилегии
+SEC_FIX_PERMS	Fix Privileges	Исправить привилегии	Исправить привилегии
+SEC_NO_GRANT	The user `%s` cannot change privileges for other users for host `%s`.\nYou should login as `root` or change the privileges for these users.	Пользователь `%s` не может изменять привилегии для других пользователей для хоста `%s`.\nВы должны войти в систему как `root` или изменить привилегии для этих пользователей.	Пользователь `%s` не может изменять привилегии для других пользователей для хоста `%s`.\nВойдите в систему как IT-пользователь или измените привилегии для этих пользователей.
+SEC_NO_DBS_PERMS	The Master user does not have privileges to access any databases.	Главный пользователь не имеет прав доступа к базам данных.	Мастер-пользователь не имеет прав доступа к базам данных.
+SEC_BAD_DBS_PERMS	<HTML>The Master user does not have the required privileges for the following databases.<br>Click the 'Fix Privileges' button to fix the privileges.	<HTML>Главный пользователь не обладает необходимыми привилегиями для следующих баз данных.<br>Нажмите кнопку «Исправить привилегии», чтобы исправить привилегии.	<HTML>Мастер-пользователь не обладает необходимыми правами для следующих баз данных.<br>Нажмите кнопку «Исправить права».
+MSTR_PERMS_SET_OK	Master User's username and password have been reset.	Имя пользователя и пароль главного пользователя были сброшены.	Имя пользователя и пароль Мастер-пользователя были сброшены.
+MSTR_PERMS_SET_ERR	There was an error resetting Master User's username and password.	Произошла ошибка при сбросе имени пользователя и пароля главного пользователя.	Произошла ошибка при сбросе имени пользователя и пароля Мастер-пользователя.
+MSTR_HAS_PERM	Master User Accessible Databases	Базы данных, доступные для главного пользователя	Базы данных, доступные для Мастер-пользователя
+MSTR_HAS_NOPERM	Master User Inaccessible Databases	Базы данных недоступны для главного пользователя	Базы данных, недоступные для Мастер-пользователя
+MSTR_USR_DB	Users of Database: %s	Пользователи базы данных: %s	Пользователи базы данных: %s
+MSTR_PERM_CHGED_TITLE	Privileges Changed	Привилегии изменены	Права изменены
+MSTR_PERM_ADDED	Privileges were added for user '%s' for database '%s'	Добавлены привилегии для пользователя '%s' из базы данных '%s'	Добавлены права для пользователя '%s' из базы данных '%s'
+MSTR_PERM_DEL	Privileges were removed for user '%s' from database '%s'	Привилегии были удалены для пользователя '%s' из базы данных '%s'	Права были удалены для пользователя '%s' из базы данных '%s'
+MSTR_NUM_PERM_ADDED	Privileges were added for user '%s' on %d databases.	Были добавлены привилегии для пользователя '%s' в %d базах данных.	Были добавлены права для пользователя '%s' в %d базах данных.
+MSTR_NUM_PERM_DEL	Privileges were removed for user '%s' on %d databases.	Привилегии были удалены для пользователя '%s' в %d базах данных.	Права были удалены для пользователя '%s' в %d базах данных.
+MSTR_ERR_SETDB	Unable to set privileges for your master user on database '%s'	Невозможно установить привилегии для вашего основного пользователя в базе данных '%s'	Невозможно установить права для Мастер-пользователя в базе данных '%s'
+MSTR_SAVE_CHANGES	Do you wish to save the changes?	Вы хотите сохранить изменения?	Хотите сохранить изменения?
+MSTR_PERCENT_COMPLETE	% Complete	% Выполнено	% Выполнено
+			
+DO_GAIN_ACCESS	<HTML>The databases you have selected will be<BR> set to use the current Master username and password.<br>This will require all the users to have new Master keys created.<BR><BR>Do you wish to continue?	<HTML>Выбранные вами базы данных будут<BR> настроены на использование текущего мастер-имени пользователя и пароля..<br>Для этого всем пользователям потребуется создать новые мастер-ключи.<BR><BR>Хотите продолжить?	<HTML>Выбранные вами базы данных будут<BR> настроены на использование текущего Мастер-пользователя.<br>Для этого всем пользователям потребуется создать новые Мастер-ключи.<BR><BR>Хотите продолжить?
+DO_LOOSE_ACCESS	<HTML>The databases you have selected will no longer<BR> be able to be accessed by Master login and by any of the current users.<BR><BR>Do you wish to continue?	<HTML>Выбранные вами базы данных больше не будут<BR>доступны для главного входа в систему и для любого из текущих пользователей.<BR><BR>Вы хотите продолжить?	<HTML>Выбранные вами базы данных больше не будут<BR>доступны для входа в систему Мастер-пользователя и для любого из текущих пользователей.<BR><BR>Хотите продолжить?
+			
+Geography	Geography	География	География
+Storage	Storage	Место хранения	Место хранения
+			
+# Litho Tree			
+Surface	Surface	Поверхность	Поверхность
+SuperGroup	Super Group	Супер Групп	Супер-группа
+LithoGroup	Litho Group	Лито Групп	Лито-группа
+Formation	Formation	Формирование	Формирование
+Member	Member	Член	Член
+Bed	Bed	Постель	Слой
+			
+# Chronos Tree			
+ErathemEra	Erathem/Era	Эратема / Eрa	Эратема/Eрa
+SystemPeriod	System/Period	Система / Период	Система/Период
+SeriesEpoch	Series/Epoch	Серия / Эпоха	Серия/Эпоха
+StageAge	Stage/Age	Стадия / Возраст	Стадия/Возраст
+			
+# Tree Related			
+Root	Root	Корень	Корень
+Earth	Earth	Земной шар	Земной шар
+Life	Life	Жизнь	Живое
+Site	Site	Место нахождения	Место
+			
+SEC_EML_TITLE	User Only Change	Только изменение пользователя	Изменение пользователем
+SEC_EML_MSG	The email address in the user record has changed,\nbut not in the agent record.	Адрес электронной почты в записи пользователя изменился,\n но не в записи агента	Адрес электронной почты изменился в записи пользователя,\n но не в записи агента

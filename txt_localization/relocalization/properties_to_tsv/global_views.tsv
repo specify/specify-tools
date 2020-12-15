@@ -1,0 +1,57 @@
+Field Name	en	ru
+##################################################################
+# Global Views Localization
+#
+# These for fields that are not in the schema or
+# need to be overridden
+##################################################################
+
+##############################
+# Tree Forms
+##############################
+# used by more than one form
+ACCEPTEDPARENT	Preferred Name	Предпочитаемое имя
+
+# Taxon Form
+PARENT	Parent	Родитель
+HYBRIDPARENT1	Hybrid Taxon 1	Гибридный Таксон 1
+HYBRIDPARENT2	Hybrid Taxon 2	Гибридный Таксон 2
+COMMONNAMES	Common Names	Общие имена
+ATTACHMENTS	Attachments	Вложения
+
+# Separators in each form
+TAXON	Taxonomy	Таксономия
+LITHOSTRAT	LithoStrat	Литостратиграф.
+GEOGRAPHY	Geography	 География
+GEOLOGICTIMEPERIOD	ChronoStrat	Хроностатиграф.
+STORAGE	Storage	Место хранения
+
+# Object Attachment Form
+FILENAME	File Name	Имя файла
+TITLE	Title	Заглавие
+DATE_IMAGED	Date Imaged	Дата Изображения
+FILE_CREATED_DATE	File Created Date	Дата создания файла
+COPYRIGHT_HOLDER	Copyright Holder	Правообладатель
+COPYRIGHT_DATE	Copyright Date	Дата авторского права
+ATTACHMENT_LOCATION	Attachment Location	Расположение вложения
+LICENSE	License	Лицензия
+CREDIT	Credit	Кредит
+MIME_TYPE	Mime Type	Mime Тип
+REMARKS	Remarks	Замечания
+
+#Attachment Image Attribute Form
+HEIGHT	Height	Высота
+WIDTH	Width	Ширина
+RESOLUTION	Resolution	Разрешение
+MAGNIFICATION	Magnification	Увеличение
+CREATIVE_COMMONS	Creative Commons	Творческое достояние
+MBIMAGEID	Morphbank Image ID	Morphbank ID Изображения
+TIMESTAMP_LAST_SEND	Sent to Morphbank	Отправлено в Morphbank
+TIMESTAMP_LAST_UPDATECHECK	Updated from Morphbank	Обновлено от Morphbank
+
+# Report Properties Form
+TITLE	Title	Заглавие
+SUBTITLE	SubTitle	Подзаголовок
+FOOTER	Footer	Нижний колонтитул
+
+

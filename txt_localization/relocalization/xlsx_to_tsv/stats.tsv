@@ -1,0 +1,93 @@
+Field Name	en	ru	ru_FilippovaN
+			
+TOP5	Top 5 Species	Топ 5 видов	Топ 5 видов
+LAST10	Cataloged Last 10 Years	Каталогизировано за последние 10 лет	Каталогизировано за последние 10 лет
+BYCTRY	Specimens by Country	Образцы по стране	Образцов из стран
+			
+# tool tips			
+NUMSPECIES	Number of Specimens.	Количество образцов.	Количество образцов.
+TOP5_TT	Shows a pie chart of the top five species cataloged.	Показывает круговую диаграмму пяти каталогизированных видов.	Показывает круговую диаграмму пяти ведущих видов.
+TOP5_CHRT_TT	Shows a bar chart of the top 5 species cataloged.	Показывает гистограмму из 5 ведущих каталогизированных видов.	Показывает гистограмму пяти ведущих каталогизированных видов.
+ITEMS_LAST10YR_TT	Items Cataloged Last 10 Years.	Каталогизированные товары за последние 10 лет.	Каталогизированы за последние 10 лет.
+TMP_PERIODS_TT	Cataloged in the previous 10 years.	Каталогизировано за предыдущие 10 лет.	Каталогизированы за предыдущие 10 лет.
+PRCNT_GRWTH_5YR_TT	Shows the percent of growth over the last 5 years.	Показывает процент роста за последние 5 лет.	Показывает процент роста за последние 5 лет.
+TOP7_SPEC_CNTY_TT	Shows the number of specimens by country.	Показывает количество образцов по стране.	Показывает количество образцов по странам.
+TOP10_SPEC_CNT_TT	Shows the top 10 number of species by Continent	Показывает 10 лучших видов по континентам	Показывает 10 ведущих видов по континентам
+ITMS_LOAN_TT	Show the Items on Loan	Показать предметы в заеме	Показать образцы в заеме
+OVRDUE_LOANS_TT	Show a list of overdue loans.	Показать список просроченных заемов.	Показать список просроченных заемов.
+CAT_LAST_7DAYS_TT	Shows the items cataloged in the last 7 days.	Показывает элементы, каталогизированные за последние 7 дней.	Показывает образцы, каталогизированные за последние 7 дней.
+CAT_LAST_MON_TT	Shows the items cataloged in the last month.	Показывает элементы, каталогизированные за последний месяц.	Показывает образцы, каталогизированные за последний месяц.
+CAT_LAST_YR_TT	Shows the items cataloged in the last year.	Показывает элементы, каталогизированные в прошлом году.	Показывает образцы, каталогизированные в прошлом году.
+LOAN_OVERDUE_TT	Shows a list of the loans that are overdue.	Показывает список заемов, которые просрочены.	Показывает список заемов, которые просрочены.
+TOP5_ACC_DIV_TT	Shows the top 5 accessions by division.	Показывает 5 лучших образцов по разделам.	Показывает ведущие поступления по подразделениям.
+PERMIT_EXP_YR_TT	Shows a list of permits that are expiring	Показывает список CITES разрешений, срок действия которых истекает	Показывает список устаревших разрешений
+CITES_EXP_TR_TT	Shows a list of CITES permits that are expiring this Year	Показывает список разрешений СИТЕС, срок действия которых истекает в этом году	Показывает список разрешений CITES, срок действия которых истекает в этом году
+NONCITES_EXP_TR_TT	Shows a list of Non-CITES permits that are expiring this Year	Показывает список разрешений не-CITES, срок действия которых истекает в этом году	Показывает список других разрешений, срок действия которых истекает в этом году
+WB_DS	WorkBench Data Sets	Наборы данных WorkBench	Наборы данных Импорта Данных
+			
+ITEMS_LAST10YR	Items Cataloged Last 10 Years	Предметы, каталогизированные за последние 10 лет	Образцы, каталогизированные за последние 10 лет
+YRS	Years	Лет	Лет
+			
+TMP_PERIODS	Temporial Periods	Временные периоды	Временные периоды
+PRCNT_GRWTH_5YR	Percentage Grow Last 5 Years	Процент роста за последние 5 лет	Процент роста за последние 5 лет
+PRCT	Percentage	процент	Процент
+			
+TOP7_SPEC_CNTY	Top 7 Number of Specimens by Country	Топ 7 образцов по стране	Топ 7 образцов по странам
+TOP10_SPEC_CNT	Top 10 Number of Specimens by Continent	10 лучших образцов по континентам	Топ 10 образцов по континентам
+			
+ITMS_LOAN	Items on Loan	Предметы в заеме	Предметы в заеме
+OVRDUE_LOANS	Overdue Loans	Просроченные заемы	Просроченные заемы
+LOAN_OVERDUE	Loan Overdue	Просроченный заем	Просроченный заем
+OPEN_LOANS	Open Loans	Открытые займы	Открытые займы
+			
+			
+CAT_LAST_7DAYS	Cataloged Last 7 Days	Каталогизировано за последние 7 дней	Каталогизировано за последние 7 дней
+CAT_LAST_30DAYS	Cataloged Last 30 Days	Каталогизировано за последние 30 дней	Каталогизировано за последние 30 дней
+CAT_LAST_YR	Cataloged Last Year	Каталогизировано в прошлом году	Каталогизировано в прошлом году
+			
+TOP5_ACC_DIV	Top 5 Accessions By Division	Топ 5 образцов по отделам	Топ 5 образцов по отделам
+PERMIT_EXP_YR	Permits Expiring This Year	Разрешения истекают в этом году	Разрешения истекают в этом году
+CITES_EXP_TR	CITES Permits Expiring This Year	Разрешения CITES истекают в этом году	Разрешения CITES, которые истекают в этом году
+NONCITES_EXP_TR	Non-CITES Permits Expiring This Year	Не-CITES разрешения которые истекают в этом году	Другие разрешения, которые истекают в этом году
+			
+HOLDINGS	Holdings	Удерживании	Хранения
+DAT_ENT	Data Entry	Ввод данных	Ввод данных
+LOANS	Loans	Заемствования	Заемы
+LOC_GEO	Locality/Geography	Местность / География	Местонахождение/География
+TAX_TREE	Taxonomic Tree	Таксономическое дерево	Таксономическое дерево
+TAXON	Taxon	Таксон	Таксон
+COUNT	Count	Количество	Количество
+LOCS	Localities	Местонахождения	Местонахождения
+			
+SPECIMENS	Specimens	Образцы	Образцы
+TYP_SPEC	Type Specimens	Тип образцов	Тип образцов
+UNQ_FAM	Families Represented	Представленные семьи	Представлено семейств
+UNQ_GEN	Genera Represented	Роды представлены	Представлено родов
+UNQ_SPEC	Species Represented	Представленные виды	Представлено видов
+			
+GEO_ENT	Geography Entries	География Записи	Географические записи
+COUNTRIES	Countries	Страны	Страны
+PRCNT_GEOREF	Percentage Georeferenced	Процент с географической привязкой	Процент образцов с геопривязкой
+NUMBER_GEOREF	Georeferenced Localities	Места с географической привязкой	Местонахождения с геопривязкой
+CLASSES	Classes	Классы	Классы
+ORDERS	Orders	Ряды	Ряды
+FAMS	Families	Семьи	Семейства
+GENERA	Genera	Роды	Роды
+TYP_SPEC_CNT	Type Specimen Counts	Количество типов образцов	Количество типовых образцов
+SPECIES	Species	Види	Виды
+			
+NO_TYP_SPEC	No Type Specimens	Образцы без типов	Нетиповые образцы
+			
+NUM_PREPS_PER_PREPS	Preparations Per Prep Type	Образцов на тип подготовки	Препаратов по типам
+NO_NUM_PREPS_PER_PREPS	No Preparations Types	Нет типов препаратов	Препараты без типа
+PREPTYPE	Prep Type	Тип подготовки	Тип препарата
+			
+PREPS_PT_SP	Preparations by Prep Type-Species	Образцов по типам подготовок	Препаратов по типам и видам
+NO_PREPS_PT_SP	No Preparations by Prep Type-Species	Нет образцов по типам подготовок	Нет препаратов по типам и видам
+PREP_BY_TYPE	Preparations by Type	Подготовок по типу	Препаратов по типам
+PREP_BY_TYPE_LOTS	Preparations by Type: Lots/Total	Подготовок по типу: лоты / всего	Препаратов по типам: Лотки/Всего
+PREPS	Preparations	Подготовки	Препараты
+LOTS_TOTAL	Lots/Total	Много / Всего	Лотки/Всего
+			
+ATTACHMENT_BY_TBL	Attachments by Data Type	Вложения по типу данных	Приложения по типу данных
+ATT_TBL	Data Type	Тип данных	Тип данных

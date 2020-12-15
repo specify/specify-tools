@@ -1,0 +1,36 @@
+Field Name	en	ru
+#################################################
+# Discipline
+#################################################
+CollectingEvent	Collecting Event	Cобытие сбора
+CollectionObject	Collection Object	Объект Коллекции
+
+#################################################
+# Common
+#################################################
+Appraisal	Appraisal	Оценка
+CollectingTrip	Collecting Trip	Экспедиция
+ConservDescription	Conserv Description	Описание Консервации
+Deaccession	Deaccession	Списание
+FieldNotebook	Field Notebook	Полевой Дневник
+Project	Project	Проект
+
+#################################################
+# Global
+#################################################
+Agent	Agent	Агент
+Permit	Permit	Разрешение
+Locality	Locality	Местонахождение
+Journal	Journal	Журнал
+ReferenceWork	Reference Work	Литературный Источник
+Taxon	Taxon	Таксон
+Geography	Geography	География
+Storage	Storage	Место хранения
+GeologicTimePeriod	Chronos	Хронос
+LithoStrat	Litho Stratigraphy	Литостратиграфия
+
+#################################################
+# Preparation Form
+#################################################
+IS_ON_LOAN	Is On Loan	В заеме
+SHOW_INTERACTIONS	Show Interactions	Показать Транзакции
