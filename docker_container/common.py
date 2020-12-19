@@ -5,10 +5,7 @@ import time
 import glob
 
 
-container_name = 'specify7-docker_specify7_1'
-base_dir = '/usr/local/'
-#base_dir = '/opt/'
-dirname = os.path.dirname(__file__)
+container_name = 'specify7_webpack_1'
 
 
 def send_notification(message, title, sound='Pop'):
@@ -19,22 +16,4 @@ def send_notification(message, title, sound='Pop'):
 def run_process(command):
         print(command)
         os.system(command)
-
-
-def string_has_substring(string,array_of_substrings):
-    for substring in array_of_substrings:
-        if substring in string:
-            return True
-    return False
-
-
-def get_ignore_list():
-    with open(os.path.join(dirname,'ignore_list.txt')) as ignore_list:
-        return  ignore_list.read().strip().split('\n')
-
-
-def get_files_in_directory(directory):
-    ignore_list = get_ignore_list()
-    files_to_upload = glob.glob(directory)
-    return [file for file in files_to_upload if not string_has_substring(file,ignore_list)]
 

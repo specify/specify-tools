@@ -5,7 +5,7 @@ send_notification('Watching...','Watching...')
 
 
 def run_command():
-        command = "docker exec -it --workdir "+base_dir+"specify7/specifyweb/frontend/js_src "+container_name+" bash -c 'node_modules/.bin/webpack --w --devtool eval --progress'"
+        command = "docker logs --tail 0 --follow "+container_name
         print(command)
         p = subprocess.Popen(command,
 		stdout=subprocess.PIPE,
