@@ -21,7 +21,7 @@ def run_command():
 
 
 for l, rc in run_command():
-	if 'Hash' in l:
+	if 'compiled successfully' in l:
                 send_notification('SUCCESS!!!','Specify 7 Updated!','Glass')
 	if 'ERROR' in l:
 		send_notification('ERROR!!!','Error occurred while updating Specify 7!','Hero')
