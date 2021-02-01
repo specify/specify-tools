@@ -23,7 +23,7 @@ EXIT	Exit	Выход	Выход
 FIND	Find	Найти	Найти	
 SEARCH	Search	Поиск	Поиск	
 FINDNEXT	Find Next	Найти следующий	Найти Следующий	
-BROWSE	Browse...	Выбрать...	Пролистать…	
+BROWSE	Browse...	Выбрать...	Пролистать...	
 NEXT	Next	Далее	Далее	
 SKIP	Skip	Пропускать	Пропустить	
 BACK	Back	Назад	Назад	
@@ -71,7 +71,7 @@ Title	Title	Заглавие	Заголовок
 Subtitle	Subtitle	Подзаголовок	Подзаголовок	
 Footer	Footer	Нижний колонтитул	Нижний колонтитул	
 DELETING	Deleting	Удаление	Удаление	
-INITIALIZING	Initializing...	Инициализация...	Запуск…	
+INITIALIZING	Initializing...	Инициализация...	Запуск...	
 PRINT	Print	Распечатать	Печать	
 SUMMARY	Summary	Сводка	Отчет	
 Clear	Clear	Очистить	Очистить	
@@ -600,7 +600,7 @@ RecordControllerDisplay	%d of %d	%d из %d	%d из %d
 #ValComboBoxFromQuery				
 SearchForRecordTT	Search for %s	Поиск %s	Поиск %s	
 SearchTableConfig.31	\ DESC	\ DESC	\ DESC	
-SearchTableConfig.14	"`		'`"		
+SearchTableConfig.14	"`		"`		
 EditRecordTT	Edit the %s	Изменить %s	Изменить %s	
 				
 # ValComboBox				
@@ -687,8 +687,8 @@ TTV_Saving	Saving...	Сохранение...	Сохранение...
 TTV_Loading	Loading...	Загрузка...	Загрузка...	
 TTV_Deleting	Deleting...	Удаление...	Удаление...	
 TTV_FIND_NEXT	Find Next	Найти следующий	Найти Следующий	
-TTV_EDITING	Edit...	Редактировать...	Редактирование…	
-TTV_VIEWING	View...	Посмотреть...	Просмотр…	
+TTV_EDITING	Edit...	Редактировать...	Редактирование...	
+TTV_VIEWING	View...	Посмотреть...	Просмотр...	
 TTV_DELETE	Delete	Удалить	Удалить	
 TTV_UNSYN	Undo Synonymy	Отменить синонимию	Отменить Синонимию	
 TTV_NEW_CHILD	Add Child...	Добавить ребенка...	Добавить Уровень ниже...	
@@ -1249,7 +1249,7 @@ InteractionsTask.CONFIRM_DELETE_TITLE_IR	Confirm Information Request Deletion	П
 InteractionsTask.NoInvoiceFound	<html>No invoices exist for <b>%s</b>.</html>	<html>Нет накладной для <b>%s</b>.</html>	<html>Нет документа для <b>%s</b>.</html>	
 InteractionsTask.LN_RET_TITLE	Preparations Returned	Заемов возвращено	Препаратов Возвращено	
 InteractionsTask.RET_LN_SV	%d preparations have been returned and saved.	%d заемов возвращено и сохранкно.	%d преперетов возвращено и сохранено.	
-InteractionsTask.ReturningLoanItems	Returning loan preparations ...	Возвращаю заемы...	Возвращение препаратов заема…	
+InteractionsTask.ReturningLoanItems	Returning loan preparations ...	Возвращаю заемы...	Возвращение препаратов заема...	
 InteractionsTask.PRT_INV	Print Invoice	Распечатать чек	Печать Еакладной	
 InteractionsTask.CRE_IR	Create Information Request	Создать информационный запрос	Создать Экспресс Запрос	
 InteractionsTask.EDT_GFT	Edit Gift	Редактировать подарок	Редактировать Дар	
@@ -1563,7 +1563,7 @@ ISOASSIGN_TITLE	ISO Tools	ISO инструменты	Инструменты ISO
 				
 CLNUP.FNDTITLE	Choose Items For Cleanup	Выберите предметы для очистки	Выберите Элементы для Чистки данных	
 CLNUP_AGT_CHOOSE	Cleanup	Уборка	Чистка данных	
-CLNUP.LOAD	Loading...	Загрузка...	Загрузка…	
+CLNUP.LOAD	Loading...	Загрузка...	Загрузка...	
 				
 CLNUP_PRIMARY	Primary	Первичный	Первичный	
 CLNUP_INCLUDE	Include	Включают	Включить	
@@ -1616,7 +1616,7 @@ CLNUP_AG_INIT_MSG	Searching for duplicate Agents...	Поиск дубликат�
 CLNUP_AG_CHOOSE_TITLE	Choose Agents to Merge %d of %d	Выберите агентов для слияния %d из %d	Выберите Агентов для Слияния %d из %d	
 				
 CLNUP_LC_PRG_TITLE	Locality Merging and Cleanup	Слияние и очистка местности	Объединение и Чистка данных Местонахождений	
-CLNUP_LC_INIT_MSG	Searching for duplicate Localities...	Поиск дубликатов Местностей...	Поиск дубликатов Местонахождений…	
+CLNUP_LC_INIT_MSG	Searching for duplicate Localities...	Поиск дубликатов Местностей...	Поиск дубликатов Местонахождений...	
 CLNUP_LOCALITY_MERGE_EX	Exact Match By Locality Name	Точное соответствие по названию местности	Точное совпадение по Местонахождению	
 CLNUP_LOCALITY_MERGE_EX_TT	Merges duplicate localities where the Locality Name matches exactly	Объединяет дубликаты населенных пунктов, где название населенного пункта точно соответствует	Объединяет дубликаты местонахождений, где название населенного местонахождения точно совпадает	
 CLNUP_LOCALITY_MERGE_LL	Exact Match By Lat/Lon	Точное совпадение по широте / долготе	Точное совпадение по широте/долготе	
@@ -2195,7 +2195,7 @@ DISPNAME_DUP	The discipline name '%s' is already in use.	Название дис
 				
 # Division				
 CREATEDIV	Create a Division	Создать отдел	Создать подразделение	
-BUILD_DIV	Building Division...	Строительный отдел...	Построение подразделения…	
+BUILD_DIV	Building Division...	Строительный отдел...	Построение подразделения...	
 ASK_TO_ADD_DIV	Adding a Division will require you to know the IT username and password,\n and it will require restarting Specify.	При добавлении подразделения вам потребуется знать имя пользователя и пароль ИТ-службы,\n и потребуется перезапустить Specify.	При добавлении подразделения вам потребуется знать IT-имя пользователя и пароль\n и перезапустить Specify.	
 EXIT_REQ_TITLE	Exit Will Be Required	Требуется выход	Потребуется Выход	
 DIVNAME_DUP	The division name '%s' is already in use.	Имя подразделения '%s' уже используется.	Имя подразделения '%s' уже используется.	
@@ -2790,7 +2790,7 @@ Specify.CREATE_FORM_IMAGES_MNEU	I	I	I
 Specify.CREATE_FORM_LIST	Create Form Listing	Создать список форм	Создать список форм	
 Specify.CREATE_FORM_LIST_MNEU	I	I	I	
 Specify.LOG_FILES_TITLE	Log Files	Лог-файлы	Лог-файлы	
-Specify.INITIALIZING_APP	Initializing Specify...	Инициализация Specify...	Запус Specify…	
+Specify.INITIALIZING_APP	Initializing Specify...	Инициализация Specify...	Запус Specify...	
 Specify.LOGIN_USER_MISMATCH	There was a problem setting up an application context for this\n user.  It is possible there is no Specify User Record for your database login ID.\n The application will exit.	При настройке контекста приложения для этого пользователя\n возникла проблема.  Возможно, для вашей учетной записи для входа в базу данных не указана запись пользователя.\n Приложение закроется	При настройке приложения для этого пользователя\n возникла проблема.  Возможно, для вашего ID логина не создана запись пользователя в Specify.\n Приложение закроется.	
 Specify.LOGIN_USER_MISMATCH_TITLE	Missing Specify User	Отсутствует Specify пользователь	Specify пользователь не найден	
 Specify.SELECT_FILE_OR_DIR	Select File or Directory	Выберите файл или каталог	Выберите файл или каталог	
@@ -2854,7 +2854,7 @@ SystemSetupTask.SCHEMA_CONFIG	Schema Configuration	Конфигурация сх
 SystemSetupTask.SCHEMA_CONFIG_MENU	Schema Configuration...	Конфигурация схемы...	Конфигурация схемы...	
 SystemSetupTask.SCHEMA_CONFIG_MNU	S	S	S	
 SystemSetupTask.WBSCHEMA_CONFIG	WorkBench Schema Configuration	WorkBench Конфигурация схемы	Конфигурация схемы Импорта Данных	
-SystemSetupTask.WBSCHEMA_CONFIG_MENU	WorkBench Schema Configuration...	WorkBench Конфигурация схемы...	Конфигурация схемы Импорта Данных…	
+SystemSetupTask.WBSCHEMA_CONFIG_MENU	WorkBench Schema Configuration...	WorkBench Конфигурация схемы...	Конфигурация схемы Импорта Данных...	
 SystemSetupTask.WBSCHEMA_CONFIG_MNU	o	o	o	
 SystemSetupTask.LOADING_LOCALES	Loading Locales...	Загрузка локалей...	Загрузка локалей...	
 SystemSetupTask.RIE_MENU	Resource Import/Export...	Ресурс Импорт/Экспорт...	Ресурс Импорт/Экспорт...	
@@ -3470,7 +3470,7 @@ ExportCmdLine.MappingMustBeRebuilt	mapping must be rebuilt.	картографи
 ExportCmdLine.MappingStatus	Got mapping status: Records deleted=%d. Records added or updated=%d	Получен статус сопоставления: записи удалены=%d. Записи добавлены или обновлены=%d	Результаты картирования: записи удалены=%d. Записи добавлены или обновлены=%d	
 ExportCmdLine.FailedToGetMappingStatus	failed to get mapping status.	не удалось получить статус сопоставления.	не удалось получить результаты картирования.	
 ExportCmdLine.UpdatingCache	Updating cache...	Обновление кеша...	Обновление кеша...	
-ExportCmdLine.UpdatedCache	...updated cache.	...обновлен кеш.	…кеш обновлен.	
+ExportCmdLine.UpdatedCache	...updated cache.	...обновлен кеш.	...кеш обновлен.	
 ExportCmdLine.FailedToUpdateCache	failed to update cache.	не удалось обновить кеш.	не удалось обновить кеш.	
 ExportCmdLine.ActionNotCompleted	action not completed.	действие не завершено.	действие не завершено.	
 				
