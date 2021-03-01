@@ -86,6 +86,7 @@ stable_key = 'ru'
 full_charset = 'a-zіа-яїґь'
 
 source_file_name = 'schema_localization.xml'
+wb_source_file_name = 'wbschema_localization.xml'
 original_en_file_name = '_original.json'
 striped_en_file_name = '_striped.json'
 distinct_en_file_name = '_distinct.json'
