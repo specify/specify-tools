@@ -1,10 +1,10 @@
 Field Name	en	ru
 # TaxonLabelFormatter Plugin
-NewAgent	New Agent	Новый агент
+NewAgent	New Agent	Новое лицо
 Authors	Authors	Авторы
-SampleOutput	Sample Output	Пример вывода
-LabelFormat	Label Format	Формат метки
-ReferenceWork	Reference Work	Reference Work
+SampleOutput	Sample Output	Пример результата
+LabelFormat	Label Format	Формат этикетки
+ReferenceWork	Reference Work	Библиография
 None	None	Никто
 Search	Search	Поиск
 
@@ -16,7 +16,7 @@ DD_MM_SS	Degrees Minutes Decimal Seconds	Градусы Минуты Десят�
 Point	Point	Точка
 Line	Line	Линия
 Rect	Rectangle	Прямоугольник
-PointTT	Single Lat/Lon Point	Одиночный широта / долгота
+PointTT	Single Lat/Lon Point	Точка широты / долготы
 LineTT	Two Lat/Lon points representing a line	Две точки широты и долготы, представляющие линию
 RectTT	Two Lat/Lon points representing a rectangle (upper left and lower right)	Две точки широты и долготы, представляющие прямоугольник (вверху слева и внизу справа)
 
@@ -26,17 +26,17 @@ LAT1	Latitude 1	Широта 1
 LON1	Longitude 1	Долгота 1
 LAT2	Latitude 2	Широта 2
 LON2	Longitude 2	Долгота 2
-LatLonUI.POINT_ERR	The point is in error.	Дело в ошибке.
-LatLonUI.POINT_INCMP	The point is incomplete.	Дело в неполном.
-LatLonUI.FIRST_POINT_ERR	The first point is in error.	Первый пункт ошибочен.
-LatLonUI.FIRST_POINT_INCMP	The first point is incomplete.	Первый пункт в неполной.
-LatLonUI.SEC_POINT_INCMP	The second point is incomplete.	Второй пункт не завершен.
-LatLonUI.SEC_POINT_ERR	The second point is in error.	Второй момент ошибочен.
+LatLonUI.POINT_ERR	The point is in error.	Точка ошибочна
+LatLonUI.POINT_INCMP	The point is incomplete.	Точка не полная
+LatLonUI.FIRST_POINT_ERR	The first point is in error.	Первая точка ошибочна
+LatLonUI.FIRST_POINT_INCMP	The first point is incomplete.	Первая точка не полная
+LatLonUI.SEC_POINT_INCMP	The second point is incomplete.	Вторая точка ошибочна
+LatLonUI.SEC_POINT_ERR	The second point is in error.	Вторая точка не полная
 SOURCE	(Source)	(Источник)
 LatLonUI.LL_SEP	Default Settings	Настройки по умолчанию
 LatLonUI.LATDEF_DIR	Default to Latitude North	По умолчанию для северной широты
-LatLonUI.LONDEF_DIR	Default to Longitude West	По умолчанию долгота на запад
-LatLonUI.DEF_TYP	Default Type	Тип по умолчанию
+LatLonUI.LONDEF_DIR	Default to Longitude West	По умолчанию Северна Широта
+LatLonUI.DEF_TYP	Default Type	По умолчанию Западная Долгота
 LatLonUI.DEF_FMT	Default Format	Формат по умолчанию
 
 ADD_AUTHOR_NAME_TT	Add Author Name	Добавить имя автора
@@ -45,7 +45,7 @@ MOVE_AUTHOR_NAME_UP	Move the author name up in the list	Переместить �
 MOVE_AUTHOR_NAME_DOWN	Move the author name down in the list	Переместить имя автора вниз по списку
 
 # PasswordStrengthUI
-PasswordStrengthUI.VERY_WEAK	Very Weak	Очень слаб
+PasswordStrengthUI.VERY_WEAK	Very Weak	Очень слабый
 PasswordStrengthUI.WEAK	Weak	Слабый
 PasswordStrengthUI.MEDIOCRE	Mediocre	Средний
 PasswordStrengthUI.STRONG	Strong	Сильный
@@ -59,47 +59,47 @@ PasswordStrengthUI.PWD_SPECIAL	Special character	Специальные симв
 # PartialDateUI
 PartialDateUI	Partial Date	Частичная дата
 
-HostTaxonPlugin.ERR_CLICK	Click For Error	Нажмите для ошибки
-HostTaxonPlugin.ERR_BAD_NM	For the relationship `%s` the left side (or primary) collection must match the current collection `%s`	Для отношений `%s` левая (или основная) коллекция должна соответствовать текущей коллекции `%s`
-HostTaxonPlugin.ERR	There was an exception while trying to configure the plugin	Произошло исключение при попытке настроить плагин
+HostTaxonPlugin.ERR_CLICK	Click For Error	Нажмите если ошибка
+HostTaxonPlugin.ERR_BAD_NM	For the relationship `%s` the left side (or primary) collection must match the current collection `%s`	Для отношения `%s` основная коллекция должна соответствовать текущей коллекции `%s`
+HostTaxonPlugin.ERR	There was an exception while trying to configure the plugin	Произошла ошибка при попытке настроить плагин
 HostTaxonPlugin.ERR_MSG_RSC	There is no Collection for the relname `%s`	Нет коллекции для настоящего имени `%s`
 HostTaxonPlugin.ERR_MSG_RSD	There is no Discipline for the relname `%s`	Там нет дисциплины для настоящего имени `%s`
-HostTaxonPlugin.ERR_MSG_REL_EMPTY	The parameter `relname` is empty and can't be.	Параметр `настоящее имя` пуст и не может быть.
+HostTaxonPlugin.ERR_MSG_REL_EMPTY	The parameter `relname` is empty and can't be.	Параметр `настоящее имя` пуст и не может быть использован.
 
 # SGR
 SGR_NO_RESULTS_MLT	There are no results for the selected rows.	Нет результатов по выбранным строкам.
 SGR_NO_RESULTS	There are no results for `%s`, `%s`, `%s`.	Нет результатов для `%s`, `%s`, `%s`.
-SGRResultsChooser.TITLE	Scatter, Gather, Reconcile: Results Chooser - %d of %d	Рассеивать, собирать, согласовать: Выбор результатов - %d из %d
+SGRResultsChooser.TITLE	Scatter, Gather, Reconcile: Results Chooser - %d of %d	Рассеивать, Собирать, Согласовать: Выбор результатов - %d из %d
 SGR_GET_GRP_DATA	Getting Aggregated Collections Data...	Получение агрегированных данных коллекций...
 SGR_EDIT_BATCH_RESULTS	Edit Properties	Изменить свойства
 SGR_STOP_PROCESSING	Stop Processing	Остановить обработку
-SGR_RESUME_PROCESSING	Resume Processing	Обработка резюме
+SGR_RESUME_PROCESSING	Resume Processing	Возобновить обработку
 SGR_SHOW_HISTOGRAM	Show Histogram	Показать гистограмму
 SGR_MATCHERS_TITLE	Matchers	Matchers
 SGR_CREATE_MATCHER	Create Matcher	Создать Matcher
 SGR_EDIT_MATCHER	Edit Matcher Properties	Редактировать свойства Matcher
 SGR_EDIT_MATCH_CONFIGURATION	Edit	Редактировать
-SGR_BATCH_ITEMS	Records	документация
+SGR_BATCH_ITEMS	Records	Записи
 SGR_BATCH_RESULTS	Match Results	Привести результаты в соответствие
 SGR_BATCH_RESULTS_NAME	Name	Имя
-SGR_MATCHER	Matcher	Сличитель
-SGR_REMARKS	Remarks	Замечания
-SGR_HISTO_DATASERIES	Matches	соответствовния
-SGR_HISTO_TITLE	Quality of Matches	Качество соответствовния
+SGR_MATCHER	Matcher	Matcher
+SGR_REMARKS	Remarks	Примечания
+SGR_HISTO_DATASERIES	Matches	Совпадения
+SGR_HISTO_TITLE	Quality of Matches	Качество совпадений
 SGR_HISTO_X_AXIS	SGR Score	Оценка SGR
-SGR_HISTO_Y_AXIS	Number of Records	Количество записей
+SGR_HISTO_Y_AXIS	Number of Records	Число записей
 SGR_ERROR_SERVER_FAIL	Failed to fetch SGR results from the SGR server.	Не удалось получить результаты SGR с сервера SGR.
 SGR_ERROR_SERVER_FAILED_GETTING_INDICES	Failed to retrieve the list of available indices from the SGR server.	Не удалось получить список доступных индексов с сервера SGR.
-SGR_CANT_DELETE_MATCHER	Can't delete matcher because one or more match result sets still refer to it.	Невозможно удалить сопоставление, поскольку один или несколько наборов результатов сопоставления по-прежнему ссылаются на него.
-SGR_CANT_DELETE_OPEN_MATCHER	Can't delete matcher because at least one SGR pane is using it.	Невозможно удалить средство сопоставления, поскольку его использует хотя бы одна панель SGR.
-SGR_NO_MATCHER	No matcher selected.	Соответствие не выбрано.
-SGR_NO_RESULTS	No matches found.	Ничего не найдено.
+SGR_CANT_DELETE_MATCHER	Can't delete matcher because one or more match result sets still refer to it.	Невозможно удалить matcher, поскольку один или несколько наборов результатов сопоставления по-прежнему ссылаются на него.
+SGR_CANT_DELETE_OPEN_MATCHER	Can't delete matcher because at least one SGR pane is using it.	Невозможно удалить matcher, поскольку его использует хотя бы одна панель SGR.
+SGR_NO_MATCHER	No matcher selected.	Ни один matcher не выбран.
+SGR_NO_RESULTS	No matches found.	Совпадений не найдено.
 SGR_SHOW_RESULTS	Show SGR results.	Показать результаты SGR.
 SGR_REFRESH_RESULTS	Refresh SGR results. (F5)	Обновить результаты SGR. (F5)
-SGR_DO_BATCH	Process Data Set	Обработка данных
+SGR_DO_BATCH	Process Data Set	Обработка набора данных
 SGR_SELECT_MATCHER	Select Matcher	Выберите Matcher
-SGR_MATCHER_NAME_REQUIRED_ERROR	The matcher's name must not be blank.	Имя соответствия не должно быть пустым.
-SGR_BLANK_RESULTSET_NAME_ERROR	The match results name can not be blank.	Название результатов матча не может быть пустым.
+SGR_MATCHER_NAME_REQUIRED_ERROR	The matcher's name must not be blank.	Имя matcher не должно быть пустым.
+SGR_BLANK_RESULTSET_NAME_ERROR	The match results name can not be blank.	Название результатов поиска совпадений не может быть пустым.
 SGR_MATCHER_NAME	Name	Имя
 SGR_INDEX	Index	Индекс
 SGR_EXCLUDE	Exclude	Исключать
@@ -118,10 +118,10 @@ ASSOC_CONTR_INUSE	The container '%s' is already used by Collection Object '%s'	�
 #MorphBankPanel
 MorphBankPanel.DetailsBtn	i	i
 MorphBankPanel.ViewMBBtn	mb	mb
-MorphBankPanel.PutBtn	Send	Послать
+MorphBankPanel.PutBtn	Send	Отправить
 MorphBankPanel.GetBtn	Get	Получить
 MorphBankPanel.NotImageStatus	Not an image	Не является изображением
-MorphBankPanel.NotMorphBankedStatus	Not Morphbanked	Не Morphbanked
+MorphBankPanel.NotMorphBankedStatus	Not Morphbanked	Не находится в Morphbank
 MorphBankPanel.UpdatesNeededStatus	Updates required	Требуются обновления
 MorphBankPanel.UpToDateStatus	Up to date	До настоящего времени
 MorphBankPanel.MorphBankID	Morphbank ID:	Morphbank ID:
@@ -132,7 +132,7 @@ MorphBankPanel.MoreThanOneImageObjectCreated	Morphbank returned more than one im
 MorphBankPanel.NoImageObjectCreated	Morphbank did not return an image id.	Morphbank не вернул идентификатор изображения.
 MorphBankPanel.SuccessfulImageInsert	The image was added to Morphbank.	Изображение было добавлено в Morphbank.
 MorphBankPanel.ImageInsertFailed	The image could not be added to Morphbank.	Изображение не может быть добавлено в Morphbank.
-MorphBankPanel.ImageFileUploadFailed	The contents of the image file could not be uploaded to Morphbank.\r\nYou may need to upload it manually from your Morphbank account.	Не удалось загрузить содержимое файла изображения в Morphbank. \r\nВы, возможно, должны загрузить его вручную со своей учетной записи Morphbank.
+MorphBankPanel.ImageFileUploadFailed	The contents of the image file could not be uploaded to Morphbank.\r\nYou may need to upload it manually from your Morphbank account.	Не удалось загрузить содержимое файла изображения в Morphbank. \r\nПопрубуйте загрузить его вручную со своей учетной записи Morphbank.
 MorphBankPanel.DetailBtnHint	Show details	Показать детали
 MorphBankPanel.ViewMBBtnHint	View image at Morphbank	Посмотреть изображение на Morphbank
 MorphBankPanel.PutBtnHint	Send to Morphbank	Отправить в Morphbank

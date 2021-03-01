@@ -1,3 +1,281 @@
+~~~~~~~
+./properties_to_tsv/global_views.tsv
+Field Name	en	ru
+##################################################################
+# Global Views Localization
+#
+# These for fields that are not in the schema or
+# need to be overridden
+##################################################################
+
+##############################
+# Tree Forms
+##############################
+# used by more than one form
+ACCEPTEDPARENT	Preferred Name	Принятое название
+
+# Taxon Form
+PARENT	Parent	Родитель
+HYBRIDPARENT1	Hybrid Taxon 1	Гибридный Таксон 1
+HYBRIDPARENT2	Hybrid Taxon 2	Гибридный Таксон 2
+COMMONNAMES	Common Names	Народное название
+ATTACHMENTS	Attachments	Приложения
+
+# Separators in each form
+TAXON	Taxonomy	Таксономия
+LITHOSTRAT	LithoStrat	Литостратиграфия
+GEOGRAPHY	Geography	География
+GEOLOGICTIMEPERIOD	ChronoStrat	Хроностратиграфия
+STORAGE	Storage	Место хранения
+
+# Object Attachment Form
+FILENAME	File Name	Имя файла
+TITLE	Title	Заглавие
+DATE_IMAGED	Date Imaged	Дата Изображения
+FILE_CREATED_DATE	File Created Date	Дата создания файла
+COPYRIGHT_HOLDER	Copyright Holder	Правообладатель
+COPYRIGHT_DATE	Copyright Date	Дата создания авторского права
+ATTACHMENT_LOCATION	Attachment Location	Расположение приложения
+LICENSE	License	Лицензия
+CREDIT	Credit	Кредит
+MIME_TYPE	Mime Type	Mime Тип
+REMARKS	Remarks	Примечания
+
+#Attachment Image Attribute Form
+HEIGHT	Height	Высота
+WIDTH	Width	Ширина
+RESOLUTION	Resolution	Разрешение
+MAGNIFICATION	Magnification	Увеличение
+CREATIVE_COMMONS	Creative Commons	Creative Commons
+MBIMAGEID	Morphbank Image ID	ID Изображения в Morphbank
+TIMESTAMP_LAST_SEND	Sent to Morphbank	Отправлено в Morphbank
+TIMESTAMP_LAST_UPDATECHECK	Updated from Morphbank	Обновлено от Morphbank
+
+# Report Properties Form
+TITLE	Title	Заглавие
+SUBTITLE	SubTitle	Подзаголовок
+FOOTER	Footer	Нижний колонтитул
+
+
+
+~~~~~~~
+./properties_to_tsv/system_setup.tsv
+Field Name	en	ru
+DOA_DLG_TITLE	Aggregation Editor	Редактор агрегации
+DOA_AGGREGATION	Aggregation	Агрегирование
+DOA_DEFAULT	Default	По умолчанию
+DOA_TITLE	Title	Заглавие
+DOA_NAME	NAME	НАЗВАНИЕ
+DOA_DISPLAY	Display	Показывать
+DOA_SEP	Separator	Разделитель
+DOA_ENDING	Ending	Окончание
+DOA_SORT_BY	Sort by	Сортировать по
+DOA_COUNT	Count	Счет
+
+~~~~~~~
+./properties_to_tsv/views.tsv
+Field Name	en	ru
+#################################################
+# Discipline
+#################################################
+CollectingEvent	Collecting Event	Cобытие сбора
+CollectionObject	Collection Object	Объект Коллекции
+
+#################################################
+# Common
+#################################################
+Appraisal	Appraisal	Оценка
+CollectingTrip	Collecting Trip	Экспедиция
+ConservDescription	Conserv Description	Описание Консервации
+Deaccession	Deaccession	Списание
+FieldNotebook	Field Notebook	Полевой Дневник
+Project	Project	Проект
+
+#################################################
+# Global
+#################################################
+Agent	Agent	Агент
+Permit	Permit	Разрешение
+Locality	Locality	Местонахождение
+Journal	Journal	Журнал
+ReferenceWork	Reference Work	Литературный Источник
+Taxon	Taxon	Таксон
+Geography	Geography	География
+Storage	Storage	Место хранения
+GeologicTimePeriod	Chronos	Хронос
+LithoStrat	Litho Stratigraphy	Литостратиграфия
+
+#################################################
+# Preparation Form
+#################################################
+IS_ON_LOAN	Is On Loan	В заеме
+SHOW_INTERACTIONS	Show Interactions	Показать Транзакции
+
+~~~~~~~
+./properties_to_tsv/expresssearch.tsv
+Field Name	en	ru
+####################
+# Fields
+####################
+TaxonName	Taxon Name	Название таксона
+Geography	Geography	География
+Determiner	Determiner	Определил
+Collectors	Collectors	Коллекторы
+OldTaxonName	Old Name	Раннее название
+AcceptedTaxonName	Preferred Name	Принятое название
+DeterminationName	Determination Name	Название в момент идентификации
+OldTaxonOnDeter	Name on Determination	Раннее название в момент идентификации
+OtherOldTaxonName	Other Name	Другие названия
+GeoCategory	Category	Категория географии
+StorageName	Storage	Место хранения
+Name	Name	Название
+
+####################
+# Fields  Descriptionw
+####################
+TaxonName_desc	The taxon Name	Название таксона
+Geography_desc	The geography name	Название географии
+Determiner_desc	The person who determined it	Определил
+Collectors_desc	The list of collectors	Список коллекторов
+OldTaxonName_desc	The old taxon name	Раннее название таксона
+AcceptedTaxonName_desc	The preferred taxon name	Принятое название таксона
+DeterminationName_desc	The determination name	Название на момент идентификации
+OldTaxonOnDeter_desc	The taxon name on the determination	Раннее название на момент идентификации
+OtherOldTaxonName_desc	Another taxon name having the same preferred taxon name	Другое раннее название, имеющее такое же принятное название
+GeoCategory_desc	Category of the geography	Категория географии
+LocationName_desc	The location of the object	Размещение объекта
+Name_desc	The name of the object	Название объекта
+StorageName_desc	Storage name	Название места хранения
+
+####################
+# Express Search Titles
+####################
+CollObjToDeterminer	Taxon CollectionObject	Таксон Объект Коллекции
+CollObToLocality	Collecting Event Locality	Местонахождение Событие Сбора
+CollObject	Collection Object Taxon	Объект Коллекции Таксон
+GeoToTaxon	Taxon Geography	Таксон География
+ColObjCollectors	Collection Object Collectors	Объект Коллекции Коллекторы
+AcceptedTaxon	Taxon Preferred Taxon	Таксон Притяный Таксон
+SynonymCollObjs	Collection Object Preferred Taxon	Объект Коллекции Принятый Таксон
+#AcceptedNameCollObjs=Accepted Name for Collection Object
+OtherSynsCollObjs	Collection Object Taxon (all synonyms)	Объект Коллекции Таксон (все синонимы)
+CurrCollObject	Collection Object Taxon (determined)	Объект Коллекции Таксон (идентифицирован)
+AgentFromAgentVariant	Agent Agent Variant	Агент Вариант Агента
+Agent	Agent	Агент
+AgentVariant	Agent Variant	Вариант агента
+LocalityAlias	Locality Locality Alias	Местонахождение Другое название местонахождения
+CEToCO	Collection Object Collecting Event	Объект Коллекции Событие Сбора
+LocToCO	Collection Object Locality	Объект Коллекции Локалитет
+Acc2ATT	Accession Attachments	Приложения Поступления
+Agt2ATT	Agent Attachments	Приложения Агента
+Co2ATT	Collection Attachments	Приложения Коллекции
+CoEv2ATT	Collecting Event Attachments	Приложения События Сбора
+ConD2ATT	Conservator Description Attachments	Приложения Описаня Консервации
+ConE2ATT	Conservator Event Attachments	Приложения События Консервации
+DNA2ATT	DNA Sequence Attachments	Приложения к ДНК сиквенсу
+Fbk2ATT	Field Notebook Attachments	Приложения к Полевым записям
+FbkPG2ATT	Field Notebook Page Attachments	Приложения к Странице Полевых записей
+FbkPGS2ATT	Field Notebook Page Set Attachments	Приложения к Серии Полевых записей
+Loc2ATT	Locality Attachments	Приложения к Местонахождению
+Per2ATT	Permit Attachments	Приложения к Разрешению
+Prep2ATT	Preparation Attachments	Приложения к Препаратам
+Rep2ATT	Repository Agreement Attachments	Приложения к Соглашению
+Tax2ATT	Taxon Attachments	Приложения к Таксону
+AccessionToCO	Collection Object Accession	Объект Коллекции Поступление
+AccessionToAgent	Agent Accession	Агент Поступление
+BorrowToAgent	Agent Borrow	Агент Поступление
+AppraisalToAgent	Agent Appraisal	Аген Оценка
+GeoTimePeriodToCO	Collection Object Chronostratigraphy	Объект Коллекции Хроностратиграфия
+CollEventToCollectors	 Collector CollectingEvent	Коллекторы Событие Сбора
+CollTripCollEvent	 Collecting Event Collecting Trip	Событие Сбора Экспедиция
+AgentExchangeIn	Exchange In Agent	Внешний обмен Агент
+AgentExchangeOut	Exchange Out Agent	Внутренний обмен Агент
+GeographyCE	Collecting Event Geography	Событие Сбора География
+GeographyCO	Collection Object Geography	Объект Коллекции География
+GiftCO	Collection Object Gift	Объект Коллекции Дар
+GiftAgent	Agent Gift	Агент Дар
+LoanCO	Collection Object Loan	Объект Коллекции Заем
+LoanAgent	Agent Loan	Агент Заем
+LithoStratToCO	Collection Object Lithostratigraphy	Объект Коллекции Литостратиграфия
+PermitToCO	Collection Object Permit	Объект Коллекции Разрешение
+PermitIssuedToAgent	 Agent Issued to Permit	Агент выдавший Разрешение
+PermitIssuedByAgent	Agent Issued by Permit	Агент получивший Разрешение
+ProjectCO	Collection Object Project	Проект Объекта Коллекции
+ProjectAgent	Agent Project	Проект Агента
+RepoAgreeAgent	Agent Repository Agreement	Агент Соглашение о Хранении
+StorageCO	Collection Object Storage	Объект Коллекции Хранение
+TaxCollObject	Collection Object Taxon	Объект Коллекции Таксон
+ColObjToContainer	Collection Object Container	Объект Коллекции Контейнер
+ContainerToKids	Container Collection Object Children	Контейнер Объект Коллекции Дочерние элементы
+ContainerToContainerKids	Container Container Children	Контейнер Дочерние элементы
+ExchangeInCO	Collection Object Exchange In	Объект Коллекции Внутренний Обмен
+ExchangeOutCO	 Collection Object Exchange Out	Объект Коллекции Внешний Обмен
+
+####################
+# Express Search Description
+####################
+CollObjToDeterminer_desc	Collection Objects with Determiner and Taxon for current Determinations	Объект Коллекции с Определившим и Таксон для текущей идентификации
+CollObToLocality_desc	Collecting Events with Localities	Событие сбора с местонахождениями
+CollObject_desc	Collection Objects with determined Taxa	Объект Коллекции с идентифицированными Таксонами
+GeoToTaxon_desc	Geography records where taxa were collected	Географические записи где таксоны были собраны
+ColObjCollectors_desc	Collection Object with Collectors	Объект Коллекции с Коллекторами
+AcceptedTaxon_desc	Old Taxa with their preferred names.	Ранние таксоны с их принятыми названиями.
+SynonymCollObjs_desc	Collection objects with determined Taxon names and preferred Taxon names	Объект Коллекции с идентифицированными Таксонами и принятыми названиями
+#AcceptedNameCollObjs_desc=Collection objects that are determined to be the accepted taxon name of the taxon names matching the search string
+OtherSynsCollObjs_desc	Collection objects with determined Taxon and its synonyms	Объект Коллекции с идентифицированными таксонами и их синонимами
+CurrCollObject_desc	Collection objects with Taxon for current Determinations	Объект Коллекции с Таксоном для текущих идентификаций
+AgentFromAgentVariant_desc	Agents and Variants	Агенты и Варианты
+Agent_desc	Agent	Агенты и Варианты
+LocalityAlias_desc	Localities with Aliases	Местонахождения с Другими названиями
+CEToCO_desc	Collection Objects related to Collecting Event	Объекты Коллекции связанный с Событием Сбора
+LocToCO_desc	Collection Objects related to Locality	Объекты Коллекции связанные с Местонахождением
+Acc2ATT_desc	Accession Attachments	Приложения к Поступлению
+Agt2ATT_desc	Agent Attachments	Приложения к Агенту
+Co2ATT_desc	Collection Attachments	Приложения к Коллекции
+CoEv2ATT_desc	Collecting Event Attachments	Приложения к Событию Сбора
+ConD2ATT_desc	Conservator Description Attachments	Приложения к Описанию Консерватора
+ConE2ATT_desc	Conservator Event Attachments	Приложения к Событию Консервации
+DNA2ATT_desc	DNA Sequence Attachments	Приложения к ДНК сиквенсу
+Fbk2ATT_desc	Field Notebook Attachments	Приложения к Полевым записям
+FbkPG2ATT_desc	Field Notebook Page Attachments	Приложения к Странице полевой записи
+FbkPGS2ATT_desc	Field Notebook Page Set Attachments	Приложения к Серии полевых записей
+Loc2ATT_desc	Locality Attachments	Приложения к Местонахождению
+Per2ATT_desc	Permit Attachments	Приложения к Разрешению
+Prep2ATT_desc	Preparation Attachments	Приложения к Препаратам
+Rep2ATT_desc	Repository Agreement Attachments	Приложения к Соглашению
+Tax2ATT_desc	Taxon Attachments	Приложения к Таксону
+AccessionToCO_desc	Collection Objects associated with Accessions	Объекты Коллекции, связанные с Поступлениями
+AccessionToAgent_desc	Agents associated with Accessions	Агенты, связанные с Поступлениями
+BorrowToAgent_desc	Agents associated with Borrows	Агенты, связанные с Заемом
+AppraisalToAgent_desc	Agents associated with Appraisals	Агенты, связанные с Оценкой
+GeoTimePeriodToCO_desc	Collection Objects associated with Chronostratigraphy	Объекты Коллекции, связанные с Хроностратиграфией
+CollEventToCollectors_desc	Collectors for CollectingEvents	Коллекторы События Сбора
+CollTripCollEvent_desc	Collecting Events for Collecting Trips	События сбора для Экспедиций
+AgentExchangeIn_desc	Agents for incoming Exchanges	Агенты для Внутренних Обменов
+AgentExchangeOut_desc	Agents for outgoing Exchanges	Агенты для Внешних Обменов
+GeographyCE_desc	Collecting Events within Geography	События Сбора внутри Географии
+GeographyCO_desc	Collection Objects collected within Geography	Объекты Коллекции собранные внутри Географии
+GiftCO_desc	Collection Objects contained in Gifts	Объекты Коллекции содержащиеся в Дарах
+GiftAgent_desc	Agents associated with Gifts	Агенты связанные с Дарами
+LoanCO_desc	Collection Objects contained in Loan	Объекты Коллекции содержащиеся в Заемах
+LoanAgent_desc	Agents associated with Loans	Агенты связанные с Заемами
+LithoStratToCO_desc	Collection Objects associated with Lithostratigraphy	Объекты Коллекции связанные с Литостратиграфией
+PermitToCO_desc	Collection Objects with associated Permits	Объекты Коллекции с соответствующими Разрешениями
+PermitIssuedToAgent_desc	Agents to whom Permits were issued	Агенты которым были выданы Разрешения
+PermitIssuedByAgent_desc	Agents who issued Permits	Агенты которые выдали Разрешения
+ProjectCO_desc	Collection Objects associated with Projects	Объекты Коллекции связанные с Проектами
+ProjectAgent_desc	Agents associated with Projects	Агенты связанные с Проектами
+RepoAgreeAgent_desc	Agents associated with Repository Agreements	Агента связанные с Соглашением о Хранении
+StorageCO_desc	Collection Objects with Storage locations	Объекты коллекции с местами Хранения
+TaxCollObject_desc	Collection Objects determined to Taxa	Объекты Коллекции идентифицированные до Таксонов
+ColObjToContainer_desc	Collection Objects that have Containers	Объекты Коллекции имеющие Контейнеры
+ContainerToKids_desc	The Container's Collection Object children	Дочерние элементы Контейнера Объектов Коллекции
+ContainerToContainerKids_desc	The Container's container children	Дочерние элементы Контейнера Контейнера
+ExchangeInCO_desc	Collection Objects contained in Exchange In	Объекты Коллекции входящие во Внутренний Обмен
+ExchangeOutCO_desc	 Collection Objects contained in Exchange Out	Объекты Коллекции входящие во Внешний Обмен
+
+~~~~~~~
+./properties_to_tsv/resources.tsv
 Field Name	en	ru
 #################################
 # Really common GUI terms
@@ -3597,3 +3875,812 @@ ExportPanel.FileExists	File Exists	Файл существует
 ExportPanel.OverwriteExistingFile	Overwrite existing file %s?	Переписать существующий файл %s?
 DNASEQ_DUPLICATE_EXTRACTORS	The extractor '%s' can only be used once.	Агент экстрактор '%s' может быть использован однажды.
 DNASEQ_DUPLICATE_SEQUENCERS	The pcrPerson '%s' can only be used once.	Агент ПЦР '%s' может быть использован однажды.
+
+~~~~~~~
+./properties_to_tsv/stats.tsv
+Field Name	en	ru
+
+TOP5	Top 5 Species	Топ 5 видов
+LAST10	Cataloged Last 10 Years	Каталогизировано за последние 10 лет
+BYCTRY	Specimens by Country	Образцов из стран
+
+# tool tips
+NUMSPECIES	Number of Specimens.	Количество образцов.
+TOP5_TT	Shows a pie chart of the top five species cataloged.	Показывает круговую диаграмму пяти ведущих видов.
+TOP5_CHRT_TT	Shows a bar chart of the top 5 species cataloged.	Показывает гистограмму пяти ведущих каталогизированных видов.
+ITEMS_LAST10YR_TT	Items Cataloged Last 10 Years.	Каталогизированы за последние 10 лет.
+TMP_PERIODS_TT	Cataloged in the previous 10 years.	Каталогизированы за предыдущие 10 лет.
+PRCNT_GRWTH_5YR_TT	Shows the percent of growth over the last 5 years.	Показывает процент роста за последние 5 лет.
+TOP7_SPEC_CNTY_TT	Shows the number of specimens by country.	Показывает количество образцов по странам.
+TOP10_SPEC_CNT_TT	Shows the top 10 number of species by Continent	Показывает 10 ведущих видов по континентам
+ITMS_LOAN_TT	Show the Items on Loan	Показать образцы в заеме
+OVRDUE_LOANS_TT	Show a list of overdue loans.	Показать список просроченных заемов.
+CAT_LAST_7DAYS_TT	Shows the items cataloged in the last 7 days.	Показывает образцы, каталогизированные за последние 7 дней.
+CAT_LAST_MON_TT	Shows the items cataloged in the last month.	Показывает образцы, каталогизированные за последний месяц.
+CAT_LAST_YR_TT	Shows the items cataloged in the last year.	Показывает образцы, каталогизированные в прошлом году.
+LOAN_OVERDUE_TT	Shows a list of the loans that are overdue.	Показывает список заемов, которые просрочены.
+TOP5_ACC_DIV_TT	Shows the top 5 accessions by division.	Показывает ведущие поступления по подразделениям.
+PERMIT_EXP_YR_TT	Shows a list of permits that are expiring	Показывает список устаревших разрешений
+CITES_EXP_TR_TT	Shows a list of CITES permits that are expiring this Year	Показывает список разрешений CITES, срок действия которых истекает в этом году
+NONCITES_EXP_TR_TT	Shows a list of Non-CITES permits that are expiring this Year	Показывает список других разрешений, срок действия которых истекает в этом году
+WB_DS	WorkBench Data Sets	Наборы данных Импорта Данных
+
+ITEMS_LAST10YR	Items Cataloged Last 10 Years	Образцы, каталогизированные за последние 10 лет
+YRS	Years	Лет
+
+TMP_PERIODS	Temporial Periods	Временные периоды
+PRCNT_GRWTH_5YR	Percentage Grow Last 5 Years	Процент роста за последние 5 лет
+PRCT	Percentage	Процент
+
+TOP7_SPEC_CNTY	Top 7 Number of Specimens by Country	Топ 7 образцов по странам
+TOP10_SPEC_CNT	Top 10 Number of Specimens by Continent	Топ 10 образцов по континентам
+
+ITMS_LOAN	Items on Loan	Предметы в заеме
+OVRDUE_LOANS	Overdue Loans	Просроченные заемы
+LOAN_OVERDUE	Loan Overdue	Просроченный заем
+OPEN_LOANS	Open Loans	Открытые займы
+
+
+CAT_LAST_7DAYS	Cataloged Last 7 Days	Каталогизировано за последние 7 дней
+CAT_LAST_30DAYS	Cataloged Last 30 Days	Каталогизировано за последние 30 дней
+CAT_LAST_YR	Cataloged Last Year	Каталогизировано в прошлом году
+
+TOP5_ACC_DIV	Top 5 Accessions By Division	Топ 5 образцов по отделам
+PERMIT_EXP_YR	Permits Expiring This Year	Разрешения истекают в этом году
+CITES_EXP_TR	CITES Permits Expiring This Year	Разрешения CITES, которые истекают в этом году
+NONCITES_EXP_TR	Non-CITES Permits Expiring This Year	Другие разрешения, которые истекают в этом году
+
+HOLDINGS	Holdings	Хранения
+DAT_ENT	Data Entry	Ввод данных
+LOANS	Loans	Заемы
+LOC_GEO	Locality/Geography	Местонахождение/География
+TAX_TREE	Taxonomic Tree	Таксономическое дерево
+TAXON	Taxon	Таксон
+COUNT	Count	Количество
+LOCS	Localities	Местонахождения
+
+SPECIMENS	Specimens	Образцы
+TYP_SPEC	Type Specimens	Тип образцов
+UNQ_FAM	Families Represented	Представлено семейств
+UNQ_GEN	Genera Represented	Представлено родов
+UNQ_SPEC	Species Represented	Представлено видов
+
+GEO_ENT	Geography Entries	Географические записи
+COUNTRIES	Countries	Страны
+PRCNT_GEOREF	Percentage Georeferenced	Процент образцов с геопривязкой
+NUMBER_GEOREF	Georeferenced Localities	Местонахождения с геопривязкой
+CLASSES	Classes	Классы
+ORDERS	Orders	Ряды
+FAMS	Families	Семейства
+GENERA	Genera	Роды
+TYP_SPEC_CNT	Type Specimen Counts	Количество типовых образцов
+SPECIES	Species	Виды
+
+NO_TYP_SPEC	No Type Specimens	Нетиповые образцы
+
+NUM_PREPS_PER_PREPS	Preparations Per Prep Type	Препаратов по типам
+NO_NUM_PREPS_PER_PREPS	No Preparations Types	Препараты без типа
+PREPTYPE	Prep Type	Тип препарата
+
+PREPS_PT_SP	Preparations by Prep Type-Species	Препаратов по типам и видам
+NO_PREPS_PT_SP	No Preparations by Prep Type-Species	Нет препаратов по типам и видам
+PREP_BY_TYPE	Preparations by Type	Препаратов по типам
+PREP_BY_TYPE_LOTS	Preparations by Type: Lots/Total	Препаратов по типам: Лотки/Всего
+PREPS	Preparations	Препараты
+LOTS_TOTAL	Lots/Total	Лотки/Всего
+
+ATTACHMENT_BY_TBL	Attachments by Data Type	Приложения по типу данных
+ATT_TBL	Data Type	Тип данных
+
+~~~~~~~
+./properties_to_tsv/specify_plugins.tsv
+Field Name	en	ru
+# TaxonLabelFormatter Plugin
+NewAgent	New Agent	Новое лицо
+Authors	Authors	Авторы
+SampleOutput	Sample Output	Пример результата
+LabelFormat	Label Format	Формат этикетки
+ReferenceWork	Reference Work	Библиография
+None	None	Никто
+Search	Search	Поиск
+
+# Lat/Lon Plugin
+LatLonUI	Latitude / Longitude	Широта / Долгота
+DDD.DDD	Decimal Degrees	Десятичные градусы
+DD_MM.MM	Degrees Decimal Minutes	Градусы десятичные минуты
+DD_MM_SS	Degrees Minutes Decimal Seconds	Градусы Минуты Десятичные Секунды
+Point	Point	Точка
+Line	Line	Линия
+Rect	Rectangle	Прямоугольник
+PointTT	Single Lat/Lon Point	Точка широты / долготы
+LineTT	Two Lat/Lon points representing a line	Две точки широты и долготы, представляющие линию
+RectTT	Two Lat/Lon points representing a rectangle (upper left and lower right)	Две точки широты и долготы, представляющие прямоугольник (вверху слева и внизу справа)
+
+Latitude	Latitude	Широта
+Longitude	Longitude	Долгота
+LAT1	Latitude 1	Широта 1
+LON1	Longitude 1	Долгота 1
+LAT2	Latitude 2	Широта 2
+LON2	Longitude 2	Долгота 2
+LatLonUI.POINT_ERR	The point is in error.	Точка ошибочна
+LatLonUI.POINT_INCMP	The point is incomplete.	Точка не полная
+LatLonUI.FIRST_POINT_ERR	The first point is in error.	Первая точка ошибочна
+LatLonUI.FIRST_POINT_INCMP	The first point is incomplete.	Первая точка не полная
+LatLonUI.SEC_POINT_INCMP	The second point is incomplete.	Вторая точка ошибочна
+LatLonUI.SEC_POINT_ERR	The second point is in error.	Вторая точка не полная
+SOURCE	(Source)	(Источник)
+LatLonUI.LL_SEP	Default Settings	Настройки по умолчанию
+LatLonUI.LATDEF_DIR	Default to Latitude North	По умолчанию для северной широты
+LatLonUI.LONDEF_DIR	Default to Longitude West	По умолчанию Северна Широта
+LatLonUI.DEF_TYP	Default Type	По умолчанию Западная Долгота
+LatLonUI.DEF_FMT	Default Format	Формат по умолчанию
+
+ADD_AUTHOR_NAME_TT	Add Author Name	Добавить имя автора
+REMOVE_AUTHOR_NAME_TT	Remove Author Name	Удалить имя автора
+MOVE_AUTHOR_NAME_UP	Move the author name up in the list	Переместить имя автора вверх в списке
+MOVE_AUTHOR_NAME_DOWN	Move the author name down in the list	Переместить имя автора вниз по списку
+
+# PasswordStrengthUI
+PasswordStrengthUI.VERY_WEAK	Very Weak	Очень слабый
+PasswordStrengthUI.WEAK	Weak	Слабый
+PasswordStrengthUI.MEDIOCRE	Mediocre	Средний
+PasswordStrengthUI.STRONG	Strong	Сильный
+PasswordStrengthUI.VERY_STRONG	Very Strong	Очень сильный
+
+PasswordStrengthUI.PWD_MIN_LENGTH	Meets minimum length	Соответствует минимальной длине
+PasswordStrengthUI.PWD_NUMERIC	Number character	Числа
+PasswordStrengthUI.PWD_MIXED_CASE	Mixed case	Смешанный регистр
+PasswordStrengthUI.PWD_SPECIAL	Special character	Специальные символы
+
+# PartialDateUI
+PartialDateUI	Partial Date	Частичная дата
+
+HostTaxonPlugin.ERR_CLICK	Click For Error	Нажмите если ошибка
+HostTaxonPlugin.ERR_BAD_NM	For the relationship `%s` the left side (or primary) collection must match the current collection `%s`	Для отношения `%s` основная коллекция должна соответствовать текущей коллекции `%s`
+HostTaxonPlugin.ERR	There was an exception while trying to configure the plugin	Произошла ошибка при попытке настроить плагин
+HostTaxonPlugin.ERR_MSG_RSC	There is no Collection for the relname `%s`	Нет коллекции для настоящего имени `%s`
+HostTaxonPlugin.ERR_MSG_RSD	There is no Discipline for the relname `%s`	Там нет дисциплины для настоящего имени `%s`
+HostTaxonPlugin.ERR_MSG_REL_EMPTY	The parameter `relname` is empty and can't be.	Параметр `настоящее имя` пуст и не может быть использован.
+
+# SGR
+SGR_NO_RESULTS_MLT	There are no results for the selected rows.	Нет результатов по выбранным строкам.
+SGR_NO_RESULTS	There are no results for `%s`, `%s`, `%s`.	Нет результатов для `%s`, `%s`, `%s`.
+SGRResultsChooser.TITLE	Scatter, Gather, Reconcile: Results Chooser - %d of %d	Рассеивать, Собирать, Согласовать: Выбор результатов - %d из %d
+SGR_GET_GRP_DATA	Getting Aggregated Collections Data...	Получение агрегированных данных коллекций...
+SGR_EDIT_BATCH_RESULTS	Edit Properties	Изменить свойства
+SGR_STOP_PROCESSING	Stop Processing	Остановить обработку
+SGR_RESUME_PROCESSING	Resume Processing	Возобновить обработку
+SGR_SHOW_HISTOGRAM	Show Histogram	Показать гистограмму
+SGR_MATCHERS_TITLE	Matchers	Matchers
+SGR_CREATE_MATCHER	Create Matcher	Создать Matcher
+SGR_EDIT_MATCHER	Edit Matcher Properties	Редактировать свойства Matcher
+SGR_EDIT_MATCH_CONFIGURATION	Edit	Редактировать
+SGR_BATCH_ITEMS	Records	Записи
+SGR_BATCH_RESULTS	Match Results	Привести результаты в соответствие
+SGR_BATCH_RESULTS_NAME	Name	Имя
+SGR_MATCHER	Matcher	Matcher
+SGR_REMARKS	Remarks	Примечания
+SGR_HISTO_DATASERIES	Matches	Совпадения
+SGR_HISTO_TITLE	Quality of Matches	Качество совпадений
+SGR_HISTO_X_AXIS	SGR Score	Оценка SGR
+SGR_HISTO_Y_AXIS	Number of Records	Число записей
+SGR_ERROR_SERVER_FAIL	Failed to fetch SGR results from the SGR server.	Не удалось получить результаты SGR с сервера SGR.
+SGR_ERROR_SERVER_FAILED_GETTING_INDICES	Failed to retrieve the list of available indices from the SGR server.	Не удалось получить список доступных индексов с сервера SGR.
+SGR_CANT_DELETE_MATCHER	Can't delete matcher because one or more match result sets still refer to it.	Невозможно удалить matcher, поскольку один или несколько наборов результатов сопоставления по-прежнему ссылаются на него.
+SGR_CANT_DELETE_OPEN_MATCHER	Can't delete matcher because at least one SGR pane is using it.	Невозможно удалить matcher, поскольку его использует хотя бы одна панель SGR.
+SGR_NO_MATCHER	No matcher selected.	Ни один matcher не выбран.
+SGR_NO_RESULTS	No matches found.	Совпадений не найдено.
+SGR_SHOW_RESULTS	Show SGR results.	Показать результаты SGR.
+SGR_REFRESH_RESULTS	Refresh SGR results. (F5)	Обновить результаты SGR. (F5)
+SGR_DO_BATCH	Process Data Set	Обработка набора данных
+SGR_SELECT_MATCHER	Select Matcher	Выберите Matcher
+SGR_MATCHER_NAME_REQUIRED_ERROR	The matcher's name must not be blank.	Имя matcher не должно быть пустым.
+SGR_BLANK_RESULTSET_NAME_ERROR	The match results name can not be blank.	Название результатов поиска совпадений не может быть пустым.
+SGR_MATCHER_NAME	Name	Имя
+SGR_INDEX	Index	Индекс
+SGR_EXCLUDE	Exclude	Исключать
+SGR_INST_CODE	Institution Code	Код учреждения
+SGR_COLL_CODE	Collection Code	Код коллекции
+SGR_SIMILARITY	Match Criteria	Критерии соответствия
+
+# ContainersColObjPlugin
+CNTR_CO_INUSE	The Collection Object with Catalog Number '%s' is already being used by a container.	Объект коллекции с каталожным номером '%s' уже используется контейнером.
+
+#ContainerPlugin
+PARENT_CONTAINER	This Collection Object belongs to Container:	Этот объект коллекции принадлежит контейнеру:
+CONTAINER	This Collection Object is the Container:	Этот объект коллекции является контейнером:
+ASSOC_CONTR_INUSE	The container '%s' is already used by Collection Object '%s'	Контейнер '%s' уже используется объектом коллекции '%s'
+
+#MorphBankPanel
+MorphBankPanel.DetailsBtn	i	i
+MorphBankPanel.ViewMBBtn	mb	mb
+MorphBankPanel.PutBtn	Send	Отправить
+MorphBankPanel.GetBtn	Get	Получить
+MorphBankPanel.NotImageStatus	Not an image	Не является изображением
+MorphBankPanel.NotMorphBankedStatus	Not Morphbanked	Не находится в Morphbank
+MorphBankPanel.UpdatesNeededStatus	Updates required	Требуются обновления
+MorphBankPanel.UpToDateStatus	Up to date	До настоящего времени
+MorphBankPanel.MorphBankID	Morphbank ID:	Morphbank ID:
+MorphBankPanel.URLDisplayError	Error displaying URL: %s	Ошибка при отображении URL: %s
+MorphBankPanel.DetailsTitle	Morphbank Details	Morphbank подробности
+MorphBankPanel.SendingToMorphbank	Sending data to Morphbank	Отправка данных в Morphbank
+MorphBankPanel.MoreThanOneImageObjectCreated	Morphbank returned more than one image id.	Morphbank вернул более одного идентификатора изображения.
+MorphBankPanel.NoImageObjectCreated	Morphbank did not return an image id.	Morphbank не вернул идентификатор изображения.
+MorphBankPanel.SuccessfulImageInsert	The image was added to Morphbank.	Изображение было добавлено в Morphbank.
+MorphBankPanel.ImageInsertFailed	The image could not be added to Morphbank.	Изображение не может быть добавлено в Morphbank.
+MorphBankPanel.ImageFileUploadFailed	The contents of the image file could not be uploaded to Morphbank.\r\nYou may need to upload it manually from your Morphbank account.	Не удалось загрузить содержимое файла изображения в Morphbank. \r\nПопрубуйте загрузить его вручную со своей учетной записи Morphbank.
+MorphBankPanel.DetailBtnHint	Show details	Показать детали
+MorphBankPanel.ViewMBBtnHint	View image at Morphbank	Посмотреть изображение на Morphbank
+MorphBankPanel.PutBtnHint	Send to Morphbank	Отправить в Morphbank
+MorphBankPanel.GetBtnHint	Get updates from Morphbank	Получать обновления от Morphbank
+MorphBankPanel.SettingsIncompleteBtnHint	Please configure the Morphbank settings on the preferences form.	Пожалуйста, настройте параметры Morphbank в форме настроек.
+
+~~~~~~~
+./properties_to_tsv/masterusrpwd.tsv
+Field Name	en	ru
+
+URL	Web Service URL	URL веб-службы
+MASTER_TITLE	Master Username/Password	Имя пользователя/Пароль мастер пользователя
+ENCRYPTED_USRPWD	Encrypted Username/Password	Зашифрованное Имя пользователя/Пароль
+CREATE_KEY	Generate Master...	Генерировать Мастер-Ключ...
+CREATE_FILE	Create File...	Создать файл...
+IS_NET_BASED	Encryption key obtained from a Web Service	Ключ шифрования, полученный из веб-службы
+IS_ENCRYPTED_KEY	Encryption key stored in local preferences	Ключ шифрования, хранящийся в локальных настройках
+CONT	Continue	Продолжить
+BACK	Go Back	Назад
+OK	OK	Ок
+CANCEL	Cancel	Отмена
+HELP	Help	Справка
+
+CPY_TO_CB_TT	Copy Key to Clipboard	Копировать ключ в буфер обмена
+CPY_FROM_CB_TT	Paste key from Clipboard	Вставить ключ из буфера обмена
+
+MASTER_LOC	Master Source	Источник Мастер-Ключа
+MASTER_SEP	Master Username and Password	Имя/Пароль Мастер пользователя
+USER_SEP	User's Username and Password	Имя пользователя и пароль
+USERNAME	Username	Имя пользователя
+PASSWORD	Password	Пароль
+MASTER_NO_ROOT	You cannot use 'root' as your Master username.	Вы не можете использовать 'root' в качестве имени Мастер пользователя.
+
+
+MISSING_CREDS	The username '%s' is missing the necessary credentials.\nWould you like to create them?	Имя Пользователя `%s` не имеет необходимых прав. \nХотите их создать?
+MISSING_CREDS_TITLE	 Missing Credentials	Недостающие права
+
+ENCRYPTION_KEY	Encryption Key	Ключ шифрования
+GENERATE_KEY	Generate	Генерировать
+MASTER_INFO_TITLE	Enter Master Information	Введите Мастер-информацию
+SHOW_PASSWORD	Show Passwords	Показать пароли
+HIDE_PASSWORD	Hide Passwords	Скрыть пароли
+
+FILE_NOT_CREATED	The Master Key file could not be created at `%s`	Файл мастер-ключа не может быть создан в `%s`
+FILE_CREATED_AT	The Master Key file was created at `%s`	Файл мастер-ключа был создан в `%s`
+
+########################
+# Change Password
+########################
+PWD_ERR_SAVE	There was an error saving the password to your user record.	При сохранении пароля в записи пользователя произошла ошибка.
+PWD_ERR_RTRV	Your password was not correct.	Пароль неверен.
+PWD_ERR_BAD	Your password was not correct.	Пароль неверен.
+PWD_ERR_NOTSAME	Your new password didn't match the 'verify' password.	Новые пароль не соответствует верифицируемому.
+PWD_ERR_LEN	The password must have at least %d characters and numbers.	Пароль должен содержать не менее %d символов и цифр.
+CHG_PWD_TITLE	Change Password	Изменить пароль
+
+~~~~~~~
+./properties_to_tsv/backuprestore.tsv
+Field Name	en	ru
+
+username	IT Username	IT Имя пользователя
+password	IT Password	IT Пароль
+~~~~~~~
+./properties_to_tsv/preferences.tsv
+Field Name	en	ru
+#EMAIL
+EMAIL	Email	Email
+EMAIL_ACCT_SETTINGS	Email Account Settings	Настройки Email
+ACCT_TYPE	Account Type	Тип учетной записи
+ACCT_NAME	Account Name	Имя учетной записи
+SERVER_NAME	Server Name	Имя сервера
+SMTP	SMTP	SMTP
+LOCAL_MAILBOX	Local Mailbox	Локальный почтовый ящик
+USER_INFO	User Information	Информация о пользователе
+USERNAME	Username	Имя пользователя
+PASSWORD	Password	Пароль
+SEND_TEST_EMAIL	Send Test Email	Отправить тестовый Email
+PORT	Port	Порт
+EMAILSECURITY	Security	Безопасность
+
+#FORMATTING
+FORMATTING	Formatting	Форматирование
+SCRN_DATE_FORMAT	Screen Date Format	Формат даты экрана
+ERROR_CLR	Error Color	Цвет Ошибки
+REQ_FIELD_CLR	Required Field Color	Цвет Обязательного Поля
+VIEW_FIELD_CLR	View Field Color	Цвет Поля Просмотрщика
+FORM_FONT	Form Font	Шрифт Форм
+FONT_SIZE	Size	Размер
+CONTROL_SIZE	Control Size	Размер элемента управления
+CO_ICON	Collection Object Icon	Значок объекта коллекции
+DISC_ICON	Discipline Icon	Значок дисциплины
+CHOOSE	Choose	Выбрать
+APP_ICON_SEP	Application Icon	Значок приложения
+APP_ICON	Application Icon	Значок приложения
+SET_ICON	Set Icon	Установить значок
+CLEAR_ICON	Clear Icon	Очистить значок
+RESET_DEF_FONT	Reset To Default Font	Восстановить шрифт по умолчанию
+SIMP_SRCH_SEP	Simple Search Results Bar	Простая панель результатов поиска
+BNR_ICON_SIZE_LBL	Icon Size	Размер значка
+BNR_ICON_SIZE	%d x %d pixels	%d x %d пикселей
+FORM_LAYOUT	Form Layout	Макет формы
+
+#Audits
+AUDITS	Audit Log	Лог Аудита
+DO_AUDITS	Enable Auditing	Вклачить Аудирование
+DO_AUDIT_FIELDS	Audit Field Value Changes	Аудировать изменения значений полей
+AUDIT_LIFESPAN_MONTHS	Months to Save Audits	Месяцев хранения аудитов
+
+#WebPortal
+PROCESS_WEBLINKS	Export WebLinks as URLs	Экспортировать веб-ссылки как URL-адреса
+
+AUTONUM_INC_ERR	Error incrementing the number, the year '%s' or position '%d' was wrong.	Ошибка при инкрементировании: год '%s' или позиции  '%d' были неверными.
+AUTONUM_BAD_DATA_ERR	There was a problem incrementing the formatted number.\nThere may be data in the database that doesn't match the format.	Не удалось инкрементировать форматированный номер.\nБаза данных может содержать данные, которые не соответствуют формату.
+
+
+#MISC
+MISC	Task Bar	Панель задач
+INTERACTIONS	Task Bar Items	Элементы панели задач
+USING_INTERACTIONS	Add Interactions	Показовать транзакции
+ADD_TOOLS	Add Plugins	Показовать плагины
+ADD_WELCOME	Add Welcome	Показовать Добро пожаловать
+ADD_ATTACHMENTS	Add Attachments	Показовать приложения
+ADD_CLEANUP	Add Cleanup Tools	Показовать инструменты верификации
+ADD_SYMBIOTA	Add Symbiota	Показовать Symbiota
+ADD_SGR	Add SGR	Показовать SGR
+CLEANUP_TITLE	Cleanup Tools	Инструменты верификации
+
+#SYSTEM
+SYSTEM	System	Система
+LOCALE	Locale	Локаль
+GEO_REF	Georeferencing	Геопривязка
+CACHE	Cache	Кэш
+CACHE_CLR	Clear Specify Cache	Очистить Specify кэш
+CACHE_DESC	Recovers disk space used temporarily.	Восстанавливает дисковое пространство, используемое на временной основе.
+VERS_CHECK	Version Checking	Проверка версии
+CHECK_UPDATES_STARTUP	Check For Updates At Startup	Проверять наличие обновлений при запуске
+CHECK_FOR_UPDATES	Check For Updates	Проверять наличие обновлений
+USAGE_STATS	Usage and Usability Statistics	Статистика использования
+SEND_USAGE	Send Anonymous UUS	Отправить анонимный UUS
+SPECIFY_BG_IMG	Background Image	Фоновая картинка
+ISA_SEND_STATS	Send ISA/IA UUS	Отправить ISA / IA UUS
+REP_IMG_PATH	Report Images Location	Указать расположение изображений
+ISA_STATS_WARNING	You are required to send statistics when you have an ISA number.	При получении номера ISA вы обязаны отправлять статистику.
+TABS.TITLE	Closing Tabs	Закрытие вкладок
+TABS.ASKB4CLOSE	Ask me before closing tabs (otherwise, close the oldest tab)	Спрашивать перед закрытием вкладок (в противном случае закрывать самую старую вкладку)
+
+#Attachments
+ATTACHMENTS	Attachments	Приложения
+ATTCH_URL.TITLE	URL used to connect to the Web Server	URL-адрес, используемый для подключения к Веб-серверу
+ATTCH_PATH.TITLE	The path to the repository location	Путь к хранилищу
+USE_ATTACH_PATH	Use Attachment Path	Использовать путь для приложений
+USE_ATTACH_URL	Use Attachment Web Service	Использовать веб-сервис для приложений
+ATTACHMENT_LOC	File path	Путь к файлу
+ATTACHMENT_URL	URL	URL
+ATTACHMENT_KEY	Key	Ключ
+ATTACHMENT_MAKE_PUBLIC	Make attachments public by default	Сделать приложения публичными по умолчанию
+
+OPENGL_WW	OpenGL / World Wind	OpenGL / World Wind
+USE_WORLDWIND	Use World Wind for Map Display	Используйте World Wind для отображения карты
+HAS_OPENGL	System can use OpenGL	Система может использовать OpenGL
+CHECK_FOR_OPENGL	Check for OpenGL	Проверьте на OpenGL
+
+NETWORK_PROXY	Network	Сеть
+NETWORK_PROXY_SET	Network Proxy Settings	Настройки сетевого прокси
+PROXY_HOST	HTTP Host	HTTP хост
+PROXY_PORT	HTTP Port	HTTP порт
+PROXY_HOST_HTTPS	HTTPS Host	HTTPS хост
+PROXY_PORT_HTTPS	HTTPS Port	HTTPS порт
+
+#GOOGLE_EARTH
+GOOGLE_EARTH	Google Earth	Google Earth
+ICON_PATH	Icon Image Path	Путь к изображению
+PLACEMARK_BALLOON_CONFIG	Placemark Balloon Configuration	Конфигурация геометки
+USE_ORIG_EXCEL_HEADERS	Use Original Excel Headers	Используйте оригинальные заголовки Excel
+BALL_BG_CLR	Balloon BG Color	Цвет фона геометки
+BALL_TXT_CLR	Balloon Text Color	Цвет текста геометки
+PRI_URL	Primary URL	Основной URL
+PRI_URL_TITLE	Primary URL Title	Заголовок основного URL
+SEC_URL	Secondary URL	Вторичный URL
+SEC_URL_TITLE	Secondary URL Title	Заголовок вторичного URL
+GE_USE_KMZ	Use KMZ	Используйте KMZ
+
+#Morphbank
+MORPHBANK	Morphbank	Morphbank
+MORPHBANK_DWC_MAPPING	Darwin Core Map	Darwin Core Map
+MORPHBANK_USERID	User ID#	ID# пользователя
+MORPHBANK_GROUPID	Group ID#	ID# группы
+MORPHBANK_BASE_URL	Base URL	Базовый URL
+MORPHBANK_IMAGEPOST_URL	Image Upload URL	URL для загрузки изображения
+
+#TREE
+TREE	Trees	Деревья
+ALL_TREES	All Trees	Все деревья
+RESTORE_EXPANSION_STATE	Restore Expansion State	Восстановить состояние расширения
+PROMPT_TO_REPLACE_SYNONYM	Prompt to Replace Taxon with Preferred Taxon	Спросить перед заменой Таксона на Принятый Таксон
+DISPLAY_TAXON_AUTHOR	Display Taxon Author in the tree view	Показать автора таксона в виде дерева
+TAXON_TREE	Taxon Tree	Дерево Таксона
+TT_SHOW_COUNTS_BELOW	Show Counts Below	Показать количество ниже
+TT_COL_CLR_1	Column Color #1	Цвет столбца #1
+TT_COL_CLR_2	Column Color #2	Цвет столбца #2
+TT_SYN_CLR	Synonymy Color	Цвет синонима
+
+GEO_TREE	Geography Tree	Географическое дерево
+GT_SHOW_COUNTS_BELOW	Show Counts Below	Показать количество ниже
+GT_COL_CLR_1	Column Color #1	Цвет столбца #1
+GT_COL_CLR_2	Column Color #2	Цвет столбца #2
+GT_SYN_CLR	Synonymy Color	Цвет синонима
+
+LITHO_TREE	Litho Tree	Литографическое дерево
+LT_SHOW_COUNTS_BELOW	Show Counts Below	Показать количество ниже
+LT_COL_CLR_1	Column Color #1	Цвет столбца #1
+LT_COL_CLR_2	Column Color #2	Цвет столбца #2
+LT_SYN_CLR	Synonymy Color	Цвет синонима
+
+GEO_PERIOD_TREE	Geologic Time Period Tree	Дерево геологического периода времени
+GP_SHOW_COUNTS_BELOW	Show Counts Below	Показать количество ниже
+GP_COL_CLR_1	Column Color #1	Цвет столбца #1
+GP_COL_CLR_2	Column Color #2	Цвет столбца #2
+GP_SYN_CLR	Synonymy Color	Цвет синонима
+
+STORAGE_TREE	Storage Location Tree	Дерево места хранения
+ST_SHOW_COUNTS_BELOW	Show Counts Below	Показать количество ниже
+ST_COL_CLR_1	Column Color #1	Цвет столбца #1
+ST_COL_CLR_2	Column Color #2	Цвет столбца #2
+ST_SYN_CLR	Synonymy Color	Цвет синонима
+
+#VIEWS' LABELS
+V_EMAIL	Email	Email
+V_FORMATTING	Formatting	Форматирование
+V_MISC	Misc.	Разное
+V_SYSTEM	System	Система
+V_GOOGLE_EARTH	Google Earth	Google Earth
+V_TREE_OPTIONS	Tree Options	Опции Дерева
+V_AUDITS	Auditing	Аудиторская проверка
+V_WEBPORTAL	Web Portal	Веб-портал
+
+# Backup Restore
+MYSQL	MySQL	MySQL
+BCKRSTR_OPTIONS	MySQL Application Executable Locations	MySQL Расположение исполняемых приложений
+MYS_DUMP_PATH	mysqldump	mysqldump
+MYS_RESTR_PATH	mysql	mysql
+MYS_BCK_PATH	Backup Location	Местоположение резервных копий
+MYS_BACKUP	Backup	Резервирование
+MYS_RESTORE	Restore	Восстановление
+
+
+#Login Prefs
+LOGIN	Login Dialog	Диалог входа
+CLEAR_USERNAMES	Username List	Список имен пользователей
+CLEAR_DATABASES	Database Name List	Список имен базы данных
+CLEAR_SERVERS	Server Name List	Список имен сервера
+CLEAR	Clear	Очистить
+
+# Loans Prefs
+LOANS	Loans	Заем
+LOANS_BAR	Loan and Shipment Defaults	Заем и Отправка по умолчанию
+OVERDUETIME	Due in Months	Длительность заема
+SHIPMETH	Shipment Method	Способ отправки
+SHIPPEDBY	Shipped By	Кем отправлено
+
+#GUIDs
+GUIDS	GUIDs	Идентификаторы GUID
+LSSEP	Automatic GUID Generation	Автоматическая генерация GUID
+LSADD	Additional Options	Дополнительные опции
+CREATE_GUIDS	Create GUIDs	Создать GUID
+
+COLLECTION_SEL	Initial Collection Selection	Начальный выбор коллекции
+ALWAYS_ASK_COLL	Always ask for Collection at startup	Всегда выбирать коллекцию при запуске
+
+# GEOLocate
+GEOLocate	GEOLocate	GEOLocate
+GL_HYWX	Include highway crossings	Включить пересечения шоссе
+GL_WATERBODY	Include water bodies	Включить водоемы
+GL_RESTRICT	Restrict to the lowest administrative unit	Ограничить до низшей административной единицы
+GL_DOUNCERT	Return uncertainty radius in meters	Радиус неопределенности в метрах
+GL_DOPOLY	Return error polygon	Вернуть полигон ошибок
+GL_DISPLACEPOLY	Displace error polygon	Сместить полигон ошибок
+GL_LANGKEY	Language key	Языковой ключ
+GL_USEGL_MAPS	Use GEOLocate's Map Server	Использовать картографический сервер GEOLocate
+
+# WorldWind
+WORLDWIND	WorldWind	WorldWind
+
+#Symbiota
+SYMBIOTA	Symbiota	Symbiota
+SymbiotaBaseURL	Base URL	Базовый URL
+SYMBIOTA_SHOW_TASK	Show Symbiota Task	Показать задачу Symbiota
+
+MiscPrefsPanel.RestartRequired	You may have to restart Specify for your changes to take effect.	Возможно, вам придется перезапустить Specify, чтобы ваши изменения вступили в силу.
+~~~~~~~
+./properties_to_tsv/common.tsv
+Field Name	en	ru
+
+
+ISONLOAN	Is on loan	В заеме
+
+# Containers
+SUBCONTAINERS	Subcontainers of this Container	Подконтейнеры этого контейнера
+COLOBJ_IN_CONTR	Collection Objects in this Container	Объекты коллекции в этом контейнере
+CONTNR_COLOBJ	(This container's Collection Object)	(Объект коллекции этого контейнера)
+COLOBJ	Collection Object:	Объект коллекции:
+
+~~~~~~~
+./properties_to_tsv/specifydbsetupwiz.tsv
+Field Name	en	ru
+
+false	No	Нет
+true	Yes	Да
+SAVE	Save	Сохранить
+EXIT	Exit	Выход
+Name	Name	Имя
+Value	Value	Значение
+
+MAIN_TITLE	Configuring a Database	Конфигурирование базы данных
+
+DEL_CUR_DB	If you continue it will delete the current database named '%s'.	Это действие удалит текущую базу данных с именем  '%s'.
+DEL_CUR_DB_TITLE	Database Exists	База данных существует
+PROCEED	Proceed	Продолжить
+CANCEL	Cancel	Отмена
+BLD_DONE	The Specify database build process %s	Построение базы данных Specify %s
+BLD_OK	completed with no errors.	Завершено без ошибок.
+BLD_NOTOK	did not complete correctly.	Завершено с ошибками.
+ERROR_LOGIN_GEODB	There was an error logging into the DBMS with privileges to create the 'geonames' database.	Произошла ошибка при входе в СУБД с правами доступа для создания базы данных 'geonames'.
+ERROR_CRE_GEODB	There was an error creating the 'geonames' database.	Произошла ошибка при создании базы данных 'geonames'.
+
+COMPLETE	Complete	Завершено
+YES	Yes	Да
+HELP	Help	Справка
+NEXT	Next	Далее
+BACK	Back	Назад
+NONE	None	Ничего
+DONE	Done	Готово
+FINISHED	Build Database	Построить базу данных
+FINISHED_DIV	Build Division	Построить Подразделение
+FINISHED_DISP	Build Discipline	Построить Дисциплину
+FINISHED_COL	Build Collection	Построить Коллекцию
+
+SELECTALL	Select All	Выбрать все
+DeselectAll	Deselect All	Убрать все выделения
+CREATE	Create	Создать
+
+SURE_QUIT	Are you sure you want to quit the Wizard?	Вы уверены, что хотите выйти из Wizard?
+QUIT	Quit	Выход
+
+ERR_BAD_DBNAME	The database name cannot start with a number.	Имя базы данных не может начинаться с цифры.
+ERR_BAD_USRNAME	The username cannot start with a number.	Имя пользователя не может начинаться с цифры.
+ERR_NO_ROOT_EMBEDDED	'root' cannot be used as the IT username for EZDB.	'root' не может использоваться в качестве IT-имени пользователя для EZDB
+
+# Panels
+ENTER_INST_INFO	Enter Institution Information	Введите информацию об учреждении
+NAME	Name	Название
+TITLE	Title	Заглавие
+ABBREV	Code	Код
+
+IT_USERNAME	IT Username	IT Имя пользователя
+IT_PASSWORD	IT Password	IT Пароль
+
+SECURITY_INFO	<html>If you are installing Specify 6 on a networked computer<br> or will have more than a single user you should turn security on.<br><br>You may turn security on later if you wish.	<html>Если вы устанавливаете Specify 6 на сетевом компьютере<br>или у вас будет более одного пользователя, вам следует включить Безопасность.<br><br>Вы можете также включить защиту позже.
+SECURITY_ON	Turn Security On	Включить Безопасность
+
+DISP_NAME	Name	Имя
+
+ENTER_ACC_INFO	<html>Accessions can be managed within a Division or globally for the entire Institution.<br>Will the Accessions be managed globally?	<html>Менеджмент Поступлений может быть реализован в рамках Подразделения или глобально для всего Учреждения.<br>Управлять поступлениями глобально?
+ACCGLOBALLY	Manage Globally	Управлять глобально
+
+ENTER_DB_INFO	Fill in the following information for the database	Заполните следующую информацию для базы данных
+ENTER_DIV_INFO	Enter Division Information	Введите информацию о Подразделении
+ENTER_COLMGR_INFO	Enter Collection Manager Information	Введите информацию о Менеджере Коллекции
+DISP_INFO	Enter the Discipline Type and Name	Введите Тип и Название дисциплины
+
+ENTER_COL_INFO	Enter Collection Information	Введите Информацию о Коллекции
+PREFIX	Code	Код
+
+# Advanced controls for DB Panel
+ADV_TITLE	Advanced	Расширенные настройки
+ADV_DB_OK	Login test was successful.	Проверка входа прошла успешно.
+ADV_DB_ERR	Login test was NOT successful.	Проверка входа не была успешной.
+ADV_DB_DESC	Use this if you manually created the database.	Воспользуйтесь, если база данных создана вручную.
+ADV_MU_DESC	Use this if you manually created the Master user.	Воспользуйтесь, если Мастер-пользователь создан вручную.
+ADV_DB_TEST	Test IT Login	Проверка IT-логина
+ADV_MU_TEST	Test Master Login	Проверка Мастер-логина
+
+MySQLDBMSUserMgr.NoPermissions	"No Permissions"	Нет прав
+MySQLDBMSUserMgr.AllPermissions	"All Permissions"	Все права
+MySQLDBMSUserMgr.AllBasicPermissions	"All Basic Permissions"	Все основные права
+MySQLDBMSUserMgr.UnknownPermission	"Unknown Permission"	Незвестное право
+
+DIRECTION	Full Name Order	Порядок полного имени
+REVERSE	Reverse	Обратный
+FORWARD	Forward	Прямой
+CONFIG_TREEDEF	Configure the %s Tree	Настройте дерево %s
+INCLUDED	Include	Включить
+LEVEL	Level	Уровень
+ISREQ	Is Required	Обязательный
+ISENFORCED	Is Enforced	Необходимый
+ISFULLNAME	Is in Full Name	В полном названии
+SEPARATOR	Separator	Разделитель
+EXAMPLE	Full Name Example	Пример полного имени
+NO_CHANGE_REQ	You cannot change the `Is Enforced` value for a required field.	Вы не можете изменить значение `Необходимый` для обязательного поля.
+NO_CHANGE_INCL	You cannot change the `Include` value for a required field.	Вы не можете изменить значение `Включить` для обязательного поля.
+NO_CHANGE_INFN	The field must be included to set the `Is In Full Name` field.	Для добавления 'В полном названии' поле должно быть включено
+
+FIRSTNAME	First Name	Имя
+LASTNAME	Last Name	Фамилия
+MIDNAME	Middle Initial	Отчество
+USERLOGININFO	User Login Info	Информация для входа в систему
+USERNAME	Username	Имя пользователя
+PASSWORD	Password	Пароль
+EMAIL	Email	Email
+PWDSTRENGTH	Strength	Надежность Пароля
+ENCRYPT_KEY	Encrypted Key	Зашифрованный ключ
+
+INST_ADDR	Institution Address	Адрес учреждения
+ADDR1	Address	Адрес
+ADDR2	 Address	Адрес
+CITY	City	Город
+STATE	State	Регион
+COUNTRY	Country	Страна
+ZIP	Zip Code	Почтовый Индекс
+PHONE	Phone	Телефон
+
+IS_NUM_CHK	Is Numeric Only?	Только числовые?
+CHOOSE_FMT_CAT	<html>Choose or create a Catalog Numbering Format for your Collection.	<html>Выберите или создайте формат номера каталога для коллекции.
+CHOOSE_FMT_ACC	<html>Choose a Numbering Format for all of your Accessions.<br>If you do not have a consistent and standard format then choose 'None'.	<html>Выберите формат нумерации для всех ваших Поступлений.<br>Если у вас нет согласованного и стандартного формата, выберите 'Нет'.
+CATALOG	Catalog	Каталог
+ACCESSION	Accession	Поступление
+IS_NUM	Is Numeric	Числовой
+FORMAT	Format	Формат
+NUM_LEN	Length	Длина
+
+DB_NAME	Database Name	Имя базы данных
+HOST_NAME	Host Name	Имя хоста
+DSP_TYPE	Discipline Type	Тип дисциплины
+DSP_NAME	Discipline Name	Название дисциплины
+DRIVER	DBMS	СУБД
+CONVUPLD_CHKBX	Database structure creation only.	Создать только структуру базы данных
+CONVUPLD_CHKBX_TT	Intended for users uploading a converted database	Предназначен для пользователей, загружающих конвертированную базу данных
+CONVUPLD_DONE	You must now restore a Specify database backup before it is ready to use.	Теперь вы должны восстановить резервную копию Specify базы данных, прежде чем она будет готова к использованию.
+
+ENTER_SA_INFO	Enter Master Username and Password	Введите Имя пользователя/Пароль уровня Мастера
+SA_USERNAME	Username	Имя пользователя
+SA_PASSWORD	Password	Пароль
+
+PRELOADTXN_INFO	<html>Choose whether to pre-load Taxonomic records for your discipline.	<html>Выберите, следует ли предварительно загрузуть таксономическое дерево длядисциплины.
+TFD_LOAD_TAXON	Pre-load Taxon	Предварительная загрузка таксономического дерева
+TFD_FILE_LBL	Choose	Выберите
+TFD_SRC_LBL	Source	Источник
+TFD_CVRG_LBL	Coverage	Покрытие
+TFD_DESC_LBL	Description	Описание
+TFD_OTHER_LBL	Choose	Выберите
+TFD_SEP_STD	Sample Taxonomic Records	Образец таксономических записей
+TFD_SEP_OTH	A Downloaded File	Загруженный файл
+
+Taxon	Taxon	Таксон
+Formatter	Formatter	Форматировщик
+PATTERN	Pattern	Шаблон
+IS_AUTO_INC	Is Auto Incremented	Авто-инкрементирование
+
+CREATE_DB	Create Specify Database	Создать базу данных Specify 
+CONN_DB	Connecting to the DBMS...	Подключение к СУБД...
+DB_CREATED	The Specify Database was created.	База данных Specify была создана.
+ERR_CRE_DB	There was an error creating the database.	При создании базы данных произошла ошибка.
+NO_CONN_ROOT	The wizard was unable to connect to the DBMS.	Мастеру не удалось подключиться к СУБД.
+DB_UNRECOVERABLE	There was an unrecoverable error.	Произошла неисправимая ошибка.
+NO_LOGIN_ROOT	The wizard was unable to log in to the DBMS. (Check your username and password)	Мастеру не удалось войти в СУБД. (Проверьте имя пользователя и пароль)
+ERR_SET_PERM	The wizard was unable to set permissions on the Master user.	Мастеру не удалось установить разрешения для Мастер-пользователя.
+
+CREATE_MASTER_BTN	Create Master User	Создать Мастер-пользователя
+CREATE_MASTER	Creating the 'master' user for Specify...	Создание Мастер-пользователя для Specify…
+MASTER_CREATED	The 'master' user was created.	Мастер-пользователь создан
+ERR_CRE_MASTER	<html>The wizard was unable to create the 'master' account for Specify.<br>Are you logged in as root?	<html>Wizard не удалось создать Мастер-пользователя для Specify.<br>Убедитесь, что вход выполнен с корневого уровня (root).
+
+CREATEINST	This step will create the Institution record and the 'admin' user.	Этот шаг создаст запись Учреждения и пользователя 'Администратор'.
+CREATEINST_BTN	Create Institution	Создать Учреждение
+BAD_INST	Error creating institution	Ошибка создания Учреждения
+BAD_LOGIN	Unable to log in using the Username and Password for the User.	Невозможно войти, используя пользовательские Имя пользователя/пароль.
+BLD_SCHEMA	Building Specify's Schema...	Построение Схем Specify...
+DB_FRST_LOGIN	Logging In...	Вход в систему...
+BLD_CACHE	Building Cache...	Построение кеша...
+INST_CREATED	The Institution and the 'admin' user were created.	Учреждение и пользователь 'Администратор' были созданы.
+CREATING_INST	Creating the Institution and the 'admin' user.	Создание Учреждения и пользователя 'Администратор'.
+LOGIN_USER	Logging in with the 'admin' username and password...	Вход в систему с именем пользователя и паролем 'Администратор'...
+INST_UNRECOVERABLE	There was an error creating the Institution.\nYou should quit and try again.	Произошла ошибка при создании Учреждения. \nПовторите попытку или выйдете.
+
+CREATE_DIV	Creating Division...	Создание отдела...
+
+MASTER_NO_ROOT	You cannot use 'root' as your Master username.	Вы не можете использовать 'root' в качестве основного имени пользователя.
+DB_SA_USRNAME_MATCH	The Master username cannot be the same as the IT username.	Основное имя пользователя не может совпадать с IT-именем пользователя.
+
+UR_SA_USRNAME_MATCH	The Specify User's username cannot match the Master's username	Имя пользователя Specify не может совпадать с Мастер-пользователем.
+UR_DB_USRNAME_MATCH	The Specify User's username cannot match the IT's username	Имя пользователя Specify не может совпадать с IT-пользователем.
+
+# Panel Names
+DATABASE.TITLE	Database Information	Информация о Базе данных
+SA.TITLE	Master Account Information	Информацию о Мастер-аккаунте
+SECURITY.TITLE	Activate Security	Активировать Безопасность
+AGENT.TITLE	Agent Information	Информация об Агенте
+INST.TITLE	Institution Information	Информация об Учреждении
+ADDR.TITLE	Institution Address	Адрес Учреждения
+DIV.TITLE	Division Information	Информация о Подразделении
+PRELOADTXN.TITLE	Preload Taxon Records	Предварительная загрузка Таксономического дерева
+Taxon.TITLE	Taxonomic Tree Ranks	Ранги Таксономического дерева
+Geography.TITLE	Geography Tree Ranks	Ранги Географического дерева
+COLLECTION.TITLE	Collection Information	Сбор Информации
+CATNOFMT.TITLE	Catalog Number Formatter	Форматтер Номера Каталога
+ACCNOFMT.TITLE	Accession Number Formatter	Форматтер Номера Поступления
+DISCIPLINE.TITLE	Discipline Information	Информация о Дисциплине
+SUMMARY.TITLE	Summary	Сводка
+Storage.TITLE	Storage Tree Ranks	Ранги Дерева хранения
+ACCESSIONGLOBALLY.TITLE	How to manage Accessions	Как управлять Поступлениями
+CREATEINST.TITLE	Create Institution	Создать Учреждение
+
+################################################
+# Security Wizard
+################################################
+
+SEC_ADV_MU_DESC	You must be able to log in as the Database Administrator (root)	Вы должны иметь возможность войти в систему как Администратор Базы данных (root)
+SEC_ADV_MSTR_DESC	You must be able to log in as the Master	Вы должны иметь возможность войти как Мастер-пользователь базы данных
+SEC_RESET_BTN	Reset Master Username and Password	Сбросить Мастер-имя пользователя/пароль
+SEC_RESET_DB_OK	The Master Username and Password were set successfully.	Мастер-имя пользователя/пароль были успешно установлены.
+SEC_RESET_DB_ERR	There was an error setting the Username and Password.	При установке имени пользователя и пароля произошла ошибка.
+SEC_SELECT_DBS	Select Databases	Выберите базы данных
+SEC_SELECT_DBS_DESC	<html>Select only the databases you want<br> associated with the master you are resetting.	<html>Выберите только те базы данных,<br> которые вы хотите связать с Мастером-пользователем, которого вы настраиваете.
+SEC_UNEX_ERR_LGN	There was an unexpected error logging in.	При входе произошла непредвиденная ошибка.
+SEC_ERR_DROP_USER	There was an error dropping the user.	При перемещении пользователя произошла ошибка.
+SEC_RESET_PERMS_OK	Privileges were reset.	Привилегии были переустановлены.
+SEC_RESET_PERMS_ERR	There was an error resetting the privileges.	Произошла ошибка при переустановке привилегий.
+SEC_RESET_PERMS_BTN	Reset Privileges	Сбросить привилегии
+SEC_FIX_PERMS	Fix Privileges	Исправить привилегии
+SEC_NO_GRANT	The user `%s` cannot change privileges for other users for host `%s`.\nYou should login as `root` or change the privileges for these users.	Пользователь `%s` не может изменять привилегии для других пользователей для хоста `%s`.\nВойдите в систему как IT-пользователь или измените привилегии для этих пользователей.
+SEC_NO_DBS_PERMS	The Master user does not have privileges to access any databases.	Мастер-пользователь не имеет прав доступа к базам данных.
+SEC_BAD_DBS_PERMS	<HTML>The Master user does not have the required privileges for the following databases.<br>Click the 'Fix Privileges' button to fix the privileges.	<HTML>Мастер-пользователь не обладает необходимыми правами для следующих баз данных.<br>Нажмите кнопку «Исправить права».
+MSTR_PERMS_SET_OK	Master User's username and password have been reset.	Имя пользователя и пароль Мастер-пользователя были сброшены.
+MSTR_PERMS_SET_ERR	There was an error resetting Master User's username and password.	Произошла ошибка при сбросе имени пользователя и пароля Мастер-пользователя.
+MSTR_HAS_PERM	Master User Accessible Databases	Базы данных, доступные для Мастер-пользователя
+MSTR_HAS_NOPERM	Master User Inaccessible Databases	Базы данных, недоступные для Мастер-пользователя
+MSTR_USR_DB	Users of Database: %s	Пользователи базы данных: %s
+MSTR_PERM_CHGED_TITLE	Privileges Changed	Права изменены
+MSTR_PERM_ADDED	Privileges were added for user '%s' for database '%s'	Добавлены права для пользователя '%s' из базы данных '%s'
+MSTR_PERM_DEL	Privileges were removed for user '%s' from database '%s'	Права были удалены для пользователя '%s' из базы данных '%s'
+MSTR_NUM_PERM_ADDED	Privileges were added for user '%s' on %d databases.	Были добавлены права для пользователя '%s' в %d базах данных.
+MSTR_NUM_PERM_DEL	Privileges were removed for user '%s' on %d databases.	Права были удалены для пользователя '%s' в %d базах данных.
+MSTR_ERR_SETDB	Unable to set privileges for your master user on database '%s'	Невозможно установить права для Мастер-пользователя в базе данных '%s'
+MSTR_SAVE_CHANGES	Do you wish to save the changes?	Хотите сохранить изменения?
+MSTR_PERCENT_COMPLETE	% Complete	% Выполнено
+
+DO_GAIN_ACCESS	<HTML>The databases you have selected will be<BR> set to use the current Master username and password.<br>This will require all the users to have new Master keys created.<BR><BR>Do you wish to continue?	<HTML>Выбранные вами базы данных будут<BR> настроены на использование текущего Мастер-пользователя.<br>Для этого всем пользователям потребуется создать новые Мастер-ключи.<BR><BR>Хотите продолжить?
+DO_LOOSE_ACCESS	<HTML>The databases you have selected will no longer<BR> be able to be accessed by Master login and by any of the current users.<BR><BR>Do you wish to continue?	<HTML>Выбранные вами базы данных больше не будут<BR>доступны для входа в систему Мастер-пользователя и для любого из текущих пользователей.<BR><BR>Хотите продолжить?
+
+Geography	Geography	География
+Storage	Storage	Место хранения
+
+# Litho Tree
+Surface	Surface	Поверхность
+SuperGroup	Super Group	Супер-группа
+LithoGroup	Litho Group	Лито-группа
+Formation	Formation	Формирование
+Member	Member	Член
+Bed	Bed	Слой
+
+# Chronos Tree
+ErathemEra	Erathem/Era	Эратема/Eрa
+SystemPeriod	System/Period	Система/Период
+SeriesEpoch	Series/Epoch	Серия/Эпоха
+StageAge	Stage/Age	Стадия/Возраст
+
+# Tree Related
+Root	Root	Корень
+Earth	Earth	Земной шар
+Life	Life	Живое
+Site	Site	Место
+
+SEC_EML_TITLE	User Only Change	Изменение пользователем
+SEC_EML_MSG	The email address in the user record has changed,\nbut not in the agent record.	Адрес электронной почты изменился в записи пользователя,\n но не в записи агента
+

@@ -10,20 +10,20 @@ Field Name	en	ru
 # Tree Forms
 ##############################
 # used by more than one form
-ACCEPTEDPARENT	Preferred Name	Предпочитаемое имя
+ACCEPTEDPARENT	Preferred Name	Принятое название
 
 # Taxon Form
 PARENT	Parent	Родитель
 HYBRIDPARENT1	Hybrid Taxon 1	Гибридный Таксон 1
 HYBRIDPARENT2	Hybrid Taxon 2	Гибридный Таксон 2
-COMMONNAMES	Common Names	Общие имена
-ATTACHMENTS	Attachments	Вложения
+COMMONNAMES	Common Names	Народное название
+ATTACHMENTS	Attachments	Приложения
 
 # Separators in each form
 TAXON	Taxonomy	Таксономия
-LITHOSTRAT	LithoStrat	Литостратиграф.
-GEOGRAPHY	Geography	 География
-GEOLOGICTIMEPERIOD	ChronoStrat	Хроностатиграф.
+LITHOSTRAT	LithoStrat	Литостратиграфия
+GEOGRAPHY	Geography	География
+GEOLOGICTIMEPERIOD	ChronoStrat	Хроностратиграфия
 STORAGE	Storage	Место хранения
 
 # Object Attachment Form
@@ -32,20 +32,20 @@ TITLE	Title	Заглавие
 DATE_IMAGED	Date Imaged	Дата Изображения
 FILE_CREATED_DATE	File Created Date	Дата создания файла
 COPYRIGHT_HOLDER	Copyright Holder	Правообладатель
-COPYRIGHT_DATE	Copyright Date	Дата авторского права
-ATTACHMENT_LOCATION	Attachment Location	Расположение вложения
+COPYRIGHT_DATE	Copyright Date	Дата создания авторского права
+ATTACHMENT_LOCATION	Attachment Location	Расположение приложения
 LICENSE	License	Лицензия
 CREDIT	Credit	Кредит
 MIME_TYPE	Mime Type	Mime Тип
-REMARKS	Remarks	Замечания
+REMARKS	Remarks	Примечания
 
 #Attachment Image Attribute Form
 HEIGHT	Height	Высота
 WIDTH	Width	Ширина
 RESOLUTION	Resolution	Разрешение
 MAGNIFICATION	Magnification	Увеличение
-CREATIVE_COMMONS	Creative Commons	Творческое достояние
-MBIMAGEID	Morphbank Image ID	Morphbank ID Изображения
+CREATIVE_COMMONS	Creative Commons	Creative Commons
+MBIMAGEID	Morphbank Image ID	ID Изображения в Morphbank
 TIMESTAMP_LAST_SEND	Sent to Morphbank	Отправлено в Morphbank
 TIMESTAMP_LAST_UPDATECHECK	Updated from Morphbank	Обновлено от Morphbank
 

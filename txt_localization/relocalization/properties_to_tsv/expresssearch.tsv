@@ -80,7 +80,7 @@ GeographyCO	Collection Object Geography	Объект Коллекции Геог
 GiftCO	Collection Object Gift	Объект Коллекции Дар
 GiftAgent	Agent Gift	Агент Дар
 LoanCO	Collection Object Loan	Объект Коллекции Заем
-LoanAgent	Agent Loan	Аген Заем
+LoanAgent	Agent Loan	Агент Заем
 LithoStratToCO	Collection Object Lithostratigraphy	Объект Коллекции Литостратиграфия
 PermitToCO	Collection Object Permit	Объект Коллекции Разрешение
 PermitIssuedToAgent	 Agent Issued to Permit	Агент выдавший Разрешение
