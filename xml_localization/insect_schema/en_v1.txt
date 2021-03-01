@@ -1,9 +1,0 @@
-Length
-Sex
-Text
-Text
-Text
-Text
-Stage
-Weight
-
