@@ -1,5 +1,0 @@
-Length
-Sex
-Text
-Stage
-Weight
