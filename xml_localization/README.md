@@ -51,11 +51,11 @@ No user input required, considering that `config.php` is properly set up
 
 This will show errors and warnings if there are any problems with any files or the config
 
-This file will generate <lang>`$capitalized_files_prefix`.txt files for each language in $languages that has `capitaze_all` of true and if $overwrite_non_capitalized is false
+This script will generate <lang>`$capitalized_files_prefix`.txt files for each language in $languages that has `capitaze_all` of true and if $overwrite_non_capitalized is false
 
-This file will generate <lang>`$optimized_files_prefix`.txt files for all languages in $languages and 'en' if $optimize_files is true
+It will also generate <lang>`$optimized_files_prefix`.txt files for all languages in $languages and 'en' if $optimize_files is true
 
-After the script is done, the resulting `.xml` the file will be output. Currently, the script will create the
+After the script is done, the resulting `.xml` file will be output. Currently, the script will create the
  `schema_localization_final.txt` but will not able to save the new schema file because of the problems with encodings for Cyrillic. So the user should save the output into that file manually
 
 The script can work if there are other languages available in the file, regardless of the fact they are going to be updated or not
