@@ -21,7 +21,7 @@ def test(extracted_strings):
         return extracted_strings
 
     for index, line in enumerate(extracted_strings):
-        if 'en' not in line:
+        if 'en' not in line or line['en'] == '':
             key = config.stable_key if config.stable_key in line \
                 else list(line.keys())[0]
             print(colored('English string is missing for line %s' % json.dumps(

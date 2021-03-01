@@ -40,6 +40,7 @@ with open(
     ),
     'w'
 ) as file:
+    content.sort()
     file.write(
         config.schema_editable_file_separator.join(
             content

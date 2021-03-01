@@ -93,6 +93,10 @@ def extract_string(list_of_str, path, error_callback):
         if isinstance(response, str):
             extracted_line['en'] = response
 
+    for language in defined_languages:
+        if language not in extracted_line:
+            extracted_line[language] = ''
+
     return [extracted_line]
 
 
