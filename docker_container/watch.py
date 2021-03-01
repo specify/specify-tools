@@ -21,8 +21,10 @@ def run_command():
 
 
 for l, rc in run_command():
-	if 'compiled successfully' in l:
+	if 'Hash' in l or 'compiled successfully' in l:
                 send_notification('SUCCESS!!!','Specify 7 Updated!','Glass')
 	if 'ERROR' in l:
 		send_notification('ERROR!!!','Error occurred while updating Specify 7!','Hero')
+	if 'Killed' in l:
+		send_notification('Webpack Died(((, again', 'Wepback container quit','Sosumi')
 	print(l, end="", flush=True)
