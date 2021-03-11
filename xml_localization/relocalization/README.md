@@ -42,7 +42,7 @@ located in the workdir.
 
 The values in all the columns of this file can be edited, but
 make sure not to add/remove/swap any lines. Also, make sure not to edit
-the first row or the lines that specify the name of each individual
+the first row or the lines that specify the name of each
 `editable.tsv` file
 
 ## Translate files
