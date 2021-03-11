@@ -19,7 +19,7 @@ def deconstruct(working_dir):
   utils.dump_to_json(
     working_dir,
     fixed_extracted_strings,
-    config.original_en_file_name
+    config.original_file_name
   )
 
   # strip strings
@@ -29,7 +29,7 @@ def deconstruct(working_dir):
   utils.dump_to_json(
     working_dir,
     striped_strings,
-    config.striped_en_file_name
+    config.striped_file_name
   )
 
   # make strings distinct
@@ -39,7 +39,7 @@ def deconstruct(working_dir):
   utils.dump_to_json(
     working_dir,
     distinct_strings,
-    config.distinct_en_file_name
+    config.distinct_file_name
   )
 
   # save editable strings
