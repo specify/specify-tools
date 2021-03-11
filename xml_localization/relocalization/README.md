@@ -8,6 +8,8 @@ a normal workflow
 ## `config.py`
 Configuration options are described in `config.py`.
 
+None of the script
+
 ## `populate_workdir.py`
 Get all `schema_localization.xml` files from `specify6_location` and move
 them into `working_directory`
@@ -63,6 +65,10 @@ Before running the script, make sure that `schema_localization.xml`,
 accidentally.
 
 The reconstructed file would be called `schema_localization_edited.xml`.
+
+## `push_changes.py`
+Move all `schema_localization_edited.xml` files back into the Specify
+directory.
 
 ## `show_localization_errors.py`
 This script would be able to show common localization errors and propose

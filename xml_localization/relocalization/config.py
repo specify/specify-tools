@@ -2,7 +2,7 @@
 # MAIN CONFIGURATION OPTIONS
 #
 
-# needed if you want to use `populate_workdir.py` script
+# needed if you want to use `populate_workdir.py` and `push_changes.py` scripts
 specify6_location = '/Users/mambo/site/git/specify6'
 
 # location of schema_localization.xml files
