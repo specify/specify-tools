@@ -1,11 +1,11 @@
-Field Name	en	ru	ru_FilippovaN
-DOA_DLG_TITLE	Aggregation Editor	Редактор агрегации	Редактор агрегации
-DOA_AGGREGATION	Aggregation	Агрегирование	Агрегирование
-DOA_DEFAULT	Default	По умолчанию	По умолчанию
-DOA_TITLE	Title	Заглавие	Заглавие
-DOA_NAME	NAME	ИМЯ	НАЗВАНИЕ
-DOA_DISPLAY	Display	Показ	Показывать
-DOA_SEP	Separator	Разделитель	Разделитель
-DOA_ENDING	Ending	Окончание	Окончание
-DOA_SORT_BY	Sort by	Сортировать по	Сортировать по
-DOA_COUNT	Count	Счет	Счет
+Field Name	en	ru
+DOA_DLG_TITLE	Aggregation Editor	Редактор агрегации
+DOA_AGGREGATION	Aggregation	Агрегация
+DOA_DEFAULT	Default	По умолчанию
+DOA_TITLE	Title	Заголовок
+DOA_NAME	NAME	НАЗВАНИЕ
+DOA_DISPLAY	Display	Показывать
+DOA_SEP	Separator	Разделитель
+DOA_ENDING	Ending	Окончание
+DOA_SORT_BY	Sort by	Сортировать по
+DOA_COUNT	Count	Подсчет

@@ -1,10 +1,10 @@
-Field Name	en	ru	ru_FilippovaN
-			
-			
-ISONLOAN	Is on loan	В заеме	В заеме
-			
-# Containers			
-SUBCONTAINERS	Subcontainers of this Container	Подконтейнеры этого контейнера	Подконтейнеры этого контейнера
-COLOBJ_IN_CONTR	Collection Objects in this Container	Объекты коллекции в этом контейнере	Объекты коллекции в этом контейнере
-CONTNR_COLOBJ	(This container's Collection Object)	(Объект коллекции этого контейнера)	(Объект коллекции этого контейнера)
-COLOBJ	Collection Object:	Объект:	Объект коллекции:
+Field Name	en	ru
+		
+		
+ISONLOAN	Is on loan	В заеме
+		
+# Containers		
+SUBCONTAINERS	Subcontainers of this Container	Подконтейнеры этого контейнера
+COLOBJ_IN_CONTR	Collection Objects in this Container	Объекты коллекции в этом контейнере
+CONTNR_COLOBJ	(This container's Collection Object)	(Объект коллекции этого контейнера)
+COLOBJ	Collection Object:	Объект коллекции:
