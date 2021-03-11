@@ -12,13 +12,14 @@ working_directory = 'xml_localization/relocalization/workdir'
 # Languages not present in this list would not be modified
 # For each language, specify its HTML attributes
 languages = {
+  # 'en' language should always be present in this list
   'en': {
     # xml_attributes for each <str> key of that language
     'xml_attributes': {
       'language': 'en',
     },
     'error_fixers':   {
-      # no error fixers are applicable to the 'en' language
+      # no error fixers are applicable for the 'en' language
     },
     # charset of that language
     # used in regular expressions
@@ -29,7 +30,7 @@ languages = {
   #     'xml_attributes': {
   #         'language': 'uk',
   #         'country': 'UA',
-  #         'variant': '',
+  #         #'variant': '',
   #     },
   #     'error_fixers': {
   #         # Most fixes can be set to the following values
@@ -45,7 +46,19 @@ languages = {
   #         # if any, as the `en` variant. Non letter characters at the
   #         # start or end of the string are considered a prefix or
   #         # suffix respectively
-  #         'unmatched_symbol_group': 'automatic',
+  #         # Makes sure that edited strings do not include prefixes and
+  #         # suffixes
+  #         'unexpected_affix': 'prompt',
+  #
+  #         # Detect a string that is in the opposite case than the original
+  #         # 'en' string
+  #         'flipped_case': 'automatic',
+  #
+  #         # Detect string being empty, assuming the original 'en' was not
+  #         'empty_value': 'prompt',
+  #
+  #         # Detect strings that don't have any characters from their language
+  #         'untranslated_string': 'prompt'
   #     },
   #     'charset': 'іа-яїґь',
   # },
@@ -53,11 +66,14 @@ languages = {
     'xml_attributes': {
       'language': 'ru',
       'country':  'RU',
-      'variant':  '',
+      # 'variant':  '',
     },
     'error_fixers':   {
-      'wrong_case':             'automatic',
-      'unmatched_symbol_group': 'automatic',
+      'wrong_case':          'automatic',
+      'unexpected_affix':    'prompt',
+      'flipped_case':        'automatic',
+      'empty_value':         'prompt',
+      'untranslated_string': 'prompt'
     },
     'charset':        'а-я',
   },
@@ -84,10 +100,11 @@ stable_key = 'ru'
 full_charset = 'a-zіа-яїґь'
 
 source_file_name = 'schema_localization.xml'
+updated_source_file_name = 'schema_localization_updated.xml'
 wb_source_file_name = 'wbschema_localization.xml'
-original_en_file_name = '_original.json'
-striped_en_file_name = '_striped.json'
-distinct_en_file_name = '_distinct.json'
+original_file_name = '_original.json'
+striped_file_name = '_striped.json'
+distinct_file_name = '_distinct.json'
 editable_file_name = 'editable.tsv'
 schema_editable_file_name = 'schema_editable.tsv'
 
