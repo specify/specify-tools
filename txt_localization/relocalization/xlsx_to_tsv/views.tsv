@@ -1,36 +1,36 @@
-Field Name	en	ru	ru_FilippovaN
-#################################################			
-# Discipline			
-#################################################			
-CollectingEvent	Collecting Event	Cобытие сбора	Cобытие сбора
-CollectionObject	Collection Object	Объект	Объект Коллекции
-			
-#################################################			
-# Common			
-#################################################			
-Appraisal	Appraisal	Оценка	Оценка
-CollectingTrip	Collecting Trip	Поездка для сбора	Экспедиция
-ConservDescription	Conserv Description	Описания таблиц	Описание Консервации
-Deaccession	Deaccession	Сделано недоступным	Списание
-FieldNotebook	Field Notebook	Полевая тетрадь	Полевой Дневник
-Project	Project	Проект	Проект
-			
-#################################################			
-# Global			
-#################################################			
-Agent	Agent	Агент	Агент
-Permit	Permit	Разрешение	Разрешение
-Locality	Locality	Местонахождение	Местонахождение
-Journal	Journal	Журнал	Журнал
-ReferenceWork	Reference Work	Справочная работа	Литературный Источник
-Taxon	Taxon	Таксон	Таксон
-Geography	Geography	География	География
-Storage	Storage	Место хранения	Место хранения
-GeologicTimePeriod	Chronos	Хронос	Хронос
-LithoStrat	Litho Stratigraphy	Литостратиграфия	Литостратиграфия
-			
-#################################################			
-# Preparation Form			
-#################################################			
-IS_ON_LOAN	Is On Loan	В заеме	В заеме
-SHOW_INTERACTIONS	Show Interactions	Показать взаимодействия	Показать Транзакции
+Field Name	en	ru
+#################################################		
+# Discipline		
+#################################################		
+CollectingEvent	Collecting Event	Cобытие сбора
+CollectionObject	Collection Object	Объект коллекции
+		
+#################################################		
+# Common		
+#################################################		
+Appraisal	Appraisal	Оценка
+CollectingTrip	Collecting Trip	Экспедиция
+ConservDescription	Conserv Description	Описание консервации
+Deaccession	Deaccession	Списание
+FieldNotebook	Field Notebook	Полевой дневник
+Project	Project	Проект
+		
+#################################################		
+# Global		
+#################################################		
+Agent	Agent	Агент
+Permit	Permit	Разрешение
+Locality	Locality	Местонахождение
+Journal	Journal	Журнал
+ReferenceWork	Reference Work	Литературный источник
+Taxon	Taxon	Таксон
+Geography	Geography	География
+Storage	Storage	Место хранения
+GeologicTimePeriod	Chronos	Хронос
+LithoStrat	Litho Stratigraphy	Литостратиграфия
+		
+#################################################		
+# Preparation Form		
+#################################################		
+IS_ON_LOAN	Is On Loan	В заеме
+SHOW_INTERACTIONS	Show Interactions	Показать транзакции
