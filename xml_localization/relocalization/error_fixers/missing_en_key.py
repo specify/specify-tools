@@ -1,7 +1,5 @@
 import json
-
 from termcolor import colored
-
 from xml_localization.relocalization import config, utils
 
 # config
