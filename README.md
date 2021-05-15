@@ -31,3 +31,30 @@ and `.utf8` files
 
 A collection of Python scripts for simplifying development with
 Specify 7's Docker Container.
+
+### `up.py`
+
+Finds the `docker-compose.yml` file in the current directory or one of
+it's parent directories and print the command needed to start the
+container.
+
+This is most useful when called from inside of shell function, like
+this:
+
+```bash
+dcu () {
+  python3 ~/path/to/specify_tools/docker_container/up.py $@ | /bin/zsh
+}
+```
+
+Then, you can use it like this to simply start the containers:
+
+```bash
+dcu
+```
+
+Or initialize a rebuild like this:
+
+```bash
+dcu --build
+```
