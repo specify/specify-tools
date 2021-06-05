@@ -1,8 +1,10 @@
+# -*- coding: utf-8 -*-
 """The watcher script."""
 
 from common import send_notification
 import subprocess
 import os
+import re
 import time
 
 
@@ -37,11 +39,6 @@ send_notification("Watching...", "Watching for rebuilds")
 watchers = [
     {
         "container_name": "webpack_1",
-        "matches": lambda line: "hash" in line,
-        "notification": ["SUCCESS", "Specify 7 Updated", "Glass"],
-    },
-    {
-        "container_name": "webpack_1",
         "matches": lambda line: "ERROR" in line,
         "notification": [
             "ERROR: Webpack",
@@ -60,6 +57,8 @@ watchers = [
         "notification": ["SUCCESS", "Specify 7 Updated", "Glass"],
     },
 ]
+
+ansi_escape = re.compile(r"\x1B(?:[@-Z\\-_]|\[[0-?]*[ -/]*[@-~])")
 
 
 def run_command():
@@ -89,7 +88,9 @@ for line, _rc in run_command():
     for watcher in watchers:
         if line.startswith(watcher["container_name"]):
             cut_line = line[line.find("|") + 2 :]
-            if watcher["matches"](cut_line):
+            # Strip escape sequences (and colors)
+            stripped_line = ansi_escape.sub("", cut_line)
+            if watcher["matches"](stripped_line):
                 print(line)
                 send_notification(*watcher["notification"])
 
