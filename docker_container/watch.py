@@ -70,6 +70,29 @@ watchers = [
         "matches": lambda line: "Watching for file changes" in line,
         "notification": ["SUCCESS", "Specify 7 Updated", "Glass"],
     },
+    {
+        "container_name": "lmtrex_front-end_1",
+        "matches": lambda line: "ERROR" in line,
+        "notification": [
+            "ERROR: Webpack",
+            "Error occurred while rebuilding SpiceDig",
+            "HERO",
+        ],
+    },
+    {
+        "container_name": "lmtrex_front-end_1",
+        "matches": lambda line: "compiled with" in line,
+        "notification": [
+            "ERROR: Webpack",
+            "Warning occurred while rebuilding SpiceDig",
+            "HERO",
+        ],
+    },
+    {
+        "container_name": "lmtrex_front-end_1",
+        "matches": lambda line: "compiled successfully" in line,
+        "notification": ["SUCCESS", "SpiceDig", "Glass"],
+    },
 ]
 
 ansi_escape = re.compile(r"\x1B(?:[@-Z\\-_]|\[[0-?]*[ -/]*[@-~])")
