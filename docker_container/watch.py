@@ -10,6 +10,9 @@ import time
 
 send_notification("Waiting...", "Waiting for containers to start...")
 
+
+my_env = os.environ.copy()
+
 polling_interval = 10  # 10 seconds
 max_polling_duration = 10 * 60  # 10 minutes
 duration = 0
@@ -17,7 +20,9 @@ while True:
     subprocess.check_output
     duration += polling_interval
     running_containers = subprocess.run(
-        ["docker", "compose", "top"], stdout=subprocess.PIPE
+        ["docker", "compose", "top"],
+        stdout=subprocess.PIPE,
+        env=my_env
     )
     print(running_containers.stdout)
     if len(running_containers.stdout) > 10:
@@ -43,6 +48,15 @@ watchers = [
         "notification": [
             "ERROR: Webpack",
             "Error occurred while rebuilding Specify 7 front-end",
+            "HERO",
+        ],
+    },
+    {
+        "container_name": "webpack_1",
+        "matches": lambda line: "compiled with" in line,
+        "notification": [
+            "ERROR: Webpack",
+            "Warning occurred while rebuilding Specify 7 front-end",
             "HERO",
         ],
     },
@@ -75,6 +89,7 @@ def run_command():
         stderr=subprocess.STDOUT,
         universal_newlines=False,
         shell=True,
+        env=my_env
     )
 
     nice_stdout = open(os.dup(p.stdout.fileno()), newline="")
