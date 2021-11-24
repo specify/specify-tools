@@ -1,6 +1,6 @@
 import json
 from termcolor import colored
-from xml_localization.relocalization import config, utils
+from xml_localization import config, utils
 
 # config
 number_of_missing_en_strings = 0

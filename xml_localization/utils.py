@@ -6,7 +6,7 @@ from collections import defaultdict
 import xmltodict
 from termcolor import colored
 import xml.dom.minidom
-from xml_localization.relocalization import config
+from xml_localization import config
 
 defined_languages = config.languages.keys()
 
@@ -104,8 +104,6 @@ def parse_structure(structure, error_callback):
     def traverse_structure_callback(container_obj, container_name):
         nonlocal extracted_strings
 
-        extracted_strings = []
-
         def traverse_strings_callback(structure_obj, path):
             nonlocal extracted_strings
 
@@ -118,7 +116,7 @@ def parse_structure(structure, error_callback):
 
                 pass
 
-            extracted_strings += traverse_string(
+            traverse_string(
                 structure_obj, traverse_string_callback
             )
 
@@ -145,7 +143,9 @@ def parse_structure(structure, error_callback):
                 if language not in extracted_line:
                     extracted_line[language] = ""
 
-        extracted_strings += traverse_strings(
+            extracted_strings.append(extracted_line)
+
+        traverse_strings(
             container_obj, container_name, traverse_strings_callback
         )
 

@@ -4,7 +4,7 @@ from shutil import copyfile
 
 from termcolor import colored
 
-from xml_localization.relocalization import config
+from xml_localization import config
 
 base_path = os.path.join(os.getcwd(), config.specify6_location)
 

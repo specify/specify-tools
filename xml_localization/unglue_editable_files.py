@@ -2,7 +2,7 @@ import os
 
 from termcolor import colored
 
-from xml_localization.relocalization import config
+from xml_localization import config
 
 with open(
     os.path.join(

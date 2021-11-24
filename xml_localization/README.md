@@ -1,4 +1,4 @@
-# xml_localization
+# Schema Localization
 
 The scripts in this folder were used during the second phase of localizing
 `schema_localization.xml` files.

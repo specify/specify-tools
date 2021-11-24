@@ -1,5 +1,5 @@
-from xml_localization.relocalization import config
-from xml_localization.relocalization.error_fixers import missing_en_key
+from xml_localization import config
+from xml_localization.error_fixers import missing_en_key
 
 
 def error_callback(error_type, error_message):
