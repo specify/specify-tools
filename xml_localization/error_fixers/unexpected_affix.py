@@ -1,4 +1,4 @@
-from xml_localization.relocalization import config
+from xml_localization import config
 
 
 def error_callback(error_message, error_payload):

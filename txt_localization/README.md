@@ -1,4 +1,4 @@
-# relocalization/
+# UI Localization
 
 Scripts that were used for the second wave of localization for the
 `UI` componentes

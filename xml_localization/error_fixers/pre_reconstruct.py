@@ -1,4 +1,4 @@
-from xml_localization.relocalization.error_fixers import (
+from xml_localization.error_fixers import (
     unexpected_affix,
 )
 

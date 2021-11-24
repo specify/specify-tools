@@ -1,5 +1,5 @@
-from xml_localization.relocalization import config, utils
-from xml_localization.relocalization.error_fixers import pre_reconstruct
+from xml_localization import config, utils
+from xml_localization.error_fixers import pre_reconstruct
 import json
 
 
