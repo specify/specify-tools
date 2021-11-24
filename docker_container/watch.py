@@ -62,7 +62,7 @@ watchers = [
     },
     {
         "container_name": "webpack_1",
-        "matches": lambda line: "compiled successfully" in line,
+        "matches": lambda line: "successfully" in line,
         "notification": ["SUCCESS", "Specify 7 Updated", "Glass"],
     },
     {
@@ -99,7 +99,7 @@ ansi_escape = re.compile(r"\x1B(?:[@-Z\\-_]|\[[0-?]*[ -/]*[@-~])")
 
 
 def run_command():
-    """Run docker compose log and yields the output.
+    """Run docker compose log and yield the output.
 
     Yields:
         The output string line by line
