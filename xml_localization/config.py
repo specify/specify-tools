@@ -3,10 +3,10 @@
 #
 
 # needed if you want to use `populate_workdir.py` and `push_changes.py` scripts
-specify6_location = "/Users/mambo/site/git/specify6"
+specify6_location = "/Users/maxxxxxdlp/Downloads/specify6"
 
 # location of schema_localization.xml files
-working_directory = "xml_localization/relocalization/workdir"
+working_directory = "xml_localization/workdir"
 
 # Specify, which languages you are working with now
 # Languages not present in this list would not be modified
@@ -62,10 +62,9 @@ languages = {
     #     },
     #     'charset': 'іа-яїґь',
     # },
-    "ru": {
+    "cat": {
         "xml_attributes": {
-            "language": "ru",
-            "country": "RU",
+            "language": "cat",
             # 'variant':  '',
         },
         "error_fixers": {
@@ -73,9 +72,9 @@ languages = {
             "unexpected_affix": "prompt",
             "flipped_case": "automatic",
             "empty_value": "prompt",
-            "untranslated_string": "prompt",
+            "untranslated_string": "off",
         },
-        "charset": "а-я",
+        "charset": "a-záéíñóúü",
     },
 }
 
@@ -97,7 +96,7 @@ stable_key = "ru"
 
 # symbols that are considered to be letters
 # case-insensitive
-full_charset = "a-zіа-яїґь"
+full_charset = "a-zіа-яїґьáéíñóúü"
 
 source_file_name = "schema_localization.xml"
 updated_source_file_name = "schema_localization_updated.xml"
