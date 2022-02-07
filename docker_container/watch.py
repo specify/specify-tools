@@ -43,7 +43,7 @@ send_notification("Watching...", "Watching for rebuilds")
 
 watchers = [
     {
-        "container_name": "webpack_1",
+        "container_name": "specify7-webpack-1",
         "matches": lambda line: "ERROR" in line,
         "notification": [
             "ERROR: Webpack",
@@ -52,7 +52,7 @@ watchers = [
         ],
     },
     {
-        "container_name": "webpack_1",
+        "container_name": "specify7-webpack-1",
         "matches": lambda line: "compiled with" in line,
         "notification": [
             "ERROR: Webpack",
@@ -61,17 +61,17 @@ watchers = [
         ],
     },
     {
-        "container_name": "webpack_1",
+        "container_name": "specify7-webpack-1",
         "matches": lambda line: "successfully" in line,
         "notification": ["SUCCESS", "Specify 7 Updated", "Glass"],
     },
     {
-        "container_name": "specify7_1",
+        "container_name": "specify7-webpack-1",
         "matches": lambda line: "Watching for file changes" in line,
         "notification": ["SUCCESS", "Specify 7 Updated", "Glass"],
     },
     {
-        "container_name": "lmtrex_front-end_1",
+        "container_name": "lmtrex_front-end-1",
         "matches": lambda line: "ERROR" in line,
         "notification": [
             "ERROR: Webpack",
@@ -80,7 +80,7 @@ watchers = [
         ],
     },
     {
-        "container_name": "lmtrex_front-end_1",
+        "container_name": "lmtrex_front-end-1",
         "matches": lambda line: "compiled with" in line,
         "notification": [
             "ERROR: Webpack",
@@ -89,7 +89,7 @@ watchers = [
         ],
     },
     {
-        "container_name": "lmtrex_front-end_1",
+        "container_name": "lmtrex_front-end-1",
         "matches": lambda line: "compiled successfully" in line,
         "notification": ["SUCCESS", "SpiceDig", "Glass"],
     },
