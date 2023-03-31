@@ -3,6 +3,15 @@
 This repository has a collection of tools for testing and translating
 Specify 6, 7 and Web Portal
 
+## xml-inspector
+
+- Walk though a series of XML files
+- Compare their structure to a defined schema
+- Log any differences
+- Run validation
+- Generate a report
+- Also, produce a list of distinct values for each XML attribute
+
 ## Makefile
 
 This is a tool that helps quickly build and run any version of Specify
