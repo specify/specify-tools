@@ -1,6 +1,6 @@
-import { definitions } from "./definitions.js";
-import { parseXml, validateAttributes } from "./utils.js";
-import { sourcePath, files } from "./config.js";
+import { definitions } from './definitions.js';
+import { parseXml, validateAttributes } from './utils.js';
+import { sourcePath, files } from './config.js';
 
 /**
  * Gather all files and analyze each
@@ -32,7 +32,7 @@ function parseSwitchDefinitions(node, definition) {
   const switchDefinition =
     definition.switch?.find((node) =>
       // Can define a custom comparison function
-      typeof node.condition === "function"
+      typeof node.condition === 'function'
         ? node.condition(condition)
         : node.condition === condition
     ) ?? {};
@@ -80,10 +80,10 @@ export function formatWarns() {
         .map((value) =>
           Array.isArray(value) && value.length === 2 ? value[0] : value
         )
-        .join(" > "),
+        .join(' > '),
       obj: path
         .filter((value) => Array.isArray(value) && value.length === 2)
-        .map(([string]) => string),
+        .map(([_, object]) => object),
     });
   });
   return indexed;
@@ -127,10 +127,10 @@ function analyze(commentPath, rawDefinition, node) {
   tags.map((tagName) => {
     const rawDefinition = definitions.children?.[tagName];
     const definition =
-      typeof rawDefinition === "function" ? rawDefinition() : rawDefinition;
-    if (definition === undefined) warn("Unknown tag", [tagName]);
+      typeof rawDefinition === 'function' ? rawDefinition() : rawDefinition;
+    if (definition === undefined) warn('Unknown tag', [tagName]);
     else if (grouped[tagName] === undefined) {
-      if (definition.required !== false) warn("Missing tag", [tagName]);
+      if (definition.required !== false) warn('Missing tag', [tagName]);
     } else {
       grouped[tagName].map((node, index) =>
         analyze([...commentPath, [tagName, node], index], definition, node)
