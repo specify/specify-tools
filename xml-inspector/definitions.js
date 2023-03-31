@@ -2,16 +2,16 @@
  * Form schema and validation rules are defined here
  */
 
-import { tables } from "./tables.js";
-import { validateAttributes } from "./utils.js";
+import { tables } from './tables.js';
+import { validateAttributes } from './utils.js';
 
 const validate = {
   class(value, warn) {
-    const start = "edu.ku.brc.specify.datamodel.";
-    if (!value.startsWith(value)) warn("Unknown class name");
+    const start = 'edu.ku.brc.specify.datamodel.';
+    if (!value.startsWith(value)) warn('Unknown class name');
     else {
       const table = value.slice(start.length);
-      if (!tables.includes(table)) warn("Unknown table name");
+      if (!tables.includes(table)) warn('Unknown table name');
     }
   },
   init(definition) {
@@ -22,28 +22,28 @@ const validate = {
     };
   },
   initialize(value, warn) {
-    const parts = value.split(";");
+    const parts = value.split(';');
     const definition = this.definition;
     const indexed = Object.fromEntries(
       parts
         .map((part) => {
-          const [name, ...values] = part.split("=");
-          const value = values.join("=");
+          const [name, ...values] = part.split('=');
+          const value = values.join('=');
           return [name, value];
         })
-        .filter(([name]) => name !== "")
+        .filter(([name]) => name !== '')
     );
     validateAttributes(
       warn,
       [...Object.keys(indexed), ...Object.keys(definition)],
       (name) => definition[name],
       (name) => indexed[name],
-      "property"
+      'property'
     );
   },
   list: (list) => (value, warn) => {
     if (!list.includes(value))
-      warn(`Value not among available options: ${list.join(", ")}`);
+      warn(`Value not among available options: ${list.join(', ')}`);
   },
 };
 
@@ -51,14 +51,14 @@ const commonInit = {
   title: { required: false },
   align: {
     required: false,
-    validate: validate.list(["left", "right", "center"]),
+    validate: validate.list(['left', 'right', 'center']),
   },
   fg: {
     required: false,
   },
   editoncreate: {
     required: false,
-    type: "boolean",
+    type: 'boolean',
   },
 };
 
@@ -68,31 +68,35 @@ const pluginInit = (init) =>
     ...init,
     // Disable plugin if cell with this id has no value
     watch: {
-      type: "number",
+      type: 'number',
       required: false,
     },
     name: {
       required: true,
       validate: validate.list([
-        "LatLonUI",
-        "PartialDateUI",
-        "CollectionRelOneToManyPlugin",
-        "ColRelTypePlugin",
-        "LocalityGeoRef",
-        "LocalityGoogleEarth",
-        "WebLinkButton",
-        "AttachmentPlugin",
-        "HostTaxonPlugin",
-        "PaleoMap",
-        "ContainersColObjPlugin",
-        "TaxonLabelFormatting",
+        'LatLonUI',
+        'PartialDateUI',
+        'CollectionRelOneToManyPlugin',
+        'ColRelTypePlugin',
+        'LocalityGeoRef',
+        'LocalityGoogleEarth',
+        'WebLinkButton',
+        'AttachmentPlugin',
+        'HostTaxonPlugin',
+        'PaleoMap',
+        'ContainersColObjPlugin',
+        'TaxonLabelFormatting',
+        'ContainerPlugin',
+        'DefItemEditorPlugin',
+        'LocalityWorldWind',
+        'PasswordStrengthUI',
       ]),
     },
   });
 
 const cell = {
   required: false,
-  switchMapper: (node) => node.getAttribute("type"),
+  switchMapper: (node) => node.getAttribute('type'),
   attributes: {
     type: {},
     id: {
@@ -105,19 +109,19 @@ const cell = {
       required: false,
     },
     colspan: {
-      type: "number",
+      type: 'number',
       required: false,
     },
     cols: {
-      type: "number",
+      type: 'number',
       required: false,
     },
     invisible: {
-      type: "boolean",
+      type: 'boolean',
       required: false,
     },
     ignore: {
-      type: "boolean",
+      type: 'boolean',
       required: false,
     },
     initialize: validate.init({
@@ -126,7 +130,7 @@ const cell = {
   },
   switch: [
     {
-      condition: "label",
+      condition: 'label',
       attributes: {
         labelfor: {
           required: false,
@@ -137,7 +141,7 @@ const cell = {
       },
     },
     {
-      condition: (value) => value === "icontype" || value === "iconview",
+      condition: (value) => value === 'icontype' || value === 'iconview',
       attributes: {
         name: {},
         viewname: {},
@@ -145,7 +149,7 @@ const cell = {
       },
     },
     {
-      condition: "separator",
+      condition: 'separator',
       attributes: {
         label: {
           required: false,
@@ -160,16 +164,16 @@ const cell = {
       },
     },
     {
-      condition: "subview",
+      condition: 'subview',
       attributes: {
         name: {},
         defaulttype: {
-          validate: validate.list(["form", "table", "icon"]),
+          validate: validate.list(['form', 'table', 'icon']),
           required: false,
         },
         label: { required: false },
         rows: {
-          type: "number",
+          type: 'number',
           required: false,
         },
         viewname: {
@@ -177,10 +181,10 @@ const cell = {
         },
         valtype: {
           required: false,
-          validate: validate.list(["Changed", "Focus"]),
+          validate: validate.list(['Changed', 'Focus']),
         },
         readonly: {
-          type: "boolean",
+          type: 'boolean',
           required: false,
         },
         desc: {
@@ -188,7 +192,7 @@ const cell = {
         },
         initialize: validate.init({
           btn: {
-            type: "boolean",
+            type: 'boolean',
             required: false,
           },
           icon: {
@@ -203,11 +207,11 @@ const cell = {
             required: false,
           },
           many: {
-            type: "boolean",
+            type: 'boolean',
             required: false,
           },
           addsearch: {
-            type: "boolean",
+            type: 'boolean',
             required: false,
           },
           ...commonInit,
@@ -215,13 +219,13 @@ const cell = {
       },
     },
     {
-      condition: "panel",
+      condition: 'panel',
       attributes: {
         coldef: {
           required: false,
         },
         colspan: {
-          type: "number",
+          type: 'number',
           required: false,
         },
         rowdef: {
@@ -229,7 +233,7 @@ const cell = {
         },
         // Not used by sp6 or sp7
         name: {
-          type: "string",
+          type: 'string',
           required: false,
         },
       },
@@ -251,26 +255,26 @@ const cell = {
       },
     },
     {
-      condition: "command",
+      condition: 'command',
       attributes: {
         name: {
           validate: validate.list([
-            "generateLabelBtn",
-            "ShowLoansBtn",
-            "ReturnLoan",
+            'generateLabelBtn',
+            'ShowLoansBtn',
+            'ReturnLoan',
           ]),
         },
         commandtype: {
           required: false,
-          validate: validate.list(["Interactions"]),
+          validate: validate.list(['Interactions', 'App', 'ClearCache']),
         },
         vis: {
-          type: "boolean",
+          type: 'boolean',
           required: false,
         },
         action: {
           required: false,
-          validate: validate.list(["ReturnLoan"]),
+          validate: validate.list(['ReturnLoan']),
         },
         initialize: validate.init({
           ...commonInit,
@@ -280,39 +284,39 @@ const cell = {
           required: false,
         },
         default: {
-          type: "boolean",
+          type: 'boolean',
           required: false,
         },
       },
     },
     {
-      condition: "blank",
+      condition: 'blank',
     },
     {
-      condition: "field",
+      condition: 'field',
       attributes: {
         name: {},
         uitype: { required: false },
         isrequired: {
-          type: "boolean",
+          type: 'boolean',
           required: false,
         },
         valtype: {
           required: false,
-          validate: validate.list(["Changed", "Focus"]),
+          validate: validate.list(['Changed', 'Focus']),
         },
         readonly: {
-          type: "boolean",
+          type: 'boolean',
           required: false,
         },
         default: {
           required: false,
         },
       },
-      switchMapper: (node) => node.getAttribute("uitype") ?? "text",
+      switchMapper: (node) => node.getAttribute('uitype') ?? 'text',
       switch: [
         {
-          condition: "querycbx",
+          condition: 'querycbx',
           attributes: {
             initialize: validate.init({
               ...commonInit,
@@ -320,9 +324,9 @@ const cell = {
               searchview: { required: false },
               displaydlg: { required: false },
               searchdlg: { required: false },
-              clonebtn: { type: "boolean", required: false },
-              editbtn: { type: "boolean", required: false },
-              newbtn: { type: "boolean", required: false },
+              clonebtn: { type: 'boolean', required: false },
+              editbtn: { type: 'boolean', required: false },
+              newbtn: { type: 'boolean', required: false },
               // Help context
               hc: {
                 required: false,
@@ -331,25 +335,25 @@ const cell = {
           },
         },
         {
-          condition: "list",
+          condition: 'list',
           attributes: {
             dsptype: {},
             initialize: validate.init({
-              rows: { type: "number" },
+              rows: { type: 'number' },
             }),
           },
         },
         {
-          condition: "checkbox",
+          condition: 'checkbox',
           attributes: {
             initialize: validate.init({
               ...commonInit,
               visible: {
-                type: "boolean",
+                type: 'boolean',
                 required: false,
               },
               editable: {
-                type: "boolean",
+                type: 'boolean',
                 required: false,
               },
             }),
@@ -359,25 +363,25 @@ const cell = {
           },
         },
         {
-          condition: "label",
+          condition: 'label',
           attributes: {
             uifieldformatter: { required: false },
           },
         },
         {
-          condition: "textarea",
+          condition: 'textarea',
           attributes: {
             rows: {
-              type: "number",
+              type: 'number',
               required: false,
             },
           },
         },
         {
-          condition: "textareabrief",
+          condition: 'textareabrief',
         },
         {
-          condition: "text",
+          condition: 'text',
           attributes: {
             format: {
               required: false,
@@ -386,38 +390,38 @@ const cell = {
             initialize: validate.init({
               ...commonInit,
               alledit: {
-                type: "boolean",
+                type: 'boolean',
                 required: false,
               },
               ispartial: {
-                type: "boolean",
+                type: 'boolean',
                 required: false,
               },
               minlength: {
-                type: "number",
+                type: 'number',
                 required: false,
               },
               maxlength: {
-                type: "number",
+                type: 'number',
                 required: false,
               },
             }),
           },
         },
         {
-          condition: "dsptextfield",
+          condition: 'dsptextfield',
           attributes: {
             initialize: validate.init({
               ...commonInit,
               transparent: {
-                type: "boolean",
+                type: 'boolean',
                 required: false,
               },
             }),
           },
         },
         {
-          condition: "formattedtext",
+          condition: 'formattedtext',
           attributes: {
             formatter: {
               required: false,
@@ -428,38 +432,38 @@ const cell = {
             initialize: validate.init({
               ...commonInit,
               series: {
-                type: "boolean",
+                type: 'boolean',
                 required: false,
               },
               ispartial: {
-                type: "boolean",
+                type: 'boolean',
                 required: false,
               },
             }),
           },
         },
         {
-          condition: "spinner",
+          condition: 'spinner',
           attributes: {
             initialize: validate.init({
               ...commonInit,
               min: {
-                type: "number",
+                type: 'number',
                 required: false,
               },
               max: {
-                type: "number",
+                type: 'number',
                 required: false,
               },
               step: {
-                type: "number",
+                type: 'number',
                 required: false,
               },
             }),
           },
         },
         {
-          condition: "combobox",
+          condition: 'combobox',
           attributes: {
             initialize: pluginInit({
               data: {
@@ -470,37 +474,37 @@ const cell = {
           },
         },
         {
-          condition: "plugin",
+          condition: 'plugin',
           attributes: {
             initialize: pluginInit({}),
           },
           switchMapper: (node) =>
             node
-              .getAttribute("initialize")
-              .split(";")
-              .map((value) => value.split("="))
-              .find(([name]) => name === "name")[1],
+              .getAttribute('initialize')
+              .split(';')
+              .map((value) => value.split('='))
+              .find(([name]) => name === 'name')[1],
           switch: [
             {
-              condition: "LatLonUI",
+              condition: 'LatLonUI',
               attributes: {
                 initialize: pluginInit({
                   step: {
-                    type: "number",
+                    type: 'number',
                     required: false,
                   },
                   latLognType: {
                     required: false,
-                    validate: validate.list(["Point", "Line", "Rectangle"]),
+                    validate: validate.list(['Point', 'Line', 'Rectangle']),
                   },
                 }),
               },
             },
             {
-              condition: "PartialDateUI",
+              condition: 'PartialDateUI',
               attributes: {
                 uifieldformatter: {
-                  type: "string",
+                  type: 'string',
                   required: false,
                 },
                 initialize: pluginInit({
@@ -508,17 +512,17 @@ const cell = {
                   tp: {},
                   defaultPrecision: {
                     required: false,
-                    validate: validate.list(["year", "month-year", "full"]),
+                    validate: validate.list(['year', 'month-year', 'full']),
                   },
                   canChangePrecision: {
-                    type: "boolean",
+                    type: 'boolean',
                     required: false,
                   },
                 }),
               },
             },
             {
-              condition: "CollectionRelOneToManyPlugin",
+              condition: 'CollectionRelOneToManyPlugin',
               attributes: {
                 initialize: pluginInit({
                   relName: {},
@@ -527,7 +531,7 @@ const cell = {
               },
             },
             {
-              condition: "ColRelTypePlugin",
+              condition: 'ColRelTypePlugin',
               attributes: {
                 initialize: pluginInit({
                   relName: {},
@@ -536,17 +540,17 @@ const cell = {
               },
             },
             {
-              condition: "LocalityGeoRef",
+              condition: 'LocalityGeoRef',
               attributes: {
                 initialize: pluginInit({
                   geoid: {},
                   locid: {},
-                  llid: { type: "number" },
+                  llid: { type: 'number' },
                 }),
               },
             },
             {
-              condition: "WebLinkButton",
+              condition: 'WebLinkButton',
               attributes: {
                 initialize: pluginInit({
                   weblink: {},
@@ -566,7 +570,7 @@ export const definitions = {
     attributes: {
       name: {},
       i18nresname: { required: false },
-      "xmlns:xsi": {},
+      'xmlns:xsi': {},
     },
     children: {
       views: {
@@ -581,33 +585,33 @@ export const definitions = {
               busrules: {
                 required: false,
                 validate(value, warn) {
-                  const start = "edu.ku.brc.specify.datamodel.busrules.";
-                  if (!value.startsWith(value)) warn("Unknown class name");
+                  const start = 'edu.ku.brc.specify.datamodel.busrules.';
+                  if (!value.startsWith(value)) warn('Unknown class name');
                   else {
                     const table = value.slice(start.length);
-                    if (!table.endsWith("BusRules")) warn("Incorrect format");
+                    if (!table.endsWith('BusRules')) warn('Incorrect format');
                     else {
                       const parsedTable = table.slice(0, -8);
                       if (!tables.includes(parsedTable))
-                        warn("Unknown table name");
+                        warn('Unknown table name');
                     }
                   }
                 },
               },
               isinternal: {
-                type: "boolean",
+                type: 'boolean',
                 required: false,
               },
               isexternal: {
-                type: "boolean",
+                type: 'boolean',
                 required: false,
               },
               usedefbusrule: {
-                type: "boolean",
+                type: 'boolean',
                 required: false,
               },
               resourcelabels: {
-                type: "boolean",
+                type: 'boolean',
                 required: false,
               },
             },
@@ -617,9 +621,9 @@ export const definitions = {
                 attributes: {
                   selector: { required: false },
                   defaultmode: {
-                    type: "string",
+                    type: 'string',
                     required: false,
-                    validate: validate.list(["view", "edit", "search"]),
+                    validate: validate.list(['view', 'edit', 'search']),
                   },
                 },
                 children: {
@@ -628,15 +632,15 @@ export const definitions = {
                       name: {},
                       title: { required: false },
                       label: { required: false },
-                      validated: { type: "boolean", required: false },
+                      validated: { type: 'boolean', required: false },
                       viewdef: {},
                       // Conditional rendering
                       selector_value: { required: false },
                       mode: {
-                        validate: validate.list(["view", "edit", "search"]),
+                        validate: validate.list(['view', 'edit', 'search']),
                       },
                       default: {
-                        type: "boolean",
+                        type: 'boolean',
                         required: false,
                       },
                     },
@@ -653,28 +657,28 @@ export const definitions = {
             attributes: {
               type: {
                 validate: validate.list([
-                  "form",
-                  "formtable",
-                  "iconview",
-                  "rstable",
+                  'form',
+                  'formtable',
+                  'iconview',
+                  'rstable',
                 ]),
               },
               name: {},
-              editableDlg: { type: "boolean", required: false },
+              editableDlg: { type: 'boolean', required: false },
               class: {
                 validate: validate.class,
               },
               gettable: {},
               settable: {},
               useresourcelabels: {
-                type: "boolean",
+                type: 'boolean',
                 required: false,
               },
             },
             switch: [
               {
                 condition: (node) =>
-                  node.querySelector(":scope>definition") !== null,
+                  node.querySelector(':scope>definition') !== null,
                 children: {
                   definition: {},
                   desc: { required: false },
@@ -707,7 +711,7 @@ export const definitions = {
                     required: false,
                     attributes: {
                       auto: {
-                        type: "boolean",
+                        type: 'boolean',
                         required: false,
                       },
                       cell: { required: false },
