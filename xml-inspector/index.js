@@ -1,9 +1,7 @@
-import { definitions } from "./definitions.js";
-import { execute, formatWarns } from "./execute.js";
+import { definitions } from './definitions.js';
+import { execute, formatWarns } from './execute.js';
 
-execute()
-  .then(() => {
-    console.log(definitions);
-    console.warn(formatWarns());
-  })
-  .catch(console.error);
+execute().then(() => {
+  console.log('Definitions', definitions);
+  console.warn('Warnings', formatWarns());
+});
