@@ -16,7 +16,7 @@ export async function execute() {
     ])
   );
   fileContents.forEach(([name, document]) =>
-    analyze([name, [document.tagName, document]], definitions.viewset, document)
+    analyze([name, [document.tagName, document]], definitions, document)
   );
 }
 
@@ -44,6 +44,9 @@ function parseSwitchDefinitions(node, definition) {
       : parseSwitchDefinitions(node, switchDefinition);
 
   return {
+    ...definition,
+    ...switchDefinition,
+    ...nestedSwitches,
     attributes: {
       ...definition.attributes,
       ...switchDefinition.attributes,
@@ -62,12 +65,17 @@ function parseSwitchDefinitions(node, definition) {
  * them all in a nice tree-like structure
  */
 const warns = [];
+
 export function formatWarns() {
   const indexed = {};
   warns.map(([msg, path]) => {
     indexed[msg] ??= {};
-    indexed[msg][path.at(-1)] ??= [];
-    indexed[msg][path.at(-1)].push({
+
+    const lastPart = path.at(-1);
+    const lastValue =
+      Array.isArray(lastPart) && lastPart.length === 2 ? lastPart[0] : lastPart;
+    indexed[msg][lastValue] ??= [];
+    indexed[msg][lastValue].push({
       /**
        * When adding elements to path, could add a 2 item array where first item
        * is a string and second item is an object. The string will be used in a
@@ -97,6 +105,8 @@ function analyze(commentPath, rawDefinition, node) {
   const warn = (message, parts = []) =>
     warns.push([message, [...commentPath, ...parts]]);
 
+  definitions.validate?.(node, warn, node);
+
   validateAttributes(
     warn,
     [
@@ -104,7 +114,9 @@ function analyze(commentPath, rawDefinition, node) {
       ...Array.from(node.attributes).map((v) => v.name),
     ],
     (name) => definitions.attributes[name],
-    (name) => node.getAttribute(name)
+    (name) => node.getAttribute(name),
+    'attribute',
+    node
   );
 
   /**
@@ -137,4 +149,16 @@ function analyze(commentPath, rawDefinition, node) {
       );
     }
   });
+
+  if (tags.length === 0) {
+    rawDefinition.text ??= { required: false };
+    validateAttributes(
+      warn,
+      ['text'],
+      () => rawDefinition.text,
+      () => node.textContent,
+      'content',
+      node
+    );
+  }
 }
