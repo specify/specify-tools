@@ -3,3 +3,4 @@
 __pycache__
 venv
 xml_localization/workdir
+node_modules
