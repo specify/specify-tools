@@ -2,8 +2,8 @@
  * Form schema and validation rules are defined here
  */
 
-import { tables } from './tables.js';
-import { validateAttributes } from './utils.js';
+import { tables } from '../tables.js';
+import { validateAttributes } from '../../utils.js';
 
 const validate = {
   class(value, warn) {

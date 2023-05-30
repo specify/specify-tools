@@ -33,19 +33,25 @@ export function validateAttributes(
           warn(`Missing required ${name}`, [attribute]);
       } else {
         const { type = 'string' } = definition;
-        if (type === 'string') {
-        } else if (type === 'number') {
+        const parse = (value) =>
+          definition.validate?.(
+            value,
+            (msg, parts = []) => warn(msg, [attribute, value, ...parts]),
+            context
+          );
+        if (type === 'string') parse(value);
+        else if (type === 'number') {
           const parsed = Number.parseInt(value);
           if (Number.isNaN(parsed)) warn('Invalid number', [attribute, value]);
+          parse(parsed);
         } else if (type === 'boolean') {
           const parsed = value === 'true' || value === 'false';
           if (!parsed) warn('Invalid boolean', [attribute, value]);
-        }
-        definition.validate?.(
-          value,
-          (msg, parts = []) => warn(msg, [attribute, value, ...parts]),
-          context
-        );
+          parse(parsed);
+        } else
+          console.error('Unknown type encountered in definition', {
+            definition,
+          });
       }
     }
   });
