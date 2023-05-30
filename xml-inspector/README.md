@@ -1,6 +1,6 @@
 # XML Inspector
 
-- Walk though a series of XML files
+- Walk through a series of XML files
 - Compare their structure to a defined schema
 - Log any differences
 - Run validation
@@ -23,15 +23,9 @@ Distinct values for each attribute and it's frequencies are noted down:
 ## Installation
 
 1. Clone this repository and open current directory (`./xml-inspector`)
-2. Copy Specify 6 form definitions (i.e, contents
-   of [./config](https://github.com/specify/specify6/tree/master/config)
-   directory) into `./source/` directory
-
-   Alternatively, you could use 
-   [viewset-schema](https://github.com/specify/viewset-schema) repository -
-   it's full of different form definitions
-3. Modify [./config.js](./config.js) as per comments in that file
-4. Start any kind of web-server from current directory:
+2. Either [create new schema] or pick an existing one from the one's in the
+   [./schema](./schema) directory and follow the instructions in it's README.md
+3. Start any kind of web-server from current directory:
 
    Example:
 
@@ -42,9 +36,12 @@ Distinct values for each attribute and it's frequencies are noted down:
    sudo python3 -m http.server 80
    ```
 
-5. Open web browser at a URL used by the web-server.
+4. Open web browser at a URL used by the web-server.
 
    In the above example it is [http://localhost:80/](http://localhost:80/)
+5. In the input field on the page, enter the name of the schema you wish to use.
+   This name is coming from the name of some directory in
+   the [./schema](./schema) directory.
 6. Open browser console to see output from the tool
 
    The output will be two objects:
@@ -66,7 +63,8 @@ Specify 7 form editor.
 
 ## Schema
 
-Form XML schema is defined in [./definitions.js](./definitions.js).
+For example, form XML schema is defined
+in [./schema/form-definitions/definitions.js](./schema/form-definitions/definitions.js).
 
 Format for schema definition (using TypeScript syntax):
 

@@ -1,11 +1,11 @@
 /**
  * Relative path from current directory to directory that contains
- * form definitions
+ * schema xml files
  */
 export const sourcePath = './';
 
 /**
- * View definitions to check in the basePath directory
+ * Schema definitions to check in the basePath directory
  * @remarks
  * Paths must not start with ./ or /
  */
