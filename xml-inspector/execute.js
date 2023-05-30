@@ -1,11 +1,9 @@
-import { definitions } from './definitions.js';
 import { parseXml, validateAttributes } from './utils.js';
-import { sourcePath, files } from './config.js';
 
 /**
  * Gather all files and analyze each
  */
-export async function execute() {
+export async function execute(definitions, sourcePath, files) {
   const fileContents = await Promise.all(
     files.map(async (file) => [
       file,
@@ -16,7 +14,9 @@ export async function execute() {
     ])
   );
   fileContents.forEach(([name, document]) =>
-    analyze([name, [document.tagName, document]], definitions, document)
+    typeof document === 'string'
+      ? console.error(`Error parsing ${name}: ${document}`)
+      : analyze([name, [document.tagName, document]], definitions, document)
   );
 }
 
@@ -25,17 +25,22 @@ export async function execute() {
  * @remarks
  * Supports nested switches
  */
-function parseSwitchDefinitions(node, definition) {
+function parseSwitchDefinitions(node, warn, definition) {
   // Can remap the value that will be used as a condition
   const condition = definition.switchMapper?.(node) ?? node;
 
   const switchDefinition =
-    definition.switch?.find((node) =>
-      // Can define a custom comparison function
-      typeof node.condition === 'function'
-        ? node.condition(condition)
-        : node.condition === condition
-    ) ?? {};
+    definition.switch === undefined
+      ? {}
+      : definition.switch.find((node) =>
+          // Can define a custom comparison function
+          typeof node.condition === 'function'
+            ? node.condition(condition)
+            : node.condition === condition
+        ) ??
+        warn('None of the switch cases matched the condition') ??
+        definition.switch.at(-1) ??
+        {};
 
   // Support nested switches
   const nestedSwitches =
@@ -101,10 +106,10 @@ export function formatWarns() {
  * Recursively compare the node tree to definition tree
  */
 function analyze(commentPath, rawDefinition, node) {
-  const definitions = parseSwitchDefinitions(node, rawDefinition);
   const warn = (message, parts = []) =>
     warns.push([message, [...commentPath, ...parts]]);
 
+  const definitions = parseSwitchDefinitions(node, warn, rawDefinition);
   definitions.validate?.(node, warn, node);
 
   validateAttributes(
