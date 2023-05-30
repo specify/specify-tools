@@ -1,7 +1,7 @@
 const fs = require('fs');
 
-const sourceFile = '/Users/maxxxxxdlp/Downloads/Result_17.tsv';
-const resultFile = '/Users/maxxxxxdlp/Downloads/Geography.tsv';
+const sourceFile = '/Users/maxpatiiuk/Downloads/Result_17.tsv';
+const resultFile = '/Users/maxpatiiuk/Downloads/Geography.tsv';
 
 const lines = fs.readFileSync(sourceFile).toString('utf-8').trim().split('\n');
 

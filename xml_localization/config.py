@@ -3,7 +3,7 @@
 #
 
 # needed if you want to use `populate_workdir.py` and `push_changes.py` scripts
-specify6_location = "/Users/maxxxxxdlp/Downloads/specify6"
+specify6_location = "/Users/maxpatiiuk/Downloads/specify6"
 
 # location of schema_localization.xml files
 working_directory = "xml_localization/workdir"

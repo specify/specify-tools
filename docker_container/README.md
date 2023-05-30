@@ -48,7 +48,7 @@ dcu(){
 In the above, change `script_location` to the location of this folder
 (`docker_compose`) and `compose_location` to the directory that contains the
 `docker-compose.yml` file. Or you can use
-[this script](https://github.com/maxxxxxdlp/code_share/tree/main/Python/finder)
+[this script](https://github.com/maxpatiiuk/code_share/tree/main/Python/finder)
 to do that automatically.
 
 Now, just run `dcu` in the terminal, the container would start in the foreground
